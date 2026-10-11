@@ -62,6 +62,11 @@ python3 scripts/pages-qa.py --url https://ashebson.github.io/yeush-shelo-midaat-
 
 That check compares deployed HTML, all ten SVGs, all ten authored sources and the PDF with the local release, then exercises Graph/Code and clipboard controls at all three viewports. Its output is stored in ignored `output/pages-qa/`; local checks alone are not deployment evidence.
 
+The feature release **71f3e0cb42397cd0e9ac7440515cba16f86c92bd** was pushed and its remote head verified. GitHub reports the [Pages deployment run](https://github.com/ashebson/yeush-shelo-midaat-argdown/actions/runs/38138928180) **completed successfully** for that exact SHA. The [deployment record](qa/deployment-report.json) distinguishes that result from browser verification.
+
+The cloud proxy rejected the public Pages host with **CONNECT 403 (envoy)**, including a retry with network permission; Chromium returned **net::ERR_TUNNEL_CONNECTION_FAILED**. Public Graph/Code interaction and public asset-byte equality therefore remain unverified from this environment. The identical release passed the complete [project-prefix test](qa/project-prefix-report.json) on loopback at all three widths: exact HTML, ten SVGs, ten authored files, the 20-page PDF, actual clipboard copy and manual fallback. This is local prefix compatibility evidence, not a substitute claim of public browser success.
+
+
 Direct file navigation in this managed browser returns **net::ERR_BLOCKED_BY_ADMINISTRATOR**. Therefore direct double-click opening is not claimed as tested here. Loopback HTTP and a separate network-disabled HTML context were tested. Safari, Firefox, assistive technology certification and the user’s Mac were not tested. The cloud proxy also blocks GitHub API CONNECT requests; git transport and anonymous Pages requests are separate paths. No Pages administration was duplicated in this implementation.
 
 ## Dependency audit limitation

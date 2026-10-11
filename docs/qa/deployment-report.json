@@ -1,0 +1,13 @@
+{
+  "checked_commit": "71f3e0cb42397cd0e9ac7440515cba16f86c92bd",
+  "workflow_run": 38138928180,
+  "workflow_url": "https://github.com/ashebson/yeush-shelo-midaat-argdown/actions/runs/38138928180",
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "site_url": "https://ashebson.github.io/yeush-shelo-midaat-argdown/",
+  "public_browser_check": "blocked_by_cloud_proxy",
+  "browser_error": "net::ERR_TUNNEL_CONNECTION_FAILED",
+  "curl_error": "CONNECT tunnel failed, response 403; server: envoy",
+  "local_index_sha256": "2c547559dc0e8864010cf8fac715eb148010ad95b8c3e113fadaa70fd642cb46",
+  "local_pdf_sha256": "31566238d20f77e84c9f4ad2bc8b314fd9ca38d1454eb14fec97f996f41adaf4"
+}
