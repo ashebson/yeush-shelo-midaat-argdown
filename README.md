@@ -2,14 +2,14 @@
 
 A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting.
 
-**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. No public site is deployed.
+**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed.
 
 ## Deliverables
 
 | File | Purpose |
 | --- | --- |
 | [`index.html`](index.html) | Offline presentation; expandable evidence ledger |
-| [`argdown/overview.argdown`](argdown/overview.argdown) | Editable 22-node connected overview |
+| [`argdown/overview.argdown`](argdown/overview.argdown) | Editable 22-node overview with cross-episode links |
 | [`argdown/01-opening.argdown`](argdown/01-opening.argdown) | Opening dispute and agreed scope restrictions |
 | [`argdown/02-coins.argdown`](argdown/02-coins.argdown) | Scattered coins objection and purse-checking reply |
 | [`argdown/03-river.argdown`](argdown/03-river.argdown) | Final river comparison, refutation and ruling |
@@ -46,7 +46,7 @@ The underlying classical text is ancient/public domain; the selected digital edi
 
 ## Regenerate and verify
 
-Requirements: **Node.js 22.11 or newer** and npm. Tested with Node 25.9.0. Python 3 is needed only if regenerating authored `.argdown` files from `scripts/author.py`.
+Requirements: **Node.js 22.11 or newer** and npm. Verified in the saved cloud environment with Node 24.19.0 and npm 11.9.0. Python 3 is needed only for optional authoring regeneration (`scripts/author.py`) or browser QA.
 
 ```sh
 npm ci
@@ -67,4 +67,6 @@ For ordinary edits, modify `.argdown` directly and run the build. Keep `sources/
 
 The tests check parsing, expected node counts, source-ledger parity, no unintended undercuts, the coins reply's exact target, cross-episode attacks, SVG node counts, source hashes, and local document links. They validate the artifact, not the truth or legal completeness of the reconstruction.
 
-A browser is only needed for viewing or visual QA. Optional local server: `python3 -m http.server 8766 --bind 127.0.0.1`, then open `http://127.0.0.1:8766`. Directly opening `index.html` also works.
+A browser is only needed for viewing or visual QA. Optional local server: `python3 -m http.server 8766 --bind 127.0.0.1`, then open `http://127.0.0.1:8766`. The page is designed for direct local opening; the cloud browser’s file-URL restriction is recorded in the verification notes.
+
+Optional browser QA: with Python Playwright and Chromium installed, run `python3 scripts/visual-qa.py --browser /path/to/chromium`. Screenshots and the report go to ignored `output/qa/`. The checked-in [verification record](docs/verification.md) includes inspected screenshots, the cloud browser’s direct-file restriction, and dependency-audit limitations.

@@ -1,5 +1,7 @@
 # Cloud continuation checkpoint
 
+**Completed in the saved cloud environment on 11 October 2026.** This file preserves the original checkpoint below; its remaining-work list is historical. See [verification.md](verification.md) for the final checks, visual evidence, fixes and limitations.
+
 Checkpoint requested by Aryeh through the parent task on 2026-10-11. Implementation paused to allow remaining work in the cloud.
 
 ## Completed

@@ -1,0 +1,275 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "@argdown/cli": {
+      "name": "@argdown/cli",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@argdown/core",
+        "@argdown/markdown-it-plugin",
+        "@argdown/node"
+      ],
+      "effects": [],
+      "range": "",
+      "nodes": [
+        "node_modules/@argdown/cli"
+      ],
+      "fixAvailable": false
+    },
+    "@argdown/core": {
+      "name": "@argdown/core",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "chevrotain"
+      ],
+      "effects": [
+        "@argdown/markdown-it-plugin"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/@argdown/core"
+      ],
+      "fixAvailable": true
+    },
+    "@argdown/markdown-it-plugin": {
+      "name": "@argdown/markdown-it-plugin",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@argdown/core"
+      ],
+      "effects": [],
+      "range": "",
+      "nodes": [
+        "node_modules/@argdown/markdown-it-plugin"
+      ],
+      "fixAvailable": true
+    },
+    "@argdown/node": {
+      "name": "@argdown/node",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "@argdown/core",
+        "image-type",
+        "is-svg"
+      ],
+      "effects": [
+        "@argdown/cli"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/@argdown/node"
+      ],
+      "fixAvailable": false
+    },
+    "@chevrotain/cst-dts-gen": {
+      "name": "@chevrotain/cst-dts-gen",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@chevrotain/gast",
+        "lodash-es"
+      ],
+      "effects": [],
+      "range": "",
+      "nodes": [
+        "node_modules/@chevrotain/cst-dts-gen"
+      ],
+      "fixAvailable": true
+    },
+    "@chevrotain/gast": {
+      "name": "@chevrotain/gast",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "lodash-es"
+      ],
+      "effects": [],
+      "range": "",
+      "nodes": [
+        "node_modules/@chevrotain/gast"
+      ],
+      "fixAvailable": true
+    },
+    "chevrotain": {
+      "name": "chevrotain",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "@chevrotain/cst-dts-gen",
+        "@chevrotain/gast",
+        "lodash-es"
+      ],
+      "effects": [
+        "@argdown/core"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/chevrotain"
+      ],
+      "fixAvailable": true
+    },
+    "fast-xml-parser": {
+      "name": "fast-xml-parser",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1117911,
+          "name": "fast-xml-parser",
+          "dependency": "fast-xml-parser",
+          "title": "fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
+          "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-91"
+          ],
+          "cvss": {
+            "score": 6.1,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+          },
+          "range": "<5.7.0"
+        }
+      ],
+      "effects": [
+        "is-svg"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/fast-xml-parser"
+      ],
+      "fixAvailable": false
+    },
+    "file-type": {
+      "name": "file-type",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1114301,
+          "name": "file-type",
+          "dependency": "file-type",
+          "title": "file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header",
+          "url": "https://github.com/advisories/GHSA-5v7r-6r5c-r473",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-835"
+          ],
+          "cvss": {
+            "score": 5.3,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "range": ">=13.0.0 <21.3.1"
+        }
+      ],
+      "effects": [
+        "image-type"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/file-type"
+      ],
+      "fixAvailable": true
+    },
+    "image-type": {
+      "name": "image-type",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "file-type"
+      ],
+      "effects": [],
+      "range": "",
+      "nodes": [
+        "node_modules/image-type"
+      ],
+      "fixAvailable": true
+    },
+    "is-svg": {
+      "name": "is-svg",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "fast-xml-parser"
+      ],
+      "effects": [
+        "@argdown/node"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/is-svg"
+      ],
+      "fixAvailable": false
+    },
+    "lodash-es": {
+      "name": "lodash-es",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1115805,
+          "name": "lodash-es",
+          "dependency": "lodash-es",
+          "title": "lodash vulnerable to Code Injection via `_.template` imports key names",
+          "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
+          "severity": "high",
+          "cwe": [
+            "CWE-94"
+          ],
+          "cvss": {
+            "score": 8.1,
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "range": ">=4.0.0 <=4.17.23"
+        },
+        {
+          "source": 1115809,
+          "name": "lodash-es",
+          "dependency": "lodash-es",
+          "title": "lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+          "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 6.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+          },
+          "range": "<=4.17.23"
+        }
+      ],
+      "effects": [
+        "@chevrotain/cst-dts-gen",
+        "@chevrotain/gast",
+        "chevrotain"
+      ],
+      "range": "",
+      "nodes": [
+        "node_modules/lodash-es"
+      ],
+      "fixAvailable": true
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 4,
+      "high": 8,
+      "critical": 0,
+      "total": 12
+    },
+    "dependencies": {
+      "prod": 1,
+      "dev": 140,
+      "optional": 0,
+      "peer": 0,
+      "peerOptional": 0,
+      "total": 140
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 740
+    }
+  ],
+  "screenshots": [
+    "desktop.png",
+    "desktop-01-opening.png",
+    "map-01-opening.png",
+    "desktop-02-coins.png",
+    "map-02-coins.png",
+    "desktop-03-river.png",
+    "map-03-river.png",
+    "desktop-overview.png",
+    "map-overview.png",
+    "mobile-01-opening.png",
+    "mobile-02-coins.png",
+    "mobile-03-river.png",
+    "mobile-overview.png",
+    "mobile-ledger-O5.png",
+    "mobile-ledger-R4.png",
+    "mobile-ledger-R5.png",
+    "mobile-hebrew.png"
+  ],
+  "checks": [
+    "All four tabs, node counts, keyboard activation and ledger expansion",
+    "Fit, Read, zoom in/out, and scroll reachability at all three viewports",
+    "All SVG label bounding boxes inside node shape bounds",
+    "No page horizontal overflow; RTL isolated Hebrew and visible attribution",
+    "Identical HTML works with network disabled; zero external requests and zero page errors"
+  ],
+  "limitations": [
+    "Direct file URL blocked by browser policy: net::ERR_BLOCKED_BY_ADMINISTRATOR"
+  ],
+  "browser": "154.0.8037.57",
+  "status": "passed"
+}
