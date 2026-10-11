@@ -1,14 +1,14 @@
 {
-  "checked_commit": "e4d29d04daa7e7db179781a848005731ac42d245",
-  "workflow_run": 38144722517,
-  "workflow_url": "https://github.com/ashebson/yeush-shelo-midaat-argdown/actions/runs/38144722517",
+  "checked_commit": "7fc3d35a1b2dcb1ff4a072be5ac2094edcf85130",
+  "workflow_run": 38149899675,
+  "workflow_url": "https://github.com/ashebson/yeush-shelo-midaat-argdown/actions/runs/38149899675",
   "workflow_status": "completed",
   "workflow_conclusion": "success",
   "site_url": "https://ashebson.github.io/yeush-shelo-midaat-argdown/",
   "public_browser_check": "blocked_by_cloud_proxy",
   "browser_error": "net::ERR_TUNNEL_CONNECTION_FAILED",
-  "local_index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
-  "local_pdf_sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c",
-  "pdf_pages": 25,
-  "scope": "Exact-spans feature release; a subsequent documentation-only commit records this evidence."
+  "local_index_sha256": "d6045d94cabf517c34508cdc63c7f86946db39425ea1869d144a0ea7ffc17312",
+  "local_pdf_sha256": "93afe6f30b7e8ca35eb37886d36a372302d130ea769b38541ea776b1b3628261",
+  "pdf_pages": 30,
+  "scope": "Source-attested objections feature release; a subsequent documentation-only commit records this evidence."
 }

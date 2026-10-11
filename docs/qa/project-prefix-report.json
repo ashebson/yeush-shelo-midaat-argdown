@@ -154,5 +154,6 @@
   "errors": [],
   "index_sha256": "d6045d94cabf517c34508cdc63c7f86946db39425ea1869d144a0ea7ffc17312",
   "status": "passed",
-  "verification_scope": "Local project-prefix server, not public-site browser verification"
+  "verification_scope": "Local project-prefix server, not public-site browser verification",
+  "asset_release_commit": "7fc3d35a1b2dcb1ff4a072be5ac2094edcf85130"
 }
