@@ -55,3 +55,7 @@ The optional figs/olives/carobs episode (21b:13–16) is omitted to keep 22 over
 ## Separate commentary extension
 
 The original reconstruction and saved Gemara excerpts remain unchanged. [Commentary notes](commentary-notes.md) document four additional views, with Rashi, three selected Tosafot comments, Rashba and Ritva as quoted in Shittah Mekubbetzet. The [commentary ledger](../sources/commentary.json) retains exact Hebrew excerpts, attribution and hashes. C marks an attributed paraphrase; R marks our supplied synthesis. No commentary edges enter the base overview.
+
+## Contested final-comparison inferences
+
+The [objection layer](objections.md) records Ritva’s reported objections and repair, Rashba’s alternative and temporal reading, and a clearly editorial countermodel. These affect how particular inferences are reconstructed; they do not erase the Gemara’s recorded refutation or ruling. Rashi 26b’s exact timing gloss is saved as Q1: too little time to check remains possible, so the coins presumption is defeasible.

@@ -32,6 +32,7 @@ threading.Thread(target=server.serve_forever, daemon=True).start()
 report = {'viewports': [], 'screenshots': [], 'checks': [], 'limitations': []}
 specs = [(item['file'].removesuffix('.argdown'), item['nodes']) for item in json.loads((ROOT/'docs/build-report.json').read_text())]
 commentary = json.loads((ROOT/'sources/commentary.json').read_text())
+objections = json.loads((ROOT/'sources/objections.json').read_text())
 errors = []
 external = []
 
@@ -145,26 +146,26 @@ try:
             actual = card.locator('blockquote').evaluate_all("els=>els.map(e=>({sourceId:e.dataset.sourceId,startCodePoint:Number(e.dataset.start),endCodePoint:Number(e.dataset.end),quote:e.textContent}))")
             expected = [{key:span[key] for key in ['sourceId','startCodePoint','endCodePoint','quote']} for span in evidence['spans']]
             assert actual == expected, node_id
-            if node_id in ['R4','KO4','KO5','KO6','KR3','KR4','KR5','O9','O10']:
+            if node_id in ['R4','KO4','KO5','KO6','KR3','KR4','KR5','O9','O10','J1','J2','J6','J8','L1','L4','L2','Q1']:
                 details = card.locator('xpath=ancestor::details')
                 details.locator('summary').click()
                 assert card.locator('blockquote').evaluate_all('els=>els.every(e=>getComputedStyle(e).direction==="rtl" && getComputedStyle(e).unicodeBidi==="isolate")')
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), node_id
                 capture(details,'exact-anchor-'+node_id+'.png')
                 details.locator('summary').click()
-        report['checks'].append('All 49 claim anchor cards match source IDs, code-point intervals and exact Hebrew; nine priority cards inspected at 320px with isolated RTL')
+        report['checks'].append(f'All {len(anchors)} claim anchor cards match source IDs, code-point intervals and exact Hebrew; priority cards checked at 320px with isolated RTL')
         check_copy_fallback(page,page.locator('section[id="01-opening"]'),(ROOT/'argdown/01-opening.argdown').read_text())
-        for source in commentary['sources']:
+        for source in commentary['sources']+objections['sources']:
             details = page.locator('#commentary-source-'+source['id'])
             details.locator('summary').click()
             assert source['author'] in details.inner_text()
             assert details.locator('blockquote').evaluate('(b)=>getComputedStyle(b).direction==="rtl" && getComputedStyle(b).unicodeBidi==="isolate"')
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), source['id']
-            if source['id'] in ['ri-possession', 'to-compare', 'rb-boundary']:
+            if source['id'] in ['ri-possession', 'to-compare', 'rb-boundary','ri-22b-repair','rb-22b-repair','ra-26b-time']:
                 capture(details, 'mobile-commentary-'+source['id']+'.png')
             details.locator('summary').click()
-        report['checks'].append('All 11 commentary excerpts expand with visible author and isolated RTL Hebrew at 320px')
-        report['checks'].extend([f'All {len(specs)} views and their Graph / Code keyboard tabs, exact authored source and actual clipboard copy; denied-clipboard manual fallback;, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
+        report['checks'].append('All 14 commentary excerpts expand with visible author and isolated RTL Hebrew at 320px')
+        report['checks'].extend([f'All {len(specs)} views and their Graph / Code keyboard tabs, exact authored source and actual clipboard copy; denied-clipboard manual fallback, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
         # The same HTML must remain interactive with every network request blocked.
         offline = browser.new_context(offline=True, viewport={'width': 1440, 'height': 1000})
         offline_page = offline.new_page()

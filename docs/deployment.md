@@ -25,4 +25,4 @@ Once the build is successful, validate that URL:
 python3 scripts/pages-qa.py --url '<html_url returned by GitHub>'
 ```
 
-This checks all eleven views at desktop and mobile widths, Graph/Code keyboard interactions, exact source and actual clipboard copy, denied-clipboard fallback, exact deployed HTML, source URLs and SVG bytes, the visible PDF link and exact PDF bytes, PDF page count, page errors and horizontal overflow. Screenshots and the report go to ignored `output/pages-qa/`. Inspect the screenshots as well as the checks. A successful local preview is not evidence that GitHub Pages is live.
+This checks all thirteen views at desktop and mobile widths, Graph/Code keyboard interactions, exact source and actual clipboard copy, denied-clipboard fallback, exact deployed HTML, source URLs and SVG bytes, the visible PDF link and exact PDF bytes, PDF page count, page errors and horizontal overflow. Screenshots and the report go to ignored `output/pages-qa/`. Inspect the screenshots as well as the checks. A successful local preview is not evidence that GitHub Pages is live.

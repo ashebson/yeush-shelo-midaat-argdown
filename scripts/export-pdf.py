@@ -26,12 +26,13 @@ ledger = json.loads((ROOT / 'sources/model.json').read_text())
 excerpts = json.loads((ROOT / 'sources/hebrew-excerpts.json').read_text())
 commentary = json.loads((ROOT / 'sources/commentary.json').read_text())
 native = json.loads((ROOT / 'sources/reconstructions.json').read_text())
-all_nodes = {node['id']: node for node in ledger['nodes'] + commentary['nodes'] + native['nodes']}
+objections = json.loads((ROOT / 'sources/objections.json').read_text())
+all_nodes = {node['id']: node for node in ledger['nodes'] + commentary['nodes'] + native['nodes'] + objections['nodes']}
 anchors = json.loads((ROOT / 'sources/anchors.json').read_text())['nodes']
-source_catalog = {source['id']: source for source in commentary['sources']}
+source_catalog = {source['id']: source for source in commentary['sources'] + objections['sources']}
 source_catalog.update({'gemara-'+source['ref'].removeprefix('Bava Metzia ').replace(':','.'):source for source in excerpts})
 TOTAL = commentary['pdf_page_count']
-commentary_sources = {source['id']: source for source in commentary['sources']}
+commentary_sources = {source['id']: source for source in commentary['sources'] + objections['sources']}
 
 CSS = '''
 *{box-sizing:border-box}html,body{margin:0;padding:0}
@@ -68,7 +69,7 @@ def link(ref):
 
 
 report = {'page_count': TOTAL, 'pages': [], 'source_sha256': {}, 'network_requests': []}
-for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', 'sources/commentary.json', 'sources/reconstructions.json', 'sources/anchors.json', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']+[view['id'] for view in commentary['views'] + native['views']]]]:
+for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', 'sources/commentary.json', 'sources/reconstructions.json', 'sources/anchors.json', 'sources/objections.json', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']+[view['id'] for view in commentary['views'] + native['views'] + objections['views']]]]:
     report['source_sha256'][file] = hashlib.sha256((ROOT / file).read_bytes()).hexdigest()
 
 with sync_playwright() as p:
@@ -95,7 +96,7 @@ with sync_playwright() as p:
 <b>03</b><p><strong>Inspect the bridge.</strong> Separate the final river comparison from Rashi’s timing clarification and the supplied reconstruction.</p>
 <b>04</b><p><strong>Invite revision.</strong> Which node or relation would you redraw? Compare it with the source excerpts.</p></div></div>
 <p class="scope">22 base nodes · 18 base relations · Three selected episodes. A separate ledger adds 21 commentary claims and argument sketches: Rashi, Tosafot, Rashba, and Ritva via Shittah Mekubbetzet. This is an argument reconstruction for discussion, not a complete encoding of the sugya, a machine proof, or a system for deciding halakhah.</p>
-<p class="small">Reading order: base maps and sources (pages 2–7), then four commentary maps and their Hebrew sources (pages 8–15), inference detail maps (16–18), numbered reconstructions (19–23), and exact Hebrew claim anchors (24–25). The overview is an A1 landscape foldout; episode pages use A3 to keep node text readable. Source notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
+<p class="small">Reading order: base maps and sources (pages 2–7), then four commentary maps and their Hebrew sources (pages 8–15), inference detail maps (16–18), numbered reconstructions (19–23), exact Hebrew claim anchors (24–25), and contested inferences with their sources (26–30). The overview is an A1 landscape foldout; episode pages use A3 to keep node text readable. Source notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
     pages.append(('cover', 210, 297, 15, document(cover + footer(1, 'Reader’s guide'), 210, 297, 15, 'cover')))
     for number, (stem, width, height) in enumerate([
         ('overview', 841, 594), ('01-opening', 420, 297),
@@ -181,8 +182,23 @@ with sync_playwright() as p:
                 source = source_catalog[span['sourceId']]
                 spans.append(f'<p class="small"><a href="{escape(source["url"],quote=True)}">{escape(source["ref"])}</a> · Unicode [{span["startCodePoint"]}, {span["endCodePoint"]}) · {escape(span["purpose"])}</p><blockquote dir="rtl" lang="he">{escape(span["quote"])}</blockquote>')
             rows.append(f'<article><h3>{escape(node_id+" · "+node["label"])}</h3><p class="small">{escape(node["text"])}</p>'+''.join(spans)+'</article>')
-        body = f'<header><p class="eyebrow">Exact source spans · Verbatim Hebrew</p><h2>{escape(title)}</h2><p class="intro">English claims remain attributed paraphrases. Offsets address the exact saved source text: Unicode code points, zero-based, start inclusive and end exclusive, without normalization. Full passages appear on pages 12–15.</p></header><div class="excerpt-list">'+''.join(rows)+f'</div><p class="small">All 49 claim records and 68 checked spans are available in the HTML ledger and sources/anchors.json. Editorial claims use context-only anchors; a span never upgrades an editorial inference to a quotation.</p>{footer(number,"Claim-specific Hebrew anchors")}'
+        body = f'<header><p class="eyebrow">Exact source spans · Verbatim Hebrew</p><h2>{escape(title)}</h2><p class="intro">English claims remain attributed paraphrases. Offsets address the exact saved source text: Unicode code points, zero-based, start inclusive and end exclusive, without normalization. Full passages appear on pages 12–15.</p></header><div class="excerpt-list">'+''.join(rows)+f'</div><p class="small">All {len(anchors)} claim records and {sum(len(record["spans"]) for record in anchors.values())} checked spans are available in the HTML ledger and sources/anchors.json. Editorial claims use context-only anchors; a span never upgrades an editorial inference to a quotation.</p>{footer(number,"Claim-specific Hebrew anchors")}'
         pages.append(('anchors-'+node_ids[0],210,297,14,document(body,210,297,14,'excerpts')))
+
+    for view in objections['views']:
+        number = len(pages)+1
+        width,height = view['pdf_size_mm']
+        svg = (ROOT/'maps'/f"{view['id']}.svg").read_text()
+        body = f'<header><p class="eyebrow">Contested inference · {escape(view["ref"])}</p><h2>{escape(view["title"])}</h2><p class="intro">{escape(view["intro"])}</p></header><div class="legend"><strong class="support">→ support</strong><strong style="color:#7550a0">⊣ undercut of an inference</strong><span>C = attributed paraphrase · R = editorial reconstruction / tested shortcut</span></div><div class="map-slot">{svg}</div><p class="reading-note">{escape(view["note"])}</p>{footer(number,"Objection sources: pages 28–30")}'
+        pages.append((view['id'],width,height,15,document(body,width,height,15,'diagram')))
+    for source_id,title in [('ri-22b-repair','Ritva records objections, then repairs.'),('rb-22b-repair','Rashba’s alternative and temporal reading.')]:
+        number=len(pages)+1; source=source_catalog[source_id]
+        body=f'<header><p class="eyebrow">Primary commentary · Final 22b comparison</p><h2>{escape(title)}</h2><p class="intro"><a href="{escape(source["url"],quote=True)}">{escape(source["ref"])}</a></p></header><p>{escape(source["context"])}</p><blockquote dir="rtl" lang="he">{escape(source["text"])}</blockquote><p class="small">Verified 11 October 2026 against Hebrew Wikisource. Classical text public domain; digital transcription attribution CC BY-SA 4.0. Paragraph whitespace is collapsed before freezing source hashes and code-point offsets. The Hebrew wording and brackets are retained. Exact claim-specific spans appear in the HTML ledger, Argdown metadata and sources/anchors.json.</p>{footer(number,"Historical objections and interpretive repair")}'
+        pages.append((source_id,210,297,14,document(body,210,297,14,'excerpts')))
+    q=all_nodes['Q1'];source=source_catalog['ra-26b-time']
+    descriptions=''.join(f'<p><strong>{escape(all_nodes[a["argument"]]["id"]+" · "+all_nodes[a["argument"]]["label"])}</strong><br>{escape(all_nodes[a["argument"]]["text"])}</p>' for a in objections['arguments'])
+    body=f'<header><p class="eyebrow">Reading the objections · Bounded correction</p><h2>Contested steps, explicit repairs.</h2></header><p>Four native undercuts target JA, JD, LA and LB. They challenge particular inferential moves; they do not declare the sugya disproved. Repairs JB and LC retain explicit temporal and comparative premises. Numbering, arrows and the countermodel are editorial.</p>'+descriptions+f'<div class="rule"><h3>{escape(q["id"]+" · "+q["label"])}</h3><p>{escape(q["text"])}</p><p><a href="{escape(source["url"],quote=True)}">{escape(source["ref"])}</a></p><blockquote dir="rtl" lang="he">{escape(source["text"])}</blockquote><p class="small">The base coins reply remains C6 → C2. The earlier 22a river challenge is distinct and remains outside these two final-22b views. Source claims and repairs are not a formal proof or a complete encoding of the sugya.</p></div>{footer(30,"Interpretive limits and the coins presumption")}'
+    pages.append(('objection-guide',210,297,14,document(body,210,297,14,'notes excerpts')))
 
     writer = PdfWriter()
     for number, (name, width, height, padding, html) in enumerate(pages, start=1):
@@ -222,7 +238,7 @@ with sync_playwright() as p:
     all_text = '\n'.join(page.extract_text() for page in pdf.pages)
     # Every authored node label must survive text extraction; figures remain vectors.
     normalized = ' '.join(all_text.split())
-    for node in ledger['nodes'] + commentary['nodes'] + native['nodes']:
+    for node in ledger['nodes'] + commentary['nodes'] + native['nodes'] + objections['nodes']:
         assert ' '.join(f"{node['id']} · {node['label']}".split()) in normalized, f'Missing PDF label: {node["id"]}'
         assert ' '.join(node['text'].split()) in normalized, f'Missing PDF claim: {node["id"]}'
     report['pdf_sha256'] = hashlib.sha256(DESTINATION.read_bytes()).hexdigest()

@@ -1,0 +1,2704 @@
+{
+  "arguments": {
+    "JA · Proposed same-verse comparison": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Reconstruct the same-verse comparison as a contested inference. The objection targets its warrant, not the verse or the final ruling. ",
+          "startLine": 29,
+          "endLine": 29,
+          "startColumn": 1,
+          "endColumn": 2046,
+          "isTopLevel": true,
+          "title": "JA · Proposed same-verse comparison",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "JA",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן",
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 313,
+                "endCodePoint": 424,
+                "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              },
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 425,
+                "endCodePoint": 582,
+                "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair",
+              "ra-compare"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "R2 · Inaccessible loss: permitted",
+              "isReference": true,
+              "startLine": 31,
+              "startColumn": 5,
+              "endLine": 31,
+              "endColumn": 40,
+              "role": "premise",
+              "argumentTitle": "JA · Proposed same-verse comparison"
+            },
+            {
+              "type": "statement",
+              "title": "KR1 · Rashi: the same verse",
+              "isReference": true,
+              "startLine": 32,
+              "startColumn": 5,
+              "endLine": 32,
+              "endColumn": 34,
+              "role": "premise",
+              "argumentTitle": "JA · Proposed same-verse comparison"
+            },
+            {
+              "type": "statement",
+              "title": "R9 · Supplied: scope of the comparison",
+              "isReference": true,
+              "startLine": 38,
+              "startColumn": 5,
+              "endLine": 38,
+              "endColumn": 44,
+              "role": "main-conclusion",
+              "argumentTitle": "JA · Proposed same-verse comparison",
+              "inference": {
+                "type": "inference",
+                "relations": [
+                  {
+                    "type": "relation",
+                    "relationType": "undercut",
+                    "from": "J1 · Ritva reports: no explicit juxtaposition",
+                    "fromType": "equivalence-class",
+                    "to": "JA · Proposed same-verse comparison",
+                    "toType": "inference",
+                    "conclusionIndex": 2
+                  }
+                ],
+                "inferenceRules": [
+                  "Proposed same-verse comparison"
+                ],
+                "startLine": 33,
+                "startColumn": 1,
+                "endLine": 37,
+                "endColumn": 53,
+                "data": {
+                  "uses": [
+                    1,
+                    2
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "ra-compare",
+                    "ri-22b-repair"
+                  ],
+                  "interpretation": "Rashi’s same-verse rationale is contested here; the undercut targets this inference, not the verse."
+                },
+                "conclusionIndex": 2,
+                "argumentTitle": "JA · Proposed same-verse comparison"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "R2 · Inaccessible loss: permitted",
+          "isReference": true,
+          "startLine": 31,
+          "startColumn": 5,
+          "endLine": 31,
+          "endColumn": 40,
+          "role": "premise",
+          "argumentTitle": "JA · Proposed same-verse comparison"
+        },
+        {
+          "type": "statement",
+          "title": "KR1 · Rashi: the same verse",
+          "isReference": true,
+          "startLine": 32,
+          "startColumn": 5,
+          "endLine": 32,
+          "endColumn": 34,
+          "role": "premise",
+          "argumentTitle": "JA · Proposed same-verse comparison"
+        },
+        {
+          "type": "statement",
+          "title": "R9 · Supplied: scope of the comparison",
+          "isReference": true,
+          "startLine": 38,
+          "startColumn": 5,
+          "endLine": 38,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "JA · Proposed same-verse comparison",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "J1 · Ritva reports: no explicit juxtaposition",
+                "fromType": "equivalence-class",
+                "to": "JA · Proposed same-verse comparison",
+                "toType": "inference",
+                "conclusionIndex": 2
+              }
+            ],
+            "inferenceRules": [
+              "Proposed same-verse comparison"
+            ],
+            "startLine": 33,
+            "startColumn": 1,
+            "endLine": 37,
+            "endColumn": 53,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ra-compare",
+                "ri-22b-repair"
+              ],
+              "interpretation": "Rashi’s same-verse rationale is contested here; the undercut targets this inference, not the verse."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "JA · Proposed same-verse comparison"
+          }
+        }
+      ],
+      "title": "JA · Proposed same-verse comparison",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "JA",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן",
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 313,
+            "endCodePoint": 424,
+            "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          },
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 425,
+            "endCodePoint": 582,
+            "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair",
+          "ra-compare"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 31,
+      "startColumn": 1,
+      "endLine": 38,
+      "endColumn": 44,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "JD · Unrestricted extension (tested)": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Test transfer of every despair condition to ordinary loss. The overextended consequence is challenged, not adopted or attributed to Rashi as his conclusion. ",
+          "startLine": 40,
+          "endLine": 40,
+          "startColumn": 1,
+          "endColumn": 1758,
+          "isTopLevel": true,
+          "title": "JD · Unrestricted extension (tested)",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "JD",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן",
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 425,
+                "endCodePoint": 582,
+                "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair",
+              "ra-compare"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "R9 · Supplied: scope of the comparison",
+              "isReference": true,
+              "startLine": 42,
+              "startColumn": 5,
+              "endLine": 42,
+              "endColumn": 45,
+              "role": "premise",
+              "argumentTitle": "JD · Unrestricted extension (tested)"
+            },
+            {
+              "type": "statement",
+              "title": "J4 · Tested bridge: transfer every condition",
+              "isReference": true,
+              "startLine": 43,
+              "startColumn": 5,
+              "endLine": 43,
+              "endColumn": 51,
+              "role": "premise",
+              "argumentTitle": "JD · Unrestricted extension (tested)"
+            },
+            {
+              "type": "statement",
+              "title": "J5 · Overextended result (not adopted)",
+              "isReference": true,
+              "startLine": 49,
+              "startColumn": 5,
+              "endLine": 49,
+              "endColumn": 44,
+              "role": "main-conclusion",
+              "argumentTitle": "JD · Unrestricted extension (tested)",
+              "inference": {
+                "type": "inference",
+                "relations": [
+                  {
+                    "type": "relation",
+                    "relationType": "undercut",
+                    "from": "J2 · Ritva reports: unrestricted transfer overreaches",
+                    "fromType": "equivalence-class",
+                    "to": "JD · Unrestricted extension (tested)",
+                    "toType": "inference",
+                    "conclusionIndex": 2
+                  }
+                ],
+                "inferenceRules": [
+                  "Unrestricted transfer tested by the objection"
+                ],
+                "startLine": 44,
+                "startColumn": 1,
+                "endLine": 48,
+                "endColumn": 61,
+                "data": {
+                  "uses": [
+                    1,
+                    2
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "ri-22b-repair"
+                  ],
+                  "interpretation": "This overextended consequence is challenged; it is not Rashi’s qualified conclusion."
+                },
+                "conclusionIndex": 2,
+                "argumentTitle": "JD · Unrestricted extension (tested)"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "R9 · Supplied: scope of the comparison",
+          "isReference": true,
+          "startLine": 42,
+          "startColumn": 5,
+          "endLine": 42,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "JD · Unrestricted extension (tested)"
+        },
+        {
+          "type": "statement",
+          "title": "J4 · Tested bridge: transfer every condition",
+          "isReference": true,
+          "startLine": 43,
+          "startColumn": 5,
+          "endLine": 43,
+          "endColumn": 51,
+          "role": "premise",
+          "argumentTitle": "JD · Unrestricted extension (tested)"
+        },
+        {
+          "type": "statement",
+          "title": "J5 · Overextended result (not adopted)",
+          "isReference": true,
+          "startLine": 49,
+          "startColumn": 5,
+          "endLine": 49,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "JD · Unrestricted extension (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "J2 · Ritva reports: unrestricted transfer overreaches",
+                "fromType": "equivalence-class",
+                "to": "JD · Unrestricted extension (tested)",
+                "toType": "inference",
+                "conclusionIndex": 2
+              }
+            ],
+            "inferenceRules": [
+              "Unrestricted transfer tested by the objection"
+            ],
+            "startLine": 44,
+            "startColumn": 1,
+            "endLine": 48,
+            "endColumn": 61,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ri-22b-repair"
+              ],
+              "interpretation": "This overextended consequence is challenged; it is not Rashi’s qualified conclusion."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "JD · Unrestricted extension (tested)"
+          }
+        }
+      ],
+      "title": "JD · Unrestricted extension (tested)",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "JD",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן",
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 425,
+            "endCodePoint": 582,
+            "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair",
+          "ra-compare"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 42,
+      "startColumn": 1,
+      "endLine": 49,
+      "endColumn": 44,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "JB · Ritva’s temporal repair · reconstructed": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Combine the immediate-finding reading with the scope of the exception and the separate permission after awareness. This reconstruction records Ritva’s interpretation. ",
+          "startLine": 68,
+          "endLine": 68,
+          "startColumn": 1,
+          "endColumn": 2400,
+          "isTopLevel": true,
+          "title": "JB · Ritva’s temporal repair · reconstructed",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "JB",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 785,
+                "endCodePoint": 925,
+                "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              },
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1124,
+                "endCodePoint": 1310,
+                "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              },
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1311,
+                "endCodePoint": 1410,
+                "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "J6 · Ritva: finding immediately after loss",
+              "isReference": true,
+              "startLine": 70,
+              "startColumn": 5,
+              "endLine": 70,
+              "endColumn": 49,
+              "role": "premise",
+              "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+            },
+            {
+              "type": "statement",
+              "title": "J7 · Ritva: only irrecoverability exempted here",
+              "isReference": true,
+              "startLine": 71,
+              "startColumn": 5,
+              "endLine": 71,
+              "endColumn": 54,
+              "role": "premise",
+              "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+            },
+            {
+              "type": "statement",
+              "title": "J8 · Ritva: prior-awareness permission is separate",
+              "isReference": true,
+              "startLine": 72,
+              "startColumn": 5,
+              "endLine": 72,
+              "endColumn": 57,
+              "role": "premise",
+              "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+            },
+            {
+              "type": "statement",
+              "title": "J9 · Ritva: prohibition before awareness",
+              "isReference": true,
+              "startLine": 77,
+              "startColumn": 5,
+              "endLine": 77,
+              "endColumn": 46,
+              "role": "main-conclusion",
+              "argumentTitle": "JB · Ritva’s temporal repair · reconstructed",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Apply Ritva’s explicit temporal and scope premises"
+                ],
+                "startLine": 73,
+                "startColumn": 1,
+                "endLine": 76,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "ri-22b-repair"
+                  ],
+                  "interpretation": "Immediate finding, exclusive exceptional permission in that case, and separate later-awareness permission are interpretive premises, not deductions from nonredundancy."
+                },
+                "conclusionIndex": 3,
+                "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "J6 · Ritva: finding immediately after loss",
+          "isReference": true,
+          "startLine": 70,
+          "startColumn": 5,
+          "endLine": 70,
+          "endColumn": 49,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        },
+        {
+          "type": "statement",
+          "title": "J7 · Ritva: only irrecoverability exempted here",
+          "isReference": true,
+          "startLine": 71,
+          "startColumn": 5,
+          "endLine": 71,
+          "endColumn": 54,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        },
+        {
+          "type": "statement",
+          "title": "J8 · Ritva: prior-awareness permission is separate",
+          "isReference": true,
+          "startLine": 72,
+          "startColumn": 5,
+          "endLine": 72,
+          "endColumn": 57,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        },
+        {
+          "type": "statement",
+          "title": "J9 · Ritva: prohibition before awareness",
+          "isReference": true,
+          "startLine": 77,
+          "startColumn": 5,
+          "endLine": 77,
+          "endColumn": 46,
+          "role": "main-conclusion",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply Ritva’s explicit temporal and scope premises"
+            ],
+            "startLine": 73,
+            "startColumn": 1,
+            "endLine": 76,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2,
+                3
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ri-22b-repair"
+              ],
+              "interpretation": "Immediate finding, exclusive exceptional permission in that case, and separate later-awareness permission are interpretive premises, not deductions from nonredundancy."
+            },
+            "conclusionIndex": 3,
+            "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+          }
+        }
+      ],
+      "title": "JB · Ritva’s temporal repair · reconstructed",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "JB",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 785,
+            "endCodePoint": 925,
+            "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          },
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1124,
+            "endCodePoint": 1310,
+            "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          },
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1311,
+            "endCodePoint": 1410,
+            "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 70,
+      "startColumn": 1,
+      "endLine": 77,
+      "endColumn": 46,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "R2 · Inaccessible loss: permitted": {
+      "type": "equivalence-class",
+      "title": "R2 · Inaccessible loss: permitted",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R2 · Inaccessible loss: permitted",
+          "text": "S · A river loss inaccessible to everyone is excluded from that obligation. ",
+          "tags": [
+            "source",
+            "river"
+          ],
+          "startLine": 23,
+          "startColumn": 1,
+          "endLine": 23,
+          "endColumn": 1154,
+          "data": {
+            "id": "R2",
+            "sourceRef": [
+              "Bava Metzia 22b:5"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.22b.5?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "שאבודה ממנו ואינה מצויה אצל כל אדם",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-22b.5",
+                "sourceSha256": "13fbce013c102370c83f0532a19d22151ebcc99a696d4fd9051f38a33365a934",
+                "startCodePoint": 214,
+                "endCodePoint": 248,
+                "quote": "שאבודה ממנו ואינה מצויה אצל כל אדם",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "inaccessible to everyone; exception independent of awareness",
+            "baseNodeIds": [
+              "R2"
+            ],
+            "sourceIds": [
+              "gemara-22b.5"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "R2 · Inaccessible loss: permitted",
+          "isReference": true,
+          "startLine": 31,
+          "startColumn": 5,
+          "endLine": 31,
+          "endColumn": 40,
+          "role": "premise",
+          "argumentTitle": "JA · Proposed same-verse comparison"
+        }
+      ],
+      "tags": [
+        "source",
+        "river"
+      ],
+      "data": {
+        "id": "R2",
+        "sourceRef": [
+          "Bava Metzia 22b:5"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.22b.5?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "שאבודה ממנו ואינה מצויה אצל כל אדם",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-22b.5",
+            "sourceSha256": "13fbce013c102370c83f0532a19d22151ebcc99a696d4fd9051f38a33365a934",
+            "startCodePoint": 214,
+            "endCodePoint": 248,
+            "quote": "שאבודה ממנו ואינה מצויה אצל כל אדם",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "inaccessible to everyone; exception independent of awareness",
+        "baseNodeIds": [
+          "R2"
+        ],
+        "sourceIds": [
+          "gemara-22b.5"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "KR1 · Rashi: the same verse": {
+      "type": "equivalence-class",
+      "title": "KR1 · Rashi: the same verse",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR1 · Rashi: the same verse",
+          "text": "C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. ",
+          "tags": [
+            "explanation",
+            "river",
+            "rashi"
+          ],
+          "startLine": 25,
+          "startColumn": 1,
+          "endLine": 25,
+          "endColumn": 1352,
+          "data": {
+            "id": "KR1",
+            "sourceRef": [
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Rashi",
+            "provenanceClass": "C",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-compare",
+                "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+                "startCodePoint": 0,
+                "endCodePoint": 109,
+                "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R2",
+              "R3"
+            ],
+            "sourceIds": [
+              "ra-compare"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR1 · Rashi: the same verse",
+          "isReference": true,
+          "startLine": 32,
+          "startColumn": 5,
+          "endLine": 32,
+          "endColumn": 34,
+          "role": "premise",
+          "argumentTitle": "JA · Proposed same-verse comparison"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashi"
+      ],
+      "data": {
+        "id": "KR1",
+        "sourceRef": [
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Rashi",
+        "provenanceClass": "C",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-compare",
+            "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+            "startCodePoint": 0,
+            "endCodePoint": 109,
+            "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R2",
+          "R3"
+        ],
+        "sourceIds": [
+          "ra-compare"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "R9 · Supplied: scope of the comparison": {
+      "type": "equivalence-class",
+      "title": "R9 · Supplied: scope of the comparison",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R9 · Supplied: scope of the comparison",
+          "text": "R · The comparison places ordinary recoverable loss under the prohibition with or without a mark, within that prohibition’s temporal scope. ",
+          "tags": [
+            "reconstruction",
+            "river"
+          ],
+          "startLine": 27,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 1783,
+          "data": {
+            "id": "R9",
+            "sourceRef": [
+              "Bava Metzia 22b:6",
+              "Rashi on Bava Metzia 22b, s.v. אף איסורא"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.22b.6?vhe=Wikisource_Talmud_Bavli",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-22b.6",
+                "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+                "startCodePoint": 0,
+                "endCodePoint": 121,
+                "quote": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+                "purpose": "Context for the supplied comparison"
+              },
+              {
+                "sourceId": "ra-timing",
+                "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+                "startCodePoint": 124,
+                "endCodePoint": 170,
+                "quote": "היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+                "purpose": "Temporal context; not a quotation of the supplied inference"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Temporal scope not yet specified here; R4 supplies the before-awareness qualification",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4"
+            ],
+            "sourceIds": [
+              "gemara-22b.6",
+              "ra-timing"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "R9 · Supplied: scope of the comparison",
+          "isReference": true,
+          "startLine": 38,
+          "startColumn": 5,
+          "endLine": 38,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "JA · Proposed same-verse comparison",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "J1 · Ritva reports: no explicit juxtaposition",
+                "fromType": "equivalence-class",
+                "to": "JA · Proposed same-verse comparison",
+                "toType": "inference",
+                "conclusionIndex": 2
+              }
+            ],
+            "inferenceRules": [
+              "Proposed same-verse comparison"
+            ],
+            "startLine": 33,
+            "startColumn": 1,
+            "endLine": 37,
+            "endColumn": 53,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ra-compare",
+                "ri-22b-repair"
+              ],
+              "interpretation": "Rashi’s same-verse rationale is contested here; the undercut targets this inference, not the verse."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "JA · Proposed same-verse comparison"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "R9 · Supplied: scope of the comparison",
+          "isReference": true,
+          "startLine": 42,
+          "startColumn": 5,
+          "endLine": 42,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "JD · Unrestricted extension (tested)"
+        }
+      ],
+      "tags": [
+        "reconstruction",
+        "river"
+      ],
+      "data": {
+        "id": "R9",
+        "sourceRef": [
+          "Bava Metzia 22b:6",
+          "Rashi on Bava Metzia 22b, s.v. אף איסורא"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.22b.6?vhe=Wikisource_Talmud_Bavli",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-22b.6",
+            "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+            "startCodePoint": 0,
+            "endCodePoint": 121,
+            "quote": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+            "purpose": "Context for the supplied comparison"
+          },
+          {
+            "sourceId": "ra-timing",
+            "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+            "startCodePoint": 124,
+            "endCodePoint": 170,
+            "quote": "היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+            "purpose": "Temporal context; not a quotation of the supplied inference"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Temporal scope not yet specified here; R4 supplies the before-awareness qualification",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "sourceIds": [
+          "gemara-22b.6",
+          "ra-timing"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "J1 · Ritva reports: no explicit juxtaposition": {
+      "type": "equivalence-class",
+      "title": "J1 · Ritva reports: no explicit juxtaposition",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "undercut",
+          "from": "J1 · Ritva reports: no explicit juxtaposition",
+          "fromType": "equivalence-class",
+          "to": "JA · Proposed same-verse comparison",
+          "toType": "inference",
+          "conclusionIndex": 2
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "J1 · Ritva reports: no explicit juxtaposition",
+          "isReference": true,
+          "startLine": 37,
+          "startColumn": 6,
+          "endLine": 37,
+          "endColumn": 53
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J1 · Ritva reports: no explicit juxtaposition",
+          "text": "C · The verse does not state the permission alongside the prohibition; it excludes the inaccessible case from the prohibition. Ritva records this objection as coming from Tosafot. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 51,
+          "startColumn": 1,
+          "endLine": 51,
+          "endColumn": 1572,
+          "data": {
+            "id": "J1",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 313,
+                "endCodePoint": 424,
+                "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J1",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 313,
+            "endCodePoint": 424,
+            "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J4 · Tested bridge: transfer every condition": {
+      "type": "equivalence-class",
+      "title": "J4 · Tested bridge: transfer every condition",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J4 · Tested bridge: transfer every condition",
+          "text": "R · Suppose the comparison transfers all awareness and despair conditions unchanged from exceptional permission to ordinary prohibition. ",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "startLine": 58,
+          "startColumn": 1,
+          "endLine": 58,
+          "endColumn": 1588,
+          "data": {
+            "id": "J4",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 425,
+                "endCodePoint": 582,
+                "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J4 · Tested bridge: transfer every condition",
+          "isReference": true,
+          "startLine": 43,
+          "startColumn": 5,
+          "endLine": 43,
+          "endColumn": 51,
+          "role": "premise",
+          "argumentTitle": "JD · Unrestricted extension (tested)"
+        }
+      ],
+      "isUsedAsPremise": true,
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "J4",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 425,
+            "endCodePoint": 582,
+            "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "J2 · Ritva reports: unrestricted transfer overreaches": {
+      "type": "equivalence-class",
+      "title": "J2 · Ritva reports: unrestricted transfer overreaches",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "undercut",
+          "from": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "fromType": "equivalence-class",
+          "to": "JD · Unrestricted extension (tested)",
+          "toType": "inference",
+          "conclusionIndex": 2
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "J3 · Ritva: prior actual despair can permit",
+          "fromType": "equivalence-class",
+          "to": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "isReference": true,
+          "startLine": 48,
+          "startColumn": 6,
+          "endLine": 48,
+          "endColumn": 61
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "text": "C · If every condition were transferred, ordinary loss would remain prohibited even after actual despair. Ritva records this objection as coming from Tosafot. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 53,
+          "startColumn": 1,
+          "endLine": 53,
+          "endColumn": 1651,
+          "data": {
+            "id": "J2",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 425,
+                "endCodePoint": 582,
+                "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "isReference": true,
+          "startLine": 56,
+          "startColumn": 6,
+          "endLine": 56,
+          "endColumn": 60
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J2",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 425,
+            "endCodePoint": 582,
+            "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J5 · Overextended result (not adopted)": {
+      "type": "equivalence-class",
+      "title": "J5 · Overextended result (not adopted)",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J5 · Overextended result (not adopted)",
+          "text": "R · Ordinary loss would be prohibited even after actual despair. This is the consequence challenged by the reported objection, not Rashi’s qualified conclusion. ",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "startLine": 60,
+          "startColumn": 1,
+          "endLine": 60,
+          "endColumn": 1606,
+          "data": {
+            "id": "J5",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 425,
+                "endCodePoint": 582,
+                "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J5 · Overextended result (not adopted)",
+          "isReference": true,
+          "startLine": 49,
+          "startColumn": 5,
+          "endLine": 49,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "JD · Unrestricted extension (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "J2 · Ritva reports: unrestricted transfer overreaches",
+                "fromType": "equivalence-class",
+                "to": "JD · Unrestricted extension (tested)",
+                "toType": "inference",
+                "conclusionIndex": 2
+              }
+            ],
+            "inferenceRules": [
+              "Unrestricted transfer tested by the objection"
+            ],
+            "startLine": 44,
+            "startColumn": 1,
+            "endLine": 48,
+            "endColumn": 61,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ri-22b-repair"
+              ],
+              "interpretation": "This overextended consequence is challenged; it is not Rashi’s qualified conclusion."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "JD · Unrestricted extension (tested)"
+          }
+        }
+      ],
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "J5",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 425,
+            "endCodePoint": 582,
+            "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "J3 · Ritva: prior actual despair can permit": {
+      "type": "equivalence-class",
+      "title": "J3 · Ritva: prior actual despair can permit",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "J3 · Ritva: prior actual despair can permit",
+          "fromType": "equivalence-class",
+          "to": "J2 · Ritva reports: unrestricted transfer overreaches",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J3 · Ritva: prior actual despair can permit",
+          "text": "C · For ordinary loss, actual despair before pickup can permit acquisition, including a marked object whose owner knowingly despairs. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 55,
+          "startColumn": 1,
+          "endLine": 56,
+          "endColumn": 60,
+          "data": {
+            "id": "J3",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 583,
+                "endCodePoint": 784,
+                "quote": "והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J3",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 583,
+            "endCodePoint": 784,
+            "quote": "והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J6 · Ritva: finding immediately after loss": {
+      "type": "equivalence-class",
+      "title": "J6 · Ritva: finding immediately after loss",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J6 · Ritva: finding immediately after loss",
+          "text": "C · Read loss and finding together: the verse addresses a find immediately following the loss, before the owner knows. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 62,
+          "startColumn": 1,
+          "endLine": 62,
+          "endColumn": 1566,
+          "data": {
+            "id": "J6",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 785,
+                "endCodePoint": 925,
+                "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J6 · Ritva: finding immediately after loss",
+          "isReference": true,
+          "startLine": 70,
+          "startColumn": 5,
+          "endLine": 70,
+          "endColumn": 49,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J6",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 785,
+            "endCodePoint": 925,
+            "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J7 · Ritva: only irrecoverability exempted here": {
+      "type": "equivalence-class",
+      "title": "J7 · Ritva: only irrecoverability exempted here",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J7 · Ritva: only irrecoverability exempted here",
+          "text": "C · In that unaware-at-finding case, the verse opens permission only for loss to everyone; the ordinary prohibition also covers unmarked loss. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 64,
+          "startColumn": 1,
+          "endLine": 64,
+          "endColumn": 1689,
+          "data": {
+            "id": "J7",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1124,
+                "endCodePoint": 1310,
+                "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J7 · Ritva: only irrecoverability exempted here",
+          "isReference": true,
+          "startLine": 71,
+          "startColumn": 5,
+          "endLine": 71,
+          "endColumn": 54,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J7",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1124,
+            "endCodePoint": 1310,
+            "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J8 · Ritva: prior-awareness permission is separate": {
+      "type": "equivalence-class",
+      "title": "J8 · Ritva: prior-awareness permission is separate",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J8 · Ritva: prior-awareness permission is separate",
+          "text": "C · Permission after the owner knows, for an unmarked loss, is derived separately from the garment passage (simlah). ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 66,
+          "startColumn": 1,
+          "endLine": 66,
+          "endColumn": 1492,
+          "data": {
+            "id": "J8",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1311,
+                "endCodePoint": 1410,
+                "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J8 · Ritva: prior-awareness permission is separate",
+          "isReference": true,
+          "startLine": 72,
+          "startColumn": 5,
+          "endLine": 72,
+          "endColumn": 57,
+          "role": "premise",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J8",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1311,
+            "endCodePoint": 1410,
+            "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "J9 · Ritva: prohibition before awareness": {
+      "type": "equivalence-class",
+      "title": "J9 · Ritva: prohibition before awareness",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "J9 · Ritva: prohibition before awareness",
+          "text": "C · On this reading, ordinary unmarked loss found before awareness is prohibited; established prior despair remains outside that temporal case. ",
+          "tags": [
+            "explanation",
+            "river",
+            "ritva"
+          ],
+          "startLine": 79,
+          "startColumn": 1,
+          "endLine": 79,
+          "endColumn": 2023,
+          "data": {
+            "id": "J9",
+            "sourceRef": [
+              "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+            ],
+            "speaker": "Ritva (via Shittah Mekubbetzet)",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1124,
+                "endCodePoint": 1310,
+                "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              },
+              {
+                "sourceId": "ri-22b-repair",
+                "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+                "startCodePoint": 1311,
+                "endCodePoint": 1410,
+                "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ri-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "J9 · Ritva: prohibition before awareness",
+          "isReference": true,
+          "startLine": 77,
+          "startColumn": 5,
+          "endLine": 77,
+          "endColumn": 46,
+          "role": "main-conclusion",
+          "argumentTitle": "JB · Ritva’s temporal repair · reconstructed",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply Ritva’s explicit temporal and scope premises"
+            ],
+            "startLine": 73,
+            "startColumn": 1,
+            "endLine": 76,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2,
+                3
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "ri-22b-repair"
+              ],
+              "interpretation": "Immediate finding, exclusive exceptional permission in that case, and separate later-awareness permission are interpretive premises, not deductions from nonredundancy."
+            },
+            "conclusionIndex": 3,
+            "argumentTitle": "JB · Ritva’s temporal repair · reconstructed"
+          }
+        }
+      ],
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "tags": [
+        "explanation",
+        "river",
+        "ritva"
+      ],
+      "data": {
+        "id": "J9",
+        "sourceRef": [
+          "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת"
+        ],
+        "speaker": "Ritva (via Shittah Mekubbetzet)",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1124,
+            "endCodePoint": 1310,
+            "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          },
+          {
+            "sourceId": "ri-22b-repair",
+            "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+            "startCodePoint": 1311,
+            "endCodePoint": 1410,
+            "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ri-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "undercut",
+      "from": "J1 · Ritva reports: no explicit juxtaposition",
+      "fromType": "equivalence-class",
+      "to": "JA · Proposed same-verse comparison",
+      "toType": "inference",
+      "conclusionIndex": 2
+    },
+    {
+      "type": "relation",
+      "relationType": "undercut",
+      "from": "J2 · Ritva reports: unrestricted transfer overreaches",
+      "fromType": "equivalence-class",
+      "to": "JD · Unrestricted extension (tested)",
+      "toType": "inference",
+      "conclusionIndex": 2
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "J3 · Ritva: prior actual despair can permit",
+      "fromType": "equivalence-class",
+      "to": "J2 · Ritva reports: unrestricted transfer overreaches",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "R2 · Inaccessible loss: permitted",
+        "type": "statement-map-node",
+        "labelTitle": "R2 · Inaccessible loss: permitted",
+        "labelText": "S · A river loss inaccessible to everyone is excluded from that obligation. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KR1 · Rashi: the same verse",
+        "type": "statement-map-node",
+        "labelTitle": "KR1 · Rashi: the same verse",
+        "labelText": "C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "R9 · Supplied: scope of the comparison",
+        "type": "statement-map-node",
+        "labelTitle": "R9 · Supplied: scope of the comparison",
+        "labelText": "R · The comparison places ordinary recoverable loss under the prohibition with or without a mark, within that prohibition’s temporal scope. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "J1 · Ritva reports: no explicit juxtaposition",
+        "type": "statement-map-node",
+        "labelTitle": "J1 · Ritva reports: no explicit juxtaposition",
+        "labelText": "C · The verse does not state the permission alongside the prohibition; it excludes the inaccessible case from the prohibition. Ritva records this objection as coming from Tosafot. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "J4 · Tested bridge: transfer every condition",
+        "type": "statement-map-node",
+        "labelTitle": "J4 · Tested bridge: transfer every condition",
+        "labelText": "R · Suppose the comparison transfers all awareness and despair conditions unchanged from exceptional permission to ordinary prohibition. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "J2 · Ritva reports: unrestricted transfer overreaches",
+        "type": "statement-map-node",
+        "labelTitle": "J2 · Ritva reports: unrestricted transfer overreaches",
+        "labelText": "C · If every condition were transferred, ordinary loss would remain prohibited even after actual despair. Ritva records this objection as coming from Tosafot. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "J5 · Overextended result (not adopted)",
+        "type": "statement-map-node",
+        "labelTitle": "J5 · Overextended result (not adopted)",
+        "labelText": "R · Ordinary loss would be prohibited even after actual despair. This is the consequence challenged by the reported objection, not Rashi’s qualified conclusion. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n7",
+        "title": "J3 · Ritva: prior actual despair can permit",
+        "type": "statement-map-node",
+        "labelTitle": "J3 · Ritva: prior actual despair can permit",
+        "labelText": "C · For ordinary loss, actual despair before pickup can permit acquisition, including a marked object whose owner knowingly despairs. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n8",
+        "title": "J6 · Ritva: finding immediately after loss",
+        "type": "statement-map-node",
+        "labelTitle": "J6 · Ritva: finding immediately after loss",
+        "labelText": "C · Read loss and finding together: the verse addresses a find immediately following the loss, before the owner knows. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n9",
+        "title": "J7 · Ritva: only irrecoverability exempted here",
+        "type": "statement-map-node",
+        "labelTitle": "J7 · Ritva: only irrecoverability exempted here",
+        "labelText": "C · In that unaware-at-finding case, the verse opens permission only for loss to everyone; the ordinary prohibition also covers unmarked loss. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n10",
+        "title": "J8 · Ritva: prior-awareness permission is separate",
+        "type": "statement-map-node",
+        "labelTitle": "J8 · Ritva: prior-awareness permission is separate",
+        "labelText": "C · Permission after the owner knows, for an unmarked loss, is derived separately from the garment passage (simlah). ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n11",
+        "title": "J9 · Ritva: prohibition before awareness",
+        "type": "statement-map-node",
+        "labelTitle": "J9 · Ritva: prohibition before awareness",
+        "labelText": "C · On this reading, ordinary unmarked loss found before awareness is prohibited; established prior despair remains outside that temporal case. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n12",
+        "title": "JA · Proposed same-verse comparison",
+        "type": "argument-map-node",
+        "labelTitle": "JA · Proposed same-verse comparison",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n13",
+        "title": "JD · Unrestricted extension (tested)",
+        "type": "argument-map-node",
+        "labelTitle": "JD · Unrestricted extension (tested)",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n14",
+        "title": "JB · Ritva’s temporal repair · reconstructed",
+        "type": "argument-map-node",
+        "labelTitle": "JB · Ritva’s temporal repair · reconstructed",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "undercut",
+        "from": "n3",
+        "to": "n12",
+        "fromEquivalenceClass": "J1 · Ritva reports: no explicit juxtaposition"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "undercut",
+        "from": "n5",
+        "to": "n13",
+        "fromEquivalenceClass": "J2 · Ritva reports: unrestricted transfer overreaches"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n7",
+        "to": "n5",
+        "fromEquivalenceClass": "J3 · Ritva: prior actual despair can permit",
+        "toEquivalenceClass": "J2 · Ritva reports: unrestricted transfer overreaches"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n12",
+        "to": "n2",
+        "fromEquivalenceClass": "R9 · Supplied: scope of the comparison",
+        "toEquivalenceClass": "R9 · Supplied: scope of the comparison"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n13",
+        "to": "n6",
+        "fromEquivalenceClass": "J5 · Overextended result (not adopted)",
+        "toEquivalenceClass": "J5 · Overextended result (not adopted)"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n14",
+        "to": "n11",
+        "fromEquivalenceClass": "J9 · Ritva: prohibition before awareness",
+        "toEquivalenceClass": "J9 · Ritva: prohibition before awareness"
+      },
+      {
+        "id": "e7",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n12",
+        "fromEquivalenceClass": "R2 · Inaccessible loss: permitted",
+        "toEquivalenceClass": "R2 · Inaccessible loss: permitted"
+      },
+      {
+        "id": "e8",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n12",
+        "fromEquivalenceClass": "KR1 · Rashi: the same verse",
+        "toEquivalenceClass": "KR1 · Rashi: the same verse"
+      },
+      {
+        "id": "e9",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n13",
+        "fromEquivalenceClass": "R9 · Supplied: scope of the comparison",
+        "toEquivalenceClass": "R9 · Supplied: scope of the comparison"
+      },
+      {
+        "id": "e10",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n4",
+        "to": "n13",
+        "fromEquivalenceClass": "J4 · Tested bridge: transfer every condition",
+        "toEquivalenceClass": "J4 · Tested bridge: transfer every condition"
+      },
+      {
+        "id": "e11",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n8",
+        "to": "n14",
+        "fromEquivalenceClass": "J6 · Ritva: finding immediately after loss",
+        "toEquivalenceClass": "J6 · Ritva: finding immediately after loss"
+      },
+      {
+        "id": "e12",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n9",
+        "to": "n14",
+        "fromEquivalenceClass": "J7 · Ritva: only irrecoverability exempted here",
+        "toEquivalenceClass": "J7 · Ritva: only irrecoverability exempted here"
+      },
+      {
+        "id": "e13",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n10",
+        "to": "n14",
+        "fromEquivalenceClass": "J8 · Ritva: prior-awareness permission is separate",
+        "toEquivalenceClass": "J8 · Ritva: prior-awareness permission is separate"
+      }
+    ]
+  },
+  "sections": [],
+  "tags": {
+    "source": {
+      "tag": "source",
+      "cssClass": "tag-source",
+      "occurrenceIndex": 0,
+      "color": "#e8f1ef"
+    },
+    "river": {
+      "tag": "river",
+      "cssClass": "tag-river",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 2,
+      "color": "#edf0f8"
+    },
+    "rashi": {
+      "tag": "rashi",
+      "cssClass": "tag-rashi",
+      "occurrenceIndex": 3,
+      "color": "#66a61e"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 4,
+      "color": "#fff1dc"
+    },
+    "editorial": {
+      "tag": "editorial",
+      "cssClass": "tag-editorial",
+      "occurrenceIndex": 5,
+      "color": "#a6761d"
+    },
+    "ritva": {
+      "tag": "ritva",
+      "cssClass": "tag-ritva",
+      "occurrenceIndex": 6,
+      "color": "#666666"
+    }
+  }
+}

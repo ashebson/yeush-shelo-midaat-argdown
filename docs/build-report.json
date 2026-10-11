@@ -70,6 +70,20 @@
     "edges": 7
   },
   {
+    "file": "11-river-objections.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 15,
+    "edges": 13
+  },
+  {
+    "file": "12-river-alternative.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 11,
+    "edges": 9
+  },
+  {
     "file": "overview.argdown",
     "parserErrors": 0,
     "lexerErrors": 0,

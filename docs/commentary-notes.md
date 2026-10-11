@@ -37,8 +37,12 @@ npm test
 python3 scripts/visual-qa.py
 ```
 
-The native author script regenerates all eleven views from the scholarly ledgers. Original base-ledger and Gemara-excerpt hashes remain protected; the four base presentation-source files intentionally gained metadata and numbered PCS in the authorized upgrade. KR6 is now an explicitly editorial two-step synthesis displayed through native inference expansion; KO7, KC2 and KB3 remain sketches. See [native modeling notes](native-argdown.md). The validator checks exact claim wording, attribution, citation coverage, numbered dependencies and model/rendered edges separately. Hashes protect saved-text integrity; source fidelity rests on the documented reading of the cited Hebrew.
+The native author script regenerates all thirteen views from the scholarly ledgers. Original base-ledger and Gemara-excerpt hashes remain protected; the four base presentation-source files intentionally gained metadata and numbered PCS in the authorized upgrade. KR6 is now an explicitly editorial two-step synthesis displayed through native inference expansion; KO7, KC2 and KB3 remain sketches. See [native modeling notes](native-argdown.md). The validator checks exact claim wording, attribution, citation coverage, numbered dependencies and model/rendered edges separately. Hashes protect saved-text integrity; source fidelity rests on the documented reading of the cited Hebrew.
 
 ## Claim-specific anchors
 
 The [exact span ledger](../sources/anchors.json) replaces arbitrary excerpt prefixes. KR3–KR5 select successive redundancy, exceptional-unawareness and comparison clauses in Tosafot; R4 retains Rashi’s before-pickup phrase; KO4–KO6 separately locate custody, ineffective later despair and the non-theft qualification. Full saved passages remain unchanged. Their offsets and hashes establish textual correspondence, while the English remains paraphrase. Editorial synthesis spans are context-only. The [sketch review](native-argdown.md#review-of-remaining-sketches) explains why KO7, KC2 and KB3 remain sketches.
+
+## Historically recorded objections and repairs
+
+A separate [objections ledger](../sources/objections.json) adds Ritva’s 22b passage in Shittah Mekubbetzet, Rashba’s complete first 22b comment, and Rashi’s 26b timing gloss. The original eleven commentary excerpts remain unchanged. The [attribution and modeling account](objections.md) distinguishes reported Tosafot objections from printed Tosafot, documents four exact undercut targets, and preserves the interpretive premises of the repairs. The coins reply remains a defeasible factual presumption.

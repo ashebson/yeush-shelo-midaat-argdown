@@ -47,3 +47,7 @@ After the coins exchange, open **Coins · joint premises**. C1, C2 and C3 enter 
 For the final comparison, open **River · two inference steps** and then **River · Rashi / Tosafot**. Identify the intermediate conclusion and the timing premise. KR6 combines the commentators as our editorial synthesis; KR7 remains an isolated explanation. Pages 19–23 of the PDF show the numbered structures in readable prose. No step is a machine-verified proof.
 
 For the opening, choose **Opening · Abaye / Rava premises**. Ask what must connect each stated reason to its legal conclusion. O9 and O10 make those supplied commitments visible; neither is an independent Hebrew quotation or a proof of either position. Compare the exact Hebrew cards below the map. PDF pages 24–25 separately locate the river comparison and Ritva’s three qualifications.
+
+## Optional objection-and-repair discussion
+
+Open **22b · Ritva objections / repair**. Follow each purple edge to its hexagon: J1 challenges the comparative warrant; J2 challenges unrestricted transfer. Then identify the three premises of the repair. In **22b · Rashba alternative / repair**, distinguish Rashba’s historical alternative from the orange editorial countermodel. Ask which temporal and comparative assumptions the repair needs. The sugya’s recorded conclusion remains visible in the original views. PDF pages 26–30 contain the new maps and sources.

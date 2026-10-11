@@ -840,6 +840,362 @@
           "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
         }
       ]
+    },
+    "JA": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 313,
+          "endCodePoint": 424,
+          "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        },
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 425,
+          "endCodePoint": 582,
+          "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "J1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 313,
+          "endCodePoint": 424,
+          "quote": "ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "J2": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 425,
+          "endCodePoint": 582,
+          "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "J3": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 583,
+          "endCodePoint": 784,
+          "quote": "והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "J4": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 425,
+          "endCodePoint": 582,
+          "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "J5": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 425,
+          "endCodePoint": 582,
+          "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "J6": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 785,
+          "endCodePoint": 925,
+          "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "J7": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1124,
+          "endCodePoint": 1310,
+          "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "J8": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1311,
+          "endCodePoint": 1410,
+          "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "JB": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 785,
+          "endCodePoint": 925,
+          "quote": "ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        },
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1124,
+          "endCodePoint": 1310,
+          "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        },
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1311,
+          "endCodePoint": 1410,
+          "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "J9": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1124,
+          "endCodePoint": 1310,
+          "quote": "וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        },
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 1311,
+          "endCodePoint": 1410,
+          "quote": "וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "LA": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 749,
+          "endCodePoint": 929,
+          "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "L1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 749,
+          "endCodePoint": 929,
+          "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "LB": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 749,
+          "endCodePoint": 929,
+          "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "L2": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 749,
+          "endCodePoint": 929,
+          "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "L3": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 1067,
+          "endCodePoint": 1301,
+          "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "L4": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 930,
+          "endCodePoint": 1066,
+          "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "L5": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 1067,
+          "endCodePoint": 1301,
+          "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "LC": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 930,
+          "endCodePoint": 1066,
+          "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        },
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 1067,
+          "endCodePoint": 1301,
+          "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
+    },
+    "L6": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 930,
+          "endCodePoint": 1066,
+          "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        },
+        {
+          "sourceId": "rb-22b-repair",
+          "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+          "startCodePoint": 1067,
+          "endCodePoint": 1301,
+          "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "Q1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-26b-time",
+          "sourceSha256": "3e1748c579dfc84078852ba03252278cd6033cd90afa1a1029db8e3f13267161",
+          "startCodePoint": 0,
+          "endCodePoint": 44,
+          "quote": "נטלה לפני יאוש - שלא שהה כדי למשמש זה בכיסו:",
+          "purpose": "Exact wording supporting this attributed paraphrase"
+        }
+      ]
+    },
+    "JD": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-22b-repair",
+          "sourceSha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+          "startCodePoint": 425,
+          "endCodePoint": 582,
+          "quote": "ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה.",
+          "purpose": "Editorial context for the tested inference or reconstruction"
+        }
+      ]
     }
   }
 }

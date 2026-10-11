@@ -7,12 +7,13 @@ load = lambda name: json.loads((ROOT / name).read_text())
 base = load('sources/model.json')
 commentary = load('sources/commentary.json')
 native = load('sources/reconstructions.json')
-sources = {s['id']: s for s in commentary['sources']}
+objections = load('sources/objections.json')
+sources = {s['id']: s for s in commentary['sources'] + objections['sources']}
 for source in load('sources/hebrew-excerpts.json'):
     sources['gemara-' + source['ref'].removeprefix('Bava Metzia ').replace(':', '.')] = source
 anchors = load('sources/anchors.json')['nodes']
-nodes = {n['id']: n for n in base['nodes'] + commentary['nodes'] + native['nodes']}
-pcs = {p['argument']: p for p in native['arguments']}
+nodes = {n['id']: n for n in base['nodes'] + commentary['nodes'] + native['nodes'] + objections['nodes']}
+pcs = {p['argument']: p for p in native['arguments'] + objections['arguments']}
 
 def title(id):
     return id + ' · ' + nodes[id]['label']
@@ -62,6 +63,8 @@ def body(ids, edges, grouped=False):
             for index, step in enumerate(pcs[id]['steps'],1):
                 if 'uses' in step:
                     lines.extend(['--',step['rule'],json.dumps({'uses':step['uses'],'provenanceClass':'R','sourceIds':step['sourceIds'],'interpretation':step['interpretation']},ensure_ascii=False),'--'])
+                if step.get('undercuts'):
+                    lines.extend('  <_ '+token(objection) for objection in step['undercuts'])
                 lines.append(f'({index}) '+token(step['statement']))
             lines.append('')
     return '\n'.join(lines).rstrip()+'\n'
@@ -93,4 +96,9 @@ for view in commentary['views']:
 for view in native['views']:
     ids=view['nodes']; edges=[e for e in base['edges'] if e[0] in ids and e[2] in ids]
     render(view['id'],ids,edges,detail=True)
-print(f'Authored {4+len(commentary["views"])+len(native["views"])} native views and {len(native["arguments"])} numbered arguments with exact Hebrew spans.')
+
+
+for view in objections['views']:
+    render(view['id'],view['nodes'],view['edges'],detail=True)
+
+print(f'Authored {4+len(commentary["views"])+len(native["views"])+len(objections["views"])} views and {len(pcs)} numbered arguments with exact Hebrew spans.')

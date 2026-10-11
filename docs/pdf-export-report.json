@@ -1,5 +1,5 @@
 {
-  "page_count": 25,
+  "page_count": 30,
   "pages": [
     {
       "number": 1,
@@ -46,7 +46,7 @@
       ],
       "overflow": [],
       "scrollOverflow": false,
-      "minMapFontPt": 11.710353260869564,
+      "minMapFontPt": 11.272092391304348,
       "rtlBlocks": 0
     },
     {
@@ -300,16 +300,77 @@
       "scrollOverflow": false,
       "minMapFontPt": null,
       "rtlBlocks": 6
+    },
+    {
+      "number": 26,
+      "name": "11-river-objections",
+      "size_mm": [
+        594,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 12.909353717366628,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 27,
+      "name": "12-river-alternative",
+      "size_mm": [
+        594,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 14.604448021356783,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 28,
+      "name": "ri-22b-repair",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 1
+    },
+    {
+      "number": 29,
+      "name": "rb-22b-repair",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 1
+    },
+    {
+      "number": 30,
+      "name": "objection-guide",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 1
     }
   ],
   "source_sha256": {
-    "index.html": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
+    "index.html": "d6045d94cabf517c34508cdc63c7f86946db39425ea1869d144a0ea7ffc17312",
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
-    "scripts/export-pdf.py": "5f4885e980b635a286464b5bd1a22165f295a8c5167e05830e5b55a072892751",
-    "sources/commentary.json": "af75a58260d32f621a0d0722e284eaa2fbff92445843f6f276ff844f87e68d8d",
-    "sources/reconstructions.json": "b66a9947b50434728c196b42e20d0d74471fa962c705c6f068432a41eb885a92",
-    "sources/anchors.json": "9bcf13e56fe966e1249de0e5b0d44e3ef6fddfc3e08743fef7240075acd4495e",
+    "scripts/export-pdf.py": "741e520e486084338b2b4f54a4a1294023ab1a720312d47287fe4e79dc51e691",
+    "sources/commentary.json": "639e9681c1cd6e9eb43ff067ac34344721c03a45eab9e1ff87b1680985ea1d74",
+    "sources/reconstructions.json": "e71c78b5ee0fb7810e2e88e4d333f17b45116c8037415f7402ca05f62dacd0a4",
+    "sources/anchors.json": "026e13302a009637750d665beb5f052fa5557ffae6ea740ce8f6a9b684172478",
+    "sources/objections.json": "38230c75919ec5dc4287781977341f27483290098e9dc02a47b4423df442c57f",
     "maps/overview.svg": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc",
     "maps/01-opening.svg": "ac2f4e6d78d7796291d7d4f3037481306885b5e5c0b8089532d46df9ecbedae0",
     "maps/02-coins.svg": "eecc813e4638975eaf182e90e6968eca96f7356e7ca37c78efab453cfe90a199",
@@ -320,18 +381,20 @@
     "maps/07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d",
     "maps/08-coins-inference.svg": "934df9f03faee718908095ecf9f7db11ec0ba49eb84f6ef04dd2ebfdc6daa7fd",
     "maps/09-river-inference.svg": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031",
-    "maps/10-opening-inference.svg": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f"
+    "maps/10-opening-inference.svg": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f",
+    "maps/11-river-objections.svg": "bec2f6d1cf41c574f4f29198d54b3f2c4513ed769444c2f766101530f7f934d0",
+    "maps/12-river-alternative.svg": "f3befc72e9ce9b27e9e68ba7b4cd5da56a165cb31dc59e2f9c41d6766efbe674"
   },
   "network_requests": [],
-  "pdf_sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c",
-  "bytes": 1045600,
+  "pdf_sha256": "93afe6f30b7e8ca35eb37886d36a372302d130ea769b38541ea776b1b3628261",
+  "bytes": 1254616,
   "chromium": "154.0.8037.57",
   "python_dependencies": {
     "playwright": "1.62.0",
     "pypdf": "6.10.0"
   },
   "checks": [
-    "25 single-page exports merged with bookmarks",
+    "30 single-page exports merged with bookmarks",
     "All base, commentary and numbered-addition labels and complete claims extract from PDF",
     "No HTML page overflow; map text at least 10 pt",
     "No network requests or page errors"

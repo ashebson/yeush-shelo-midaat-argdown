@@ -1,0 +1,762 @@
+{
+  "sources": [
+    {
+      "id": "ri-22b-repair",
+      "author": "Ritva (via Shittah Mekubbetzet)",
+      "ref": "Ritva (via Shittah Mekubbetzet), Bava Metzia 22b, s.v. תא שמע דאמר רבי יוחנן",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#שיטה_מקובצת",
+      "text": "תא שמע דאמר רבי יוחנן משום רבי שמעון בן יהוצדק וכו'. עד שיצאתה זו שאבודה ממנו ומכל אדם תיובתא דרבא תיובתא: כך הגירסא במקצת הספרים. ורש\"י מוסיף בה דברים וכן הוא ברוב הנוסחאות. ואיסורא דומיא דהיתירא מה היתירא בין אית בה סימן בין לית בה סימן שריא אף איסורא בין אית בה סימן בין לית בה סימן אסירא ותיובתא דרבא תיובתא. ובתוספות הקשו על גירסא זו חדא דהכא ליכא היקשא בקרא דהא לא כתב רחמנא היתירא בהדיא אלא דמעטיה מאיסורא דכתיב ממנו. ועוד דאי היקשא אמרינן נקיש לגמרי דמה היתירא בין ידע בין לא ידע בין איאש ובין עומד וצוח דלא מיאש שריא אף איסורא בין ידע בין לא ידע בין איאש בין לא איאש אסורה. והא ליכא למימר דהא אי בדבר שאין בו סימן כל היכא דידעי בעלים דנאבד מהם משרא שרי דהא יאוש מדעת הוא וגם בדבר שיש בו סימן כל היכא דידעי בעלים ומיאשי משרא שרי דהא בהיתירא אתא לידיה וכדמוכח להדיא בריש שמעתיה ולפי גירסא זו הכי פירושא דאנן דייקינן דכיון דכתב רחמנא אשר תאבד ממנו ומצאתה משמע דאיירי קרא במציאה הסמוכה לאבידה דלא ידעי בעלים ואסרה רחמנא. וליכא למימר דההיא דוקא בדבר שיש בו סימן דהא מיעטה ממנו למעוטי מאיסורא כל שאבודה ממנו ומכל אדם דאף על גב דלא ידעי בה בעלים שריא וההיא ודאי בין בשיש בה סימן ובין בשאין בה סימן איירי דהא הפקר גמור הוא וכיון דתנא לא אשכח היתירא אלא כשאבודה מכל העולם שמעינן דהא דאסר בדליכא ידיעת בעלים היינו אפילו בדבר שאין בו סימן דבכל שאבודה ממנו לבדו לא מצא בו הכתוב שום פתח היתר היכא דליכא ידיעת בעלים וכי איכא ידיעת בעלים אז הוא דמשתרי כשאין בה סימן דילפינן לה משמלה שיש בה סימנים כדאיתא לקמן בפירקין ואף הגירסא הראשונה כך פירושה כמו שכתבנו. הריטב\"א.",
+      "sha256": "ec6c03ab92ff8f75deff7c5b42cae662708b3ab8db1ea3965b9688ba09a483f5",
+      "edition": "Hebrew Wikisource classical commentary transcription",
+      "license": "Classical text public domain; digital edition attribution CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "context": "Continuous selected passage ending הריטב״א. Ritva reports objections introduced ובתוספות הקשו, then supplies a temporal reading compatible with both cited textual versions. The reported Tosafot objections are not identified with the printed Tosafot on this page.",
+      "transcription": "Visible Hebrew text verified with browser source; paragraph whitespace collapsed to single spaces before freezing offsets."
+    },
+    {
+      "id": "rb-22b-repair",
+      "author": "Rashba",
+      "ref": "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א",
+      "text": "ואסורא דומיא דהיתירא מה היתירא לא שנא יש בה סימן שריא אף איסורא לא שנא: כך היא הגרסא ברוב הספרים, ואף רש\"י ז\"ל כתבה, והראב\"ד [והרב אב\"ד] ז\"ל כתב הא תיובתא לא נהירא לי, ואיברא דלישנא לא נהירא ויש בו גמגומים. אבל ה\"ר זרחיה ז\"ל דחק, דלאו דוקיא דגמרא היא, אלא מימריה דר' יוחנן גופיה היא, ור' יוחנן גופיה אמרה בפירוש במסקנא דמימריה, ומינה קא מותבינן, דבהדיא אמר דיאוש שלא מדעת לא הוי יאוש. וספרי דוקני לא גרסי ליה, אלא הכי גרסי, מי שאבודה ממנו ומצויה אצל כל אדם יצאתה זו שאבודה ממנו ומכל אדם תיובתא דרבא. והכי פירושו, מדאצטריך רחמנא למשרי אבודה ממנו ומכל אדם מדכתב ממנו, ואבודה מכל אדם על כרחין יש בה יאוש בעלים, ודכותה אסר כשאינה אבודה אלא ממנו ומצויה אצל כל אדם, שמע מינה דעל כרחין אף על גב דאיכא יאוש לכי ידע, כיון דהשתא לא ידע ולא איאש, לא הוי יאוש. ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה. וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה, יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+      "sha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+      "edition": "Hebrew Wikisource classical commentary transcription",
+      "license": "Classical text public domain; digital edition attribution CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "context": "Complete first comment as displayed, including textual-version discussion, the explicit-refusal alternative, and Rashba’s own instant-of-loss repair. Bracketed wording in this transcription is preserved; this is not a critical edition.",
+      "transcription": "Visible Hebrew text verified with browser source; paragraph whitespace collapsed to single spaces before freezing offsets."
+    },
+    {
+      "id": "ra-26b-time",
+      "author": "Rashi",
+      "ref": "Rashi, Bava Metzia 26b, s.v. נטלה לפני יאוש",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כו_ב#רש\"י",
+      "text": "נטלה לפני יאוש - שלא שהה כדי למשמש זה בכיסו:",
+      "sha256": "3e1748c579dfc84078852ba03252278cd6033cd90afa1a1029db8e3f13267161",
+      "edition": "Hebrew Wikisource classical commentary transcription",
+      "license": "Classical text public domain; digital edition attribution CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "context": "Complete short gloss. A timing qualification for the coins presumption, not a newly encoded Gemara episode.",
+      "transcription": "Visible Hebrew text verified with browser source; paragraph whitespace collapsed to single spaces before freezing offsets."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "JA",
+      "label": "Proposed same-verse comparison",
+      "text": "Reconstruct the same-verse comparison as a contested inference. The objection targets its warrant, not the verse or the final ruling.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "ri-22b-repair",
+        "ra-compare"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "JD",
+      "label": "Unrestricted extension (tested)",
+      "text": "Test transfer of every despair condition to ordinary loss. The overextended consequence is challenged, not adopted or attributed to Rashi as his conclusion.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "ri-22b-repair",
+        "ra-compare"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J1",
+      "label": "Ritva reports: no explicit juxtaposition",
+      "text": "The verse does not state the permission alongside the prohibition; it excludes the inaccessible case from the prohibition. Ritva records this objection as coming from Tosafot.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J2",
+      "label": "Ritva reports: unrestricted transfer overreaches",
+      "text": "If every condition were transferred, ordinary loss would remain prohibited even after actual despair. Ritva records this objection as coming from Tosafot.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J3",
+      "label": "Ritva: prior actual despair can permit",
+      "text": "For ordinary loss, actual despair before pickup can permit acquisition, including a marked object whose owner knowingly despairs.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J4",
+      "label": "Tested bridge: transfer every condition",
+      "text": "Suppose the comparison transfers all awareness and despair conditions unchanged from exceptional permission to ordinary prohibition.",
+      "class": "R",
+      "kind": "statement",
+      "speaker": "Editorial",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J5",
+      "label": "Overextended result (not adopted)",
+      "text": "Ordinary loss would be prohibited even after actual despair. This is the consequence challenged by the reported objection, not Rashi’s qualified conclusion.",
+      "class": "R",
+      "kind": "statement",
+      "speaker": "Editorial",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J6",
+      "label": "Ritva: finding immediately after loss",
+      "text": "Read loss and finding together: the verse addresses a find immediately following the loss, before the owner knows.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J7",
+      "label": "Ritva: only irrecoverability exempted here",
+      "text": "In that unaware-at-finding case, the verse opens permission only for loss to everyone; the ordinary prohibition also covers unmarked loss.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J8",
+      "label": "Ritva: prior-awareness permission is separate",
+      "text": "Permission after the owner knows, for an unmarked loss, is derived separately from the garment passage (simlah).",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "JB",
+      "label": "Ritva’s temporal repair · reconstructed",
+      "text": "Combine the immediate-finding reading with the scope of the exception and the separate permission after awareness. This reconstruction records Ritva’s interpretation.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "J9",
+      "label": "Ritva: prohibition before awareness",
+      "text": "On this reading, ordinary unmarked loss found before awareness is prohibited; established prior despair remains outside that temporal case.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "LA",
+      "label": "Redundancy-only shortcut (tested)",
+      "text": "Test whether the exception’s need to add something, alone, establishes every part of the unawareness reading. This is an editorial stress test, not a new attribution to Tosafot.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "to-compare",
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L1",
+      "label": "Rashba: another purpose for the exception",
+      "text": "The special permission could concern owners pursuing the object and expressly refusing despair; ordinary loss without despair could still be prohibited.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Rashba",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "LB",
+      "label": "Exception-only shortcut (tested)",
+      "text": "Test the move from irrecoverable-loss permission to the ordinary unawareness prohibition without an explicit comparison or timing warrant.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L2",
+      "label": "Editorial countermodel",
+      "text": "Permit all irrecoverable losses and ordinary unmarked loss before awareness, as Rava; prohibit ordinary marked loss before actual despair. Exception permission can coexist with Rava’s position.",
+      "class": "R",
+      "kind": "statement",
+      "speaker": "Editorial",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L3",
+      "label": "Ordinary prohibition (not yet established)",
+      "text": "Ordinary unmarked loss before awareness is prohibited. The tested shortcut does not establish this conclusion by itself.",
+      "class": "R",
+      "kind": "statement",
+      "speaker": "Editorial",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L4",
+      "label": "Rashba: read from the instant of loss",
+      "text": "Read the verse as addressing the very instant of loss, whether the owner knows or not.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Rashba",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L5",
+      "label": "Rashba: explicit comparative scope",
+      "text": "At that instant, complete permission is stated only for loss to everyone; ordinary recoverable loss remains prohibited, including unmarked loss.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Rashba",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "LC",
+      "label": "Rashba’s temporal repair · reconstructed",
+      "text": "Use the instant-of-loss interpretation and its explicit comparative scope together; redundancy alone supplies neither warrant.",
+      "class": "R",
+      "kind": "argument",
+      "speaker": "Editorial",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "L6",
+      "label": "Rashba: ordinary unawareness prohibited",
+      "text": "Under Rashba’s temporal reading, ordinary unmarked loss is prohibited before awareness. This records his interpretation, not a machine proof.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Rashba",
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "ref": "22b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    },
+    {
+      "id": "Q1",
+      "label": "Rashi: too little time to check",
+      "text": "Rashi allows a coin to be picked up before the owner has had time to check the purse. Habitual checking is a defeasible presumption, not a universal entailment.",
+      "class": "C",
+      "kind": "statement",
+      "speaker": "Rashi",
+      "sources": [
+        "ra-26b-time"
+      ],
+      "base_nodes": [
+        "C5",
+        "C6"
+      ],
+      "ref": "26b",
+      "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability."
+    }
+  ],
+  "arguments": [
+    {
+      "argument": "JA",
+      "steps": [
+        {
+          "statement": "R2"
+        },
+        {
+          "statement": "KR1"
+        },
+        {
+          "statement": "R9",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Proposed same-verse comparison",
+          "sourceIds": [
+            "ra-compare",
+            "ri-22b-repair"
+          ],
+          "interpretation": "Rashi’s same-verse rationale is contested here; the undercut targets this inference, not the verse.",
+          "undercuts": [
+            "J1"
+          ]
+        }
+      ],
+      "editorialStatus": "Editorial separation of two contested steps. Ritva reports objections from Tosafot; this does not identify them with printed Tosafot.",
+      "replacesEdges": []
+    },
+    {
+      "argument": "JD",
+      "steps": [
+        {
+          "statement": "R9"
+        },
+        {
+          "statement": "J4"
+        },
+        {
+          "statement": "J5",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Unrestricted transfer tested by the objection",
+          "sourceIds": [
+            "ri-22b-repair"
+          ],
+          "interpretation": "This overextended consequence is challenged; it is not Rashi’s qualified conclusion.",
+          "undercuts": [
+            "J2"
+          ]
+        }
+      ],
+      "editorialStatus": "Editorial isolation of the unrestricted transfer targeted by the second reported objection.",
+      "replacesEdges": []
+    },
+    {
+      "argument": "JB",
+      "steps": [
+        {
+          "statement": "J6"
+        },
+        {
+          "statement": "J7"
+        },
+        {
+          "statement": "J8"
+        },
+        {
+          "statement": "J9",
+          "uses": [
+            1,
+            2,
+            3
+          ],
+          "rule": "Apply Ritva’s explicit temporal and scope premises",
+          "sourceIds": [
+            "ri-22b-repair"
+          ],
+          "interpretation": "Immediate finding, exclusive exceptional permission in that case, and separate later-awareness permission are interpretive premises, not deductions from nonredundancy."
+        }
+      ],
+      "editorialStatus": "Editorial reconstruction of the repair in Ritva’s passage, quoted by Shittah Mekubbetzet.",
+      "replacesEdges": []
+    },
+    {
+      "argument": "LA",
+      "steps": [
+        {
+          "statement": "KR3"
+        },
+        {
+          "statement": "KR4",
+          "uses": [
+            1
+          ],
+          "rule": "Test redundancy alone against the stronger reading",
+          "sourceIds": [
+            "to-compare",
+            "rb-22b-repair"
+          ],
+          "interpretation": "Rashba’s alternative motivates this editorial undercut; he is not here labeled as objecting to printed Tosafot. KR4 remains Tosafot’s attributed reading.",
+          "undercuts": [
+            "L1"
+          ]
+        }
+      ],
+      "editorialStatus": "Contested editorial shortcut; redundancy alone does not establish all of KR4.",
+      "replacesEdges": []
+    },
+    {
+      "argument": "LB",
+      "steps": [
+        {
+          "statement": "KR4"
+        },
+        {
+          "statement": "L3",
+          "uses": [
+            1
+          ],
+          "rule": "Test exception permission without a comparative warrant",
+          "sourceIds": [
+            "to-compare",
+            "rb-22b-repair"
+          ],
+          "interpretation": "The editorial countermodel grants the exceptional permission while denying this ordinary-loss conclusion.",
+          "undercuts": [
+            "L2"
+          ]
+        }
+      ],
+      "editorialStatus": "Editorial countermodel test, not a historical quotation and not a disproof of the sugya.",
+      "replacesEdges": []
+    },
+    {
+      "argument": "LC",
+      "steps": [
+        {
+          "statement": "L4"
+        },
+        {
+          "statement": "L5"
+        },
+        {
+          "statement": "L6",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Apply Rashba’s instant-of-loss and comparison premises",
+          "sourceIds": [
+            "rb-22b-repair"
+          ],
+          "interpretation": "Both temporal and comparative scope are explicit interpretive commitments in the repair."
+        }
+      ],
+      "editorialStatus": "Editorial reconstruction of Rashba’s own repair following his stated difficulty.",
+      "replacesEdges": []
+    }
+  ],
+  "views": [
+    {
+      "id": "11-river-objections",
+      "name": "22b · Ritva objections / repair",
+      "ref": "22b · Ritva quoted in Shittah Mekubbetzet",
+      "title": "Which part of the comparison is challenged?",
+      "intro": "Ritva reports two objections from Tosafot: no explicit juxtaposition in the verse, and overreach if all conditions are transferred. His repair reads finding immediately after loss and retains separate permission after awareness.",
+      "note": "Purple undercuts target the comparison JA and unrestricted extension JD separately. The unrestricted extension is a tested consequence, not Rashi’s actual qualified conclusion. These reported objections are distinct from printed Tosafot. The repair records an interpretation; it does not compute a ruling.",
+      "nodes": [
+        "R2",
+        "KR1",
+        "R9",
+        "JA",
+        "JD",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "JB",
+        "J9"
+      ],
+      "edges": [
+        [
+          "J3",
+          "+>",
+          "J2"
+        ]
+      ],
+      "sources": [
+        "ri-22b-repair"
+      ],
+      "pdf_size_mm": [
+        594,
+        420
+      ]
+    },
+    {
+      "id": "12-river-alternative",
+      "name": "22b · Rashba alternative / repair",
+      "ref": "22b · Rashba, first comment",
+      "title": "The exception needs a temporal warrant.",
+      "intro": "Rashba asks whether the special permission could instead concern an owner expressly refusing despair. The editorial countermodel separately shows why exception permission alone does not settle ordinary unmarked loss.",
+      "note": "LA and LB are editorial shortcuts under examination. Rashba is not labeled as attacking printed Tosafot. LC makes his temporal and comparative premises explicit. The original KR6 view records a condensed reading; redundancy alone must not be treated as establishing all of KR4.",
+      "nodes": [
+        "KR3",
+        "KR4",
+        "LA",
+        "L1",
+        "LB",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "LC",
+        "L6"
+      ],
+      "edges": [],
+      "sources": [
+        "rb-22b-repair"
+      ],
+      "pdf_size_mm": [
+        594,
+        420
+      ]
+    }
+  ],
+  "noteNodes": [
+    "Q1"
+  ],
+  "scope": "Separate objection-and-repair layer for the final 22b proof. The optional earlier 22a challenge was verified but is not encoded; it remains outside the base episodes.",
+  "preservedSvgSha256": {
+    "01-opening.svg": "ac2f4e6d78d7796291d7d4f3037481306885b5e5c0b8089532d46df9ecbedae0",
+    "02-coins.svg": "eecc813e4638975eaf182e90e6968eca96f7356e7ca37c78efab453cfe90a199",
+    "03-river.svg": "78766c1a82860bfad7b355d017a12f23e78072ce99d6274c4a7b29a2fb9d75c6",
+    "overview.svg": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc",
+    "10-opening-inference.svg": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f",
+    "06-river-commentary.svg": "4e2edd1c87c9634df44e27d495439038355ef4014825312d9b24d7dcd6e41bfa",
+    "09-river-inference.svg": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031",
+    "07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d",
+    "08-coins-inference.svg": "934df9f03faee718908095ecf9f7db11ec0ba49eb84f6ef04dd2ebfdc6daa7fd",
+    "04-opening-commentary.svg": "a28317135074e02db5c41acef329d1282ff08b6788fdddfd5f5c57d78159f825",
+    "05-coins-commentary.svg": "bc77da764bd33326e50b86df3e8921dc79913fb409989be441bc99f23ed37498"
+  },
+  "countermodel": {
+    "status": "Editorial logical counterexample to the exception-only shortcut, not a complete legal model",
+    "sourceContext": [
+      "rb-22b-repair"
+    ],
+    "cases": [
+      {
+        "id": "irrecoverable-unaware",
+        "irrecoverable": true,
+        "marked": true,
+        "aware": false,
+        "actualDespair": false,
+        "permitted": true
+      },
+      {
+        "id": "irrecoverable-refusal",
+        "irrecoverable": true,
+        "marked": true,
+        "aware": true,
+        "actualDespair": false,
+        "permitted": true
+      },
+      {
+        "id": "ordinary-unmarked-unaware",
+        "irrecoverable": false,
+        "marked": false,
+        "aware": false,
+        "actualDespair": false,
+        "permitted": true
+      },
+      {
+        "id": "ordinary-marked-unaware",
+        "irrecoverable": false,
+        "marked": true,
+        "aware": false,
+        "actualDespair": false,
+        "permitted": false
+      },
+      {
+        "id": "ordinary-marked-prior-despair",
+        "irrecoverable": false,
+        "marked": true,
+        "aware": true,
+        "actualDespair": true,
+        "permitted": true
+      }
+    ]
+  }
+}

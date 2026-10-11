@@ -20,9 +20,12 @@ async function validate() {
   const excerpts = json('sources/hebrew-excerpts.json');
   const commentary = json('sources/commentary.json');
   const native = json('sources/reconstructions.json');
+  const objections = json('sources/objections.json');
+  const allArguments = [...native.arguments,...objections.arguments];
+  const allCommentarySources = [...commentary.sources,...objections.sources];
   const anchors = json('sources/anchors.json');
-  const sourceCatalog = new Map([...commentary.sources.map(s=>[s.id,s]),...excerpts.map(s=>['gemara-'+s.ref.replace('Bava Metzia ','').replace(':','.'),s])]);
-  const allNodes = new Map([...ledger.nodes,...commentary.nodes,...native.nodes].map(n=>[n.id,n]));
+  const sourceCatalog = new Map([...allCommentarySources.map(s=>[s.id,s]),...excerpts.map(s=>['gemara-'+s.ref.replace('Bava Metzia ','').replace(':','.'),s])]);
+  const allNodes = new Map([...ledger.nodes,...commentary.nodes,...native.nodes,...objections.nodes].map(n=>[n.id,n]));
   const flatten = nodes => nodes.flatMap(n=>n.children ? flatten(n.children) : [n]);
   const mapKey = title => id(title) + (/ - (\d+)$/.test(title) ? '.' + title.match(/ - (\d+)$/)[1] : '');
   const commentarySources = new Map(commentary.sources.map(source => [source.id, source]));
@@ -57,7 +60,7 @@ async function validate() {
   for (const [file, hash] of Object.entries(commentary.base_sha256)) {
     assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex'), hash, `Base reconstruction preserved: ${file}`);
   }
-  for (const source of commentary.sources) {
+  for (const source of allCommentarySources) {
     assert.equal(createHash('sha256').update(source.text, 'utf8').digest('hex'), source.sha256, `Commentary excerpt hash: ${source.id}`);
     assert(source.ref.includes(source.author), `Source attribution: ${source.id}`);
     assert(source.url.startsWith('https://'), `Source URL: ${source.id}`);
@@ -89,6 +92,29 @@ async function validate() {
   assert(commentaryNodes.get('KC3').class==='R', 'Coins map relation explanation is editorial');
   assert(commentaryNodes.get('KB1').text.includes('expressly refuses to despair'));
   assert(commentaryNodes.get('KB2').text.includes('not fully like loss to everyone'));
+  for(const [file,hash] of Object.entries(objections.preservedSvgSha256)) assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root,'maps',file))).digest('hex'),hash,`Existing view preserved: ${file}`);
+  for(const node of objections.nodes) {
+    assert(node.sources.every(sourceId=>sourceCatalog.has(sourceId)));
+    assert(node.base_nodes.every(baseId=>ledger.nodes.some(n=>n.id===baseId)));
+    assert.equal(node.class==='R',node.speaker==='Editorial');
+  }
+  equalSet([...new Set(objections.views.flatMap(v=>v.nodes).filter(key=>objections.nodes.some(n=>n.id===key))),...objections.noteNodes],objections.nodes.map(n=>n.id),'Every new record appears in a view or the explicit timing note');
+  assert(sourceCatalog.get('ri-22b-repair').text.includes('ובתוספות הקשו'));
+  assert(sourceCatalog.get('ri-22b-repair').text.endsWith('הריטב"א.'));
+  for(const [nodeId,words] of Object.entries({J1:['ליכא היקשא בקרא'],J2:['נקיש לגמרי'],J6:['במציאה הסמוכה לאבידה'],J8:['דילפינן לה משמלה'],L1:['אומרים שאינן מתיאשין'],L4:['בשעת אבדה ממש'],Q1:['שלא שהה כדי למשמש']})) for(const word of words) assert(anchors.nodes[nodeId].spans.some(x=>x.quote.includes(word)),nodeId+': exact historical qualification');
+  assert.equal(allNodes.get('L2').class,'R','The countermodel is editorial');
+  assert.equal(allNodes.get('J5').class,'R','Overextended consequence is not a commentator ruling');
+  const repaired = Object.fromEntries(objections.arguments.map(a=>[a.argument,a]));
+  assert.deepEqual(repaired.JB.steps.slice(0,3).map(s=>s.statement),['J6','J7','J8'],'Ritva repair retains timing, comparative scope and separate permission');
+  assert.deepEqual(repaired.JB.steps.at(-1).uses,[1,2,3]);
+  assert.deepEqual(repaired.LC.steps.slice(0,2).map(s=>s.statement),['L4','L5'],'Rashba repair retains both temporal and comparative premises');
+  assert.deepEqual(repaired.LC.steps.at(-1).uses,[1,2]);
+  const cases=objections.countermodel.cases;
+  for(const c of cases) assert.equal(c.permitted,c.irrecoverable || !c.marked || (c.aware && c.actualDespair),'Countermodel is internally consistent');
+  assert(cases.filter(c=>c.irrecoverable).every(c=>c.permitted),'Countermodel grants the exceptional permission');
+  assert(cases.some(c=>!c.irrecoverable&&!c.marked&&!c.aware&&c.permitted),'Countermodel denies the ordinary-unawareness conclusion');
+  assert(cases.some(c=>!c.irrecoverable&&c.marked&&!c.actualDespair&&!c.permitted));
+  console.log('PASS four exact undercut targets, explicit repair warrants and bounded editorial countermodel');
   const packageInfo = json('package.json');
   const lock = json('package-lock.json').packages[''];
   for (const key of ['name', 'version', 'license', 'engines', 'devDependencies']) {
@@ -122,6 +148,7 @@ async function validate() {
   ];
   for(const view of commentary.views) specs.push([view.id,null,view.id==='06-river-commentary'?8:view.nodes.length,view.id==='06-river-commentary'?6:view.edges.length,view]);
   for(const view of native.views) specs.push([view.id,null,view.id.startsWith('08')?8:view.id.startsWith('09')?10:11,view.id.startsWith('09')?9:7,view]);
+  for(const view of objections.views) specs.push([view.id,null,view.id==='11-river-objections'?15:11,view.id==='11-river-objections'?13:9,view]);
   equalSet(fs.readdirSync(path.join(root, 'argdown')).filter(f => f.endsWith('.argdown')), specs.map(([stem]) => `${stem}.argdown`), 'Exact base and commentary map inventory');
   const report = [];
   for (const [stem, prefix, nodeCount, edgeCount, commentaryView] of specs) {
@@ -143,7 +170,9 @@ async function validate() {
     if(stem==='09-river-inference') expectedEdges=[['R1','+>','R2'],['R2','+>','R5.1'],['R3','+>','R5.1'],['R5.1','+>','R9'],['R9','+>','R5.2'],['R4','+>','R5.2'],['R5.2','+>','R6'],['R6','+>','R7'],['R7','+>','R8']];
     if(stem==='10-opening-inference') expectedEdges=[['O4','+>','OA'],['O9','+>','OA'],['OA','+>','O5'],['O6','+>','OB'],['O10','+>','OB'],['OB','+>','O7'],['O5','->','O7']];
     if(stem==='06-river-commentary') expectedEdges=[['KR3','+>','KR6.1'],['KR6.1','+>','KR4'],['KR4','+>','KR6.2'],['KR1','+>','KR6.2'],['KR2','+>','KR6.2'],['KR6.2','+>','KR5']];
-    const relationNames = edges => edges.map(([a,r,b])=>[a,r==='+>'?'support':'attack',b]);
+    if(stem==='11-river-objections') expectedEdges=[['R2','+>','JA'],['KR1','+>','JA'],['JA','+>','R9'],['R9','+>','JD'],['J4','+>','JD'],['JD','+>','J5'],['J1','_>','JA'],['J2','_>','JD'],['J3','+>','J2'],['J6','+>','JB'],['J7','+>','JB'],['J8','+>','JB'],['JB','+>','J9']];
+    if(stem==='12-river-alternative') expectedEdges=[['KR3','+>','LA'],['LA','+>','KR4'],['KR4','+>','LB'],['LB','+>','L3'],['L4','+>','LC'],['L5','+>','LC'],['LC','+>','L6'],['L1','_>','LA'],['L2','_>','LB']];
+    const relationNames = edges => edges.map(([a,r,b])=>[a,r==='+>'?'support':r==='_>'?'undercut':'attack',b]);
     const model = JSON.parse(result.json);
     const mapNodes = flatten(model.map.nodes);
     assert.equal(mapNodes.length, nodeCount, `${stem}: leaf node count`);
@@ -178,6 +207,9 @@ async function validate() {
     equalSet(model.map.edges.map(e => [mapIds.get(e.from), e.relationType, mapIds.get(e.to)]), relationNames(expectedEdges), `${stem}: exact rendered edges including native PCS; no unintended propagation`);
     const replaced = native.arguments.filter(p=>expectedIds.has(p.argument)).flatMap(p=>p.replacesEdges).map(e=>e.join(' '));
     const explicit = originalEdges.filter(e=>!replaced.includes(e.join(' '))).map(([a,r,b])=>[a==='C4'?'C8':a,r,b]);
+    const intendedUndercuts=allArguments.filter(p=>expectedIds.has(p.argument)).flatMap(p=>p.steps.flatMap((step,index)=>(step.undercuts||[]).map(from=>({from,to:p.argument,conclusionIndex:index}))));
+    explicit.push(...intendedUndercuts.map(e=>[e.from,'_>',e.to]));
+    equalSet(model.relations.filter(e=>e.relationType==='undercut').map(e=>[id(e.from),id(e.to),e.toType,e.conclusionIndex]),intendedUndercuts.map(e=>[e.from,e.to,'inference',e.conclusionIndex]),`${stem}: exact inference targets and conclusion indices`);
     equalSet(model.relations.map(e => [id(e.from), e.relationType, id(e.to)]), relationNames(explicit), `${stem}: explicit model relations; C4 conclusion transfer is intentional`);
     assert(!model.map.edges.some(e=>e.from===e.to),`${stem}: no self-relations`);
     if(stem==='10-opening-inference') {
@@ -192,7 +224,7 @@ async function validate() {
     settings.model.explodeArguments=false;
     const canonical=await argdown.runAsync({...structuredClone(config),input:'===\n'+JSON.stringify(settings)+'\n==='+input.slice(end+4),throwExceptions:true,process:['parse-input','build-model']});
     assert.equal(canonical.parserErrors?.length||0,0);
-    for(const reconstruction of native.arguments.filter(p=>expectedIds.has(p.argument))) {
+    for(const reconstruction of allArguments.filter(p=>expectedIds.has(p.argument))) {
       const argument=canonical.arguments[`${reconstruction.argument} · ${allNodes.get(reconstruction.argument).label}`];
       equalSet(argument.pcs.map((step,index)=>[index+1,id(step.title)]),reconstruction.steps.map((step,index)=>[index+1,step.statement]),`${stem}: exact ordered PCS`);
       assert.equal(argument.pcs.at(-1).role,'main-conclusion');
@@ -238,17 +270,17 @@ async function validate() {
   const htmlIds = [...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(htmlIds).size, htmlIds.length, 'Unique document IDs, including embedded SVGs');
   assert.equal((html.match(/<svg\b/g) || []).length, specs.length);
-  assert.equal((html.match(/<details(?: |>|$)/g) || []).length, 30+commentary.nodes.length+commentary.sources.length+native.nodes.length, 'Base and commentary ledgers/excerpts');
+  assert.equal((html.match(/<details(?: |>|$)/g) || []).length, 30+commentary.nodes.length+allCommentarySources.length+native.nodes.length+objections.nodes.length, 'Base and commentary ledgers/excerpts');
   assert(!/<(?:script|img|iframe)\b[^>]*\bsrc\s*=|<link\b|@import\b|url\(\s*["']?https?:|\b(?:fetch|XMLHttpRequest|WebSocket)\s*\(/i.test(html), 'No external runtime resources or network calls');
   const hebrewBlocks = [...html.matchAll(/<blockquote\b([^>]*)>([\s\S]*?)<\/blockquote>/g)];
-  assert.equal(hebrewBlocks.length, spanCount + excerpts.length + commentary.sources.length);
+  assert.equal(hebrewBlocks.length, spanCount + excerpts.length + allCommentarySources.length);
   for (const [, attrs] of hebrewBlocks) assert(attrs.includes('dir="rtl"') && attrs.includes('lang="he"'), 'Hebrew is explicitly RTL');
   for (const node of ledger.nodes) {
     assert(html.includes(escape(node.text)), `HTML ledger text: ${node.id}`);
     if (node.hebrew) assert(html.includes(escape(node.hebrew)), `HTML anchor: ${node.id}`);
   }
   for (const excerpt of excerpts) assert(html.includes(escape(excerpt.text)), `HTML excerpt: ${excerpt.ref}`);
-  for (const source of commentary.sources) assert(html.includes(escape(source.text)), `HTML commentary excerpt: ${source.id}`);
+  for (const source of allCommentarySources) assert(html.includes(escape(source.text)), `HTML commentary excerpt: ${source.id}`);
   for (const node of commentary.nodes) assert(html.includes(escape(node.text)), `HTML commentary claim: ${node.id}`);
 
   // Regenerate the page away from the working tree to detect stale presentation output.
@@ -277,7 +309,7 @@ async function validate() {
       links++;
     }
   }
-  console.log(`PASS 8 Gemara and ${commentary.sources.length} commentary hashes, Hebrew/provenance, offline page parity, unique IDs, and ${links} local links`);
+  console.log(`PASS 8 Gemara and ${allCommentarySources.length} commentary hashes, Hebrew/provenance, offline page parity, unique IDs, and ${links} local links`);
   const pdfReport = json('docs/pdf-export-report.json');
   assert.equal(pdfReport.status, 'passed');
   assert.equal(pdfReport.page_count, commentary.pdf_page_count);

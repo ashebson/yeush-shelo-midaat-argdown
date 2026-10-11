@@ -1,0 +1,2011 @@
+{
+  "arguments": {
+    "LA · Redundancy-only shortcut (tested)": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Test whether the exception’s need to add something, alone, establishes every part of the unawareness reading. This is an editorial stress test, not a new attribution to Tosafot. ",
+          "startLine": 27,
+          "endLine": 27,
+          "startColumn": 1,
+          "endColumn": 1820,
+          "isTopLevel": true,
+          "title": "LA · Redundancy-only shortcut (tested)",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "LA",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא",
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 749,
+                "endCodePoint": 929,
+                "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "to-compare",
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "KR3 · Tosafot: why a special verse?",
+              "isReference": true,
+              "startLine": 29,
+              "startColumn": 5,
+              "endLine": 29,
+              "endColumn": 42,
+              "role": "premise",
+              "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+            },
+            {
+              "type": "statement",
+              "title": "KR4 · Tosafot: what the exception adds",
+              "isReference": true,
+              "startLine": 35,
+              "startColumn": 5,
+              "endLine": 35,
+              "endColumn": 44,
+              "role": "main-conclusion",
+              "argumentTitle": "LA · Redundancy-only shortcut (tested)",
+              "inference": {
+                "type": "inference",
+                "relations": [
+                  {
+                    "type": "relation",
+                    "relationType": "undercut",
+                    "from": "L1 · Rashba: another purpose for the exception",
+                    "fromType": "equivalence-class",
+                    "to": "LA · Redundancy-only shortcut (tested)",
+                    "toType": "inference",
+                    "conclusionIndex": 1
+                  }
+                ],
+                "inferenceRules": [
+                  "Test redundancy alone against the stronger reading"
+                ],
+                "startLine": 30,
+                "startColumn": 1,
+                "endLine": 34,
+                "endColumn": 54,
+                "data": {
+                  "uses": [
+                    1
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare",
+                    "rb-22b-repair"
+                  ],
+                  "interpretation": "Rashba’s alternative motivates this editorial undercut; he is not here labeled as objecting to printed Tosafot. KR4 remains Tosafot’s attributed reading."
+                },
+                "conclusionIndex": 1,
+                "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "KR3 · Tosafot: why a special verse?",
+          "isReference": true,
+          "startLine": 29,
+          "startColumn": 5,
+          "endLine": 29,
+          "endColumn": 42,
+          "role": "premise",
+          "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+        },
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 35,
+          "startColumn": 5,
+          "endLine": 35,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "LA · Redundancy-only shortcut (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "L1 · Rashba: another purpose for the exception",
+                "fromType": "equivalence-class",
+                "to": "LA · Redundancy-only shortcut (tested)",
+                "toType": "inference",
+                "conclusionIndex": 1
+              }
+            ],
+            "inferenceRules": [
+              "Test redundancy alone against the stronger reading"
+            ],
+            "startLine": 30,
+            "startColumn": 1,
+            "endLine": 34,
+            "endColumn": 54,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "rb-22b-repair"
+              ],
+              "interpretation": "Rashba’s alternative motivates this editorial undercut; he is not here labeled as objecting to printed Tosafot. KR4 remains Tosafot’s attributed reading."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+          }
+        }
+      ],
+      "title": "LA · Redundancy-only shortcut (tested)",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "LA",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא",
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 749,
+            "endCodePoint": 929,
+            "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "to-compare",
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 29,
+      "startColumn": 1,
+      "endLine": 35,
+      "endColumn": 44,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "LB · Exception-only shortcut (tested)": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Test the move from irrecoverable-loss permission to the ordinary unawareness prohibition without an explicit comparison or timing warrant. ",
+          "startLine": 39,
+          "endLine": 39,
+          "startColumn": 1,
+          "endColumn": 1654,
+          "isTopLevel": true,
+          "title": "LB · Exception-only shortcut (tested)",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "LB",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 749,
+                "endCodePoint": 929,
+                "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "KR4 · Tosafot: what the exception adds",
+              "isReference": true,
+              "startLine": 41,
+              "startColumn": 5,
+              "endLine": 41,
+              "endColumn": 45,
+              "role": "premise",
+              "argumentTitle": "LB · Exception-only shortcut (tested)"
+            },
+            {
+              "type": "statement",
+              "title": "L3 · Ordinary prohibition (not yet established)",
+              "isReference": true,
+              "startLine": 47,
+              "startColumn": 5,
+              "endLine": 47,
+              "endColumn": 53,
+              "role": "main-conclusion",
+              "argumentTitle": "LB · Exception-only shortcut (tested)",
+              "inference": {
+                "type": "inference",
+                "relations": [
+                  {
+                    "type": "relation",
+                    "relationType": "undercut",
+                    "from": "L2 · Editorial countermodel",
+                    "fromType": "equivalence-class",
+                    "to": "LB · Exception-only shortcut (tested)",
+                    "toType": "inference",
+                    "conclusionIndex": 1
+                  }
+                ],
+                "inferenceRules": [
+                  "Test exception permission without a comparative warrant"
+                ],
+                "startLine": 42,
+                "startColumn": 1,
+                "endLine": 46,
+                "endColumn": 35,
+                "data": {
+                  "uses": [
+                    1
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare",
+                    "rb-22b-repair"
+                  ],
+                  "interpretation": "The editorial countermodel grants the exceptional permission while denying this ordinary-loss conclusion."
+                },
+                "conclusionIndex": 1,
+                "argumentTitle": "LB · Exception-only shortcut (tested)"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "LB · Exception-only shortcut (tested)"
+        },
+        {
+          "type": "statement",
+          "title": "L3 · Ordinary prohibition (not yet established)",
+          "isReference": true,
+          "startLine": 47,
+          "startColumn": 5,
+          "endLine": 47,
+          "endColumn": 53,
+          "role": "main-conclusion",
+          "argumentTitle": "LB · Exception-only shortcut (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "L2 · Editorial countermodel",
+                "fromType": "equivalence-class",
+                "to": "LB · Exception-only shortcut (tested)",
+                "toType": "inference",
+                "conclusionIndex": 1
+              }
+            ],
+            "inferenceRules": [
+              "Test exception permission without a comparative warrant"
+            ],
+            "startLine": 42,
+            "startColumn": 1,
+            "endLine": 46,
+            "endColumn": 35,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "rb-22b-repair"
+              ],
+              "interpretation": "The editorial countermodel grants the exceptional permission while denying this ordinary-loss conclusion."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "LB · Exception-only shortcut (tested)"
+          }
+        }
+      ],
+      "title": "LB · Exception-only shortcut (tested)",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "LB",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 749,
+            "endCodePoint": 929,
+            "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 41,
+      "startColumn": 1,
+      "endLine": 47,
+      "endColumn": 53,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "LC · Rashba’s temporal repair · reconstructed": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Use the instant-of-loss interpretation and its explicit comparative scope together; redundancy alone supplies neither warrant. ",
+          "startLine": 57,
+          "endLine": 57,
+          "startColumn": 1,
+          "endColumn": 2046,
+          "isTopLevel": true,
+          "title": "LC · Rashba’s temporal repair · reconstructed",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "LC",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 930,
+                "endCodePoint": 1066,
+                "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              },
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 1067,
+                "endCodePoint": 1301,
+                "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "L4 · Rashba: read from the instant of loss",
+              "isReference": true,
+              "startLine": 59,
+              "startColumn": 5,
+              "endLine": 59,
+              "endColumn": 49,
+              "role": "premise",
+              "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+            },
+            {
+              "type": "statement",
+              "title": "L5 · Rashba: explicit comparative scope",
+              "isReference": true,
+              "startLine": 60,
+              "startColumn": 5,
+              "endLine": 60,
+              "endColumn": 46,
+              "role": "premise",
+              "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+            },
+            {
+              "type": "statement",
+              "title": "L6 · Rashba: ordinary unawareness prohibited",
+              "isReference": true,
+              "startLine": 65,
+              "startColumn": 5,
+              "endLine": 65,
+              "endColumn": 50,
+              "role": "main-conclusion",
+              "argumentTitle": "LC · Rashba’s temporal repair · reconstructed",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Apply Rashba’s instant-of-loss and comparison premises"
+                ],
+                "startLine": 61,
+                "startColumn": 1,
+                "endLine": 64,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1,
+                    2
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "rb-22b-repair"
+                  ],
+                  "interpretation": "Both temporal and comparative scope are explicit interpretive commitments in the repair."
+                },
+                "conclusionIndex": 2,
+                "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "L4 · Rashba: read from the instant of loss",
+          "isReference": true,
+          "startLine": 59,
+          "startColumn": 5,
+          "endLine": 59,
+          "endColumn": 49,
+          "role": "premise",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+        },
+        {
+          "type": "statement",
+          "title": "L5 · Rashba: explicit comparative scope",
+          "isReference": true,
+          "startLine": 60,
+          "startColumn": 5,
+          "endLine": 60,
+          "endColumn": 46,
+          "role": "premise",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+        },
+        {
+          "type": "statement",
+          "title": "L6 · Rashba: ordinary unawareness prohibited",
+          "isReference": true,
+          "startLine": 65,
+          "startColumn": 5,
+          "endLine": 65,
+          "endColumn": 50,
+          "role": "main-conclusion",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply Rashba’s instant-of-loss and comparison premises"
+            ],
+            "startLine": 61,
+            "startColumn": 1,
+            "endLine": 64,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "rb-22b-repair"
+              ],
+              "interpretation": "Both temporal and comparative scope are explicit interpretive commitments in the repair."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+          }
+        }
+      ],
+      "title": "LC · Rashba’s temporal repair · reconstructed",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "LC",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 930,
+            "endCodePoint": 1066,
+            "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          },
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 1067,
+            "endCodePoint": 1301,
+            "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 59,
+      "startColumn": 1,
+      "endLine": 65,
+      "endColumn": 50,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "KR3 · Tosafot: why a special verse?": {
+      "type": "equivalence-class",
+      "title": "KR3 · Tosafot: why a special verse?",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR3 · Tosafot: why a special verse?",
+          "text": "C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. ",
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 23,
+          "startColumn": 1,
+          "endLine": 23,
+          "endColumn": 1347,
+          "data": {
+            "id": "KR3",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 0,
+                "endCodePoint": 100,
+                "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+                "purpose": "Redundancy if the exception concerned known despair alone"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "established despair before pickup already permits ordinary loss",
+            "baseNodeIds": [
+              "R1",
+              "R2"
+            ],
+            "sourceIds": [
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR3 · Tosafot: why a special verse?",
+          "isReference": true,
+          "startLine": 29,
+          "startColumn": 5,
+          "endLine": 29,
+          "endColumn": 42,
+          "role": "premise",
+          "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
+      "data": {
+        "id": "KR3",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 0,
+            "endCodePoint": 100,
+            "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "purpose": "Redundancy if the exception concerned known despair alone"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "established despair before pickup already permits ordinary loss",
+        "baseNodeIds": [
+          "R1",
+          "R2"
+        ],
+        "sourceIds": [
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR4 · Tosafot: what the exception adds": {
+      "type": "equivalence-class",
+      "title": "KR4 · Tosafot: what the exception adds",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR4 · Tosafot: what the exception adds",
+          "text": "C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. ",
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 25,
+          "startColumn": 1,
+          "endLine": 25,
+          "endColumn": 1405,
+          "data": {
+            "id": "KR4",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 101,
+                "endCodePoint": 195,
+                "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+                "purpose": "What the special permission adds: absent awareness, even without prospective despair"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "exception includes absent awareness even when later despair would not occur",
+            "baseNodeIds": [
+              "R1",
+              "R2"
+            ],
+            "sourceIds": [
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 35,
+          "startColumn": 5,
+          "endLine": 35,
+          "endColumn": 44,
+          "role": "main-conclusion",
+          "argumentTitle": "LA · Redundancy-only shortcut (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "L1 · Rashba: another purpose for the exception",
+                "fromType": "equivalence-class",
+                "to": "LA · Redundancy-only shortcut (tested)",
+                "toType": "inference",
+                "conclusionIndex": 1
+              }
+            ],
+            "inferenceRules": [
+              "Test redundancy alone against the stronger reading"
+            ],
+            "startLine": 30,
+            "startColumn": 1,
+            "endLine": 34,
+            "endColumn": 54,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "rb-22b-repair"
+              ],
+              "interpretation": "Rashba’s alternative motivates this editorial undercut; he is not here labeled as objecting to printed Tosafot. KR4 remains Tosafot’s attributed reading."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "LA · Redundancy-only shortcut (tested)"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "LB · Exception-only shortcut (tested)"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
+      "data": {
+        "id": "KR4",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 101,
+            "endCodePoint": 195,
+            "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "purpose": "What the special permission adds: absent awareness, even without prospective despair"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "exception includes absent awareness even when later despair would not occur",
+        "baseNodeIds": [
+          "R1",
+          "R2"
+        ],
+        "sourceIds": [
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "L1 · Rashba: another purpose for the exception": {
+      "type": "equivalence-class",
+      "title": "L1 · Rashba: another purpose for the exception",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "undercut",
+          "from": "L1 · Rashba: another purpose for the exception",
+          "fromType": "equivalence-class",
+          "to": "LA · Redundancy-only shortcut (tested)",
+          "toType": "inference",
+          "conclusionIndex": 1
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "L1 · Rashba: another purpose for the exception",
+          "isReference": true,
+          "startLine": 34,
+          "startColumn": 6,
+          "endLine": 34,
+          "endColumn": 54
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L1 · Rashba: another purpose for the exception",
+          "text": "C · The special permission could concern owners pursuing the object and expressly refusing despair; ordinary loss without despair could still be prohibited. ",
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 37,
+          "startColumn": 1,
+          "endLine": 37,
+          "endColumn": 1656,
+          "data": {
+            "id": "L1",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 749,
+                "endCodePoint": 929,
+                "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
+      "data": {
+        "id": "L1",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 749,
+            "endCodePoint": 929,
+            "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "L2 · Editorial countermodel": {
+      "type": "equivalence-class",
+      "title": "L2 · Editorial countermodel",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "undercut",
+          "from": "L2 · Editorial countermodel",
+          "fromType": "equivalence-class",
+          "to": "LB · Exception-only shortcut (tested)",
+          "toType": "inference",
+          "conclusionIndex": 1
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "L2 · Editorial countermodel",
+          "isReference": true,
+          "startLine": 46,
+          "startColumn": 6,
+          "endLine": 46,
+          "endColumn": 35
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L2 · Editorial countermodel",
+          "text": "R · Permit all irrecoverable losses and ordinary unmarked loss before awareness, as Rava; prohibit ordinary marked loss before actual despair. Exception permission can coexist with Rava’s position. ",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "startLine": 49,
+          "startColumn": 1,
+          "endLine": 49,
+          "endColumn": 1670,
+          "data": {
+            "id": "L2",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 749,
+                "endCodePoint": 929,
+                "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "L2",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 749,
+            "endCodePoint": 929,
+            "quote": "ואכתי קשה לי קצת, דדלמא הכי קאמר רחמנא אבודה ממנו ומכל אדם מותרת בכל ענין, ואפילו מרדפין אחריה ואומרים שאינן מתיאשין, הא אבודה ממנו ומצויה אצל כל אדם אם לא נתיאש ומרדף אחריה אסורה.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "L3 · Ordinary prohibition (not yet established)": {
+      "type": "equivalence-class",
+      "title": "L3 · Ordinary prohibition (not yet established)",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L3 · Ordinary prohibition (not yet established)",
+          "text": "R · Ordinary unmarked loss before awareness is prohibited. The tested shortcut does not establish this conclusion by itself. ",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "startLine": 51,
+          "startColumn": 1,
+          "endLine": 51,
+          "endColumn": 1727,
+          "data": {
+            "id": "L3",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 1067,
+                "endCodePoint": 1301,
+                "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+                "purpose": "Editorial context for the tested inference or reconstruction"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "L3 · Ordinary prohibition (not yet established)",
+          "isReference": true,
+          "startLine": 47,
+          "startColumn": 5,
+          "endLine": 47,
+          "endColumn": 53,
+          "role": "main-conclusion",
+          "argumentTitle": "LB · Exception-only shortcut (tested)",
+          "inference": {
+            "type": "inference",
+            "relations": [
+              {
+                "type": "relation",
+                "relationType": "undercut",
+                "from": "L2 · Editorial countermodel",
+                "fromType": "equivalence-class",
+                "to": "LB · Exception-only shortcut (tested)",
+                "toType": "inference",
+                "conclusionIndex": 1
+              }
+            ],
+            "inferenceRules": [
+              "Test exception permission without a comparative warrant"
+            ],
+            "startLine": 42,
+            "startColumn": 1,
+            "endLine": 46,
+            "endColumn": 35,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "rb-22b-repair"
+              ],
+              "interpretation": "The editorial countermodel grants the exceptional permission while denying this ordinary-loss conclusion."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "LB · Exception-only shortcut (tested)"
+          }
+        }
+      ],
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "L3",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 1067,
+            "endCodePoint": 1301,
+            "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "purpose": "Editorial context for the tested inference or reconstruction"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "L4 · Rashba: read from the instant of loss": {
+      "type": "equivalence-class",
+      "title": "L4 · Rashba: read from the instant of loss",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L4 · Rashba: read from the instant of loss",
+          "text": "C · Read the verse as addressing the very instant of loss, whether the owner knows or not. ",
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 53,
+          "startColumn": 1,
+          "endLine": 53,
+          "endColumn": 1499,
+          "data": {
+            "id": "L4",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 930,
+                "endCodePoint": 1066,
+                "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "L4 · Rashba: read from the instant of loss",
+          "isReference": true,
+          "startLine": 59,
+          "startColumn": 5,
+          "endLine": 59,
+          "endColumn": 49,
+          "role": "premise",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
+      "data": {
+        "id": "L4",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 930,
+            "endCodePoint": 1066,
+            "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "L5 · Rashba: explicit comparative scope": {
+      "type": "equivalence-class",
+      "title": "L5 · Rashba: explicit comparative scope",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L5 · Rashba: explicit comparative scope",
+          "text": "C · At that instant, complete permission is stated only for loss to everyone; ordinary recoverable loss remains prohibited, including unmarked loss. ",
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 55,
+          "startColumn": 1,
+          "endLine": 55,
+          "endColumn": 1751,
+          "data": {
+            "id": "L5",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 1067,
+                "endCodePoint": 1301,
+                "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "L5 · Rashba: explicit comparative scope",
+          "isReference": true,
+          "startLine": 60,
+          "startColumn": 5,
+          "endLine": 60,
+          "endColumn": 46,
+          "role": "premise",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+        }
+      ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
+      "data": {
+        "id": "L5",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 1067,
+            "endCodePoint": 1301,
+            "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "L6 · Rashba: ordinary unawareness prohibited": {
+      "type": "equivalence-class",
+      "title": "L6 · Rashba: ordinary unawareness prohibited",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "L6 · Rashba: ordinary unawareness prohibited",
+          "text": "C · Under Rashba’s temporal reading, ordinary unmarked loss is prohibited before awareness. This records his interpretation, not a machine proof. ",
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 67,
+          "startColumn": 1,
+          "endLine": 67,
+          "endColumn": 2031,
+          "data": {
+            "id": "L6",
+            "sourceRef": [
+              "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 930,
+                "endCodePoint": 1066,
+                "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              },
+              {
+                "sourceId": "rb-22b-repair",
+                "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+                "startCodePoint": 1067,
+                "endCodePoint": 1301,
+                "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+                "purpose": "Exact wording supporting this attributed paraphrase"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+            "baseNodeIds": [
+              "R2",
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "rb-22b-repair"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#53659c"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "L6 · Rashba: ordinary unawareness prohibited",
+          "isReference": true,
+          "startLine": 65,
+          "startColumn": 5,
+          "endLine": 65,
+          "endColumn": 50,
+          "role": "main-conclusion",
+          "argumentTitle": "LC · Rashba’s temporal repair · reconstructed",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply Rashba’s instant-of-loss and comparison premises"
+            ],
+            "startLine": 61,
+            "startColumn": 1,
+            "endLine": 64,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "rb-22b-repair"
+              ],
+              "interpretation": "Both temporal and comparative scope are explicit interpretive commitments in the repair."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "LC · Rashba’s temporal repair · reconstructed"
+          }
+        }
+      ],
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
+      "data": {
+        "id": "L6",
+        "sourceRef": [
+          "Rashba, Bava Metzia 22b, first comment, s.v. ואסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 930,
+            "endCodePoint": 1066,
+            "quote": "וניחא לי דמאשר תאבד ממנו קא דייק, דהכי קאמר רחמנא, כל שבשעת אבדה ממש, כלומר בין ידע בין לא ידע אינה אבודה אלא ממנו בלבד ומצויה לך אסורה,",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          },
+          {
+            "sourceId": "rb-22b-repair",
+            "sourceSha256": "26509280bff9b28671f496efa93d96c80a9e78e021d70587d87a9cb640cb48e5",
+            "startCodePoint": 1067,
+            "endCodePoint": 1301,
+            "quote": "יצאתה אבודה ממנו ומכל אדם בלבד, שהיא מותרת משעת אבדה כלומר בין ידע בין לא ידע, אלמא מדלא אשכח היתרא לגמרי משעת אבדה אלא באבודה ממנו ומכל אדם, שמע מינה דמצויה אצל אחרים אף על פי שאבודה ממנו והיכי דמי דלית ביה סימן, [אסורה], כך נראה לי.",
+            "purpose": "Exact wording supporting this attributed paraphrase"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Before awareness unless this node expressly tests the later-despair case; distinguish ordinary loss from irrecoverability.",
+        "baseNodeIds": [
+          "R2",
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "rb-22b-repair"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved transcription; English remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#53659c"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "undercut",
+      "from": "L1 · Rashba: another purpose for the exception",
+      "fromType": "equivalence-class",
+      "to": "LA · Redundancy-only shortcut (tested)",
+      "toType": "inference",
+      "conclusionIndex": 1
+    },
+    {
+      "type": "relation",
+      "relationType": "undercut",
+      "from": "L2 · Editorial countermodel",
+      "fromType": "equivalence-class",
+      "to": "LB · Exception-only shortcut (tested)",
+      "toType": "inference",
+      "conclusionIndex": 1
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "KR3 · Tosafot: why a special verse?",
+        "type": "statement-map-node",
+        "labelTitle": "KR3 · Tosafot: why a special verse?",
+        "labelText": "C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KR4 · Tosafot: what the exception adds",
+        "type": "statement-map-node",
+        "labelTitle": "KR4 · Tosafot: what the exception adds",
+        "labelText": "C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "L1 · Rashba: another purpose for the exception",
+        "type": "statement-map-node",
+        "labelTitle": "L1 · Rashba: another purpose for the exception",
+        "labelText": "C · The special permission could concern owners pursuing the object and expressly refusing despair; ordinary loss without despair could still be prohibited. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "L2 · Editorial countermodel",
+        "type": "statement-map-node",
+        "labelTitle": "L2 · Editorial countermodel",
+        "labelText": "R · Permit all irrecoverable losses and ordinary unmarked loss before awareness, as Rava; prohibit ordinary marked loss before actual despair. Exception permission can coexist with Rava’s position. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "L3 · Ordinary prohibition (not yet established)",
+        "type": "statement-map-node",
+        "labelTitle": "L3 · Ordinary prohibition (not yet established)",
+        "labelText": "R · Ordinary unmarked loss before awareness is prohibited. The tested shortcut does not establish this conclusion by itself. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "L4 · Rashba: read from the instant of loss",
+        "type": "statement-map-node",
+        "labelTitle": "L4 · Rashba: read from the instant of loss",
+        "labelText": "C · Read the verse as addressing the very instant of loss, whether the owner knows or not. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "L5 · Rashba: explicit comparative scope",
+        "type": "statement-map-node",
+        "labelTitle": "L5 · Rashba: explicit comparative scope",
+        "labelText": "C · At that instant, complete permission is stated only for loss to everyone; ordinary recoverable loss remains prohibited, including unmarked loss. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n7",
+        "title": "L6 · Rashba: ordinary unawareness prohibited",
+        "type": "statement-map-node",
+        "labelTitle": "L6 · Rashba: ordinary unawareness prohibited",
+        "labelText": "C · Under Rashba’s temporal reading, ordinary unmarked loss is prohibited before awareness. This records his interpretation, not a machine proof. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n8",
+        "title": "LA · Redundancy-only shortcut (tested)",
+        "type": "argument-map-node",
+        "labelTitle": "LA · Redundancy-only shortcut (tested)",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n9",
+        "title": "LB · Exception-only shortcut (tested)",
+        "type": "argument-map-node",
+        "labelTitle": "LB · Exception-only shortcut (tested)",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n10",
+        "title": "LC · Rashba’s temporal repair · reconstructed",
+        "type": "argument-map-node",
+        "labelTitle": "LC · Rashba’s temporal repair · reconstructed",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "undercut",
+        "from": "n2",
+        "to": "n8",
+        "fromEquivalenceClass": "L1 · Rashba: another purpose for the exception"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "undercut",
+        "from": "n3",
+        "to": "n9",
+        "fromEquivalenceClass": "L2 · Editorial countermodel"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n8",
+        "to": "n1",
+        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
+        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n9",
+        "to": "n4",
+        "fromEquivalenceClass": "L3 · Ordinary prohibition (not yet established)",
+        "toEquivalenceClass": "L3 · Ordinary prohibition (not yet established)"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n10",
+        "to": "n7",
+        "fromEquivalenceClass": "L6 · Rashba: ordinary unawareness prohibited",
+        "toEquivalenceClass": "L6 · Rashba: ordinary unawareness prohibited"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n8",
+        "fromEquivalenceClass": "KR3 · Tosafot: why a special verse?",
+        "toEquivalenceClass": "KR3 · Tosafot: why a special verse?"
+      },
+      {
+        "id": "e7",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n9",
+        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
+        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
+      },
+      {
+        "id": "e8",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n5",
+        "to": "n10",
+        "fromEquivalenceClass": "L4 · Rashba: read from the instant of loss",
+        "toEquivalenceClass": "L4 · Rashba: read from the instant of loss"
+      },
+      {
+        "id": "e9",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n6",
+        "to": "n10",
+        "fromEquivalenceClass": "L5 · Rashba: explicit comparative scope",
+        "toEquivalenceClass": "L5 · Rashba: explicit comparative scope"
+      }
+    ]
+  },
+  "sections": [],
+  "tags": {
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 0,
+      "color": "#edf0f8"
+    },
+    "river": {
+      "tag": "river",
+      "cssClass": "tag-river",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "tosafot": {
+      "tag": "tosafot",
+      "cssClass": "tag-tosafot",
+      "occurrenceIndex": 2,
+      "color": "#e7298a"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 3,
+      "color": "#fff1dc"
+    },
+    "editorial": {
+      "tag": "editorial",
+      "cssClass": "tag-editorial",
+      "occurrenceIndex": 4,
+      "color": "#e6ab02"
+    },
+    "rashba": {
+      "tag": "rashba",
+      "cssClass": "tag-rashba",
+      "occurrenceIndex": 5,
+      "color": "#a6761d"
+    }
+  }
+}

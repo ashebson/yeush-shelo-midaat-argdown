@@ -1,8 +1,8 @@
 {
-  "pages": 25,
-  "sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c",
+  "pages": 30,
+  "sha256": "93afe6f30b7e8ca35eb37886d36a372302d130ea769b38541ea776b1b3628261",
   "out_of_bounds": [],
   "raster_images": 0,
-  "links": 77,
-  "vector_paths": 533
+  "links": 83,
+  "vector_paths": 630
 }

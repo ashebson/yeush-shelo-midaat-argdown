@@ -1,5 +1,5 @@
 {
-  "url": "http://127.0.0.1:35469/yeush-shelo-midaat-argdown/",
+  "url": "http://127.0.0.1:43721/yeush-shelo-midaat-argdown/",
   "viewports": [
     [
       1440,
@@ -66,6 +66,16 @@
       "sha256": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f"
     },
     {
+      "path": "maps/11-river-objections.svg",
+      "status": 200,
+      "sha256": "bec2f6d1cf41c574f4f29198d54b3f2c4513ed769444c2f766101530f7f934d0"
+    },
+    {
+      "path": "maps/12-river-alternative.svg",
+      "status": 200,
+      "sha256": "f3befc72e9ce9b27e9e68ba7b4cd5da56a165cb31dc59e2f9c41d6766efbe674"
+    },
+    {
       "path": "maps/overview.svg",
       "status": 200,
       "sha256": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc"
@@ -98,7 +108,7 @@
     {
       "path": "argdown/06-river-commentary.argdown",
       "status": 200,
-      "sha256": "9fe025378595ed30d86bc1deee7406846d06a623b092257d92fe4fee0abb410d"
+      "sha256": "2ddbd6730cc8e781cc292ee6362dca5ed45f6c59f47be30fd4d413f40a30a8a5"
     },
     {
       "path": "argdown/07-river-boundary.argdown",
@@ -121,6 +131,16 @@
       "sha256": "c12a325a02dcf1d1e6a5fb32aa164cc4e6822fa46c6b98c4e6ab7c3c16e36879"
     },
     {
+      "path": "argdown/11-river-objections.argdown",
+      "status": 200,
+      "sha256": "7c83263fff0a60bbc65788d89f570fed828999a8183257cdfa3a66af65a8ab21"
+    },
+    {
+      "path": "argdown/12-river-alternative.argdown",
+      "status": 200,
+      "sha256": "0454fff0736bb5ffcaa46780bf6f21ac3c2a9fdad8ad603627b2771150ab680d"
+    },
+    {
       "path": "argdown/overview.argdown",
       "status": 200,
       "sha256": "0c8b54316a46c84368ec32115f8d1ec8e9b0f5cd2ce4b3395f10e390f5e05c2c"
@@ -128,13 +148,11 @@
     {
       "path": "docs/yeush-shelo-midaat.pdf",
       "status": 200,
-      "sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c"
+      "sha256": "93afe6f30b7e8ca35eb37886d36a372302d130ea769b38541ea776b1b3628261"
     }
   ],
   "errors": [],
-  "index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
+  "index_sha256": "d6045d94cabf517c34508cdc63c7f86946db39425ea1869d144a0ea7ffc17312",
   "status": "passed",
-  "verification_scope": "Local project-prefix server, not public-site browser verification",
-  "release_index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
-  "asset_release_commit": "e4d29d04daa7e7db179781a848005731ac42d245"
+  "verification_scope": "Local project-prefix server, not public-site browser verification"
 }
