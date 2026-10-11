@@ -30,11 +30,11 @@ All arrows are our editorial support/explanation choices in Argdown’s loose mo
 Edit `sources/commentary.json`, then run:
 
 ```sh
-python3 scripts/author-commentary.py
+python3 scripts/author-native.py
 npm run build
 npm run pdf
 npm test
 python3 scripts/visual-qa.py
 ```
 
-The author script writes only the four commentary `.argdown` files. Saved hashes protect the original four Argdown files, base ledger and eight Gemara excerpts from accidental edits. The validator checks attribution, citation coverage, node/edge/output parity and the separate layers. Hashes protect saved text integrity; source fidelity rests on the documented reading of the cited Hebrew, not on hashing or graph validation.
+The native author script regenerates all ten views from the scholarly ledgers. Original base-ledger and Gemara-excerpt hashes remain protected; the four base presentation-source files intentionally gained metadata and numbered PCS in the authorized upgrade. KR6 is now an explicitly editorial two-step synthesis displayed through native inference expansion; KO7, KC2 and KB3 remain sketches. See [native modeling notes](native-argdown.md). The validator checks exact claim wording, attribution, citation coverage, numbered dependencies and model/rendered edges separately. Hashes protect saved-text integrity; source fidelity rests on the documented reading of the cited Hebrew.

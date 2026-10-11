@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": "C8",
+      "kind": "statement",
+      "label": "Conditional challenge to Abaye",
+      "text": "If the owner were still unaware, the permitted coins case would conflict with Abaye.",
+      "class": "R",
+      "ref": "21b.7",
+      "hebrew": "",
+      "argument": "C4",
+      "baseNodes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "temporalScope": "Conditional on unawareness before the find; not an established refutation"
+    },
+    {
+      "id": "R9",
+      "kind": "statement",
+      "label": "Supplied: scope of the comparison",
+      "text": "The comparison places ordinary recoverable loss under the prohibition with or without a mark, within that prohibition’s temporal scope.",
+      "class": "R",
+      "ref": "22b.5-6",
+      "hebrew": "",
+      "argument": "R5",
+      "baseNodes": [
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "temporalScope": "Temporal scope not yet specified here; R4 supplies the before-awareness qualification"
+    }
+  ],
+  "arguments": [
+    {
+      "argument": "C4",
+      "editorialStatus": "Conditional reconstruction of the objection, not endorsement of its contested factual premise.",
+      "steps": [
+        {
+          "statement": "C1"
+        },
+        {
+          "statement": "C2"
+        },
+        {
+          "statement": "C3"
+        },
+        {
+          "statement": "C8",
+          "uses": [
+            1,
+            2,
+            3
+          ],
+          "rule": "Conditional application of the supplied bridge",
+          "sourceIds": [
+            "gemara-21b.7"
+          ],
+          "interpretation": "The three premises work jointly. C2 remains a defeasible factual assumption attacked by C6."
+        }
+      ],
+      "replacesEdges": [
+        [
+          "C1",
+          "+>",
+          "C4"
+        ],
+        [
+          "C2",
+          "+>",
+          "C4"
+        ],
+        [
+          "C3",
+          "+>",
+          "C4"
+        ]
+      ]
+    },
+    {
+      "argument": "R5",
+      "editorialStatus": "Two-step editorial reconstruction; Rashi supplies the timing qualification.",
+      "steps": [
+        {
+          "statement": "R2"
+        },
+        {
+          "statement": "R3"
+        },
+        {
+          "statement": "R9",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Source comparison within its stated scope",
+          "sourceIds": [
+            "gemara-22b.5",
+            "gemara-22b.6"
+          ],
+          "interpretation": "This is a dialectical comparison, not deduction from river permission alone."
+        },
+        {
+          "statement": "R4"
+        },
+        {
+          "statement": "R6",
+          "uses": [
+            3,
+            4
+          ],
+          "rule": "Apply the attributed temporal qualification",
+          "sourceIds": [
+            "ra-timing",
+            "gemara-22b.6"
+          ],
+          "interpretation": "Rashi supplies the unaware-before-pickup scope; prior conscious despair is not prohibited."
+        }
+      ],
+      "replacesEdges": [
+        [
+          "R2",
+          "+>",
+          "R5"
+        ],
+        [
+          "R3",
+          "+>",
+          "R5"
+        ],
+        [
+          "R4",
+          "+>",
+          "R5"
+        ],
+        [
+          "R5",
+          "+>",
+          "R6"
+        ]
+      ]
+    },
+    {
+      "argument": "KR6",
+      "editorialStatus": "Editorial synthesis of Rashi and Tosafot, not a single commentator’s proof or an attributed joint ruling.",
+      "steps": [
+        {
+          "statement": "KR3"
+        },
+        {
+          "statement": "KR4",
+          "uses": [
+            1
+          ],
+          "rule": "Tosafot’s redundancy argument",
+          "sourceIds": [
+            "to-compare"
+          ],
+          "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+        },
+        {
+          "statement": "KR1"
+        },
+        {
+          "statement": "KR2"
+        },
+        {
+          "statement": "KR5",
+          "uses": [
+            2,
+            3,
+            4
+          ],
+          "rule": "Editorial synthesis of comparison and temporal scope",
+          "sourceIds": [
+            "to-compare",
+            "ra-compare",
+            "ra-timing"
+          ],
+          "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."
+        }
+      ],
+      "replacesEdges": [
+        [
+          "KR3",
+          "+>",
+          "KR4"
+        ],
+        [
+          "KR4",
+          "+>",
+          "KR5"
+        ],
+        [
+          "KR1",
+          "+>",
+          "KR6"
+        ],
+        [
+          "KR2",
+          "+>",
+          "KR6"
+        ],
+        [
+          "KR5",
+          "+>",
+          "KR6"
+        ]
+      ]
+    }
+  ],
+  "views": [
+    {
+      "id": "08-coins-inference",
+      "name": "Coins · joint premises",
+      "ref": "21b:7 · numbered C4",
+      "title": "The challenge has three joint premises.",
+      "intro": "Permission, assumed unawareness, and the supplied bridge feed one inference. The factual reply attacks C2 directly.",
+      "note": "C8 is a conditional editorial conclusion, not a new source claim. Compare Code to see the numbered premises and uses: [1, 2, 3]. No undercut is asserted.",
+      "nodes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "pdf_size_mm": [
+        420,
+        297
+      ]
+    },
+    {
+      "id": "09-river-inference",
+      "name": "River · two inference steps",
+      "ref": "22b:5–7 · numbered R5",
+      "title": "Comparison, then temporal qualification.",
+      "intro": "The first step states the compared categories. The second jointly uses that intermediate conclusion and Rashi’s awareness-before-pickup qualification.",
+      "note": "R9 is a supplied intermediate statement. R6 is the existing qualified conclusion, reused with identical meaning. The Gemara’s refutation and ruling are recorded, not computed.",
+      "nodes": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ],
+      "pdf_size_mm": [
+        297,
+        420
+      ]
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 # Before awareness · יאוש שלא מדעת
 
-A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting. A separate commentary layer adds **Rashi, three Tosafot comments, Rashba, and Ritva through Shittah Mekubbetzet** in four further maps (21 nodes / 16 relations).
+A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting. A separate commentary layer adds **Rashi, three Tosafot comments, Rashba, and Ritva through Shittah Mekubbetzet** in four further maps (21 ledger entries; 22 rendered nodes / 17 relations after native inference expansion). Two additional views expose the coins and river premise–conclusion structures.
 
-**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed. The [GitHub Pages deployment guide](docs/deployment.md) documents the prepared branch/root configuration and live-site checks.
+**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, an accessible **Graph / Code** toggle with exact authored source and Copy, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. The [live presentation](https://ashebson.github.io/yeush-shelo-midaat-argdown/) is hosted on GitHub Pages. The [GitHub Pages deployment guide](docs/deployment.md) documents the prepared branch/root configuration and live-site checks.
 
-**PDF edition:** [Download the 15-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide, four commentary maps and Hebrew source appendices. [Export instructions and inspection record](docs/pdf-export.md).
+**PDF edition:** [Download the 20-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide, four commentary maps and Hebrew source appendices, two inference maps and three readable numbered reconstructions. [Export instructions and inspection record](docs/pdf-export.md).
 
 ## Deliverables
 
 | File | Purpose |
 | --- | --- |
-| [`docs/yeush-shelo-midaat.pdf`](docs/yeush-shelo-midaat.pdf) | 15-page vector PDF for reading and presentation |
+| [`docs/yeush-shelo-midaat.pdf`](docs/yeush-shelo-midaat.pdf) | 20-page vector PDF for reading and presentation |
 | [`index.html`](index.html) | Offline presentation; expandable evidence ledger |
 | [`argdown/overview.argdown`](argdown/overview.argdown) | Editable 22-node overview with cross-episode links |
 | [`argdown/01-opening.argdown`](argdown/01-opening.argdown) | Opening dispute and agreed scope restrictions |
@@ -18,6 +18,8 @@ A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, bas
 | [`argdown/03-river.argdown`](argdown/03-river.argdown) | Final river comparison, refutation and ruling |
 | [`sources/commentary.json`](sources/commentary.json) | Attributed commentary claims, eleven Hebrew excerpts and base-preservation hashes |
 | [`docs/commentary-notes.md`](docs/commentary-notes.md) | Exact commentator/dibbur coverage, boundaries and editing instructions |
+| [`sources/reconstructions.json`](sources/reconstructions.json) | Three numbered structures, explicit dependencies and two editorial additions |
+| [`docs/native-argdown.md`](docs/native-argdown.md) | Native metadata, grouping/selection and reconstruction semantics |
 | [`maps/`](maps/) | Official Argdown-rendered SVGs, DOT, and model JSON |
 | [`docs/walkthrough.md`](docs/walkthrough.md) | Short presenter script and discussion prompts |
 | [`docs/source-notes.md`](docs/source-notes.md) | Sources, attribution and interpretive decisions |
@@ -52,7 +54,7 @@ The underlying classical text is ancient/public domain; the selected digital edi
 
 ## Regenerate and verify
 
-Requirements: **Node.js 22.11 or newer** and npm. Verified in the saved cloud environment with Node 24.19.0 and npm 11.9.0. Python 3 is needed for optional authoring regeneration, PDF export or browser QA.
+Requirements: **Node.js 22.11 or newer**, npm and **Python 3** (the test suite regenerates authored source to check freshness). Verified in the saved cloud environment with Node 24.19.0 and npm 11.9.0. PDF export and browser QA additionally need Chromium and the optional Python packages listed in the export notes.
 
 ```sh
 npm ci
@@ -69,11 +71,11 @@ npx argdown 'argdown/*.argdown'
 npx argdown map --help
 ```
 
-For ordinary base-model edits, modify `.argdown` directly and run the build. Keep `sources/model.json` in sync when changing node provenance or relations. For coordinated authoring edits, modify `scripts/author.py`, then run `python3 scripts/author.py`, `npm run build`, and `npm test`. The author script overwrites the four `.argdown` files and the ledger; it is not run implicitly by the build.
+For coordinated edits, update `sources/model.json`, `sources/commentary.json` and/or `sources/reconstructions.json`, then run `python3 scripts/author-native.py`, build, re-export the PDF and test. This explicitly overwrites all ten `.argdown` files; the normal build does not overwrite authored source. The legacy authoring entrypoints also finish by generating native views. Deliberate scholarly changes to the base ledger must reconcile its preserved hash contract.
 
-For commentary edits, modify `sources/commentary.json`, run `python3 scripts/author-commentary.py`, then build, re-export the PDF and test. Base-preservation hashes intentionally prevent accidental changes to the original reconstruction; deliberate base revisions must reconcile that contract. After any presentation or map edit, follow the [PDF export instructions](docs/pdf-export.md) before `npm test`, which checks PDF freshness.
+The original base claim/relation ledger and Gemara excerpts retain their original hashes. Presentation syntax has intentionally changed: C4 and R5 now contain numbered structures, KR6 exposes two inference steps, the overview has native episode groups, and all nodes carry machine-readable provenance. See [native modeling notes](docs/native-argdown.md). After any presentation/map edit, follow the [PDF export instructions](docs/pdf-export.md) before `npm test`, which rejects stale exports.
 
-The tests check parsing, expected node counts, source-ledger parity, no unintended undercuts, the coins reply's exact target, cross-episode attacks, SVG node counts, source hashes, and local document links. They validate the artifact, not the truth or legal completeness of the reconstruction.
+The tests check parsing, expected node counts, source-ledger parity, ordered PCS and `uses` dependencies, exact metadata and generated edges, fresh official source highlighting, no unintended undercuts, the coins reply's exact target, cross-episode attacks, SVG node counts, source hashes, and local document links. They validate the artifact, not the truth or legal completeness of the reconstruction.
 
 A browser is only needed for viewing or visual QA. Optional local server: `python3 -m http.server 8766 --bind 127.0.0.1`, then open `http://127.0.0.1:8766`. The page is designed for direct local opening; the cloud browser’s file-URL restriction is recorded in the verification notes.
 

@@ -1,19 +1,25 @@
-# Loss to everyone is a real limit.
+===
+{
+  "model": {
+    "mode": "loose"
+  },
+  "selection": {
+    "excludeDisconnected": false,
+    "statementSelectionMode": "all",
+    "excludeStatements": []
+  }
+}
+===
 
-/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */
 
-/* C | Rashba | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה | Base nodes: O3, R1 */
-[KB1 · Rashba: scriptural ownerlessness]: C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. {"color": "#53659c"}
+[KB1 · Rashba: scriptural ownerlessness]: C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. #explanation #river #rashba {"id": "KB1", "sourceRef": ["Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"], "speaker": "Rashba", "provenanceClass": "C", "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה", "temporalScope": "complete loss to everyone even when the owner expressly refuses despair", "baseNodeIds": ["O3", "R1"], "sourceIds": ["rb-exception"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
   +> <KB3 · Supplied: keep the exceptional scope>
 
-/* C | Rashba | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability) | Base nodes: O3, R1 */
-[KB2 · Rashba: recoverability matters]: C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. {"color": "#53659c"}
+[KB2 · Rashba: recoverability matters]: C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. #explanation #river #rashba {"id": "KB2", "sourceRef": ["Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"], "speaker": "Rashba", "provenanceClass": "C", "hebrewAnchor": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אי", "temporalScope": "recoverable loss where owner has not despaired", "baseNodeIds": ["O3", "R1"], "sourceIds": ["rb-boundary"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
   +> <KB3 · Supplied: keep the exceptional scope>
 
-/* R | Editorial | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה; Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability) | Base nodes: O3, R1, R2 */
-<KB3 · Supplied: keep the exceptional scope>: R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. {"color": "#f3d5a5"}
+<KB3 · Supplied: keep the exceptional scope>: R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. #reconstruction #river #editorial {"id": "KB3", "sourceRef": ["Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה", "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א", "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["O3", "R1", "R2"], "sourceIds": ["rb-exception", "rb-boundary"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "argument sketch; no PCS", "color": "#f3d5a5"}
   +> [KB4 · Supplied: do not replace the comparison]
 
-/* R | Editorial | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה; Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability); Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא | Base nodes: R1, R3, R5 */
-[KB4 · Supplied: do not replace the comparison]: R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. {"color": "#f3d5a5"}
-
+[KB4 · Supplied: do not replace the comparison]: R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. #reconstruction #river #editorial {"id": "KB4", "sourceRef": ["Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה", "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)", "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א", "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א", "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["R1", "R3", "R5"], "sourceIds": ["rb-exception", "rb-boundary", "ra-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#f3d5a5"}

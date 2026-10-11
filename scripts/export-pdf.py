@@ -25,6 +25,8 @@ args = parser.parse_args()
 ledger = json.loads((ROOT / 'sources/model.json').read_text())
 excerpts = json.loads((ROOT / 'sources/hebrew-excerpts.json').read_text())
 commentary = json.loads((ROOT / 'sources/commentary.json').read_text())
+native = json.loads((ROOT / 'sources/reconstructions.json').read_text())
+all_nodes = {node['id']: node for node in ledger['nodes'] + commentary['nodes'] + native['nodes']}
 TOTAL = commentary['pdf_page_count']
 commentary_sources = {source['id']: source for source in commentary['sources']}
 
@@ -45,7 +47,7 @@ h1{font-size:64px}h2{font-size:42px}h3{font-size:18px}.eyebrow{font-size:12px;le
 
 
 def legend():
-    return '''<div class="legend"><strong class="support">→ support</strong><strong class="attack">→ attack</strong><span>Rectangle: claim · Hexagon: reconstructed argument</span><span><b class="badge S">S</b> Source <b class="badge E">E</b> Explanation <b class="badge R">R</b> Reconstruction</span></div>'''
+    return '''<div class="legend"><strong class="support">→ support</strong><strong class="attack">→ attack</strong><span>Rectangle: claim · Hexagon: argument sketch / numbered inference</span><span><b class="badge S">S</b> Source <b class="badge E">E</b> Explanation <b class="badge R">R</b> Reconstruction</span></div>'''
 
 
 def footer(number, right):
@@ -63,7 +65,7 @@ def link(ref):
 
 
 report = {'page_count': TOTAL, 'pages': [], 'source_sha256': {}, 'network_requests': []}
-for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', 'sources/commentary.json', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']+[view['id'] for view in commentary['views']]]]:
+for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', 'sources/commentary.json', 'sources/reconstructions.json', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']+[view['id'] for view in commentary['views'] + native['views']]]]:
     report['source_sha256'][file] = hashlib.sha256((ROOT / file).read_bytes()).hexdigest()
 
 with sync_playwright() as p:
@@ -89,11 +91,11 @@ with sync_playwright() as p:
 <b>02</b><p><strong>Test one premise.</strong> The coins reply attacks the assumed unawareness, leaving the Mishnah intact.</p>
 <b>03</b><p><strong>Inspect the bridge.</strong> Separate the final river comparison from Rashi’s timing clarification and the supplied reconstruction.</p>
 <b>04</b><p><strong>Invite revision.</strong> Which node or relation would you redraw? Compare it with the source excerpts.</p></div></div>
-<p class="scope">22 base nodes · 18 base relations · Three selected episodes. A separate layer adds 21 commentary nodes: Rashi, Tosafot, Rashba, and Ritva via Shittah Mekubbetzet. This is an argument reconstruction for discussion, not a complete encoding of the sugya, a machine proof, or a system for deciding halakhah.</p>
-<p class="small">Reading order: base maps and sources (pages 2–7), then four commentary maps and their Hebrew sources (pages 8–15). The overview is an A2 landscape foldout; episode pages use A3 to keep node text readable. Source notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
+<p class="scope">22 base nodes · 18 base relations · Three selected episodes. A separate ledger adds 21 commentary claims and argument sketches: Rashi, Tosafot, Rashba, and Ritva via Shittah Mekubbetzet. This is an argument reconstruction for discussion, not a complete encoding of the sugya, a machine proof, or a system for deciding halakhah.</p>
+<p class="small">Reading order: base maps and sources (pages 2–7), then four commentary maps and their Hebrew sources (pages 8–15), inference detail maps (16–17), and numbered reconstructions (18–20). The overview is an A1 landscape foldout; episode pages use A3 to keep node text readable. Source notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
     pages.append(('cover', 210, 297, 15, document(cover + footer(1, 'Reader’s guide'), 210, 297, 15, 'cover')))
     for number, (stem, width, height) in enumerate([
-        ('overview', 594, 420), ('01-opening', 420, 297),
+        ('overview', 841, 594), ('01-opening', 420, 297),
         ('02-coins', 420, 297), ('03-river', 297, 420)
     ], start=2):
         e = episodes[stem]
@@ -141,6 +143,31 @@ with sync_playwright() as p:
         width, height = 210, 297
         pages.append((view['id']+'-sources', width, height, 15, document(body, width, height, 15, 'excerpts')))
 
+    for view in native['views']:
+        number = len(pages) + 1
+        width, height = view['pdf_size_mm']
+        svg = (ROOT / 'maps' / f"{view['id']}.svg").read_text()
+        body = f'<header><p class="eyebrow">Numbered reconstruction · {escape(view["ref"])}</p><h2>{escape(view["title"])}</h2><p class="intro">{escape(view["intro"])}</p></header>{legend()}<div class="map-slot">{svg}</div><p class="reading-note">{escape(view["note"])}</p>{footer(number,"Numbered structures: pages 18–20")}'
+        pages.append((view['id'],width,height,15,document(body,width,height,15,'diagram')))
+    for reconstruction in native['arguments']:
+        number = len(pages) + 1
+        argument = all_nodes[reconstruction['argument']]
+        rows = []
+        for index, step in enumerate(reconstruction['steps'],1):
+            node = all_nodes[step['statement']]
+            if step.get('uses'):
+                rows.append(f'<p class="reading-note"><strong>{escape(step["rule"])}</strong><br>Uses: {escape(str(step["uses"]))}. {escape(step["interpretation"])}</p>')
+            rows.append(f'<p><strong>({index}) {escape(node["id"] + " · " + node["label"])}</strong><br><span class="badge {node["class"]}">{node["class"]}</span> {escape(node["text"])}</p>')
+        citations = []
+        for source_id in dict.fromkeys(source for step in reconstruction['steps'] for source in step.get('sourceIds',[])):
+            if source_id in commentary_sources:
+                source = commentary_sources[source_id]
+                citations.append(f'<a href="{escape(source["url"],quote=True)}">{escape(source["ref"])}</a>')
+            else:
+                citations.append('Bava Metzia ' + link(source_id.removeprefix('gemara-')))
+        body = f'<header><p class="eyebrow">Native Argdown · Premise–conclusion structure</p><h2>{escape(argument["id"] + " · " + argument["label"])}</h2></header><p>{escape(argument["text"])}</p><p><strong>{escape(reconstruction["editorialStatus"])}</strong></p>'+''.join(rows)+f'<p class="small">'+ ' · '.join(citations) + f'</p><p class="small">Numbering and rule names are editorial. Native uses metadata records dependencies; it does not establish formal validity. Same named statements retain the same meaning across views.</p>{footer(number,"Numbered argument ledger")}'
+        pages.append(('pcs-'+argument['id'],210,297,14,document(body,210,297,14,'notes')))
+
     writer = PdfWriter()
     for number, (name, width, height, padding, html) in enumerate(pages, start=1):
         (OUT / f'{number:02}-{name}.html').write_text(html)
@@ -179,14 +206,14 @@ with sync_playwright() as p:
     all_text = '\n'.join(page.extract_text() for page in pdf.pages)
     # Every authored node label must survive text extraction; figures remain vectors.
     normalized = ' '.join(all_text.split())
-    for node in ledger['nodes'] + commentary['nodes']:
+    for node in ledger['nodes'] + commentary['nodes'] + native['nodes']:
         assert ' '.join(f"{node['id']} · {node['label']}".split()) in normalized, f'Missing PDF label: {node["id"]}'
         assert ' '.join(node['text'].split()) in normalized, f'Missing PDF claim: {node["id"]}'
     report['pdf_sha256'] = hashlib.sha256(DESTINATION.read_bytes()).hexdigest()
     report['bytes'] = DESTINATION.stat().st_size
     report['chromium'] = browser.version
     report['python_dependencies'] = {name: version(name) for name in ['playwright', 'pypdf']}
-    report['checks'] = [f'{TOTAL} single-page exports merged with bookmarks', 'All 22 base and 21 commentary node labels and complete claims extract from PDF', 'No HTML page overflow; map text at least 10 pt', 'No network requests or page errors']
+    report['checks'] = [f'{TOTAL} single-page exports merged with bookmarks', 'All base, commentary and numbered-addition labels and complete claims extract from PDF', 'No HTML page overflow; map text at least 10 pt', 'No network requests or page errors']
     report['status'] = 'passed'
     (OUT / 'export-report.json').write_text(json.dumps(report, indent=2) + '\n')
     (ROOT / 'docs' / 'pdf-export-report.json').write_text(json.dumps(report, indent=2) + '\n')

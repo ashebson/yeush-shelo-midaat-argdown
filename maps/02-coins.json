@@ -2,94 +2,219 @@
   "arguments": {
     "C4 · Coins challenge": {
       "type": "argument",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C1 · Scattered coins: permitted",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C2 · Objection: owner unaware",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C3 · Bridge: test Abaye",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
           "role": "argument-description",
-          "text": "",
-          "startLine": 7,
-          "endLine": 7,
-          "startColumn": 6,
-          "endColumn": 27,
-          "isTopLevel": false,
-          "section": "s1",
-          "title": "C4 · Coins challenge",
-          "isReference": true
-        },
-        {
-          "type": "statement",
-          "role": "argument-description",
-          "text": "",
-          "startLine": 11,
-          "endLine": 11,
-          "startColumn": 6,
-          "endColumn": 27,
-          "isTopLevel": false,
-          "section": "s1",
-          "title": "C4 · Coins challenge",
-          "isReference": true
-        },
-        {
-          "type": "statement",
-          "role": "argument-description",
-          "text": "",
-          "startLine": 15,
-          "endLine": 15,
-          "startColumn": 6,
-          "endColumn": 27,
-          "isTopLevel": false,
-          "section": "s1",
-          "title": "C4 · Coins challenge",
-          "isReference": true
-        },
-        {
-          "type": "statement",
-          "role": "argument-description",
           "text": "R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ",
-          "startLine": 18,
-          "endLine": 18,
+          "startLine": 24,
+          "endLine": 24,
           "startColumn": 1,
-          "endColumn": 127,
+          "endColumn": 656,
           "isTopLevel": true,
-          "section": "s1",
           "title": "C4 · Coins challenge",
+          "tags": [
+            "reconstruction",
+            "coins"
+          ],
           "data": {
+            "id": "C4",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "ת\"ש",
+            "temporalScope": "conditional challenge under assumed unawareness",
+            "baseNodeIds": [
+              "C4"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
             "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "C1 · Scattered coins: permitted",
+              "isReference": true,
+              "startLine": 26,
+              "startColumn": 5,
+              "endLine": 26,
+              "endColumn": 38,
+              "role": "premise",
+              "argumentTitle": "C4 · Coins challenge"
+            },
+            {
+              "type": "statement",
+              "title": "C2 · Objection: owner unaware",
+              "isReference": true,
+              "startLine": 27,
+              "startColumn": 5,
+              "endLine": 27,
+              "endColumn": 36,
+              "role": "premise",
+              "argumentTitle": "C4 · Coins challenge"
+            },
+            {
+              "type": "statement",
+              "title": "C3 · Bridge: test Abaye",
+              "isReference": true,
+              "startLine": 28,
+              "startColumn": 5,
+              "endLine": 28,
+              "endColumn": 30,
+              "role": "premise",
+              "argumentTitle": "C4 · Coins challenge"
+            },
+            {
+              "type": "statement",
+              "title": "C8 · Conditional challenge to Abaye",
+              "isReference": true,
+              "startLine": 33,
+              "startColumn": 5,
+              "endLine": 33,
+              "endColumn": 41,
+              "role": "main-conclusion",
+              "argumentTitle": "C4 · Coins challenge",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Conditional application of the supplied bridge"
+                ],
+                "startLine": 29,
+                "startColumn": 1,
+                "endLine": 32,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "gemara-21b.7"
+                  ],
+                  "interpretation": "The three premises work jointly. C2 remains a defeasible factual assumption attacked by C6."
+                },
+                "conclusionIndex": 3,
+                "argumentTitle": "C4 · Coins challenge"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "C1 · Scattered coins: permitted",
+          "isReference": true,
+          "startLine": 26,
+          "startColumn": 5,
+          "endLine": 26,
+          "endColumn": 38,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
+        },
+        {
+          "type": "statement",
+          "title": "C2 · Objection: owner unaware",
+          "isReference": true,
+          "startLine": 27,
+          "startColumn": 5,
+          "endLine": 27,
+          "endColumn": 36,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
+        },
+        {
+          "type": "statement",
+          "title": "C3 · Bridge: test Abaye",
+          "isReference": true,
+          "startLine": 28,
+          "startColumn": 5,
+          "endLine": 28,
+          "endColumn": 30,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
+        },
+        {
+          "type": "statement",
+          "title": "C8 · Conditional challenge to Abaye",
+          "isReference": true,
+          "startLine": 33,
+          "startColumn": 5,
+          "endLine": 33,
+          "endColumn": 41,
+          "role": "main-conclusion",
+          "argumentTitle": "C4 · Coins challenge",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Conditional application of the supplied bridge"
+            ],
+            "startLine": 29,
+            "startColumn": 1,
+            "endLine": 32,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2,
+                3
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.7"
+              ],
+              "interpretation": "The three premises work jointly. C2 remains a defeasible factual assumption attacked by C6."
+            },
+            "conclusionIndex": 3,
+            "argumentTitle": "C4 · Coins challenge"
           }
         }
       ],
-      "pcs": [],
       "title": "C4 · Coins challenge",
+      "tags": [
+        "reconstruction",
+        "coins"
+      ],
       "data": {
+        "id": "C4",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "ת\"ש",
+        "temporalScope": "conditional challenge under assumed unawareness",
+        "baseNodeIds": [
+          "C4"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
         "color": "#f3d5a5"
       },
-      "section": "s1",
+      "startLine": 26,
+      "startColumn": 1,
+      "endLine": 33,
+      "endColumn": 41,
       "fontColor": "#000000",
       "color": "#f3d5a5"
     }
@@ -98,16 +223,7 @@
     "C1 · Scattered coins: permitted": {
       "type": "equivalence-class",
       "title": "C1 · Scattered coins: permitted",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C1 · Scattered coins: permitted",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
@@ -115,21 +231,77 @@
           "isTopLevel": true,
           "title": "C1 · Scattered coins: permitted",
           "text": "S · The cited Mishnah lets the finder keep scattered coins. ",
-          "startLine": 6,
+          "tags": [
+            "source",
+            "coins"
+          ],
+          "startLine": 18,
           "startColumn": 1,
-          "endLine": 7,
-          "endColumn": 27,
+          "endLine": 18,
+          "endColumn": 652,
           "data": {
+            "id": "C1",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "מעות מפוזרות הרי אלו שלו",
+            "temporalScope": "permission in cited Mishnah; timing tested by C2",
+            "baseNodeIds": [
+              "C1"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#267565"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "C1 · Scattered coins: permitted",
+          "isReference": true,
+          "startLine": 26,
+          "startColumn": 5,
+          "endLine": 26,
+          "endColumn": 38,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
         }
       ],
+      "tags": [
+        "source",
+        "coins"
+      ],
       "data": {
+        "id": "C1",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "מעות מפוזרות הרי אלו שלו",
+        "temporalScope": "permission in cited Mishnah; timing tested by C2",
+        "baseNodeIds": [
+          "C1"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#267565"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
       "fontColor": "#000000",
       "color": "#267565"
     },
@@ -137,14 +309,6 @@
       "type": "equivalence-class",
       "title": "C2 · Objection: owner unaware",
       "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C2 · Objection: owner unaware",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        },
         {
           "type": "relation",
           "relationType": "attack",
@@ -161,32 +325,87 @@
           "isTopLevel": true,
           "title": "C2 · Objection: owner unaware",
           "text": "S · The objection assumes that the owner has not learned of this loss. ",
-          "startLine": 10,
+          "tags": [
+            "source",
+            "coins"
+          ],
+          "startLine": 20,
           "startColumn": 1,
-          "endLine": 11,
-          "endColumn": 27,
+          "endLine": 20,
+          "endColumn": 645,
           "data": {
+            "id": "C2",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "הא לא ידע דנפל מיניה",
+            "temporalScope": "assumed unawareness before discovery",
+            "baseNodeIds": [
+              "C2"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#267565"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "C2 · Objection: owner unaware",
+          "isReference": true,
+          "startLine": 27,
+          "startColumn": 5,
+          "endLine": 27,
+          "endColumn": 36,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
         },
         {
           "type": "statement",
           "role": "relation-statement",
           "title": "C2 · Objection: owner unaware",
           "isReference": true,
-          "startLine": 26,
+          "startLine": 39,
           "startColumn": 6,
-          "endLine": 26,
-          "endColumn": 37,
-          "section": "s1"
+          "endLine": 39,
+          "endColumn": 37
         }
       ],
+      "tags": [
+        "source",
+        "coins"
+      ],
       "data": {
+        "id": "C2",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "הא לא ידע דנפל מיניה",
+        "temporalScope": "assumed unawareness before discovery",
+        "baseNodeIds": [
+          "C2"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#267565"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
       "isUsedAsRelationStatement": true,
       "fontColor": "#000000",
       "color": "#267565"
@@ -194,16 +413,7 @@
     "C3 · Bridge: test Abaye": {
       "type": "equivalence-class",
       "title": "C3 · Bridge: test Abaye",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "C3 · Bridge: test Abaye",
-          "fromType": "equivalence-class",
-          "to": "C4 · Coins challenge",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
@@ -211,20 +421,193 @@
           "isTopLevel": true,
           "title": "C3 · Bridge: test Abaye",
           "text": "R · If permission holds while awareness is absent, this case conflicts with Abaye. ",
-          "startLine": 14,
+          "tags": [
+            "reconstruction",
+            "coins"
+          ],
+          "startLine": 22,
           "startColumn": 1,
-          "endLine": 15,
-          "endColumn": 27,
+          "endLine": 22,
+          "endColumn": 641,
           "data": {
+            "id": "C3",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "הא לא ידע דנפל מיניה",
+            "temporalScope": "conditional on permission before awareness",
+            "baseNodeIds": [
+              "C3"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#f3d5a5"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "C3 · Bridge: test Abaye",
+          "isReference": true,
+          "startLine": 28,
+          "startColumn": 5,
+          "endLine": 28,
+          "endColumn": 30,
+          "role": "premise",
+          "argumentTitle": "C4 · Coins challenge"
         }
       ],
+      "tags": [
+        "reconstruction",
+        "coins"
+      ],
       "data": {
+        "id": "C3",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "הא לא ידע דנפל מיניה",
+        "temporalScope": "conditional on permission before awareness",
+        "baseNodeIds": [
+          "C3"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },
-      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "C8 · Conditional challenge to Abaye": {
+      "type": "equivalence-class",
+      "title": "C8 · Conditional challenge to Abaye",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "title": "C8 · Conditional challenge to Abaye",
+          "isReference": true,
+          "startLine": 33,
+          "startColumn": 5,
+          "endLine": 33,
+          "endColumn": 41,
+          "role": "main-conclusion",
+          "argumentTitle": "C4 · Coins challenge",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Conditional application of the supplied bridge"
+            ],
+            "startLine": 29,
+            "startColumn": 1,
+            "endLine": 32,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2,
+                3
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.7"
+              ],
+              "interpretation": "The three premises work jointly. C2 remains a defeasible factual assumption attacked by C6."
+            },
+            "conclusionIndex": 3,
+            "argumentTitle": "C4 · Coins challenge"
+          }
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C8 · Conditional challenge to Abaye",
+          "text": "R · If the owner were still unaware, the permitted coins case would conflict with Abaye. ",
+          "tags": [
+            "reconstruction",
+            "coins"
+          ],
+          "startLine": 44,
+          "startColumn": 1,
+          "endLine": 44,
+          "endColumn": 709,
+          "data": {
+            "id": "C8",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "הא לא ידע דנפל מיניה",
+            "temporalScope": "Conditional on unawareness before the find; not an established refutation",
+            "baseNodeIds": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "tags": [
+        "reconstruction",
+        "coins"
+      ],
+      "data": {
+        "id": "C8",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "הא לא ידע דנפל מיניה",
+        "temporalScope": "Conditional on unawareness before the find; not an established refutation",
+        "baseNodeIds": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#f3d5a5"
@@ -249,20 +632,64 @@
           "isTopLevel": true,
           "title": "C5 · Reply: purse checking",
           "text": "S · People habitually check their purses, says Rabbi Yitzhak. ",
-          "startLine": 21,
+          "tags": [
+            "source",
+            "coins"
+          ],
+          "startLine": 35,
           "startColumn": 1,
-          "endLine": 22,
+          "endLine": 36,
           "endColumn": 30,
           "data": {
+            "id": "C5",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Rabbi Yitzhak",
+            "provenanceClass": "S",
+            "hebrewAnchor": "אדם עשוי למשמש בכיסו",
+            "temporalScope": "habitual checking supports prior awareness in this reply",
+            "baseNodeIds": [
+              "C5"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#267565"
-          },
-          "section": "s1"
+          }
         }
       ],
+      "tags": [
+        "source",
+        "coins"
+      ],
       "data": {
+        "id": "C5",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Rabbi Yitzhak",
+        "provenanceClass": "S",
+        "hebrewAnchor": "אדם עשוי למשמש בכיסו",
+        "temporalScope": "habitual checking supports prior awareness in this reply",
+        "baseNodeIds": [
+          "C5"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#267565"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#267565"
@@ -302,11 +729,10 @@
           "role": "relation-statement",
           "title": "C6 · Owner already knew",
           "isReference": true,
-          "startLine": 22,
+          "startLine": 36,
           "startColumn": 6,
-          "endLine": 22,
-          "endColumn": 30,
-          "section": "s1"
+          "endLine": 36,
+          "endColumn": 30
         },
         {
           "type": "statement",
@@ -314,21 +740,71 @@
           "isTopLevel": true,
           "title": "C6 · Owner already knew",
           "text": "E · The reply treats the owner as aware and despairing before the finder picked up the coins. ",
-          "startLine": 25,
+          "tags": [
+            "explanation",
+            "coins"
+          ],
+          "startLine": 38,
           "startColumn": 1,
-          "endLine": 27,
+          "endLine": 40,
           "endColumn": 31,
           "data": {
+            "id": "C6",
+            "sourceRef": [
+              "Bava Metzia 21b.7",
+              "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+            ],
+            "speaker": "Rashi",
+            "provenanceClass": "E",
+            "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "temporalScope": "awareness and despair before the finder discovers the coins",
+            "baseNodeIds": [
+              "C6"
+            ],
+            "sourceIds": [
+              "ra-coins",
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
         }
       ],
       "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "coins"
+      ],
       "data": {
+        "id": "C6",
+        "sourceRef": [
+          "Bava Metzia 21b.7",
+          "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+        ],
+        "speaker": "Rashi",
+        "provenanceClass": "E",
+        "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "temporalScope": "awareness and despair before the finder discovers the coins",
+        "baseNodeIds": [
+          "C6"
+        ],
+        "sourceIds": [
+          "ra-coins",
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#53659c"
@@ -352,11 +828,10 @@
           "role": "relation-statement",
           "title": "C7 · Coins do not decide",
           "isReference": true,
-          "startLine": 27,
+          "startLine": 40,
           "startColumn": 6,
-          "endLine": 27,
-          "endColumn": 31,
-          "section": "s1"
+          "endLine": 40,
+          "endColumn": 31
         },
         {
           "type": "statement",
@@ -364,51 +839,71 @@
           "isTopLevel": true,
           "title": "C7 · Coins do not decide",
           "text": "R · With unawareness denied, the coins case does not establish Rava over Abaye. ",
-          "startLine": 30,
+          "tags": [
+            "reconstruction",
+            "coins"
+          ],
+          "startLine": 42,
           "startColumn": 1,
-          "endLine": 30,
-          "endColumn": 128,
+          "endLine": 42,
+          "endColumn": 648,
           "data": {
+            "id": "C7",
+            "sourceRef": [
+              "Bava Metzia 21b.7"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "הא לא ידע דנפל מיניה",
+            "temporalScope": "challenge loses its assumption of prior unawareness",
+            "baseNodeIds": [
+              "C7"
+            ],
+            "sourceIds": [
+              "gemara-21b.7"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#f3d5a5"
-          },
-          "section": "s1"
+          }
         }
       ],
       "isUsedAsRelationStatement": true,
+      "tags": [
+        "reconstruction",
+        "coins"
+      ],
       "data": {
+        "id": "C7",
+        "sourceRef": [
+          "Bava Metzia 21b.7"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "הא לא ידע דנפל מיניה",
+        "temporalScope": "challenge loses its assumption of prior unawareness",
+        "baseNodeIds": [
+          "C7"
+        ],
+        "sourceIds": [
+          "gemara-21b.7"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#f3d5a5"
     }
   },
   "relations": [
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "C1 · Scattered coins: permitted",
-      "fromType": "equivalence-class",
-      "to": "C4 · Coins challenge",
-      "toType": "argument"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "C2 · Objection: owner unaware",
-      "fromType": "equivalence-class",
-      "to": "C4 · Coins challenge",
-      "toType": "argument"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "C3 · Bridge: test Abaye",
-      "fromType": "equivalence-class",
-      "to": "C4 · Coins challenge",
-      "toType": "argument"
-    },
     {
       "type": "relation",
       "relationType": "support",
@@ -505,37 +1000,13 @@
         "id": "e1",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n0",
-        "to": "n6",
-        "fromEquivalenceClass": "C1 · Scattered coins: permitted"
-      },
-      {
-        "id": "e2",
-        "type": "map-edge",
-        "relationType": "support",
-        "from": "n1",
-        "to": "n6",
-        "fromEquivalenceClass": "C2 · Objection: owner unaware"
-      },
-      {
-        "id": "e3",
-        "type": "map-edge",
-        "relationType": "support",
-        "from": "n2",
-        "to": "n6",
-        "fromEquivalenceClass": "C3 · Bridge: test Abaye"
-      },
-      {
-        "id": "e4",
-        "type": "map-edge",
-        "relationType": "support",
         "from": "n3",
         "to": "n4",
         "fromEquivalenceClass": "C5 · Reply: purse checking",
         "toEquivalenceClass": "C6 · Owner already knew"
       },
       {
-        "id": "e5",
+        "id": "e2",
         "type": "map-edge",
         "relationType": "attack",
         "from": "n4",
@@ -544,32 +1015,68 @@
         "toEquivalenceClass": "C2 · Objection: owner unaware"
       },
       {
-        "id": "e6",
+        "id": "e3",
         "type": "map-edge",
         "relationType": "support",
         "from": "n4",
         "to": "n5",
         "fromEquivalenceClass": "C6 · Owner already knew",
         "toEquivalenceClass": "C7 · Coins do not decide"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n6",
+        "fromEquivalenceClass": "C1 · Scattered coins: permitted",
+        "toEquivalenceClass": "C1 · Scattered coins: permitted"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n6",
+        "fromEquivalenceClass": "C2 · Objection: owner unaware",
+        "toEquivalenceClass": "C2 · Objection: owner unaware"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n6",
+        "fromEquivalenceClass": "C3 · Bridge: test Abaye",
+        "toEquivalenceClass": "C3 · Bridge: test Abaye"
       }
     ]
   },
-  "sections": [
-    {
-      "type": "section",
-      "id": "s1",
-      "level": 1,
-      "title": "02 · A challenge to Abaye, then a factual reply",
-      "children": [],
-      "ranges": [],
-      "startLine": 1,
-      "startColumn": 1,
-      "isGroup": false,
-      "endLine": 30,
-      "endColumn": 128,
-      "fontColor": "#000000",
-      "color": "#DADADA"
+  "sections": [],
+  "tags": {
+    "source": {
+      "tag": "source",
+      "cssClass": "tag-source",
+      "occurrenceIndex": 0,
+      "color": "#e8f1ef"
+    },
+    "coins": {
+      "tag": "coins",
+      "cssClass": "tag-coins",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 2,
+      "color": "#fff1dc"
+    },
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 3,
+      "color": "#edf0f8"
     }
-  ],
-  "tags": {}
+  }
 }

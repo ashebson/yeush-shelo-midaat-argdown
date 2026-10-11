@@ -39,3 +39,9 @@ Select the second navigation row after the base walkthrough. **Opening** contras
 **Coins** zooms into Rashi’s awareness-before-discovery explanation. Return to the base map to show the unchanged C6 → C2 target. **River** makes Tosafot’s extra premise visible: if ordinary conscious despair already permits, what does the special verse add? Point to the separate KR7 note: Rava knew the baraita but did not draw this comparison.
 
 **River boundary** asks whether the object is truly lost to everyone. Rashba permits the exceptional case even over the owner’s protest; recoverable cases differ. Open a linked Hebrew excerpt beneath the commentary ledger. Use [commentary notes](commentary-notes.md) for exact dibburim and qualifications. The PDF keeps the base demo on pages 1–7, commentary maps on 8–11 and their sources on 12–15.
+
+## Inspect the native reconstruction
+
+After the coins exchange, open **Coins · joint premises**. C1, C2 and C3 enter one inference; C6 still attacks C2. Switch to **Code** to inspect the numbered statements and `uses: [1, 2, 3]`, then copy or download the actual source.
+
+For the final comparison, open **River · two inference steps** and then **River · Rashi / Tosafot**. Identify the intermediate conclusion and the timing premise. KR6 combines the commentators as our editorial synthesis; KR7 remains an isolated explanation. Pages 18–20 of the PDF show the numbered structures in readable prose. No step is a machine-verified proof.

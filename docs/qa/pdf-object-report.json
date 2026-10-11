@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "470a227c322d144bb5487b5de9504b94966c91c545920c0d757d8da79fe7fb76",
+  "pdf_sha256": "31566238d20f77e84c9f4ad2bc8b314fd9ca38d1454eb14fec97f996f41adaf4",
   "pymupdf": "1.26.6",
   "pages": [
     {
@@ -14,7 +14,7 @@
       "outside_text": [],
       "raster_images": 0,
       "links": 0,
-      "vector_paths": 67
+      "vector_paths": 70
     },
     {
       "page": 3,
@@ -70,7 +70,7 @@
       "outside_text": [],
       "raster_images": 0,
       "links": 0,
-      "vector_paths": 25
+      "vector_paths": 28
     },
     {
       "page": 11,
@@ -106,6 +106,41 @@
       "raster_images": 0,
       "links": 7,
       "vector_paths": 12
+    },
+    {
+      "page": 16,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 31
+    },
+    {
+      "page": 17,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 37
+    },
+    {
+      "page": 18,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 1,
+      "vector_paths": 9
+    },
+    {
+      "page": 19,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 4,
+      "vector_paths": 15
+    },
+    {
+      "page": 20,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 7,
+      "vector_paths": 18
     }
   ],
   "status": "passed"

@@ -18,11 +18,11 @@ edge[arrowsize="0.8", penwidth="1.7"]graph [bgcolor = "#ffffff" ]  n0 [label=<<T
 
 
   n0 -> n1 [type="support", color="#267565", tooltip="support"];
+  n4 -> n5 [type="support", color="#267565", tooltip="support"];
+  n5 -> n6 [type="support", color="#267565", tooltip="support"];
+  n7 -> n4 [type="support", color="#267565", tooltip="support"];
   n1 -> n7 [type="support", color="#267565", tooltip="support"];
   n2 -> n7 [type="support", color="#267565", tooltip="support"];
   n3 -> n7 [type="support", color="#267565", tooltip="support"];
-  n7 -> n4 [type="support", color="#267565", tooltip="support"];
-  n4 -> n5 [type="support", color="#267565", tooltip="support"];
-  n5 -> n6 [type="support", color="#267565", tooltip="support"];
 
 }

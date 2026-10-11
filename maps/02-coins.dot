@@ -16,11 +16,11 @@ edge[arrowsize="0.8", penwidth="1.7"]graph [bgcolor = "#ffffff" ]  n0 [label=<<T
   n6 [label=<<TABLE WIDTH="180" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="180" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000"><B>C4&#x20;&#xB7;&#x20;Coins&#x20;challenge</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="180" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000">R&#x20;&#xB7;&#x20;Permission&#x20;plus&#x20;assumed<BR/>&#x20;unawareness&#x20;challenges&#x20;Abaye&#x2C;<BR/>&#x20;using&#x20;the&#x20;stated&#x20;bridge.&#x20;</FONT></TD></TR></TABLE>>, tooltip="R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ", margin="0.16,0.12", shape="hexagon", style="filled", fillcolor="#f3d5a5", fontcolor="#000000",  type="argument-map-node"];
 
 
-  n0 -> n6 [type="support", color="#267565", tooltip="support"];
-  n1 -> n6 [type="support", color="#267565", tooltip="support"];
-  n2 -> n6 [type="support", color="#267565", tooltip="support"];
   n3 -> n4 [type="support", color="#267565", tooltip="support"];
   n4 -> n1 [type="attack", color="#bd5143", tooltip="attack"];
   n4 -> n5 [type="support", color="#267565", tooltip="support"];
+  n0 -> n6 [type="support", color="#267565", tooltip="support"];
+  n1 -> n6 [type="support", color="#267565", tooltip="support"];
+  n2 -> n6 [type="support", color="#267565", tooltip="support"];
 
 }

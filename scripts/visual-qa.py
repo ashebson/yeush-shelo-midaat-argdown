@@ -12,6 +12,7 @@ from pathlib import Path
 import threading
 
 from playwright.sync_api import sync_playwright, Error
+from qa_common import check_display, check_copy_fallback
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'output' / 'qa'
@@ -45,6 +46,7 @@ try:
         browser = p.chromium.launch(executable_path=args.browser, args=['--no-sandbox'])
         report['browser'] = browser.version
         context = browser.new_context(viewport={'width': 1440, 'height': 1000}, device_scale_factor=1)
+        context.grant_permissions(['clipboard-read','clipboard-write'])
         page = context.new_page()
         page.on('pageerror', lambda error: errors.append(str(error)))
         page.on('request', lambda request: external.append(request.url) if request.url.startswith(('http:', 'https:')) and not request.url.startswith('http://127.0.0.1:') else None)
@@ -74,6 +76,11 @@ try:
                 assert button.get_attribute('aria-pressed') == 'true'
                 assert section.locator('g.node').count() == count
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Page-level horizontal overflow'
+                check_display(page, section, (ROOT/'argdown'/f'{stem}.argdown').read_text(), clipboard=True)
+                if width in [1440,390]:
+                    section.get_by_role('tab',name='Code',exact=True).click()
+                    capture(section, f'code-{width}-{stem}.png')
+                    section.get_by_role('tab',name='Graph',exact=True).click()
                 frame = section.locator('.mapframe')
                 inner = section.locator('.mapinner')
                 page.locator('#fit').click()
@@ -131,6 +138,7 @@ try:
             if width == 390:
                 capture(excerpt, 'mobile-hebrew.png')
             excerpt.locator('summary').click()
+        check_copy_fallback(page,page.locator('section[id="01-opening"]'),(ROOT/'argdown/01-opening.argdown').read_text())
         for source in commentary['sources']:
             details = page.locator('#commentary-source-'+source['id'])
             details.locator('summary').click()
@@ -141,7 +149,7 @@ try:
                 capture(details, 'mobile-commentary-'+source['id']+'.png')
             details.locator('summary').click()
         report['checks'].append('All 11 commentary excerpts expand with visible author and isolated RTL Hebrew at 320px')
-        report['checks'].extend(['All eight tabs, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
+        report['checks'].extend(['All ten views and their Graph / Code keyboard tabs, exact authored source and actual clipboard copy; denied-clipboard manual fallback;, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
         # The same HTML must remain interactive with every network request blocked.
         offline = browser.new_context(offline=True, viewport={'width': 1440, 'height': 1000})
         offline_page = offline.new_page()
@@ -151,6 +159,7 @@ try:
         for stem, _ in specs:
             offline_page.locator(f'button[data-target="{stem}"]').click()
             assert offline_page.locator(f'section[id="{stem}"]').is_visible()
+            check_display(offline_page,offline_page.locator(f'section[id="{stem}"]'),(ROOT/'argdown'/f'{stem}.argdown').read_text())
             offline_page.locator('#in').click()
             offline_page.locator('#fit').click()
         offline_page.locator('details summary').first.click()

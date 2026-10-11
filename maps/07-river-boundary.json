@@ -33,12 +33,11 @@
           "type": "statement",
           "role": "argument-description",
           "text": "",
-          "startLine": 7,
-          "endLine": 7,
+          "startLine": 17,
+          "endLine": 17,
           "startColumn": 6,
           "endColumn": 49,
           "isTopLevel": false,
-          "section": "s1",
           "title": "KB3 · Supplied: keep the exceptional scope",
           "isReference": true
         },
@@ -46,12 +45,11 @@
           "type": "statement",
           "role": "argument-description",
           "text": "",
-          "startLine": 11,
-          "endLine": 11,
+          "startLine": 20,
+          "endLine": 20,
           "startColumn": 6,
           "endColumn": 49,
           "isTopLevel": false,
-          "section": "s1",
           "title": "KB3 · Supplied: keep the exceptional scope",
           "isReference": true
         },
@@ -59,24 +57,80 @@
           "type": "statement",
           "role": "argument-description",
           "text": "R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. ",
-          "startLine": 14,
-          "endLine": 15,
+          "startLine": 22,
+          "endLine": 23,
           "startColumn": 1,
           "endColumn": 52,
           "isTopLevel": true,
-          "section": "s1",
           "title": "KB3 · Supplied: keep the exceptional scope",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
           "data": {
+            "id": "KB3",
+            "sourceRef": [
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה",
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "O3",
+              "R1",
+              "R2"
+            ],
+            "sourceIds": [
+              "rb-exception",
+              "rb-boundary"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "argument sketch; no PCS",
             "color": "#f3d5a5"
           }
         }
       ],
       "pcs": [],
       "title": "KB3 · Supplied: keep the exceptional scope",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
       "data": {
+        "id": "KB3",
+        "sourceRef": [
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה",
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "O3",
+          "R1",
+          "R2"
+        ],
+        "sourceIds": [
+          "rb-exception",
+          "rb-boundary"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "argument sketch; no PCS",
         "color": "#f3d5a5"
       },
-      "section": "s1",
       "fontColor": "#000000",
       "color": "#f3d5a5"
     }
@@ -102,20 +156,68 @@
           "isTopLevel": true,
           "title": "KB1 · Rashba: scriptural ownerlessness",
           "text": "C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. ",
-          "startLine": 6,
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 16,
           "startColumn": 1,
-          "endLine": 7,
+          "endLine": 17,
           "endColumn": 49,
           "data": {
+            "id": "KB1",
+            "sourceRef": [
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "temporalScope": "complete loss to everyone even when the owner expressly refuses despair",
+            "baseNodeIds": [
+              "O3",
+              "R1"
+            ],
+            "sourceIds": [
+              "rb-exception"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
       "data": {
+        "id": "KB1",
+        "sourceRef": [
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "temporalScope": "complete loss to everyone even when the owner expressly refuses despair",
+        "baseNodeIds": [
+          "O3",
+          "R1"
+        ],
+        "sourceIds": [
+          "rb-exception"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#53659c"
@@ -140,20 +242,68 @@
           "isTopLevel": true,
           "title": "KB2 · Rashba: recoverability matters",
           "text": "C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. ",
-          "startLine": 10,
+          "tags": [
+            "explanation",
+            "river",
+            "rashba"
+          ],
+          "startLine": 19,
           "startColumn": 1,
-          "endLine": 11,
+          "endLine": 20,
           "endColumn": 49,
           "data": {
+            "id": "KB2",
+            "sourceRef": [
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+            ],
+            "speaker": "Rashba",
+            "provenanceClass": "C",
+            "hebrewAnchor": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אי",
+            "temporalScope": "recoverable loss where owner has not despaired",
+            "baseNodeIds": [
+              "O3",
+              "R1"
+            ],
+            "sourceIds": [
+              "rb-boundary"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashba"
+      ],
       "data": {
+        "id": "KB2",
+        "sourceRef": [
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א"
+        ],
+        "speaker": "Rashba",
+        "provenanceClass": "C",
+        "hebrewAnchor": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אי",
+        "temporalScope": "recoverable loss where owner has not despaired",
+        "baseNodeIds": [
+          "O3",
+          "R1"
+        ],
+        "sourceIds": [
+          "rb-boundary"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#53659c"
@@ -177,11 +327,10 @@
           "role": "relation-statement",
           "title": "KB4 · Supplied: do not replace the comparison",
           "isReference": true,
-          "startLine": 15,
+          "startLine": 23,
           "startColumn": 6,
-          "endLine": 15,
-          "endColumn": 52,
-          "section": "s1"
+          "endLine": 23,
+          "endColumn": 52
         },
         {
           "type": "statement",
@@ -189,21 +338,83 @@
           "isTopLevel": true,
           "title": "KB4 · Supplied: do not replace the comparison",
           "text": "R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. ",
-          "startLine": 18,
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "startLine": 25,
           "startColumn": 1,
-          "endLine": 18,
-          "endColumn": 227,
+          "endLine": 25,
+          "endColumn": 1232,
           "data": {
+            "id": "KB4",
+            "sourceRef": [
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה",
+              "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)",
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R1",
+              "R3",
+              "R5"
+            ],
+            "sourceIds": [
+              "rb-exception",
+              "rb-boundary",
+              "ra-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#f3d5a5"
-          },
-          "section": "s1"
+          }
         }
       ],
       "isUsedAsRelationStatement": true,
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
       "data": {
+        "id": "KB4",
+        "sourceRef": [
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה",
+          "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)",
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R1",
+          "R3",
+          "R5"
+        ],
+        "sourceIds": [
+          "rb-exception",
+          "rb-boundary",
+          "ra-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#f3d5a5"
@@ -301,22 +512,37 @@
       }
     ]
   },
-  "sections": [
-    {
-      "type": "section",
-      "id": "s1",
-      "level": 1,
-      "title": "Loss to everyone is a real limit.",
-      "children": [],
-      "ranges": [],
-      "startLine": 1,
-      "startColumn": 1,
-      "isGroup": false,
-      "endLine": 18,
-      "endColumn": 227,
-      "fontColor": "#000000",
-      "color": "#DADADA"
+  "sections": [],
+  "tags": {
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 0,
+      "color": "#edf0f8"
+    },
+    "river": {
+      "tag": "river",
+      "cssClass": "tag-river",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "rashba": {
+      "tag": "rashba",
+      "cssClass": "tag-rashba",
+      "occurrenceIndex": 2,
+      "color": "#e7298a"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 3,
+      "color": "#fff1dc"
+    },
+    "editorial": {
+      "tag": "editorial",
+      "cssClass": "tag-editorial",
+      "occurrenceIndex": 4,
+      "color": "#e6ab02"
     }
-  ],
-  "tags": {}
+  }
 }

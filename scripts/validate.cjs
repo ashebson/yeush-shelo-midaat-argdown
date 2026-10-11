@@ -19,6 +19,10 @@ async function validate() {
   const ledger = json('sources/model.json');
   const excerpts = json('sources/hebrew-excerpts.json');
   const commentary = json('sources/commentary.json');
+  const native = json('sources/reconstructions.json');
+  const allNodes = new Map([...ledger.nodes,...commentary.nodes,...native.nodes].map(n=>[n.id,n]));
+  const flatten = nodes => nodes.flatMap(n=>n.children ? flatten(n.children) : [n]);
+  const mapKey = title => id(title) + (/ - (\d+)$/.test(title) ? '.' + title.match(/ - (\d+)$/)[1] : '');
   const commentarySources = new Map(commentary.sources.map(source => [source.id, source]));
   const commentaryNodes = new Map(commentary.nodes.map(node => [node.id, node]));
   assert.equal(commentarySources.size, commentary.sources.length, 'Unique commentary sources');
@@ -89,35 +93,83 @@ async function validate() {
     ['01-opening', 'O', 7, 3], ['02-coins', 'C', 7, 6],
     ['03-river', 'R', 8, 7], ['overview', '', 22, 18]
   ];
-  for(const view of commentary.views) specs.push([view.id,null,view.nodes.length,view.edges.length,view]);
+  for(const view of commentary.views) specs.push([view.id,null,view.id==='06-river-commentary'?8:view.nodes.length,view.id==='06-river-commentary'?6:view.edges.length,view]);
+  for(const view of native.views) specs.push([view.id,null,view.id.startsWith('08')?8:10,view.id.startsWith('08')?7:9,view]);
   equalSet(fs.readdirSync(path.join(root, 'argdown')).filter(f => f.endsWith('.argdown')), specs.map(([stem]) => `${stem}.argdown`), 'Exact base and commentary map inventory');
   const report = [];
   for (const [stem, prefix, nodeCount, edgeCount, commentaryView] of specs) {
     const file = `${stem}.argdown`;
     const input = read(`argdown/${file}`);
-    const result = await argdown.runAsync({ ...config, input, throwExceptions: true,
-      process: ['parse-input', 'build-model', 'build-map', 'colorize', 'export-dot', 'export-svg', 'export-json'] });
+    const result = await argdown.runAsync({ ...structuredClone(config), input, throwExceptions: true,
+      process: ['parse-input', 'build-model', 'build-map', 'colorize', 'export-dot', 'export-svg', 'export-json', 'highlight-source'] });
     assert.equal(result.parserErrors?.length || 0, 0, `${file}: parser errors`);
     assert.equal(result.lexerErrors?.length || 0, 0, `${file}: lexer errors`);
-    const expectedNodes = commentaryView ? commentaryView.nodes.map(id=>commentaryNodes.get(id)) : ledger.nodes.filter(n => n.id.startsWith(prefix));
+    const expectedNodes = commentaryView ? commentaryView.nodes.map(id=>allNodes.get(id)) : ledger.nodes.filter(n => n.id.startsWith(prefix));
+    const extra = native.nodes.filter(n=>expectedNodes.some(x=>x.id===n.argument));
+    const exploded = ['06-river-commentary','09-river-inference'].includes(stem);
+    const visibleExtra = stem.startsWith('08') || stem.startsWith('09') ? extra : [];
+    const nodeKeys = expectedNodes.flatMap(n=>exploded && ['KR6','R5'].includes(n.id) ? [n.id+'.1',n.id+'.2'] : [n.id]).concat(visibleExtra.map(n=>n.id));
     const expectedIds = new Set(expectedNodes.map(n => n.id));
-    const expectedEdges = (commentaryView ? commentaryView.edges : ledger.edges).filter(([from, , to]) => expectedIds.has(from) && expectedIds.has(to))
-      .map(([from, relation, to]) => [from, relation === '+>' ? 'support' : 'attack', to]);
+    const originalEdges = (commentaryView?.edges || ledger.edges).filter(([from, , to]) => expectedIds.has(from) && expectedIds.has(to));
+    let expectedEdges = originalEdges;
+    if(stem==='08-coins-inference') expectedEdges=[...originalEdges,['C4','+>','C8']];
+    if(stem==='09-river-inference') expectedEdges=[['R1','+>','R2'],['R2','+>','R5.1'],['R3','+>','R5.1'],['R5.1','+>','R9'],['R9','+>','R5.2'],['R4','+>','R5.2'],['R5.2','+>','R6'],['R6','+>','R7'],['R7','+>','R8']];
+    if(stem==='06-river-commentary') expectedEdges=[['KR3','+>','KR6.1'],['KR6.1','+>','KR4'],['KR4','+>','KR6.2'],['KR1','+>','KR6.2'],['KR2','+>','KR6.2'],['KR6.2','+>','KR5']];
+    const relationNames = edges => edges.map(([a,r,b])=>[a,r==='+>'?'support':'attack',b]);
     const model = JSON.parse(result.json);
-    assert.equal(model.map.nodes.length, nodeCount, `${stem}: node count`);
+    const mapNodes = flatten(model.map.nodes);
+    assert.equal(mapNodes.length, nodeCount, `${stem}: leaf node count`);
     assert.equal(model.map.edges.length, edgeCount, `${stem}: edge count`);
-    equalSet(model.map.nodes.map(n => id(n.title)), [...expectedIds], `${stem}: exact node IDs`);
-    equalSet(Object.keys(model.statements).concat(Object.keys(model.arguments)), expectedNodes.map(n => `${n.id} · ${n.label}`), `${stem}: no implicit or extra model nodes`);
-    for (const node of expectedNodes) {
-      const actual = model.map.nodes.find(n => id(n.title) === node.id);
-      assert.equal(actual.title, `${node.id} · ${node.label}`);
-      assert.equal(actual.labelText.trim(), `${node.class} · ${node.text}`, `${stem}: text/provenance ${node.id}`);
-      assert.equal(actual.type, `${node.kind}-map-node`, `${stem}: shape ${node.id}`);
-      if(!commentaryView) assert(input.includes(`/* ${node.class} | Bava Metzia ${node.ref} | https://www.sefaria.org/Bava_Metzia.${node.ref} | ${node.hebrew} */`), `${stem}: provenance comment ${node.id}`);
+    equalSet(mapNodes.map(n => mapKey(n.title)), nodeKeys, `${stem}: exact selected node IDs`);
+    const modelTitles=[...expectedNodes,...extra].flatMap(n=>exploded && ['KR6','R5'].includes(n.id)?[`${n.id} · ${n.label} - 1`,`${n.id} · ${n.label} - 2`]:[`${n.id} · ${n.label}`]);
+    equalSet(Object.keys(model.statements).concat(Object.keys(model.arguments)),modelTitles,`${stem}: exact canonical and generated model nodes`);
+    for (const node of [...expectedNodes,...extra]) {
+      const values = node.kind==='argument' ? Object.values(model.arguments).filter(a=>id(a.title)===node.id) : [model.statements[`${node.id} · ${node.label}`]];
+      for(const actual of values) {
+        assert(actual, `${stem}: model member ${node.id}`);
+        const member = actual.members.find(m=>m.text);
+        assert.equal(member.text.trim(), `${node.class} · ${node.text}`, `${stem}: exact claim/provenance ${node.id}`);
+        const data=actual.data;
+        for(const field of ['id','sourceRef','sourceUrl','speaker','provenanceClass','hebrewAnchor','temporalScope','baseNodeIds','sourceIds','reconstructionStatus']) assert(data[field]!==undefined,`${stem}: metadata ${node.id}.${field}`);
+        assert.equal(data.id,node.id);assert.equal(data.provenanceClass,node.class);
+        assert(data.sourceRef.length && data.sourceUrl.length && data.hebrewAnchor.length);
+        assert(data.sourceUrl.every(url=>new URL(url).protocol==='https:'));
+        assert(data.baseNodeIds.every(id=>byId.has(id)));
+        assert(data.sourceIds.every(id=>commentarySources.has(id)||/^gemara-(21b|22b)\.\d+(?:-\d+)?$/.test(id)));
+        assert(actual.tags.includes(node.class==='S'?'source':node.class==='R'?'reconstruction':'explanation'));
+      }
     }
-    const mapIds = new Map(model.map.nodes.map(n => [n.id, id(n.title)]));
-    equalSet(model.map.edges.map(e => [mapIds.get(e.from), e.relationType, mapIds.get(e.to)]), expectedEdges, `${stem}: exact rendered relations; no propagation`);
-    equalSet(model.relations.map(e => [id(e.from), e.relationType, id(e.to)]), expectedEdges, `${stem}: exact model relations; no undercuts`);
+    const mapIds = new Map(mapNodes.map(n => [n.id, mapKey(n.title)]));
+    equalSet(model.map.edges.map(e => [mapIds.get(e.from), e.relationType, mapIds.get(e.to)]), relationNames(expectedEdges), `${stem}: exact rendered edges including native PCS; no unintended propagation`);
+    const replaced = native.arguments.flatMap(p=>p.replacesEdges).map(e=>e.join(' '));
+    const explicit = originalEdges.filter(e=>!replaced.includes(e.join(' '))).map(([a,r,b])=>[a==='C4'?'C8':a,r,b]);
+    equalSet(model.relations.map(e => [id(e.from), e.relationType, id(e.to)]), relationNames(explicit), `${stem}: explicit model relations; C4 conclusion transfer is intentional`);
+    assert(!model.map.edges.some(e=>e.from===e.to),`${stem}: no self-relations`);
+    if(stem==='overview') {
+      assert.equal(model.map.nodes.filter(n=>n.type==='group-map-node').length,3,'Three native episode groups');
+      for(const scope of ['O1','O2','O3']) assert(!expectedEdges.some(([a,,b])=>a===scope||b===scope),'Scope notes remain visible and isolated');
+    }
+    // Inspect the canonical PCS before native explodeArguments splits inference views.
+    const end=input.indexOf('\n===',4), settings=JSON.parse(input.slice(4,end));
+    settings.model.explodeArguments=false;
+    const canonical=await argdown.runAsync({...structuredClone(config),input:'===\n'+JSON.stringify(settings)+'\n==='+input.slice(end+4),throwExceptions:true,process:['parse-input','build-model']});
+    assert.equal(canonical.parserErrors?.length||0,0);
+    for(const reconstruction of native.arguments.filter(p=>expectedIds.has(p.argument))) {
+      const argument=canonical.arguments[`${reconstruction.argument} · ${allNodes.get(reconstruction.argument).label}`];
+      equalSet(argument.pcs.map((step,index)=>[index+1,id(step.title)]),reconstruction.steps.map((step,index)=>[index+1,step.statement]),`${stem}: exact ordered PCS`);
+      assert.equal(argument.pcs.at(-1).role,'main-conclusion');
+      reconstruction.steps.forEach((step,index)=>{
+        const actual=argument.pcs[index];
+        if(step.uses) {
+          assert.deepEqual(actual.inference.data.uses,step.uses,`${stem}: joint premises and intermediate dependency`);
+          assert.deepEqual(actual.inference.inferenceRules,[step.rule]);
+          assert.deepEqual(actual.inference.data.sourceIds,step.sourceIds);
+          assert(step.uses.every(n=>n>0&&n<=index),'Only preceding numbered statements are used');
+          assert.equal(actual.role,index===argument.pcs.length-1?'main-conclusion':'intermediary-conclusion');
+        } else assert.equal(actual.role,'premise');
+      });
+    }
+    assert.equal(read(`maps/${stem}.source.html`),result.highlightedSource,'Fresh official source highlighting');
     for (const ext of ['svg', 'dot', 'json']) {
       assert.equal(read(`maps/${stem}.${ext}`), result[ext], `Stale ${stem}.${ext}; run npm run build`);
     }
@@ -165,6 +217,11 @@ async function validate() {
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'yeush-validate-'));
   try {
     for (const directory of ['sources', 'maps']) fs.cpSync(path.join(root, directory), path.join(temporary, directory), { recursive: true });
+    fs.mkdirSync(path.join(temporary,'scripts'));
+    fs.mkdirSync(path.join(temporary,'argdown'));
+    fs.copyFileSync(path.join(__dirname,'author-native.py'),path.join(temporary,'scripts','author-native.py'));
+    execFileSync('python3',[path.join(temporary,'scripts','author-native.py')],{stdio:'pipe'});
+    for(const [stem] of specs) assert.equal(read(`argdown/${stem}.argdown`),fs.readFileSync(path.join(temporary,'argdown',`${stem}.argdown`),'utf8'),`Stale authored source ${stem}; regenerate from scholarly ledgers`);
     execFileSync(process.execPath, [path.join(__dirname, 'site.cjs')], { cwd: temporary, stdio: 'pipe' });
     assert.equal(html, fs.readFileSync(path.join(temporary, 'index.html'), 'utf8'), 'Stale index.html; run npm run build');
   } finally {

@@ -38,8 +38,8 @@
     "file": "06-river-commentary.argdown",
     "parserErrors": 0,
     "lexerErrors": 0,
-    "nodes": 7,
-    "edges": 5
+    "nodes": 8,
+    "edges": 6
   },
   {
     "file": "07-river-boundary.argdown",
@@ -47,6 +47,20 @@
     "lexerErrors": 0,
     "nodes": 4,
     "edges": 3
+  },
+  {
+    "file": "08-coins-inference.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 8,
+    "edges": 7
+  },
+  {
+    "file": "09-river-inference.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 10,
+    "edges": 9
   },
   {
     "file": "overview.argdown",

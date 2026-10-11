@@ -1,30 +1,49 @@
-# Why does the comparison work?
+===
+{
+  "model": {
+    "mode": "loose",
+    "explodeArguments": true
+  },
+  "selection": {
+    "excludeDisconnected": false,
+    "statementSelectionMode": "all",
+    "selectedTags": [
+      "river"
+    ],
+    "selectElementsWithoutTag": false
+  },
+  "map": {
+    "argumentLabelMode": "title"
+  }
+}
+===
 
-/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */
 
-/* C | Rashi | Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא | Base nodes: R2, R3 */
-[KR1 · Rashi: the same verse]: C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. {"color": "#53659c"}
-  +> <KR6 · Supplied: make the extra premise visible>
+[KR1 · Rashi: the same verse]: C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. #explanation #river #rashi {"id": "KR1", "sourceRef": ["Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"], "speaker": "Rashi", "provenanceClass": "C", "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["R2", "R3"], "sourceIds": ["ra-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
 
-/* C | Rashi | Rashi on Bava Metzia 22b, s.v. אף איסורא | Base nodes: R4, R6 */
-[KR2 · Rashi: the timing limit]: C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. {"color": "#53659c"}
-  +> <KR6 · Supplied: make the extra premise visible>
+[KR2 · Rashi: the timing limit]: C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. #explanation #river #rashi {"id": "KR2", "sourceRef": ["Rashi on Bava Metzia 22b, s.v. אף איסורא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"], "speaker": "Rashi", "provenanceClass": "C", "hebrewAnchor": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסיר", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["R4", "R6"], "sourceIds": ["ra-timing"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
 
-/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R1, R2 */
-[KR3 · Tosafot: why a special verse?]: C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. {"color": "#53659c"}
-  +> [KR4 · Tosafot: what the exception adds]
+[KR3 · Tosafot: why a special verse?]: C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. #explanation #river #tosafot {"id": "KR3", "sourceRef": ["Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"], "speaker": "Tosafot", "provenanceClass": "C", "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש", "temporalScope": "established despair before pickup already permits ordinary loss", "baseNodeIds": ["R1", "R2"], "sourceIds": ["to-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
 
-/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R1, R2 */
-[KR4 · Tosafot: what the exception adds]: C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. {"color": "#53659c"}
-  +> [KR5 · Tosafot: carry across the comparison]
+[KR4 · Tosafot: what the exception adds]: C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. #explanation #river #tosafot {"id": "KR4", "sourceRef": ["Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"], "speaker": "Tosafot", "provenanceClass": "C", "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש", "temporalScope": "exception includes absent awareness even when later despair would not occur", "baseNodeIds": ["R1", "R2"], "sourceIds": ["to-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
 
-/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R3, R4, R6 */
-[KR5 · Tosafot: carry across the comparison]: C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. {"color": "#53659c"}
-  +> <KR6 · Supplied: make the extra premise visible>
+[KR5 · Tosafot: carry across the comparison]: C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. #explanation #river #tosafot {"id": "KR5", "sourceRef": ["Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"], "speaker": "Tosafot", "provenanceClass": "C", "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש", "temporalScope": "ordinary loss without established prior despair; prior despair remains a route to permission", "baseNodeIds": ["R3", "R4", "R6"], "sourceIds": ["to-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
 
-/* R | Editorial | Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא; Rashi on Bava Metzia 22b, s.v. אף איסורא; Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R3, R4, R5, R6 */
-<KR6 · Supplied: make the extra premise visible>: R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. {"color": "#f3d5a5"}
+<KR6 · Supplied: make the extra premise visible>: R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. #reconstruction #river #editorial {"id": "KR6", "sourceRef": ["Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא", "Rashi on Bava Metzia 22b, s.v. אף איסורא", "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י", "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י", "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["R3", "R4", "R5", "R6"], "sourceIds": ["ra-compare", "ra-timing", "to-compare"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "numbered PCS; editorial reconstruction", "color": "#f3d5a5"}
 
-/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא | Base nodes: R7 */
-[KR7 · Tosafot: Rava knew the baraita]: C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. {"color": "#53659c"}
+(1) [KR3 · Tosafot: why a special verse?]
+--
+Tosafot’s redundancy argument
+{"uses": [1], "provenanceClass": "R", "sourceIds": ["to-compare"], "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."}
+--
+(2) [KR4 · Tosafot: what the exception adds]
+(3) [KR1 · Rashi: the same verse]
+(4) [KR2 · Rashi: the timing limit]
+--
+Editorial synthesis of comparison and temporal scope
+{"uses": [2, 3, 4], "provenanceClass": "R", "sourceIds": ["to-compare", "ra-compare", "ra-timing"], "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."}
+--
+(5) [KR5 · Tosafot: carry across the comparison]
 
+[KR7 · Tosafot: Rava knew the baraita]: C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. #explanation #river #tosafot {"id": "KR7", "sourceRef": ["Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"], "speaker": "Tosafot", "provenanceClass": "C", "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לק", "temporalScope": "Rava knew the baraita before the comparison was drawn", "baseNodeIds": ["R7"], "sourceIds": ["to-refutation"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}

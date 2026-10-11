@@ -1,5 +1,5 @@
 {
-  "page_count": 15,
+  "page_count": 20,
   "pages": [
     {
       "number": 1,
@@ -17,12 +17,12 @@
       "number": 2,
       "name": "overview",
       "size_mm": [
-        594,
-        420
+        841,
+        594
       ],
       "overflow": [],
       "scrollOverflow": false,
-      "minMapFontPt": 11.030048076923077,
+      "minMapFontPt": 11.196066506692498,
       "rtlBlocks": 0
     },
     {
@@ -94,7 +94,7 @@
       ],
       "overflow": [],
       "scrollOverflow": false,
-      "minMapFontPt": 11.374076224662163,
+      "minMapFontPt": 10.860408266129033,
       "rtlBlocks": 0
     },
     {
@@ -113,12 +113,12 @@
       "number": 10,
       "name": "06-river-commentary",
       "size_mm": [
-        297,
+        420,
         420
       ],
       "overflow": [],
       "scrollOverflow": false,
-      "minMapFontPt": 10.136159604870777,
+      "minMapFontPt": 14.383089398734178,
       "rtlBlocks": 0
     },
     {
@@ -180,34 +180,97 @@
       "scrollOverflow": false,
       "minMapFontPt": null,
       "rtlBlocks": 3
+    },
+    {
+      "number": 16,
+      "name": "08-coins-inference",
+      "size_mm": [
+        420,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 11.191312799043063,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 17,
+      "name": "09-river-inference",
+      "size_mm": [
+        297,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 10.67917351973684,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 18,
+      "name": "pcs-C4",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 19,
+      "name": "pcs-R5",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 20,
+      "name": "pcs-KR6",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 0
     }
   ],
   "source_sha256": {
-    "index.html": "94857012d95e730c66e632d49d6c8b6c0cf8791b16bb5fab7a010ee5b94a7a31",
+    "index.html": "2c547559dc0e8864010cf8fac715eb148010ad95b8c3e113fadaa70fd642cb46",
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
-    "scripts/export-pdf.py": "a771e72de0f77d4f344dad29785f1c8d1118bb03f1a1f136bd34a80917c3badd",
-    "sources/commentary.json": "716745c826049ac98fe21f9d5713967b20835ce2d87fa3e43285ba68cde2fac1",
-    "maps/overview.svg": "40f93c9c4e63626a061c508e9ee9ca5eeee57ec996b6f98d8b8506e03e3e2833",
+    "scripts/export-pdf.py": "b9fbea9a7d874c4455a3ce9210cba0f088755ae48ef4d56d7cd097ead93153a6",
+    "sources/commentary.json": "d0bdf1732332ef78bcd0803e354bf1d218c475ae8ee70b34fca94df34cb26909",
+    "sources/reconstructions.json": "39c6205a73644798318dcedcb845156f21ee8bd42645b1771e7a79eb8f32650a",
+    "maps/overview.svg": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc",
     "maps/01-opening.svg": "ac2f4e6d78d7796291d7d4f3037481306885b5e5c0b8089532d46df9ecbedae0",
-    "maps/02-coins.svg": "1eae8b1f37861c139f38807e26d1fb082d6d49dfffebe2158bd6a446201212e5",
-    "maps/03-river.svg": "7533a3f17ca824ce1cee56f4931473207f7c4d609b32886eff1d997a4aab9139",
-    "maps/04-opening-commentary.svg": "76577575e7588d017c3a614871b04ce4a13aba0ef778f6490adf7a4c4b85d20a",
+    "maps/02-coins.svg": "eecc813e4638975eaf182e90e6968eca96f7356e7ca37c78efab453cfe90a199",
+    "maps/03-river.svg": "78766c1a82860bfad7b355d017a12f23e78072ce99d6274c4a7b29a2fb9d75c6",
+    "maps/04-opening-commentary.svg": "a28317135074e02db5c41acef329d1282ff08b6788fdddfd5f5c57d78159f825",
     "maps/05-coins-commentary.svg": "bc77da764bd33326e50b86df3e8921dc79913fb409989be441bc99f23ed37498",
-    "maps/06-river-commentary.svg": "b8ca4094c90d23038d8147f07f23be0ed9cab31eaf29c9405411bc918b934b52",
-    "maps/07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d"
+    "maps/06-river-commentary.svg": "4e2edd1c87c9634df44e27d495439038355ef4014825312d9b24d7dcd6e41bfa",
+    "maps/07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d",
+    "maps/08-coins-inference.svg": "934df9f03faee718908095ecf9f7db11ec0ba49eb84f6ef04dd2ebfdc6daa7fd",
+    "maps/09-river-inference.svg": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031"
   },
   "network_requests": [],
-  "pdf_sha256": "470a227c322d144bb5487b5de9504b94966c91c545920c0d757d8da79fe7fb76",
-  "bytes": 626579,
+  "pdf_sha256": "31566238d20f77e84c9f4ad2bc8b314fd9ca38d1454eb14fec97f996f41adaf4",
+  "bytes": 833001,
   "chromium": "154.0.8037.57",
   "python_dependencies": {
     "playwright": "1.62.0",
     "pypdf": "6.10.0"
   },
   "checks": [
-    "15 single-page exports merged with bookmarks",
-    "All 22 base and 21 commentary node labels and complete claims extract from PDF",
+    "20 single-page exports merged with bookmarks",
+    "All base, commentary and numbered-addition labels and complete claims extract from PDF",
     "No HTML page overflow; map text at least 10 pt",
     "No network requests or page errors"
   ],

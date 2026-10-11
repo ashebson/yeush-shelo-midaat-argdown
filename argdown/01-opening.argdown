@@ -1,28 +1,31 @@
-# 01 · The question and its boundaries
+===
+{
+  "model": {
+    "mode": "loose"
+  },
+  "selection": {
+    "excludeDisconnected": false,
+    "statementSelectionMode": "all",
+    "excludeStatements": []
+  }
+}
+===
 
-/* Selected episodes only. S = source paraphrase; E = attributed explanation; R = reconstruction. All relations are analytical, not a machine proof. See sources/model.json and docs/source-notes.md. */
+/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */
 
-/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | כי פליגי בדבר שאין בו סימן */
-[O1 · Scope: no identifying mark]: S · The dispute concerns ordinary lost objects without an identifying mark. {"color": "#267565"}
+[O1 · Scope: no identifying mark]: S · The dispute concerns ordinary lost objects without an identifying mark. #source #opening {"id": "O1", "sourceRef": ["Bava Metzia 21b.4"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"], "speaker": "Gemara / cited Mishnah or baraita", "provenanceClass": "S", "hebrewAnchor": "כי פליגי בדבר שאין בו סימן", "temporalScope": "ordinary unmarked loss; owner unaware at pickup", "baseNodeIds": ["O1"], "sourceIds": ["gemara-21b.4"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
 
-/* S | Bava Metzia 21b.2 | https://www.sefaria.org/Bava_Metzia.21b.2 | בדבר שיש בו סימן */
-[O2 · Marked objects: agreement]: S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. {"color": "#267565"}
+[O2 · Marked objects: agreement]: S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. #source #opening {"id": "O2", "sourceRef": ["Bava Metzia 21b.2"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.2?vhe=Wikisource_Talmud_Bavli"], "speaker": "Gemara / cited Mishnah or baraita", "provenanceClass": "S", "hebrewAnchor": "בדבר שיש בו סימן", "temporalScope": "marked loss; later despair does not cure prohibited pickup", "baseNodeIds": ["O2"], "sourceIds": ["gemara-21b.2"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
 
-/* S | Bava Metzia 21b.3 | https://www.sefaria.org/Bava_Metzia.21b.3 | רחמנא שרייה */
-[O3 · Sea / river exception]: S · The Torah permits the exceptional sea or river loss, even with a mark. {"color": "#267565"}
+[O3 · Sea / river exception]: S · The Torah permits the exceptional sea or river loss, even with a mark. #source #opening {"id": "O3", "sourceRef": ["Bava Metzia 21b.3"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.3?vhe=Wikisource_Talmud_Bavli"], "speaker": "Gemara / cited Mishnah or baraita", "provenanceClass": "S", "hebrewAnchor": "רחמנא שרייה", "temporalScope": "inaccessible loss; permission does not depend on prior awareness", "baseNodeIds": ["O3"], "sourceIds": ["gemara-21b.3"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
 
-/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | דהא לא ידע דנפל מיניה */
-[O4 · Abaye: no awareness]: S · The owner has not yet learned of the loss. {"color": "#267565"}
+[O4 · Abaye: no awareness]: S · The owner has not yet learned of the loss. #source #opening {"id": "O4", "sourceRef": ["Bava Metzia 21b.4"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"], "speaker": "Abaye", "provenanceClass": "S", "hebrewAnchor": "דהא לא ידע דנפל מיניה", "temporalScope": "owner unaware of loss now", "baseNodeIds": ["O4"], "sourceIds": ["gemara-21b.4"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
   +> [O5 · Abaye: ineffective]
 
-/* S | Bava Metzia 21b.1 | https://www.sefaria.org/Bava_Metzia.21b.1 | אביי אמר לא הוי יאוש */
-[O5 · Abaye: ineffective]: S · Unconscious yeush is not effective in the disputed case. {"color": "#267565"}
+[O5 · Abaye: ineffective]: S · Unconscious yeush is not effective in the disputed case. #source #opening {"id": "O5", "sourceRef": ["Bava Metzia 21b.1"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.1?vhe=Wikisource_Talmud_Bavli"], "speaker": "Abaye", "provenanceClass": "S", "hebrewAnchor": "אביי אמר לא הוי יאוש", "temporalScope": "ordinary unmarked loss before awareness", "baseNodeIds": ["O5"], "sourceIds": ["gemara-21b.1"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
   -> [O7 · Rava: effective now]
 
-/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | דלכי ידע דנפל מיניה מיאש */
-[O6 · Rava: future despair]: S · Once aware, the owner will despair because there is no identifying mark. {"color": "#267565"}
+[O6 · Rava: future despair]: S · Once aware, the owner will despair because there is no identifying mark. #source #opening {"id": "O6", "sourceRef": ["Bava Metzia 21b.4"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"], "speaker": "Rava", "provenanceClass": "S", "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש", "temporalScope": "anticipated response after future awareness", "baseNodeIds": ["O6"], "sourceIds": ["gemara-21b.4"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
   +> [O7 · Rava: effective now]
 
-/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | מהשתא הוא דמיאש */
-[O7 · Rava: effective now]: S · In the disputed case, that anticipated despair counts now. {"color": "#267565"}
-
+[O7 · Rava: effective now]: S · In the disputed case, that anticipated despair counts now. #source #opening {"id": "O7", "sourceRef": ["Bava Metzia 21b.4"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"], "speaker": "Rava", "provenanceClass": "S", "hebrewAnchor": "מהשתא הוא דמיאש", "temporalScope": "anticipated later despair counted at the present time by Rava", "baseNodeIds": ["O7"], "sourceIds": ["gemara-21b.4"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}

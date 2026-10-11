@@ -1,0 +1,49 @@
+===
+{
+  "model": {
+    "mode": "loose",
+    "explodeArguments": true
+  },
+  "selection": {
+    "excludeDisconnected": false,
+    "statementSelectionMode": "all",
+    "selectedTags": [
+      "coins"
+    ],
+    "selectElementsWithoutTag": false
+  },
+  "map": {
+    "argumentLabelMode": "title"
+  }
+}
+===
+
+/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */
+
+[C1 · Scattered coins: permitted]: S · The cited Mishnah lets the finder keep scattered coins. #source #coins {"id": "C1", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Gemara / cited Mishnah or baraita", "provenanceClass": "S", "hebrewAnchor": "מעות מפוזרות הרי אלו שלו", "temporalScope": "permission in cited Mishnah; timing tested by C2", "baseNodeIds": ["C1"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
+
+[C2 · Objection: owner unaware]: S · The objection assumes that the owner has not learned of this loss. #source #coins {"id": "C2", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Gemara / cited Mishnah or baraita", "provenanceClass": "S", "hebrewAnchor": "הא לא ידע דנפל מיניה", "temporalScope": "assumed unawareness before discovery", "baseNodeIds": ["C2"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
+
+[C3 · Bridge: test Abaye]: R · If permission holds while awareness is absent, this case conflicts with Abaye. #reconstruction #coins {"id": "C3", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "הא לא ידע דנפל מיניה", "temporalScope": "conditional on permission before awareness", "baseNodeIds": ["C3"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#f3d5a5"}
+
+<C4 · Coins challenge>: R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. #reconstruction #coins {"id": "C4", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "ת\"ש", "temporalScope": "conditional challenge under assumed unawareness", "baseNodeIds": ["C4"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "numbered PCS; editorial reconstruction", "color": "#f3d5a5"}
+
+(1) [C1 · Scattered coins: permitted]
+(2) [C2 · Objection: owner unaware]
+(3) [C3 · Bridge: test Abaye]
+--
+Conditional application of the supplied bridge
+{"uses": [1, 2, 3], "provenanceClass": "R", "sourceIds": ["gemara-21b.7"], "interpretation": "The three premises work jointly. C2 remains a defeasible factual assumption attacked by C6."}
+--
+(4) [C8 · Conditional challenge to Abaye]
+
+[C5 · Reply: purse checking]: S · People habitually check their purses, says Rabbi Yitzhak. #source #coins {"id": "C5", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Rabbi Yitzhak", "provenanceClass": "S", "hebrewAnchor": "אדם עשוי למשמש בכיסו", "temporalScope": "habitual checking supports prior awareness in this reply", "baseNodeIds": ["C5"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#267565"}
+  +> [C6 · Owner already knew]
+
+[C6 · Owner already knew]: E · The reply treats the owner as aware and despairing before the finder picked up the coins. #explanation #coins {"id": "C6", "sourceRef": ["Bava Metzia 21b.7", "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli", "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"], "speaker": "Rashi", "provenanceClass": "E", "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:", "temporalScope": "awareness and despair before the finder discovers the coins", "baseNodeIds": ["C6"], "sourceIds": ["ra-coins", "gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
+  -> [C2 · Objection: owner unaware]
+  +> [C7 · Coins do not decide]
+
+[C7 · Coins do not decide]: R · With unawareness denied, the coins case does not establish Rava over Abaye. #reconstruction #coins {"id": "C7", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "הא לא ידע דנפל מיניה", "temporalScope": "challenge loses its assumption of prior unawareness", "baseNodeIds": ["C7"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#f3d5a5"}
+
+[C8 · Conditional challenge to Abaye]: R · If the owner were still unaware, the permitted coins case would conflict with Abaye. #reconstruction #coins {"id": "C8", "sourceRef": ["Bava Metzia 21b.7"], "sourceUrl": ["https://www.sefaria.org/Bava_Metzia.21b.7?vhe=Wikisource_Talmud_Bavli"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "הא לא ידע דנפל מיניה", "temporalScope": "Conditional on unawareness before the find; not an established refutation", "baseNodeIds": ["C1", "C2", "C3", "C4"], "sourceIds": ["gemara-21b.7"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#f3d5a5"}

@@ -1,15 +1,22 @@
-# Awareness before discovery.
+===
+{
+  "model": {
+    "mode": "loose"
+  },
+  "selection": {
+    "excludeDisconnected": false,
+    "statementSelectionMode": "all",
+    "excludeStatements": []
+  }
+}
+===
 
-/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */
 
-/* C | Rashi | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C5, C6 */
-[KC1 · Rashi: awareness precedes finding]: C · The owner learned that the coins fell and despaired before this finder discovered them. {"color": "#53659c"}
+[KC1 · Rashi: awareness precedes finding]: C · The owner learned that the coins fell and despaired before this finder discovered them. #explanation #coins #rashi {"id": "KC1", "sourceRef": ["Rashi on Bava Metzia 21b, s.v. עשוי למשמש"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"], "speaker": "Rashi", "provenanceClass": "C", "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["C5", "C6"], "sourceIds": ["ra-coins"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#53659c"}
   +> <KC2 · Supplied: locate the changed premise>
 
-/* R | Editorial | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C2, C5, C6 */
-<KC2 · Supplied: locate the changed premise>: R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. {"color": "#f3d5a5"}
+<KC2 · Supplied: locate the changed premise>: R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. #reconstruction #coins #editorial {"id": "KC2", "sourceRef": ["Rashi on Bava Metzia 21b, s.v. עשוי למשמש"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["C2", "C5", "C6"], "sourceIds": ["ra-coins"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "argument sketch; no PCS", "color": "#f3d5a5"}
   +> [KC3 · Supplied: retain the original target]
 
-/* R | Editorial | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C1, C2, C6, C7 */
-[KC3 · Supplied: retain the original target]: R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. {"color": "#f3d5a5"}
-
+[KC3 · Supplied: retain the original target]: R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. #reconstruction #coins #editorial {"id": "KC3", "sourceRef": ["Rashi on Bava Metzia 21b, s.v. עשוי למשמש"], "sourceUrl": ["https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"], "speaker": "Editorial", "provenanceClass": "R", "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:", "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim", "baseNodeIds": ["C1", "C2", "C6", "C7"], "sourceIds": ["ra-coins"], "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction", "reconstructionStatus": "statement", "color": "#f3d5a5"}

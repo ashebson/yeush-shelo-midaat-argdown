@@ -1,95 +1,551 @@
 {
   "arguments": {
-    "KR6 · Supplied: make the extra premise visible": {
+    "KR6 · Supplied: make the extra premise visible - 1": {
       "type": "argument",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR1 · Rashi: the same verse",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR2 · Rashi: the timing limit",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR5 · Tosafot: carry across the comparison",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
           "role": "argument-description",
-          "text": "",
-          "startLine": 7,
-          "endLine": 7,
-          "startColumn": 6,
-          "endColumn": 53,
-          "isTopLevel": false,
-          "section": "s1",
+          "text": "R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. ",
+          "startLine": 33,
+          "endLine": 33,
+          "startColumn": 1,
+          "endColumn": 1161,
+          "isTopLevel": true,
           "title": "KR6 · Supplied: make the extra premise visible",
-          "isReference": true
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
+          "data": {
+            "id": "KR6",
+            "sourceRef": [
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא",
+              "Rashi on Bava Metzia 22b, s.v. אף איסורא",
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R3",
+              "R4",
+              "R5",
+              "R6"
+            ],
+            "sourceIds": [
+              "ra-compare",
+              "ra-timing",
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "KR3 · Tosafot: why a special verse?",
+              "isReference": true,
+              "startLine": 35,
+              "startColumn": 5,
+              "endLine": 35,
+              "endColumn": 42,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR4 · Tosafot: what the exception adds",
+              "isReference": true,
+              "startLine": 40,
+              "startColumn": 5,
+              "endLine": 40,
+              "endColumn": 45,
+              "role": "intermediary-conclusion",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Tosafot’s redundancy argument"
+                ],
+                "startLine": 36,
+                "startColumn": 1,
+                "endLine": 39,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare"
+                  ],
+                  "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+                },
+                "conclusionIndex": 1,
+                "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+              }
+            },
+            {
+              "type": "statement",
+              "title": "KR1 · Rashi: the same verse",
+              "isReference": true,
+              "startLine": 41,
+              "startColumn": 5,
+              "endLine": 41,
+              "endColumn": 34,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR2 · Rashi: the timing limit",
+              "isReference": true,
+              "startLine": 42,
+              "startColumn": 5,
+              "endLine": 42,
+              "endColumn": 36,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR5 · Tosafot: carry across the comparison",
+              "isReference": true,
+              "startLine": 47,
+              "startColumn": 5,
+              "endLine": 47,
+              "endColumn": 48,
+              "role": "main-conclusion",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Editorial synthesis of comparison and temporal scope"
+                ],
+                "startLine": 43,
+                "startColumn": 1,
+                "endLine": 46,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare",
+                    "ra-compare",
+                    "ra-timing"
+                  ],
+                  "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."
+                },
+                "conclusionIndex": 4,
+                "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "KR3 · Tosafot: why a special verse?",
+          "isReference": true,
+          "startLine": 35,
+          "startColumn": 5,
+          "endLine": 35,
+          "endColumn": 42,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 1"
         },
         {
           "type": "statement",
-          "role": "argument-description",
-          "text": "",
-          "startLine": 11,
-          "endLine": 11,
-          "startColumn": 6,
-          "endColumn": 53,
-          "isTopLevel": false,
-          "section": "s1",
-          "title": "KR6 · Supplied: make the extra premise visible",
-          "isReference": true
-        },
-        {
-          "type": "statement",
-          "role": "argument-description",
-          "text": "",
-          "startLine": 23,
-          "endLine": 23,
-          "startColumn": 6,
-          "endColumn": 53,
-          "isTopLevel": false,
-          "section": "s1",
-          "title": "KR6 · Supplied: make the extra premise visible",
-          "isReference": true
-        },
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 45,
+          "role": "main-conclusion",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 1",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Tosafot’s redundancy argument"
+            ],
+            "startLine": 36,
+            "startColumn": 1,
+            "endLine": 39,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare"
+              ],
+              "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+          }
+        }
+      ],
+      "title": "KR6 · Supplied: make the extra premise visible - 1",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
+      "data": {
+        "id": "KR6",
+        "sourceRef": [
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא",
+          "Rashi on Bava Metzia 22b, s.v. אף איסורא",
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "sourceIds": [
+          "ra-compare",
+          "ra-timing",
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 35,
+      "startColumn": 1,
+      "endLine": 47,
+      "endColumn": 48,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "KR6 · Supplied: make the extra premise visible - 2": {
+      "type": "argument",
+      "relations": [],
+      "members": [
         {
           "type": "statement",
           "role": "argument-description",
           "text": "R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. ",
-          "startLine": 26,
-          "endLine": 26,
+          "startLine": 33,
+          "endLine": 33,
           "startColumn": 1,
-          "endColumn": 214,
+          "endColumn": 1161,
           "isTopLevel": true,
-          "section": "s1",
           "title": "KR6 · Supplied: make the extra premise visible",
+          "tags": [
+            "reconstruction",
+            "river",
+            "editorial"
+          ],
           "data": {
+            "id": "KR6",
+            "sourceRef": [
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא",
+              "Rashi on Bava Metzia 22b, s.v. אף איסורא",
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R3",
+              "R4",
+              "R5",
+              "R6"
+            ],
+            "sourceIds": [
+              "ra-compare",
+              "ra-timing",
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
             "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "KR3 · Tosafot: why a special verse?",
+              "isReference": true,
+              "startLine": 35,
+              "startColumn": 5,
+              "endLine": 35,
+              "endColumn": 42,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR4 · Tosafot: what the exception adds",
+              "isReference": true,
+              "startLine": 40,
+              "startColumn": 5,
+              "endLine": 40,
+              "endColumn": 45,
+              "role": "intermediary-conclusion",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Tosafot’s redundancy argument"
+                ],
+                "startLine": 36,
+                "startColumn": 1,
+                "endLine": 39,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare"
+                  ],
+                  "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+                },
+                "conclusionIndex": 1,
+                "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+              }
+            },
+            {
+              "type": "statement",
+              "title": "KR1 · Rashi: the same verse",
+              "isReference": true,
+              "startLine": 41,
+              "startColumn": 5,
+              "endLine": 41,
+              "endColumn": 34,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR2 · Rashi: the timing limit",
+              "isReference": true,
+              "startLine": 42,
+              "startColumn": 5,
+              "endLine": 42,
+              "endColumn": 36,
+              "role": "premise",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+            },
+            {
+              "type": "statement",
+              "title": "KR5 · Tosafot: carry across the comparison",
+              "isReference": true,
+              "startLine": 47,
+              "startColumn": 5,
+              "endLine": 47,
+              "endColumn": 48,
+              "role": "main-conclusion",
+              "argumentTitle": "KR6 · Supplied: make the extra premise visible",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Editorial synthesis of comparison and temporal scope"
+                ],
+                "startLine": 43,
+                "startColumn": 1,
+                "endLine": 46,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "to-compare",
+                    "ra-compare",
+                    "ra-timing"
+                  ],
+                  "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."
+                },
+                "conclusionIndex": 4,
+                "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Tosafot’s redundancy argument"
+            ],
+            "startLine": 36,
+            "startColumn": 1,
+            "endLine": 39,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare"
+              ],
+              "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR1 · Rashi: the same verse",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 34,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2"
+        },
+        {
+          "type": "statement",
+          "title": "KR2 · Rashi: the timing limit",
+          "isReference": true,
+          "startLine": 42,
+          "startColumn": 5,
+          "endLine": 42,
+          "endColumn": 36,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2"
+        },
+        {
+          "type": "statement",
+          "title": "KR5 · Tosafot: carry across the comparison",
+          "isReference": true,
+          "startLine": 47,
+          "startColumn": 5,
+          "endLine": 47,
+          "endColumn": 48,
+          "role": "main-conclusion",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Editorial synthesis of comparison and temporal scope"
+            ],
+            "startLine": 43,
+            "startColumn": 1,
+            "endLine": 46,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                2,
+                3,
+                4
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "ra-compare",
+                "ra-timing"
+              ],
+              "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."
+            },
+            "conclusionIndex": 4,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
           }
         }
       ],
-      "pcs": [],
-      "title": "KR6 · Supplied: make the extra premise visible",
+      "title": "KR6 · Supplied: make the extra premise visible - 2",
+      "tags": [
+        "reconstruction",
+        "river",
+        "editorial"
+      ],
       "data": {
+        "id": "KR6",
+        "sourceRef": [
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא",
+          "Rashi on Bava Metzia 22b, s.v. אף איסורא",
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "sourceIds": [
+          "ra-compare",
+          "ra-timing",
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
         "color": "#f3d5a5"
       },
-      "section": "s1",
+      "startLine": 35,
+      "startColumn": 1,
+      "endLine": 47,
+      "endColumn": 48,
       "fontColor": "#000000",
       "color": "#f3d5a5"
     }
@@ -98,16 +554,7 @@
     "KR1 · Rashi: the same verse": {
       "type": "equivalence-class",
       "title": "KR1 · Rashi: the same verse",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR1 · Rashi: the same verse",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
@@ -115,37 +562,88 @@
           "isTopLevel": true,
           "title": "KR1 · Rashi: the same verse",
           "text": "C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. ",
-          "startLine": 6,
+          "tags": [
+            "explanation",
+            "river",
+            "rashi"
+          ],
+          "startLine": 23,
           "startColumn": 1,
-          "endLine": 7,
-          "endColumn": 53,
+          "endLine": 23,
+          "endColumn": 806,
           "data": {
+            "id": "KR1",
+            "sourceRef": [
+              "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Rashi",
+            "provenanceClass": "C",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R2",
+              "R3"
+            ],
+            "sourceIds": [
+              "ra-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR1 · Rashi: the same verse",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 34,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2"
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashi"
+      ],
       "data": {
+        "id": "KR1",
+        "sourceRef": [
+          "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Rashi",
+        "provenanceClass": "C",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R2",
+          "R3"
+        ],
+        "sourceIds": [
+          "ra-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
       "fontColor": "#000000",
       "color": "#53659c"
     },
     "KR2 · Rashi: the timing limit": {
       "type": "equivalence-class",
       "title": "KR2 · Rashi: the timing limit",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR2 · Rashi: the timing limit",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
@@ -153,37 +651,88 @@
           "isTopLevel": true,
           "title": "KR2 · Rashi: the timing limit",
           "text": "C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. ",
-          "startLine": 10,
+          "tags": [
+            "explanation",
+            "river",
+            "rashi"
+          ],
+          "startLine": 25,
           "startColumn": 1,
-          "endLine": 11,
-          "endColumn": 53,
+          "endLine": 25,
+          "endColumn": 818,
           "data": {
+            "id": "KR2",
+            "sourceRef": [
+              "Rashi on Bava Metzia 22b, s.v. אף איסורא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+            ],
+            "speaker": "Rashi",
+            "provenanceClass": "C",
+            "hebrewAnchor": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסיר",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "ra-timing"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR2 · Rashi: the timing limit",
+          "isReference": true,
+          "startLine": 42,
+          "startColumn": 5,
+          "endLine": 42,
+          "endColumn": 36,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2"
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "rashi"
+      ],
       "data": {
+        "id": "KR2",
+        "sourceRef": [
+          "Rashi on Bava Metzia 22b, s.v. אף איסורא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י"
+        ],
+        "speaker": "Rashi",
+        "provenanceClass": "C",
+        "hebrewAnchor": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסיר",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "ra-timing"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
       "fontColor": "#000000",
       "color": "#53659c"
     },
     "KR3 · Tosafot: why a special verse?": {
       "type": "equivalence-class",
       "title": "KR3 · Tosafot: why a special verse?",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR3 · Tosafot: why a special verse?",
-          "fromType": "equivalence-class",
-          "to": "KR4 · Tosafot: what the exception adds",
-          "toType": "equivalence-class"
-        }
-      ],
+      "relations": [],
       "members": [
         {
           "type": "statement",
@@ -191,137 +740,346 @@
           "isTopLevel": true,
           "title": "KR3 · Tosafot: why a special verse?",
           "text": "C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. ",
-          "startLine": 14,
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 27,
           "startColumn": 1,
-          "endLine": 15,
-          "endColumn": 45,
+          "endLine": 27,
+          "endColumn": 803,
           "data": {
+            "id": "KR3",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "temporalScope": "established despair before pickup already permits ordinary loss",
+            "baseNodeIds": [
+              "R1",
+              "R2"
+            ],
+            "sourceIds": [
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR3 · Tosafot: why a special verse?",
+          "isReference": true,
+          "startLine": 35,
+          "startColumn": 5,
+          "endLine": 35,
+          "endColumn": 42,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 1"
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
       "data": {
+        "id": "KR3",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "temporalScope": "established despair before pickup already permits ordinary loss",
+        "baseNodeIds": [
+          "R1",
+          "R2"
+        ],
+        "sourceIds": [
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
       "fontColor": "#000000",
       "color": "#53659c"
     },
     "KR4 · Tosafot: what the exception adds": {
       "type": "equivalence-class",
       "title": "KR4 · Tosafot: what the exception adds",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR3 · Tosafot: why a special verse?",
-          "fromType": "equivalence-class",
-          "to": "KR4 · Tosafot: what the exception adds",
-          "toType": "equivalence-class"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR4 · Tosafot: what the exception adds",
-          "fromType": "equivalence-class",
-          "to": "KR5 · Tosafot: carry across the comparison",
-          "toType": "equivalence-class"
-        }
-      ],
+      "relations": [],
       "members": [
-        {
-          "type": "statement",
-          "role": "relation-statement",
-          "title": "KR4 · Tosafot: what the exception adds",
-          "isReference": true,
-          "startLine": 15,
-          "startColumn": 6,
-          "endLine": 15,
-          "endColumn": 45,
-          "section": "s1"
-        },
         {
           "type": "statement",
           "role": "top-level-statement",
           "isTopLevel": true,
           "title": "KR4 · Tosafot: what the exception adds",
           "text": "C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. ",
-          "startLine": 18,
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 29,
           "startColumn": 1,
-          "endLine": 19,
-          "endColumn": 49,
+          "endLine": 29,
+          "endColumn": 844,
           "data": {
+            "id": "KR4",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "temporalScope": "exception includes absent awareness even when later despair would not occur",
+            "baseNodeIds": [
+              "R1",
+              "R2"
+            ],
+            "sourceIds": [
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 45,
+          "role": "main-conclusion",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 1",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Tosafot’s redundancy argument"
+            ],
+            "startLine": 36,
+            "startColumn": 1,
+            "endLine": 39,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare"
+              ],
+              "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 45,
+          "role": "premise",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Tosafot’s redundancy argument"
+            ],
+            "startLine": 36,
+            "startColumn": 1,
+            "endLine": 39,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare"
+              ],
+              "interpretation": "KR3 includes both the already-known permission and the special verse’s otherwise redundant role."
+            },
+            "conclusionIndex": 1,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+          }
         }
       ],
-      "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
       "data": {
+        "id": "KR4",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "temporalScope": "exception includes absent awareness even when later despair would not occur",
+        "baseNodeIds": [
+          "R1",
+          "R2"
+        ],
+        "sourceIds": [
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": true,
       "fontColor": "#000000",
       "color": "#53659c"
     },
     "KR5 · Tosafot: carry across the comparison": {
       "type": "equivalence-class",
       "title": "KR5 · Tosafot: carry across the comparison",
-      "relations": [
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR4 · Tosafot: what the exception adds",
-          "fromType": "equivalence-class",
-          "to": "KR5 · Tosafot: carry across the comparison",
-          "toType": "equivalence-class"
-        },
-        {
-          "type": "relation",
-          "relationType": "support",
-          "from": "KR5 · Tosafot: carry across the comparison",
-          "fromType": "equivalence-class",
-          "to": "KR6 · Supplied: make the extra premise visible",
-          "toType": "argument"
-        }
-      ],
+      "relations": [],
       "members": [
-        {
-          "type": "statement",
-          "role": "relation-statement",
-          "title": "KR5 · Tosafot: carry across the comparison",
-          "isReference": true,
-          "startLine": 19,
-          "startColumn": 6,
-          "endLine": 19,
-          "endColumn": 49,
-          "section": "s1"
-        },
         {
           "type": "statement",
           "role": "top-level-statement",
           "isTopLevel": true,
           "title": "KR5 · Tosafot: carry across the comparison",
           "text": "C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. ",
-          "startLine": 22,
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 31,
           "startColumn": 1,
-          "endLine": 23,
-          "endColumn": 53,
+          "endLine": 31,
+          "endColumn": 897,
           "data": {
+            "id": "KR5",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "temporalScope": "ordinary loss without established prior despair; prior despair remains a route to permission",
+            "baseNodeIds": [
+              "R3",
+              "R4",
+              "R6"
+            ],
+            "sourceIds": [
+              "to-compare"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "KR5 · Tosafot: carry across the comparison",
+          "isReference": true,
+          "startLine": 47,
+          "startColumn": 5,
+          "endLine": 47,
+          "endColumn": 48,
+          "role": "main-conclusion",
+          "argumentTitle": "KR6 · Supplied: make the extra premise visible - 2",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Editorial synthesis of comparison and temporal scope"
+            ],
+            "startLine": 43,
+            "startColumn": 1,
+            "endLine": 46,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                2,
+                3,
+                4
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "to-compare",
+                "ra-compare",
+                "ra-timing"
+              ],
+              "interpretation": "Jointly use Tosafot’s exceptional scope, Rashi’s same-verse warrant, and Rashi’s timing limit; this arrangement is editorial."
+            },
+            "conclusionIndex": 4,
+            "argumentTitle": "KR6 · Supplied: make the extra premise visible"
+          }
         }
       ],
-      "isUsedAsRelationStatement": true,
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
       "data": {
+        "id": "KR5",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "temporalScope": "ordinary loss without established prior despair; prior despair remains a route to permission",
+        "baseNodeIds": [
+          "R3",
+          "R4",
+          "R6"
+        ],
+        "sourceIds": [
+          "to-compare"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
       "fontColor": "#000000",
       "color": "#53659c"
     },
@@ -336,67 +1094,72 @@
           "isTopLevel": true,
           "title": "KR7 · Tosafot: Rava knew the baraita",
           "text": "C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. ",
-          "startLine": 29,
+          "tags": [
+            "explanation",
+            "river",
+            "tosafot"
+          ],
+          "startLine": 49,
           "startColumn": 1,
-          "endLine": 29,
-          "endColumn": 206,
+          "endLine": 49,
+          "endColumn": 826,
           "data": {
+            "id": "KR7",
+            "sourceRef": [
+              "Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+            ],
+            "speaker": "Tosafot",
+            "provenanceClass": "C",
+            "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לק",
+            "temporalScope": "Rava knew the baraita before the comparison was drawn",
+            "baseNodeIds": [
+              "R7"
+            ],
+            "sourceIds": [
+              "to-refutation"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
         }
       ],
+      "tags": [
+        "explanation",
+        "river",
+        "tosafot"
+      ],
       "data": {
+        "id": "KR7",
+        "sourceRef": [
+          "Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות"
+        ],
+        "speaker": "Tosafot",
+        "provenanceClass": "C",
+        "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לק",
+        "temporalScope": "Rava knew the baraita before the comparison was drawn",
+        "baseNodeIds": [
+          "R7"
+        ],
+        "sourceIds": [
+          "to-refutation"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#53659c"
     }
   },
-  "relations": [
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "KR1 · Rashi: the same verse",
-      "fromType": "equivalence-class",
-      "to": "KR6 · Supplied: make the extra premise visible",
-      "toType": "argument"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "KR2 · Rashi: the timing limit",
-      "fromType": "equivalence-class",
-      "to": "KR6 · Supplied: make the extra premise visible",
-      "toType": "argument"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "KR3 · Tosafot: why a special verse?",
-      "fromType": "equivalence-class",
-      "to": "KR4 · Tosafot: what the exception adds",
-      "toType": "equivalence-class"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "KR4 · Tosafot: what the exception adds",
-      "fromType": "equivalence-class",
-      "to": "KR5 · Tosafot: carry across the comparison",
-      "toType": "equivalence-class"
-    },
-    {
-      "type": "relation",
-      "relationType": "support",
-      "from": "KR5 · Tosafot: carry across the comparison",
-      "fromType": "equivalence-class",
-      "to": "KR6 · Supplied: make the extra premise visible",
-      "toType": "argument"
-    }
-  ],
+  "relations": [],
   "map": {
     "nodes": [
       {
@@ -455,10 +1218,17 @@
       },
       {
         "id": "n6",
-        "title": "KR6 · Supplied: make the extra premise visible",
+        "title": "KR6 · Supplied: make the extra premise visible - 1",
         "type": "argument-map-node",
-        "labelTitle": "KR6 · Supplied: make the extra premise visible",
-        "labelText": "R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. ",
+        "labelTitle": "KR6 · Supplied: make the extra premise visible - 1",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n7",
+        "title": "KR6 · Supplied: make the extra premise visible - 2",
+        "type": "argument-map-node",
+        "labelTitle": "KR6 · Supplied: make the extra premise visible - 2",
         "color": "#f3d5a5",
         "fontColor": "#000000"
       }
@@ -468,62 +1238,95 @@
         "id": "e1",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n0",
-        "to": "n6",
-        "fromEquivalenceClass": "KR1 · Rashi: the same verse"
+        "from": "n6",
+        "to": "n3",
+        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
+        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
       },
       {
         "id": "e2",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n1",
-        "to": "n6",
-        "fromEquivalenceClass": "KR2 · Rashi: the timing limit"
+        "from": "n7",
+        "to": "n4",
+        "fromEquivalenceClass": "KR5 · Tosafot: carry across the comparison",
+        "toEquivalenceClass": "KR5 · Tosafot: carry across the comparison"
       },
       {
         "id": "e3",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n2",
-        "to": "n3",
-        "fromEquivalenceClass": "KR3 · Tosafot: why a special verse?",
-        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
+        "from": "n0",
+        "to": "n7",
+        "fromEquivalenceClass": "KR1 · Rashi: the same verse",
+        "toEquivalenceClass": "KR1 · Rashi: the same verse"
       },
       {
         "id": "e4",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n3",
-        "to": "n4",
-        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
-        "toEquivalenceClass": "KR5 · Tosafot: carry across the comparison"
+        "from": "n1",
+        "to": "n7",
+        "fromEquivalenceClass": "KR2 · Rashi: the timing limit",
+        "toEquivalenceClass": "KR2 · Rashi: the timing limit"
       },
       {
         "id": "e5",
         "type": "map-edge",
         "relationType": "support",
-        "from": "n4",
+        "from": "n2",
         "to": "n6",
-        "fromEquivalenceClass": "KR5 · Tosafot: carry across the comparison"
+        "fromEquivalenceClass": "KR3 · Tosafot: why a special verse?",
+        "toEquivalenceClass": "KR3 · Tosafot: why a special verse?"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n7",
+        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
+        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
       }
     ]
   },
-  "sections": [
-    {
-      "type": "section",
-      "id": "s1",
-      "level": 1,
-      "title": "Why does the comparison work?",
-      "children": [],
-      "ranges": [],
-      "startLine": 1,
-      "startColumn": 1,
-      "isGroup": false,
-      "endLine": 29,
-      "endColumn": 206,
-      "fontColor": "#000000",
-      "color": "#DADADA"
+  "sections": [],
+  "tags": {
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 0,
+      "color": "#edf0f8"
+    },
+    "river": {
+      "tag": "river",
+      "cssClass": "tag-river",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "rashi": {
+      "tag": "rashi",
+      "cssClass": "tag-rashi",
+      "occurrenceIndex": 2,
+      "color": "#e7298a"
+    },
+    "tosafot": {
+      "tag": "tosafot",
+      "cssClass": "tag-tosafot",
+      "occurrenceIndex": 3,
+      "color": "#66a61e"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 4,
+      "color": "#fff1dc"
+    },
+    "editorial": {
+      "tag": "editorial",
+      "cssClass": "tag-editorial",
+      "occurrenceIndex": 5,
+      "color": "#a6761d"
     }
-  ],
-  "tags": {}
+  }
 }

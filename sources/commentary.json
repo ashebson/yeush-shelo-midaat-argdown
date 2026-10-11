@@ -1,13 +1,9 @@
 {
   "title": "Selected classical commentary, separate from the Gemara reconstruction",
-  "pdf_page_count": 15,
+  "pdf_page_count": 20,
   "base_sha256": {
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
-    "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
-    "argdown/01-opening.argdown": "a17c811afd728ce7896348692c1efe2a7d0544fa70fd423ef1d92e830b2c5d8a",
-    "argdown/02-coins.argdown": "944d251f8b4375095dc9f4d3fda35b4f14b6b632654b0cf22a119114d950c734",
-    "argdown/03-river.argdown": "396f21191a5fbb2c40dfa6c14815f8f90ec75bc3eae34b688948a94d56e1933e",
-    "argdown/overview.argdown": "40467fadbbb70d8604ff3fd70131e5d17dce2c14379f4a914ed25fa05ca7b99f"
+    "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115"
   },
   "sources": [
     {
@@ -48,8 +44,8 @@
     },
     {
       "id": "ri-possession",
-      "author": "Ritva (via Shittah)",
-      "ref": "Ritva (via Shittah) on Bava Metzia 21b, s.v. ורבא אמר הוי יאוש כיון דלכי ידע לא סגי דלא מייאש",
+      "author": "Ritva (via Shittah Mekubbetzet)",
+      "ref": "Ritva (via Shittah Mekubbetzet) on Bava Metzia 21b, s.v. ורבא אמר הוי יאוש כיון דלכי ידע לא סגי דלא מייאש",
       "edition": "Hebrew Wikisource, classical commentary transcription",
       "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
       "retrieved": "2026-10-11",
@@ -192,8 +188,8 @@
     },
     {
       "id": "KO4",
-      "speaker": "Ritva (via Shittah)",
-      "label": "Ritva (via Shittah): possession for the owner",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "label": "Ritva (via Shittah Mekubbetzet): possession for the owner",
       "text": "Where unnoticed despair is ineffective, pickup leaves the finder’s hand like the owner’s hand, as a custodian.",
       "sources": [
         "ri-possession"
@@ -207,8 +203,8 @@
     },
     {
       "id": "KO5",
-      "speaker": "Ritva (via Shittah)",
-      "label": "Ritva (via Shittah): later despair cannot cure it",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "label": "Ritva (via Shittah Mekubbetzet): later despair cannot cure it",
       "text": "Because the finder did not acquire at pickup and holds for the owner, the owner’s later despair does not confer acquisition.",
       "sources": [
         "ri-possession"
@@ -222,8 +218,8 @@
     },
     {
       "id": "KO6",
-      "speaker": "Ritva (via Shittah)",
-      "label": "Ritva (via Shittah): not necessarily theft",
+      "speaker": "Ritva (via Shittah Mekubbetzet)",
+      "label": "Ritva (via Shittah Mekubbetzet): not necessarily theft",
       "text": "Ba-issura here describes taking while the object remains in the owner’s domain; it need not mean an intention to steal.",
       "sources": [
         "ri-possession"
@@ -578,7 +574,7 @@
       "ref": "22b:5–7 · the final comparison",
       "title": "Why does the comparison work?",
       "intro": "Rashi states the same-verse warrant and awareness qualification. Tosafot supplies the redundancy argument that explains what the exceptional permission adds.",
-      "note": "KR6 is a supplied synthesis. KR7 explains what Rava missed, not a further proof. The final comparison on 22b is distinct from the earlier river exchange on 22a.",
+      "note": "KR6 is an editorial synthesis of Rashi and Tosafot, now split into two numbered inference steps. KR7 remains an isolated explanation of what Rava missed. The final 22b comparison is distinct from the earlier 22a river exchange.",
       "nodes": [
         "KR1",
         "KR2",
@@ -622,7 +618,7 @@
         "to-refutation"
       ],
       "pdf_size_mm": [
-        297,
+        420,
         420
       ]
     },
@@ -666,5 +662,6 @@
         297
       ]
     }
-  ]
+  ],
+  "integrity_note": "Base claim/edge ledger and Hebrew excerpts retain their original hashes. The authorized native Argdown upgrade regenerates presentation syntax from these unchanged scholarly ledgers; numbered additions live in reconstructions.json."
 }

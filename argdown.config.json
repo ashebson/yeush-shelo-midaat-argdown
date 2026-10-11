@@ -1,6 +1,7 @@
 {
   "model": {
-    "mode": "loose"
+    "mode": "loose",
+    "removeTagsFromText": true
   },
   "selection": {
     "excludeDisconnected": false
@@ -66,6 +67,11 @@
     "edge": {
       "penWidth": 1.7,
       "arrowSize": 0.8
+    },
+    "group": {
+      "font": "Arial",
+      "fontSize": 14,
+      "bold": true
     }
   },
   "group": {

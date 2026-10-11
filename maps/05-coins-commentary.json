@@ -25,12 +25,11 @@
           "type": "statement",
           "role": "argument-description",
           "text": "",
-          "startLine": 7,
-          "endLine": 7,
+          "startLine": 17,
+          "endLine": 17,
           "startColumn": 6,
           "endColumn": 49,
           "isTopLevel": false,
-          "section": "s1",
           "title": "KC2 · Supplied: locate the changed premise",
           "isReference": true
         },
@@ -38,24 +37,74 @@
           "type": "statement",
           "role": "argument-description",
           "text": "R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. ",
-          "startLine": 10,
-          "endLine": 11,
+          "startLine": 19,
+          "endLine": 20,
           "startColumn": 1,
           "endColumn": 49,
           "isTopLevel": true,
-          "section": "s1",
           "title": "KC2 · Supplied: locate the changed premise",
+          "tags": [
+            "reconstruction",
+            "coins",
+            "editorial"
+          ],
           "data": {
+            "id": "KC2",
+            "sourceRef": [
+              "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "C2",
+              "C5",
+              "C6"
+            ],
+            "sourceIds": [
+              "ra-coins"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "argument sketch; no PCS",
             "color": "#f3d5a5"
           }
         }
       ],
       "pcs": [],
       "title": "KC2 · Supplied: locate the changed premise",
+      "tags": [
+        "reconstruction",
+        "coins",
+        "editorial"
+      ],
       "data": {
+        "id": "KC2",
+        "sourceRef": [
+          "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "C2",
+          "C5",
+          "C6"
+        ],
+        "sourceIds": [
+          "ra-coins"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "argument sketch; no PCS",
         "color": "#f3d5a5"
       },
-      "section": "s1",
       "fontColor": "#000000",
       "color": "#f3d5a5"
     }
@@ -81,20 +130,68 @@
           "isTopLevel": true,
           "title": "KC1 · Rashi: awareness precedes finding",
           "text": "C · The owner learned that the coins fell and despaired before this finder discovered them. ",
-          "startLine": 6,
+          "tags": [
+            "explanation",
+            "coins",
+            "rashi"
+          ],
+          "startLine": 16,
           "startColumn": 1,
-          "endLine": 7,
+          "endLine": 17,
           "endColumn": 49,
           "data": {
+            "id": "KC1",
+            "sourceRef": [
+              "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+            ],
+            "speaker": "Rashi",
+            "provenanceClass": "C",
+            "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "C5",
+              "C6"
+            ],
+            "sourceIds": [
+              "ra-coins"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#53659c"
-          },
-          "section": "s1"
+          }
         }
       ],
+      "tags": [
+        "explanation",
+        "coins",
+        "rashi"
+      ],
       "data": {
+        "id": "KC1",
+        "sourceRef": [
+          "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+        ],
+        "speaker": "Rashi",
+        "provenanceClass": "C",
+        "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "C5",
+          "C6"
+        ],
+        "sourceIds": [
+          "ra-coins"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#53659c"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#53659c"
@@ -118,11 +215,10 @@
           "role": "relation-statement",
           "title": "KC3 · Supplied: retain the original target",
           "isReference": true,
-          "startLine": 11,
+          "startLine": 20,
           "startColumn": 6,
-          "endLine": 11,
-          "endColumn": 49,
-          "section": "s1"
+          "endLine": 20,
+          "endColumn": 49
         },
         {
           "type": "statement",
@@ -130,21 +226,73 @@
           "isTopLevel": true,
           "title": "KC3 · Supplied: retain the original target",
           "text": "R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. ",
-          "startLine": 14,
+          "tags": [
+            "reconstruction",
+            "coins",
+            "editorial"
+          ],
+          "startLine": 22,
           "startColumn": 1,
-          "endLine": 14,
-          "endColumn": 189,
+          "endLine": 22,
+          "endColumn": 797,
           "data": {
+            "id": "KC3",
+            "sourceRef": [
+              "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+            ],
+            "sourceUrl": [
+              "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+            "baseNodeIds": [
+              "C1",
+              "C2",
+              "C6",
+              "C7"
+            ],
+            "sourceIds": [
+              "ra-coins"
+            ],
+            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "reconstructionStatus": "statement",
             "color": "#f3d5a5"
-          },
-          "section": "s1"
+          }
         }
       ],
       "isUsedAsRelationStatement": true,
+      "tags": [
+        "reconstruction",
+        "coins",
+        "editorial"
+      ],
       "data": {
+        "id": "KC3",
+        "sourceRef": [
+          "Rashi on Bava Metzia 21b, s.v. עשוי למשמש"
+        ],
+        "sourceUrl": [
+          "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
+        "baseNodeIds": [
+          "C1",
+          "C2",
+          "C6",
+          "C7"
+        ],
+        "sourceIds": [
+          "ra-coins"
+        ],
+        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },
-      "section": "s1",
       "isUsedAsTopLevelStatement": true,
       "fontColor": "#000000",
       "color": "#f3d5a5"
@@ -217,22 +365,37 @@
       }
     ]
   },
-  "sections": [
-    {
-      "type": "section",
-      "id": "s1",
-      "level": 1,
-      "title": "Awareness before discovery.",
-      "children": [],
-      "ranges": [],
-      "startLine": 1,
-      "startColumn": 1,
-      "isGroup": false,
-      "endLine": 14,
-      "endColumn": 189,
-      "fontColor": "#000000",
-      "color": "#DADADA"
+  "sections": [],
+  "tags": {
+    "explanation": {
+      "tag": "explanation",
+      "cssClass": "tag-explanation",
+      "occurrenceIndex": 0,
+      "color": "#edf0f8"
+    },
+    "coins": {
+      "tag": "coins",
+      "cssClass": "tag-coins",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "rashi": {
+      "tag": "rashi",
+      "cssClass": "tag-rashi",
+      "occurrenceIndex": 2,
+      "color": "#e7298a"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 3,
+      "color": "#fff1dc"
+    },
+    "editorial": {
+      "tag": "editorial",
+      "cssClass": "tag-editorial",
+      "occurrenceIndex": 4,
+      "color": "#e6ab02"
     }
-  ],
-  "tags": {}
+  }
 }

@@ -49,3 +49,7 @@ for name,title,prefixes in [('01-opening','01 · The question and its boundaries
  ids=[n['id'] for n in nodes if n['id'][0] in prefixes]
  # Local episode views omit cross-episode arrows; text below maps explains them.
  render(name,title,ids,[(a,r,b) for a,r,b in edges if a in ids and b in ids])
+
+# Keep the legacy base-ledger authoring entrypoint compatible with native PCS output.
+import runpy
+runpy.run_path(str(root / "scripts/author-native.py"), run_name="__main__")

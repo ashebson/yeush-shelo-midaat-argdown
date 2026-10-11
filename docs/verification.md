@@ -1,92 +1,69 @@
 # Verification record · 11 October 2026
 
-The selected three-episode demo was completed in the saved Linux cloud environment, continuing checkpoint `f016978348aa8b6facf225dc15c072441cec5065`. No Mac access was used. These checks establish artifact integrity and presentation behavior, not a formal proof or a complete encoding of the sugya.
-
-The subsequently requested [15-page PDF with selected commentary](yeush-shelo-midaat.pdf) is also complete. See the [PDF export and inspection record](pdf-export.md) for page sizes, legibility checks, Hebrew inspection and reproduction instructions.
+The cloud completion now includes ten native Argdown views, an offline Graph / Code toggle and a [20-page PDF](yeush-shelo-midaat.pdf). No Mac access was used for implementation or QA. These checks establish artifact integrity and presentation behavior, not formal validity or a complete encoding of the sugya.
 
 ## Reproduction and results
 
-Node **24.19.0**, npm **11.9.0**, Chromium **154.0.8037.57**. The pinned official Argdown packages remain unchanged: node 2.0.3, core 2.0.1, CLI 2.0.0.
+Node 24.19.0, npm 11.9.0, Chromium 154.0.8037.57. Pinned official Argdown packages remain node 2.0.3, core 2.0.1 and CLI 2.0.0; official highlight-source uses the installed Argdown highlighter. No dependencies were added or upgraded.
 
 ```sh
-npm ci
+python3 scripts/author-native.py
 npm run build
 npm run pdf
 npm test
-npx --no-install argdown 'argdown/*.argdown'
-python3 scripts/visual-qa.py --browser /usr/bin/chromium
-git diff --check
+npx argdown 'argdown/*.argdown'
+python3 scripts/visual-qa.py
 ```
 
-- The original clean dependency installation succeeded; the unchanged dependency set renders all eight current maps.
-- `npm test` independently parses/renders the sources and compares them with the checked-in outputs. All checks passed.
-- The official CLI reported: `Successfully checked 8 files.`
-- Browser QA passed at 1440 × 1000, 390 × 844 and 320 × 740, with no page errors or external resource requests. See the [browser report](qa/browser-report.json).
-- Whitespace/error checking with `git diff --check` passed.
+Build, artifact validation and browser QA pass. The official CLI reports **Successfully checked 10 files**. The existing pinned dependency installation was reused. Whitespace checks pass. Parser counts match fresh outputs:
 
-| Map | Nodes | Relations | Parser / lexer errors |
+| View | Leaf nodes | Rendered relations | Parser / lexer errors |
 | --- | ---: | ---: | ---: |
-| Opening | 7 | 3 | 0 / 0 |
-| Coins | 7 | 6 | 0 / 0 |
-| River | 8 | 7 | 0 / 0 |
-| Overview | 22 | 18 | 0 / 0 |
-| Opening commentary | 7 | 6 | 0 / 0 |
-| Coins commentary | 3 | 2 | 0 / 0 |
-| River commentary | 7 | 5 | 0 / 0 |
-| River boundary | 4 | 3 | 0 / 0 |
+| 01-opening | 7 | 3 | 0 / 0 |
+| 02-coins | 7 | 6 | 0 / 0 |
+| 03-river | 8 | 7 | 0 / 0 |
+| 04-opening-commentary | 7 | 6 | 0 / 0 |
+| 05-coins-commentary | 3 | 2 | 0 / 0 |
+| 06-river-commentary | 8 | 6 | 0 / 0 |
+| 07-river-boundary | 4 | 3 | 0 / 0 |
+| 08-coins-inference | 8 | 7 | 0 / 0 |
+| 09-river-inference | 10 | 9 | 0 / 0 |
+| overview | 22 | 18 | 0 / 0 |
 
-The [build report](build-report.json) matches a fresh parse. Fresh SVG, DOT and JSON outputs are byte-for-byte identical to the checked-in maps; the commentary extension did not alter the original four authored arguments, base ledger, Gemara excerpts or their generated maps.
+## Native model and source integrity
 
-## What the validator checks
+The original 22-node/18-edge base ledger and eight Hebrew excerpts retain their original hashes. The authorized upgrade intentionally changes the four base Argdown presentation files: real PCS, metadata and native grouping replace comment-only provenance. The [numbered reconstruction ledger](../sources/reconstructions.json) adds C8 and R9 as editorial statements. The [modeling notes](native-argdown.md) explain this migration and exact semantics.
 
-[`scripts/validate.cjs`](../scripts/validate.cjs) checks exact node IDs, labels, kinds, text and provenance against the ledger; exact model and rendered relation sets; the expected counts above; and absence of extra relations or undercuts. It explicitly protects the coins attack **C6 → C2**, the cross-episode attacks **C4 → O5** and **R6 → O7**, and the direction of the Abaye/Rava relations. O1–O3 remain isolated scope notes. It does not require graph connectivity.
+Tests check every ordered PCS statement, premise/intermediate/main-conclusion role, inference rule, source IDs and uses dependencies. C4 jointly uses three premises. R5 has two stages. KR6 is explicitly editorial synthesis of Rashi and Tosafot. All reused named propositions retain their original wording. KO7, KC2 and KB3 are accurately described as argument sketches. Ritva’s attribution names Shittah Mekubbetzet.
 
-It also checks all eight excerpt SHA-256 values, Hebrew anchors against their cited saved excerpts, edition/license metadata, Argdown provenance comments, Rashi-expansion and supplied-bridge classes, SVG node/edge counts, build-report accuracy, package/lockfile root metadata, local document links, unique HTML/SVG IDs, RTL block markup, and absence of external runtime resources. The page is regenerated in a temporary directory and compared with `index.html` to catch stale presentation output. Hash checks establish that saved excerpts have not drifted; they are not a fresh live-source verification.
+Tests separately compare explicit model relations and exact rendered edges. Native premise/conclusion edges replace duplicate explicit arrows. The overview’s C4 attack is intentionally transferred to C8 in the model and rendered as C4 → O5 because compact selection hides C8. C6 → C2 remains the coins reply’s sole rendered attack. O1–O3 and KR7 remain visible isolated notes. No extra propagation, undercuts, self-relations or fabricated commentator disagreements are accepted. Loose mode is retained.
 
-The previous source review is retained: Abaye rejects unconscious yeush; Rava accepts it in the disputed case. The coins reply attacks the unawareness premise. The final comparison is 22b:5–7, with R4/R6 attributed to Rashi and R5 marked as a supplied bridge. This completion preserves that content and adds no omitted episodes or formal-proof claims.
+Every node carries reference URLs, speaker, provenance class, Hebrew context anchor, temporal scope and source/base IDs. All 11 commentary excerpt hashes, author/source consistency and reference coverage are checked. Tests also verify the package/lock metadata, exact source/claim parity, fresh SVG/DOT/JSON and official highlighted HTML, embedded unique IDs, RTL blocks, local links and no network-dependent runtime resources. Source and HTML regeneration in a temporary directory catches stale output. Saved hashes are integrity checks, not a new live-source review.
 
-## Commentary extension
+## Browser and visual inspection
 
-The user-requested layer adds Rashi, three Tosafot comments, Rashba and Ritva as quoted in Shittah Mekubbetzet. [Commentary notes](commentary-notes.md) list exact dibburim, excerpt boundaries and interpretation limits. Eleven classical Hebrew excerpts were independently inspected against the cited Wikisource daf pages. There are 21 new nodes (15 attributed C claims and six supplied R explanations) and 16 editorial support relations in four separate maps. No disagreement was invented and no new base episode was added.
+[Browser QA](qa/browser-report.json) passes at **1440 × 1000, 390 × 844 and 320 × 740**. All ten view selectors, Graph/Code tabs, arrow/Home/End keys, exact code text including trailing newline, actual clipboard contents, denied-clipboard manual selection, Fit/Read/+/−, scroll reachability and source disclosures were exercised. The same HTML works with networking disabled and makes zero external requests. No JavaScript errors or page-level horizontal overflow occurred. All SVG label bounding boxes fit inside their node shapes.
 
-The validator additionally checks the original six source-file hashes, unique commentary IDs, author/source consistency, visible attribution, complete per-view source appendices, valid base-node references, exact rendered commentary relations and all eleven excerpt hashes. Semantic guardrails retain Ritva’s possession/intent distinction, Rashi’s coins timing, Tosafot’s isolated explanation that Rava knew the baraita, and Rashba’s recoverability limit. These checks protect the authored interpretation; they do not independently adjudicate scholarship.
+All ten maps were visually inspected in the PDF, with representative desktop/mobile viewer and source-panel screenshots inspected separately. The dense overview has three native groups and cross-episode links. On phones, Fit shows structure; Read/+ and scrolling are required for dense labels. Code scrolls horizontally inside its frame. Hebrew source disclosures use isolated RTL blocks; authors and English explanations remain readable.
 
-Every new standalone map, desktop view and phone view was opened for visual inspection. Node labels fit their shapes, arrows avoid labels and authors remain visible. Evidence: [opening](qa/map-04-opening-commentary.png), [coins](qa/map-05-coins-commentary.png), [river](qa/map-06-river-commentary.png), [boundary](qa/map-07-river-boundary.png). The phone Fit view shows overall structure; Read/+ is necessary for dense-map text. All eleven commentary source disclosures passed RTL, attribution and overflow checks at 320 px. Representative inspected excerpts: [Ritva](qa/mobile-commentary-ri-possession.png), [Tosafot](qa/mobile-commentary-to-compare.png), [Rashba](qa/mobile-commentary-rb-boundary.png). Mixed Hebrew was removed from the letter-spaced map eyebrow; exact Hebrew dibburim remain in the source ledger.
+Evidence: [desktop](qa/desktop.png), [river synthesis](qa/desktop-06-river-commentary.png), [coins inference](qa/map-08-coins-inference.png), [river inference on a phone](qa/mobile-09-river-inference.png), [Code on a phone](qa/code-390-02-coins.png), [Ritva Hebrew](qa/mobile-commentary-ri-possession.png), [Tosafot Hebrew](qa/mobile-commentary-to-compare.png).
 
-All 15 PDF pages were rendered and visually inspected, with eight vector maps and complete base/commentary claim extraction. The new river page was changed to portrait after the font-size check rejected the first export. See [PDF verification](pdf-export.md). No Node dependency versions or audit findings were changed by this addition.
+Testing caught and fixed configuration leakage between Argdown builds: deep-cloning each request prevents native detail-view settings from contaminating the later overview. It also caught a minimum-zoom problem when the grouped overview fit below 10% on narrow phones. Zoom now returns correctly after +/−. The clipboard fallback uses a selected textarea so manual copying preserves the exact source, including its trailing newline.
 
-## Visual inspection and fixes
+All **20 PDF pages** were rendered and visually inspected. Minimum map type is **10.05 pt**; all claims and labels extract. No overflow, text outside page bounds or rasterized maps were found. The PDF has 55 link annotations and bookmarks. See [PDF verification](pdf-export.md), [export report](pdf-export-report.json) and [object report](qa/pdf-object-report.json).
 
-The screenshots were opened and visually inspected, in addition to automated DOM/geometry checks. Standalone exports were inspected in full; enlarged embedded maps intentionally scroll within their frame.
+## Deployment and environment limits
 
-| Inspected view | Result and evidence |
-| --- | --- |
-| Desktop presentation | Header, Hebrew title, navigation and zoom controls render clearly: [desktop](qa/desktop.png). |
-| Opening | All seven nodes and three relations visible, O1–O3 isolated; no label clipping: [presentation](qa/desktop-01-opening.png), [complete SVG capture](qa/map-01-opening.png). |
-| Coins | The red C6 → C2 attack and supporting paths are distinct; no text/shape overlaps: [presentation](qa/desktop-02-coins.png), [complete SVG capture](qa/map-02-coins.png). |
-| River | Fit now displays the entire chain through R7/R8, including the refutation and ruling: [presentation](qa/desktop-03-river.png), [complete SVG capture](qa/map-03-river.png). |
-| Overview | All 22 nodes and 18 relations visible, with distinct cross-episode attacks: [presentation](qa/desktop-overview.png), [complete SVG capture](qa/map-overview.png). |
-| Phone layout | Prose and controls stay within the page; Fit shows the complete graph: [opening](qa/mobile-01-opening.png), [coins](qa/mobile-02-coins.png), [river](qa/mobile-03-river.png), [overview](qa/mobile-overview.png). |
-| Hebrew and provenance | Right-to-left ordering and wrapping are readable; English remains left to right. Rashi and supplied-bridge attribution stays visible: [Hebrew excerpt](qa/mobile-hebrew.png), [O5](qa/mobile-ledger-O5.png), [R4](qa/mobile-ledger-R4.png), [R5](qa/mobile-ledger-R5.png). |
+The repository is public and Pages was configured separately by the authorized deployment task. The [presentation](https://ashebson.github.io/yeush-shelo-midaat-argdown/) uses main/root and relative project-prefix paths. The release check command is:
 
-The initial page's Fit button only reset width, so the tall river map hid its conclusion below the frame and the mobile minimum width prevented a true fit. Fit now uses both frame dimensions. Read restores native label size (14 px in the embedded SVG); +/− adjust it, and all corners remain reachable by scrolling. Tabs reset to Fit. Phones and the dense overview require Read/+ and scrolling for detailed reading; Fit prioritizes the overall structure. This is not a claim that every label is readable at phone-width fit scale.
+```sh
+python3 scripts/pages-qa.py --url https://ashebson.github.io/yeush-shelo-midaat-argdown/
+```
 
-The generated page also now prefixes embedded SVG IDs by episode to remove duplicate IDs, uses 44 px zoom-button targets, and removes link-arrow glyphs that appeared as missing-glyph boxes in the cloud browser. README and the overview heading now describe cross-episode links rather than a connected graph. The lockfile license and Node engine metadata were reconciled without changing dependency versions.
+That check compares deployed HTML, all ten SVGs, all ten authored sources and the PDF with the local release, then exercises Graph/Code and clipboard controls at all three viewports. Its output is stored in ignored `output/pages-qa/`; local checks alone are not deployment evidence.
 
-Automated browser checks exercise all eight tabs, keyboard activation, Fit/Read/+/−, scroll reachability, ledger expansion, Rashi and bridge attribution, and isolated RTL blocks at each viewport. Every SVG text bounding box remains within its node's shape bounds. No page-level horizontal overflow was observed. The screenshots provide the complementary visual check for overlaps and directionality; this is not a cross-browser or screen-reader certification.
-
-## Offline check and environment limits
-
-The page embeds its CSS, JavaScript and all eight SVGs. The identical HTML was loaded into a Chromium context with networking disabled; tabs, zoom and ledger expansion worked and made zero network requests. Local document/SVG links resolve in the repository. Source links naturally require a connection.
-
-Direct `file://` navigation in this managed browser returned **`net::ERR_BLOCKED_BY_ADMINISTRATOR`**. Therefore direct double-click/file opening is **not claimed as browser-tested here**. Interactive and visual inspection used a loopback-only HTTP server; the separate network-disabled test verified the self-contained HTML. No public hosting was created. Safari, Firefox and the user's Mac have not been tested in this completion.
-
-The shell's GitHub REST/GraphQL metadata calls returned `Forbidden`; the authorized GitHub connector successfully confirmed `ashebson/yeush-shelo-midaat-argdown` has **private** visibility and default branch `main`. Git transport was available. Repository visibility and access were not changed.
+Direct file navigation in this managed browser returns **net::ERR_BLOCKED_BY_ADMINISTRATOR**. Therefore direct double-click opening is not claimed as tested here. Loopback HTTP and a separate network-disabled HTML context were tested. Safari, Firefox, assistive technology certification and the user’s Mac were not tested. The cloud proxy also blocks GitHub API CONNECT requests; git transport and anonymous Pages requests are separate paths. No Pages administration was duplicated in this implementation.
 
 ## Dependency audit limitation
 
-`npm audit --json` reported **12 affected packages: 8 high and 4 moderate, 0 critical**. This check has a nonzero exit status because advisories remain; it is not represented as a clean security audit. The [saved audit report](qa/npm-audit.json) records exact dependency paths, ranges and advisory URLs.
-
-The underlying advisories involve `lodash-es` (template-import code injection and path-based prototype pollution), `file-type` (malformed ASF infinite loop), and `fast-xml-parser` (XMLBuilder comment/CDATA injection). Other affected packages inherit those advisories through the Argdown authoring toolchain. npm reports no available fix for the pinned top-level `@argdown/node` and `@argdown/cli` package paths. No forced or incompatible upgrades were applied.
-
-All installed packages are development tooling. None of those dependencies is embedded as browser JavaScript in the exported presentation. The build here processed the repository's authored inputs; this verification does not establish exploitability or non-exploitability for arbitrary untrusted Argdown, XML or media. Dependency remediation remains a tooling limitation, not an unreported passing check.
+The previously saved [npm audit](qa/npm-audit.json) reports **12 affected development packages: 8 high and 4 moderate**. This is not a clean security audit. It concerns lodash-es, file-type and fast-xml-parser paths within the pinned Argdown authoring tools; no forced incompatible upgrade was applied. Dependencies are not bundled as browser JavaScript. These checks do not establish safety for arbitrary untrusted Argdown/XML/media. The dependency set is unchanged by this upgrade.
