@@ -31,3 +31,11 @@ Emphasize: this is 22 nodes from three selected episodes, not every line from 21
 ## Presenter preparation
 
 Open the HTML before the meeting; no network is needed except to follow source links. Use the episode tabs at normal desktop width. **Fit** shows the whole map; **Read** restores 14 px labels, and **+** enlarges them further. Scroll within the map after enlarging. For the tall river map, use Fit first to show the conclusion, then Read to discuss the premises. Each map has an **Open SVG** link for a separate scalable view. Keep `docs/source-notes.md` available for the finer qualifications. No public hosting or account sign-in is needed for the local presentation.
+
+## Optional commentary extension · another three minutes
+
+Select the second navigation row after the base walkthrough. **Opening** contrasts Rashi’s timing with Tosafot’s contingent marked-object despair, then follows Ritva (through Shittah Mekubbetzet) from holding for the owner to ineffective later despair. Read C as attributed paraphrase and R as our synthesis; these arrows do not assert a disagreement.
+
+**Coins** zooms into Rashi’s awareness-before-discovery explanation. Return to the base map to show the unchanged C6 → C2 target. **River** makes Tosafot’s extra premise visible: if ordinary conscious despair already permits, what does the special verse add? Point to the separate KR7 note: Rava knew the baraita but did not draw this comparison.
+
+**River boundary** asks whether the object is truly lost to everyone. Rashba permits the exceptional case even over the owner’s protest; recoverable cases differ. Open a linked Hebrew excerpt beneath the commentary ledger. Use [commentary notes](commentary-notes.md) for exact dibburim and qualifications. The PDF keeps the base demo on pages 1–7, commentary maps on 8–11 and their sources on 12–15.

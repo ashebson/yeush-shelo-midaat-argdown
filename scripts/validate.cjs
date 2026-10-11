@@ -18,6 +18,46 @@ async function validate() {
   const config = json('argdown.config.json');
   const ledger = json('sources/model.json');
   const excerpts = json('sources/hebrew-excerpts.json');
+  const commentary = json('sources/commentary.json');
+  const commentarySources = new Map(commentary.sources.map(source => [source.id, source]));
+  const commentaryNodes = new Map(commentary.nodes.map(node => [node.id, node]));
+  assert.equal(commentarySources.size, commentary.sources.length, 'Unique commentary sources');
+  assert.equal(commentaryNodes.size, commentary.nodes.length, 'Unique commentary nodes');
+  for (const [file, hash] of Object.entries(commentary.base_sha256)) {
+    assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex'), hash, `Base reconstruction preserved: ${file}`);
+  }
+  for (const source of commentary.sources) {
+    assert.equal(createHash('sha256').update(source.text, 'utf8').digest('hex'), source.sha256, `Commentary excerpt hash: ${source.id}`);
+    assert(source.ref.includes(source.author), `Source attribution: ${source.id}`);
+    assert(source.url.startsWith('https://'), `Source URL: ${source.id}`);
+    assert(source.context && source.edition && source.license && source.retrieved, `Source provenance: ${source.id}`);
+  }
+  for (const node of commentary.nodes) {
+    assert(['C','R'].includes(node.class));
+    assert(node.sources.length && node.base_nodes.length, `Grounded commentary: ${node.id}`);
+    assert(node.base_nodes.every(id=>ledger.nodes.some(n=>n.id===id)), `Base references: ${node.id}`);
+    assert(node.sources.every(id=>commentarySources.has(id)), `Commentary citations: ${node.id}`);
+    if(node.class==='C') {
+      assert(node.label.startsWith(node.speaker+':'), `Visible commentator attribution: ${node.id}`);
+      assert(node.sources.every(id=>commentarySources.get(id).author===node.speaker), `No collapsed commentator attribution: ${node.id}`);
+    } else assert.equal(node.speaker,'Editorial', `Supplied bridge: ${node.id}`);
+  }
+  equalSet(commentary.views.flatMap(view=>view.nodes), commentary.nodes.map(n=>n.id), 'Each commentary node appears in one small map');
+  for (const view of commentary.views) {
+    for (const [from, relation, to] of view.edges) {
+      assert(view.nodes.includes(from) && view.nodes.includes(to), `Commentary edge stays in its view: ${view.id}`);
+      assert.equal(relation, '+>', 'Selected commentaries explain and qualify; no manufactured disagreement');
+    }
+    assert.equal(new Set(view.edges.map(e=>e.join(' '))).size, view.edges.length);
+    equalSet(view.sources, [...new Set(view.nodes.flatMap(id=>commentaryNodes.get(id).sources))], `Complete source appendix: ${view.id}`);
+  }
+  assert(commentaryNodes.get('KO6').text.includes('need not mean an intention to steal'));
+  assert(commentarySources.get('ri-possession').context.includes('Shittah Mekubbetzet'));
+  assert(commentaryNodes.get('KR7').text.includes('Rava knew'));
+  assert(!commentary.views.flatMap(v=>v.edges).some(e=>e[0]==='KR7'||e[2]==='KR7'), 'Tosafot explains the refutation; not another proof');
+  assert(commentaryNodes.get('KC3').class==='R', 'Coins map relation explanation is editorial');
+  assert(commentaryNodes.get('KB1').text.includes('expressly refuses to despair'));
+  assert(commentaryNodes.get('KB2').text.includes('not fully like loss to everyone'));
   const packageInfo = json('package.json');
   const lock = json('package-lock.json').packages[''];
   for (const key of ['name', 'version', 'license', 'engines', 'devDependencies']) {
@@ -49,18 +89,19 @@ async function validate() {
     ['01-opening', 'O', 7, 3], ['02-coins', 'C', 7, 6],
     ['03-river', 'R', 8, 7], ['overview', '', 22, 18]
   ];
-  equalSet(fs.readdirSync(path.join(root, 'argdown')).filter(f => f.endsWith('.argdown')), specs.map(([stem]) => `${stem}.argdown`), 'Exactly four authored maps');
+  for(const view of commentary.views) specs.push([view.id,null,view.nodes.length,view.edges.length,view]);
+  equalSet(fs.readdirSync(path.join(root, 'argdown')).filter(f => f.endsWith('.argdown')), specs.map(([stem]) => `${stem}.argdown`), 'Exact base and commentary map inventory');
   const report = [];
-  for (const [stem, prefix, nodeCount, edgeCount] of specs) {
+  for (const [stem, prefix, nodeCount, edgeCount, commentaryView] of specs) {
     const file = `${stem}.argdown`;
     const input = read(`argdown/${file}`);
     const result = await argdown.runAsync({ ...config, input, throwExceptions: true,
       process: ['parse-input', 'build-model', 'build-map', 'colorize', 'export-dot', 'export-svg', 'export-json'] });
     assert.equal(result.parserErrors?.length || 0, 0, `${file}: parser errors`);
     assert.equal(result.lexerErrors?.length || 0, 0, `${file}: lexer errors`);
-    const expectedNodes = ledger.nodes.filter(n => n.id.startsWith(prefix));
+    const expectedNodes = commentaryView ? commentaryView.nodes.map(id=>commentaryNodes.get(id)) : ledger.nodes.filter(n => n.id.startsWith(prefix));
     const expectedIds = new Set(expectedNodes.map(n => n.id));
-    const expectedEdges = ledger.edges.filter(([from, , to]) => expectedIds.has(from) && expectedIds.has(to))
+    const expectedEdges = (commentaryView ? commentaryView.edges : ledger.edges).filter(([from, , to]) => expectedIds.has(from) && expectedIds.has(to))
       .map(([from, relation, to]) => [from, relation === '+>' ? 'support' : 'attack', to]);
     const model = JSON.parse(result.json);
     assert.equal(model.map.nodes.length, nodeCount, `${stem}: node count`);
@@ -72,7 +113,7 @@ async function validate() {
       assert.equal(actual.title, `${node.id} · ${node.label}`);
       assert.equal(actual.labelText.trim(), `${node.class} · ${node.text}`, `${stem}: text/provenance ${node.id}`);
       assert.equal(actual.type, `${node.kind}-map-node`, `${stem}: shape ${node.id}`);
-      assert(input.includes(`/* ${node.class} | Bava Metzia ${node.ref} | https://www.sefaria.org/Bava_Metzia.${node.ref} | ${node.hebrew} */`), `${stem}: provenance comment ${node.id}`);
+      if(!commentaryView) assert(input.includes(`/* ${node.class} | Bava Metzia ${node.ref} | https://www.sefaria.org/Bava_Metzia.${node.ref} | ${node.hebrew} */`), `${stem}: provenance comment ${node.id}`);
     }
     const mapIds = new Map(model.map.nodes.map(n => [n.id, id(n.title)]));
     equalSet(model.map.edges.map(e => [mapIds.get(e.from), e.relationType, mapIds.get(e.to)]), expectedEdges, `${stem}: exact rendered relations; no propagation`);
@@ -85,7 +126,7 @@ async function validate() {
     report.push({ file, parserErrors: 0, lexerErrors: 0, nodes: nodeCount, edges: edgeCount });
     console.log(`PASS ${stem}: ${nodeCount} nodes / ${edgeCount} relations, exact ledger and fresh SVG/DOT/JSON parity`);
   }
-  assert.deepEqual(json('docs/build-report.json'), report, 'Build report matches fresh parsing');
+  assert.deepEqual(json('docs/build-report.json'), report.sort((a,b)=>a.file.localeCompare(b.file)), 'Build report matches fresh parsing');
   assert.equal(excerpts.length, 8);
   assert.equal(new Set(excerpts.map(e => e.ref)).size, 8);
   for (const excerpt of excerpts) {
@@ -106,17 +147,19 @@ async function validate() {
   const html = read('index.html');
   const htmlIds = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(htmlIds).size, htmlIds.length, 'Unique document IDs, including embedded SVGs');
-  assert.equal((html.match(/<svg\b/g) || []).length, 4);
-  assert.equal((html.match(/<details>/g) || []).length, 30, '22 ledger rows and 8 excerpts');
+  assert.equal((html.match(/<svg\b/g) || []).length, specs.length);
+  assert.equal((html.match(/<details(?: |>|$)/g) || []).length, 30+commentary.nodes.length+commentary.sources.length, 'Base and commentary ledgers/excerpts');
   assert(!/<(?:script|img|iframe)\b[^>]*\bsrc\s*=|<link\b|@import\b|url\(\s*["']?https?:|\b(?:fetch|XMLHttpRequest|WebSocket)\s*\(/i.test(html), 'No external runtime resources or network calls');
   const hebrewBlocks = [...html.matchAll(/<blockquote\b([^>]*)>([\s\S]*?)<\/blockquote>/g)];
-  assert.equal(hebrewBlocks.length, ledger.nodes.filter(n => n.hebrew).length + excerpts.length);
+  assert.equal(hebrewBlocks.length, ledger.nodes.filter(n => n.hebrew).length + excerpts.length + commentary.sources.length);
   for (const [, attrs] of hebrewBlocks) assert(attrs.includes('dir="rtl"') && attrs.includes('lang="he"'), 'Hebrew is explicitly RTL');
   for (const node of ledger.nodes) {
     assert(html.includes(escape(node.text)), `HTML ledger text: ${node.id}`);
     if (node.hebrew) assert(html.includes(escape(node.hebrew)), `HTML anchor: ${node.id}`);
   }
   for (const excerpt of excerpts) assert(html.includes(escape(excerpt.text)), `HTML excerpt: ${excerpt.ref}`);
+  for (const source of commentary.sources) assert(html.includes(escape(source.text)), `HTML commentary excerpt: ${source.id}`);
+  for (const node of commentary.nodes) assert(html.includes(escape(node.text)), `HTML commentary claim: ${node.id}`);
 
   // Regenerate the page away from the working tree to detect stale presentation output.
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'yeush-validate-'));
@@ -139,16 +182,16 @@ async function validate() {
       links++;
     }
   }
-  console.log(`PASS 8 source hashes and Hebrew anchors, provenance, offline page parity, unique IDs, and ${links} local links`);
+  console.log(`PASS 8 Gemara and ${commentary.sources.length} commentary hashes, Hebrew/provenance, offline page parity, unique IDs, and ${links} local links`);
   const pdfReport = json('docs/pdf-export-report.json');
   assert.equal(pdfReport.status, 'passed');
-  assert.equal(pdfReport.page_count, 7);
+  assert.equal(pdfReport.page_count, commentary.pdf_page_count);
   for (const [file, hash] of Object.entries(pdfReport.source_sha256)) {
     assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex'), hash, `PDF source changed: ${file}; run npm run pdf`);
   }
   assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, 'docs/yeush-shelo-midaat.pdf'))).digest('hex'), pdfReport.pdf_sha256, 'PDF bytes match verified export');
   assert(pdfReport.pages.every(p => !p.overflow.length && !p.scrollOverflow && (p.minMapFontPt === null || p.minMapFontPt >= 10)), 'PDF layout passed export checks');
-  console.log('PASS seven-page PDF integrity, source freshness, and recorded layout checks');
+  console.log(`PASS ${pdfReport.page_count}-page PDF integrity, source freshness, and recorded layout checks`);
   console.log('Artifact validation passed. This checks encoding and integrity, not scholarly truth or formal validity.');
 }
 

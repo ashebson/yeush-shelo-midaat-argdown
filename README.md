@@ -1,21 +1,23 @@
 # Before awareness · יאוש שלא מדעת
 
-A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting.
+A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting. A separate commentary layer adds **Rashi, three Tosafot comments, Rashba, and Ritva through Shittah Mekubbetzet** in four further maps (21 nodes / 16 relations).
 
 **Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed.
 
-**PDF edition:** [Download the seven-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide and Hebrew excerpts. [Export instructions and inspection record](docs/pdf-export.md).
+**PDF edition:** [Download the 15-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide, four commentary maps and Hebrew source appendices. [Export instructions and inspection record](docs/pdf-export.md).
 
 ## Deliverables
 
 | File | Purpose |
 | --- | --- |
-| [`docs/yeush-shelo-midaat.pdf`](docs/yeush-shelo-midaat.pdf) | Seven-page vector PDF for reading and presentation |
+| [`docs/yeush-shelo-midaat.pdf`](docs/yeush-shelo-midaat.pdf) | 15-page vector PDF for reading and presentation |
 | [`index.html`](index.html) | Offline presentation; expandable evidence ledger |
 | [`argdown/overview.argdown`](argdown/overview.argdown) | Editable 22-node overview with cross-episode links |
 | [`argdown/01-opening.argdown`](argdown/01-opening.argdown) | Opening dispute and agreed scope restrictions |
 | [`argdown/02-coins.argdown`](argdown/02-coins.argdown) | Scattered coins objection and purse-checking reply |
 | [`argdown/03-river.argdown`](argdown/03-river.argdown) | Final river comparison, refutation and ruling |
+| [`sources/commentary.json`](sources/commentary.json) | Attributed commentary claims, eleven Hebrew excerpts and base-preservation hashes |
+| [`docs/commentary-notes.md`](docs/commentary-notes.md) | Exact commentator/dibbur coverage, boundaries and editing instructions |
 | [`maps/`](maps/) | Official Argdown-rendered SVGs, DOT, and model JSON |
 | [`docs/walkthrough.md`](docs/walkthrough.md) | Short presenter script and discussion prompts |
 | [`docs/source-notes.md`](docs/source-notes.md) | Sources, attribution and interpretive decisions |
@@ -35,6 +37,7 @@ This maps arguments. It is **not a machine proof, an exhaustive edition, or an e
 - Rectangles are claims; hexagons collect reconstructed arguments.
 - Green arrows support; red arrows attack. These are dialectical relations in Argdown's **loose mode**, not claims of formal logical entailment.
 - **S** = explicit source claim in original English paraphrase; **E** = attributed explanatory expansion; **R** = supplied reconstruction premise or analytical statement.
+- **C** = attributed commentator paraphrase in the separate commentary layer; its **R** nodes remain explicitly supplied.
 - All arrows are editorial choices. Disconnected O1–O3 are scope notes, not evidence for a position.
 - `+>` means outgoing support, `->` outgoing attack. This project asserts **no undercuts**. In particular, the purse-checking reply attacks C2's factual assumption of unawareness; it does not automatically undercut the inference.
 - Episode maps omit arrows to nodes outside the episode. The overview restores C4 → O5 and R6 → O7. The source ledger remains available below every view.
@@ -45,11 +48,11 @@ English is used in SVG nodes for readable overview maps. Hebrew/Aramaic is prese
 
 Verified 11 October 2026 using [Sefaria 21b](https://www.sefaria.org/Bava_Metzia.21b) and [22b](https://www.sefaria.org/Bava_Metzia.22b), explicitly selecting **Wikisource Talmud Bavli**, and [Hebrew Wikisource 21b](https://he.wikisource.org/wiki/בבא_מציעא_כא_ב) / [22b](https://he.wikisource.org/wiki/בבא_מציעא_כב_ב). Rashi's explanation is separately attributed, particularly [22b:6:1–3](https://www.sefaria.org/Rashi_on_Bava_Metzia.22b.6.1-3).
 
-The underlying classical text is ancient/public domain; the selected digital edition carries CC-BY-SA metadata. We retain that attribution and use CC BY-SA 4.0 for the scholarly content and presentation. English is our own concise paraphrase, not copied from the William Davidson/Koren translation. See [`LICENSE.md`](LICENSE.md). Source excerpts include hashes and edition metadata.
+The underlying classical text is ancient/public domain; the selected digital edition carries CC-BY-SA metadata. We retain that attribution and use CC BY-SA 4.0 for the scholarly content and presentation. English is our own concise paraphrase, not copied from the William Davidson/Koren translation. See [`LICENSE.md`](LICENSE.md). Source excerpts include hashes and edition metadata. The [commentary coverage](docs/commentary-notes.md) identifies each author and dibbur and explains the indirect Ritva attribution.
 
 ## Regenerate and verify
 
-Requirements: **Node.js 22.11 or newer** and npm. Verified in the saved cloud environment with Node 24.19.0 and npm 11.9.0. Python 3 is needed only for optional authoring regeneration (`scripts/author.py`) or browser QA.
+Requirements: **Node.js 22.11 or newer** and npm. Verified in the saved cloud environment with Node 24.19.0 and npm 11.9.0. Python 3 is needed for optional authoring regeneration, PDF export or browser QA.
 
 ```sh
 npm ci
@@ -66,7 +69,9 @@ npx argdown 'argdown/*.argdown'
 npx argdown map --help
 ```
 
-For ordinary edits, modify `.argdown` directly and run the build. Keep `sources/model.json` in sync when changing node provenance or relations. For coordinated authoring edits, modify `scripts/author.py`, then run `python3 scripts/author.py`, `npm run build`, and `npm test`. The author script overwrites the four `.argdown` files and the ledger; it is not run implicitly by the build.
+For ordinary base-model edits, modify `.argdown` directly and run the build. Keep `sources/model.json` in sync when changing node provenance or relations. For coordinated authoring edits, modify `scripts/author.py`, then run `python3 scripts/author.py`, `npm run build`, and `npm test`. The author script overwrites the four `.argdown` files and the ledger; it is not run implicitly by the build.
+
+For commentary edits, modify `sources/commentary.json`, run `python3 scripts/author-commentary.py`, then build, re-export the PDF and test. Base-preservation hashes intentionally prevent accidental changes to the original reconstruction; deliberate base revisions must reconcile that contract. After any presentation or map edit, follow the [PDF export instructions](docs/pdf-export.md) before `npm test`, which checks PDF freshness.
 
 The tests check parsing, expected node counts, source-ledger parity, no unintended undercuts, the coins reply's exact target, cross-episode attacks, SVG node counts, source hashes, and local document links. They validate the artifact, not the truth or legal completeness of the reconstruction.
 

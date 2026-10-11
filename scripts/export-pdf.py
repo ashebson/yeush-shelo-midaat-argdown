@@ -1,4 +1,4 @@
-"""Export the verified demo as a seven-page vector PDF.
+"""Export the verified demo as a vector PDF with a separate commentary layer.
 
 Requires Python Playwright, pypdf, and Chromium. Run from any directory:
   python3 scripts/export-pdf.py --browser /usr/bin/chromium
@@ -24,6 +24,9 @@ parser.add_argument('--browser', default='/usr/bin/chromium')
 args = parser.parse_args()
 ledger = json.loads((ROOT / 'sources/model.json').read_text())
 excerpts = json.loads((ROOT / 'sources/hebrew-excerpts.json').read_text())
+commentary = json.loads((ROOT / 'sources/commentary.json').read_text())
+TOTAL = commentary['pdf_page_count']
+commentary_sources = {source['id']: source for source in commentary['sources']}
 
 CSS = '''
 *{box-sizing:border-box}html,body{margin:0;padding:0}
@@ -33,7 +36,7 @@ body{font:16px/1.5 Arial,sans-serif;color:#173c3a;background:#f7f5ef;-webkit-pri
 h1{font-size:64px}h2{font-size:42px}h3{font-size:18px}.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5b6b68;font-weight:700;margin-bottom:14px}
 .intro{max-width:1050px;font-size:18px;color:#5b6b68;margin-top:16px}.hero{margin:28px 0}.hero p{font-size:23px;margin-top:24px}.he-title{font-size:36px;margin:30px 0 8px}.he-ref{font-size:18px;color:#5b6b68}
 .rule{border-top:1px solid #d9dfd7;padding-top:22px}.legend{display:flex;gap:24px;align-items:center;flex-wrap:wrap;font-size:15px}.legend strong{font-weight:700}.support{color:#267565}.attack{color:#bd5143}
-.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-weight:700;font-size:13px}.S{background:#dcece7}.E{background:#e4e8f6}.R{background:#fceaca}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-weight:700;font-size:13px}.S{background:#dcece7}.E,.C{background:#e4e8f6}.R{background:#fceaca}
 .map-slot{flex:1;min-height:0;background:white;border:1px solid #d9dfd7;border-radius:8px;padding:18px;display:flex;align-items:center;justify-content:center}.map-slot svg{display:block;width:100%;height:100%}
 .reading-note{border-left:3px solid #267565;background:#edf1e9;padding:12px 18px;font-size:16px;line-height:1.5}.footer{margin-top:auto;display:flex;justify-content:space-between;gap:20px;border-top:1px solid #d9dfd7;padding-top:12px;font-size:12px;color:#5b6b68}
 .cover .footer{margin-top:auto}.cover .guide{display:grid;grid-template-columns:40px 1fr;gap:15px 12px;margin-top:8px}.guide b{font-size:15px;color:#267565}.guide p{font-size:16px}.scope{font-size:15px;color:#5b6b68}.small{font-size:13px;color:#5b6b68}a[href]{color:#267565;text-decoration:underline;text-underline-offset:3px}
@@ -46,7 +49,7 @@ def legend():
 
 
 def footer(number, right):
-    return f'<footer class="footer"><span>Before awareness · Bava Metzia 21b–22b · 11 October 2026</span><span>{escape(right)} · {number} / 7</span></footer>'
+    return f'<footer class="footer"><span>Before awareness · Bava Metzia 21b–22b · 11 October 2026</span><span>{escape(right)} · {number} / {TOTAL}</span></footer>'
 
 
 def document(body, width, height, padding, kind):
@@ -59,8 +62,8 @@ def link(ref):
     return f'<a href="https://www.sefaria.org/Bava_Metzia.{ref}?vhe=Wikisource_Talmud_Bavli">{ref.replace(".", ":", 1)}</a>'
 
 
-report = {'page_count': 7, 'pages': [], 'source_sha256': {}, 'network_requests': []}
-for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']]]:
+report = {'page_count': TOTAL, 'pages': [], 'source_sha256': {}, 'network_requests': []}
+for file in ['index.html', 'sources/model.json', 'sources/hebrew-excerpts.json', 'scripts/export-pdf.py', 'sources/commentary.json', *[f'maps/{stem}.svg' for stem in ['overview', '01-opening', '02-coins', '03-river']+[view['id'] for view in commentary['views']]]]:
     report['source_sha256'][file] = hashlib.sha256((ROOT / file).read_bytes()).hexdigest()
 
 with sync_playwright() as p:
@@ -86,8 +89,8 @@ with sync_playwright() as p:
 <b>02</b><p><strong>Test one premise.</strong> The coins reply attacks the assumed unawareness, leaving the Mishnah intact.</p>
 <b>03</b><p><strong>Inspect the bridge.</strong> Separate the final river comparison from Rashi’s timing clarification and the supplied reconstruction.</p>
 <b>04</b><p><strong>Invite revision.</strong> Which node or relation would you redraw? Compare it with the source excerpts.</p></div></div>
-<p class="scope">22 nodes · 18 relations · Three selected episodes. This is an argument reconstruction for discussion, not a complete encoding of the sugya, a machine proof, or a system for deciding halakhah.</p>
-<p class="small">Reading order: overview → opening → coins → river → provenance → primary text. The overview is an A2 landscape foldout; episode pages use A3 to keep node text readable. Notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
+<p class="scope">22 base nodes · 18 base relations · Three selected episodes. A separate layer adds 21 commentary nodes: Rashi, Tosafot, Rashba, and Ritva via Shittah Mekubbetzet. This is an argument reconstruction for discussion, not a complete encoding of the sugya, a machine proof, or a system for deciding halakhah.</p>
+<p class="small">Reading order: base maps and sources (pages 2–7), then four commentary maps and their Hebrew sources (pages 8–15). The overview is an A2 landscape foldout; episode pages use A3 to keep node text readable. Source notes use A4. View pages individually or print at actual size; shrinking the foldout onto A4 makes its labels small.</p>'''
     pages.append(('cover', 210, 297, 15, document(cover + footer(1, 'Reader’s guide'), 210, 297, 15, 'cover')))
     for number, (stem, width, height) in enumerate([
         ('overview', 594, 420), ('01-opening', 420, 297),
@@ -120,6 +123,23 @@ with sync_playwright() as p:
     text_rows = ''.join(f'''<article><h3><a href="{escape(e['url'], quote=True)}">{escape(e['ref'])}</a></h3><blockquote dir="rtl" lang="he">{escape(e['text'])}</blockquote></article>''' for e in excerpts)
     source_page = f'''<header><p class="eyebrow">Primary text · Selected excerpts</p><h2>Return to the words.</h2><p class="intro">Unvocalized Wikisource Talmud Bavli via Sefaria. These are selected excerpts; intervening discussions are omitted.</p></header><div class="excerpt-list">{text_rows}</div><p class="small">Attribution: Hebrew Wikisource contributors / Sefaria; edition metadata: CC-BY-SA. Saved on 11 October 2026. Exact excerpt hashes and reference URLs are retained in sources/hebrew-excerpts.json.</p>'''
     pages.append(('primary-text', 210, 297, 14, document(source_page + footer(7, 'Hebrew / Aramaic'), 210, 297, 14, 'excerpts')))
+
+    for view in commentary['views']:
+        number = len(pages) + 1
+        stem = view['id']
+        width, height = view['pdf_size_mm']
+        svg = (ROOT / 'maps' / f'{stem}.svg').read_text()
+        body = f'''<header><p class="eyebrow">Layer 2 · Commentary · {escape(view['ref'])}</p><h2>{escape(view['title'])}</h2><p class="intro">{escape(view['intro'])}</p></header>
+<div class="legend"><strong class="support">→ supports / explains</strong><span><b class="badge C">C</b> Attributed commentator <b class="badge R">R</b> Supplied editorial bridge</span><span>All arrows are editorial; base maps remain separate.</span></div>
+<div class="map-slot">{svg}</div><p class="reading-note">{escape(view['note'])}</p>{footer(number, 'Hebrew commentary sources: pages 12–15')}'''
+        pages.append((stem, width, height, 15, document(body, width, height, 15, 'diagram')))
+    for view in commentary['views']:
+        number = len(pages) + 1
+        selected = [commentary_sources[id] for id in view['sources']]
+        rows = ''.join(f'''<article><h3><a href="{escape(source['url'], quote=True)}">{escape(source['ref'])}</a></h3><blockquote dir="rtl" lang="he">{escape(source['text'])}</blockquote><p class="small">{escape(source['context'])}</p></article>''' for source in selected)
+        body = f'''<header><p class="eyebrow">Layer 2 · Classical Hebrew · Selected excerpts</p><h2>{escape(view['name'])}</h2><p class="intro">For map nodes {escape(', '.join(view['nodes']))}. English map text is our own paraphrase; C names its commentator and R marks our supplied synthesis.</p></header><div class="excerpt-list">{rows}</div><p class="small">Hebrew Wikisource, classical commentary transcription, checked 11 October 2026. Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0. Exact excerpt hashes, daf and dibbur are retained in sources/commentary.json. Selected comments only; no exhaustive commentary survey or formal proof.</p>{footer(number, 'Commentary source ledger')}'''
+        width, height = 210, 297
+        pages.append((view['id']+'-sources', width, height, 15, document(body, width, height, 15, 'excerpts')))
 
     writer = PdfWriter()
     for number, (name, width, height, padding, html) in enumerate(pages, start=1):
@@ -155,18 +175,18 @@ with sync_playwright() as p:
     with DESTINATION.open('wb') as file:
         writer.write(file)
     pdf = PdfReader(DESTINATION)
-    assert len(pdf.pages) == 7
+    assert len(pdf.pages) == TOTAL
     all_text = '\n'.join(page.extract_text() for page in pdf.pages)
     # Every authored node label must survive text extraction; figures remain vectors.
     normalized = ' '.join(all_text.split())
-    for node in ledger['nodes']:
+    for node in ledger['nodes'] + commentary['nodes']:
         assert ' '.join(f"{node['id']} · {node['label']}".split()) in normalized, f'Missing PDF label: {node["id"]}'
         assert ' '.join(node['text'].split()) in normalized, f'Missing PDF claim: {node["id"]}'
     report['pdf_sha256'] = hashlib.sha256(DESTINATION.read_bytes()).hexdigest()
     report['bytes'] = DESTINATION.stat().st_size
     report['chromium'] = browser.version
     report['python_dependencies'] = {name: version(name) for name in ['playwright', 'pypdf']}
-    report['checks'] = ['Seven single-page exports merged with bookmarks', 'All 22 node labels and complete claims extract from PDF', 'No HTML page overflow; map text at least 10 pt', 'No network requests or page errors']
+    report['checks'] = [f'{TOTAL} single-page exports merged with bookmarks', 'All 22 base and 21 commentary node labels and complete claims extract from PDF', 'No HTML page overflow; map text at least 10 pt', 'No network requests or page errors']
     report['status'] = 'passed'
     (OUT / 'export-report.json').write_text(json.dumps(report, indent=2) + '\n')
     (ROOT / 'docs' / 'pdf-export-report.json').write_text(json.dumps(report, indent=2) + '\n')

@@ -7,6 +7,7 @@ import argparse
 import functools
 import http.server
 import json
+import re
 from pathlib import Path
 import threading
 
@@ -28,6 +29,8 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
 server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), functools.partial(QuietHandler, directory=str(ROOT)))
 threading.Thread(target=server.serve_forever, daemon=True).start()
 report = {'viewports': [], 'screenshots': [], 'checks': [], 'limitations': []}
+specs = [(item['file'].removesuffix('.argdown'), item['nodes']) for item in json.loads((ROOT/'docs/build-report.json').read_text())]
+commentary = json.loads((ROOT/'sources/commentary.json').read_text())
 errors = []
 external = []
 
@@ -63,7 +66,7 @@ try:
         for width, height in [(1440, 1000), (390, 844), (320, 740)]:
             page.set_viewport_size({'width': width, 'height': height})
             report['viewports'].append({'width': width, 'height': height})
-            for stem, count in [('01-opening', 7), ('02-coins', 7), ('03-river', 8), ('overview', 22)]:
+            for stem, count in specs:
                 button = page.locator(f'button[data-target="{stem}"]')
                 button.click()
                 section = page.locator(f'section[id="{stem}"]')
@@ -110,7 +113,7 @@ try:
             page.keyboard.press('Enter')
             assert page.locator('section[id="01-opening"]').is_visible()
             for node in ['O5', 'C6', 'R4', 'R5', 'R6']:
-                details = page.locator('details').filter(has=page.locator('summary strong', has_text=f'{node} ·'))
+                details = page.locator('details').filter(has=page.locator('summary strong', has_text=re.compile(r'^'+re.escape(node)+r' ·')))
                 details.locator('summary').focus()
                 page.keyboard.press('Enter')
                 assert details.get_attribute('open') is not None
@@ -128,14 +131,24 @@ try:
             if width == 390:
                 capture(excerpt, 'mobile-hebrew.png')
             excerpt.locator('summary').click()
-        report['checks'].extend(['All four tabs, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
+        for source in commentary['sources']:
+            details = page.locator('#commentary-source-'+source['id'])
+            details.locator('summary').click()
+            assert source['author'] in details.inner_text()
+            assert details.locator('blockquote').evaluate('(b)=>getComputedStyle(b).direction==="rtl" && getComputedStyle(b).unicodeBidi==="isolate"')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), source['id']
+            if source['id'] in ['ri-possession', 'to-compare', 'rb-boundary']:
+                capture(details, 'mobile-commentary-'+source['id']+'.png')
+            details.locator('summary').click()
+        report['checks'].append('All 11 commentary excerpts expand with visible author and isolated RTL Hebrew at 320px')
+        report['checks'].extend(['All eight tabs, node counts, keyboard activation and ledger expansion', 'Fit, Read, zoom in/out, and scroll reachability at all three viewports', 'All SVG label bounding boxes inside node shape bounds', 'No page horizontal overflow; RTL isolated Hebrew and visible attribution'])
         # The same HTML must remain interactive with every network request blocked.
         offline = browser.new_context(offline=True, viewport={'width': 1440, 'height': 1000})
         offline_page = offline.new_page()
         offline_page.on('pageerror', lambda error: errors.append(str(error)))
         offline_page.on('request', lambda request: external.append(request.url))
         offline_page.set_content((ROOT / 'index.html').read_text())
-        for stem in ['01-opening', '02-coins', '03-river', 'overview']:
+        for stem, _ in specs:
             offline_page.locator(f'button[data-target="{stem}"]').click()
             assert offline_page.locator(f'section[id="{stem}"]').is_visible()
             offline_page.locator('#in').click()

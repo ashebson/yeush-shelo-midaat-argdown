@@ -1,0 +1,670 @@
+{
+  "title": "Selected classical commentary, separate from the Gemara reconstruction",
+  "pdf_page_count": 15,
+  "base_sha256": {
+    "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
+    "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
+    "argdown/01-opening.argdown": "a17c811afd728ce7896348692c1efe2a7d0544fa70fd423ef1d92e830b2c5d8a",
+    "argdown/02-coins.argdown": "944d251f8b4375095dc9f4d3fda35b4f14b6b632654b0cf22a119114d950c734",
+    "argdown/03-river.argdown": "396f21191a5fbb2c40dfa6c14815f8f90ec75bc3eae34b688948a94d56e1933e",
+    "argdown/overview.argdown": "40467fadbbb70d8604ff3fd70131e5d17dce2c14379f4a914ed25fa05ca7b99f"
+  },
+  "sources": [
+    {
+      "id": "ra-definition",
+      "author": "Rashi",
+      "ref": "Rashi on Bava Metzia 21b, s.v. יאוש שלא מדעת",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י",
+      "text": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+      "sha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+      "context": "Complete dibbur body. Defines the disputed timing; it does not itself endorse either disputant."
+    },
+    {
+      "id": "ra-now",
+      "author": "Rashi",
+      "ref": "Rashi on Bava Metzia 21b, s.v. מהשתא הוי יאוש",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י",
+      "text": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+      "sha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+      "context": "Complete dibbur body explaining Rava’s position, not an independent ruling by Rashi."
+    },
+    {
+      "id": "to-mark",
+      "author": "Tosafot",
+      "ref": "Tosafot on Bava Metzia 21b, s.v. דלכי נפל מיניה לא מיאש",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#תוספות",
+      "text": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+      "sha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+      "context": "Complete dibbur body. The identifying-mark context comes from the Gemara immediately above; this is a qualification, not a dispute with Rashi."
+    },
+    {
+      "id": "ri-possession",
+      "author": "Ritva (via Shittah)",
+      "ref": "Ritva (via Shittah) on Bava Metzia 21b, s.v. ורבא אמר הוי יאוש כיון דלכי ידע לא סגי דלא מייאש",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#שיטה_מקובצת",
+      "text": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא אף על גב דאייאש לבסוף לא מהני ואפילו למאן דאמר בעלמא דיאוש כדי (לא קשיא) שאני הכא שנטלה בתורת גזל וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו והיינו דאמרינן לעיל דכי אתי באיסורא אתא לידיה ולאו באיסורא ממש שהרי לא נתכוון לגזול וחייב הוא ליטלה כיון שיש בה סימן אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי וזה ברור.",
+      "sha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+      "context": "Continuous excerpt within the paragraph attributed to הריטב״א at its close in Shittah Mekubbetzet. Transcription including its parenthesis preserved. Not checked against a standalone Ritva edition. The marked-item duty to pick up must not be generalized to every unmarked object."
+    },
+    {
+      "id": "ra-coins",
+      "author": "Rashi",
+      "ref": "Rashi on Bava Metzia 21b, s.v. עשוי למשמש",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#רש\"י",
+      "text": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+      "sha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+      "context": "Complete dibbur body on habitual purse checking in the scattered-coins reply (Gemara 21b:7)."
+    },
+    {
+      "id": "ra-compare",
+      "author": "Rashi",
+      "ref": "Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+      "text": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+      "sha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+      "context": "Complete dibbur body explaining the warrant for the Gemara’s final comparison (22b:6)."
+    },
+    {
+      "id": "ra-timing",
+      "author": "Rashi",
+      "ref": "Rashi on Bava Metzia 22b, s.v. אף איסורא",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#רש\"י",
+      "text": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסירא כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה:",
+      "sha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+      "context": "Complete dibbur body. Preserve the awareness-before-pickup qualification; not a prohibition on all unmarked finds."
+    },
+    {
+      "id": "to-compare",
+      "author": "Tosafot",
+      "ref": "Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות",
+      "text": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא:",
+      "sha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+      "context": "Complete dibbur body. Splitting its redundancy argument and comparison into nodes is editorial; they are one commentary, not independent proofs."
+    },
+    {
+      "id": "to-refutation",
+      "author": "Tosafot",
+      "ref": "Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב#תוספות",
+      "text": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+      "sha256": "d548d0f4ea915aa77fd8eadc5d9a98791269e15deaede2c1dafe3983b88c7305",
+      "context": "Complete dibbur body. Explains Rava’s awareness of the source and failure to draw this comparison; not another refutation."
+    },
+    {
+      "id": "rb-exception",
+      "author": "Rashba",
+      "ref": "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+      "text": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+      "sha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+      "context": "Opening sentence excerpt. The omitted discussion tests Biran River and sand cases; a second separate excerpt below preserves the recoverability boundary. This is Rashba’s analysis of the exceptional category, not psychological despair."
+    },
+    {
+      "id": "rb-boundary",
+      "author": "Rashba",
+      "ref": "Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability)",
+      "edition": "Hebrew Wikisource, classical commentary transcription",
+      "license": "Classical Hebrew public domain; digital edition attribution retained under CC BY-SA 4.0",
+      "retrieved": "2026-10-11",
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כא_ב#חידושי_הרשב\"א",
+      "text": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי, אבל זוטו של ים, אבודה היא לגמרי, ומשעת נפילתו הויא הפקר גמור, כך נראה לי.",
+      "sha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+      "context": "Continuous closing excerpt about sifting sand, contrasted with complete loss. Earlier in the same dibbur Rashba also distinguishes recoverable Biran River; those later Gemara cases are contextual limits, not added base episodes."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "KO1",
+      "speaker": "Rashi",
+      "label": "Rashi: the time of discovery",
+      "text": "At discovery the owner is unaware, although learning of the loss would normally bring despair.",
+      "sources": [
+        "ra-definition"
+      ],
+      "base_nodes": [
+        "O1",
+        "O4"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KO2",
+      "speaker": "Rashi",
+      "label": "Rashi: explaining Rava",
+      "text": "Rava counts the response now: once the owner learns, the lost object will no longer occupy the owner’s concern.",
+      "sources": [
+        "ra-now"
+      ],
+      "base_nodes": [
+        "O6",
+        "O7"
+      ],
+      "kind": "statement",
+      "class": "C",
+      "note": "An explanation of Rava’s position; do not turn it into Rashi’s own ruling."
+    },
+    {
+      "id": "KO3",
+      "speaker": "Tosafot",
+      "label": "Tosafot: marked loss is different",
+      "text": "Later despair over a marked object is contingent; initially the owner was not standing ready to despair.",
+      "sources": [
+        "to-mark"
+      ],
+      "base_nodes": [
+        "O2"
+      ],
+      "kind": "statement",
+      "class": "C",
+      "note": "The Gemara supplies the identifying mark and expected recovery. Tosafot qualifies an overbroad extension of Rava, without attacking Rashi."
+    },
+    {
+      "id": "KO4",
+      "speaker": "Ritva (via Shittah)",
+      "label": "Ritva (via Shittah): possession for the owner",
+      "text": "Where unnoticed despair is ineffective, pickup leaves the finder’s hand like the owner’s hand, as a custodian.",
+      "sources": [
+        "ri-possession"
+      ],
+      "base_nodes": [
+        "O2",
+        "O5"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KO5",
+      "speaker": "Ritva (via Shittah)",
+      "label": "Ritva (via Shittah): later despair cannot cure it",
+      "text": "Because the finder did not acquire at pickup and holds for the owner, the owner’s later despair does not confer acquisition.",
+      "sources": [
+        "ri-possession"
+      ],
+      "base_nodes": [
+        "O2",
+        "O5"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KO6",
+      "speaker": "Ritva (via Shittah)",
+      "label": "Ritva (via Shittah): not necessarily theft",
+      "text": "Ba-issura here describes taking while the object remains in the owner’s domain; it need not mean an intention to steal.",
+      "sources": [
+        "ri-possession"
+      ],
+      "base_nodes": [
+        "O2"
+      ],
+      "kind": "statement",
+      "class": "C",
+      "note": "Ritva adds that a marked object must be picked up. No general duty concerning all unmarked finds is asserted here."
+    },
+    {
+      "id": "KO7",
+      "speaker": "Editorial",
+      "label": "Supplied: two distinct qualifications",
+      "text": "Keep anticipated despair separate from contingent later despair, and ask whether pickup already made the finder a holder for the owner.",
+      "sources": [
+        "ra-definition",
+        "ra-now",
+        "to-mark",
+        "ri-possession"
+      ],
+      "base_nodes": [
+        "O1",
+        "O2",
+        "O5",
+        "O7"
+      ],
+      "kind": "argument",
+      "class": "R"
+    },
+    {
+      "id": "KC1",
+      "speaker": "Rashi",
+      "label": "Rashi: awareness precedes finding",
+      "text": "The owner learned that the coins fell and despaired before this finder discovered them.",
+      "sources": [
+        "ra-coins"
+      ],
+      "base_nodes": [
+        "C5",
+        "C6"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KC2",
+      "speaker": "Editorial",
+      "label": "Supplied: locate the changed premise",
+      "text": "Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware.",
+      "sources": [
+        "ra-coins"
+      ],
+      "base_nodes": [
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "kind": "argument",
+      "class": "R"
+    },
+    {
+      "id": "KC3",
+      "speaker": "Editorial",
+      "label": "Supplied: retain the original target",
+      "text": "This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye.",
+      "sources": [
+        "ra-coins"
+      ],
+      "base_nodes": [
+        "C1",
+        "C2",
+        "C6",
+        "C7"
+      ],
+      "kind": "statement",
+      "class": "R",
+      "note": "No Tosafot coins node is added: ת״ש המוצא מעות כו׳ concerns the later public-place baraita, outside the selected scattered-coins exchange."
+    },
+    {
+      "id": "KR1",
+      "speaker": "Rashi",
+      "label": "Rashi: the same verse",
+      "text": "Ordinary return and exceptional acquisition come from one verse, warranting their comparison.",
+      "sources": [
+        "ra-compare"
+      ],
+      "base_nodes": [
+        "R2",
+        "R3"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KR2",
+      "speaker": "Rashi",
+      "label": "Rashi: the timing limit",
+      "text": "Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it.",
+      "sources": [
+        "ra-timing"
+      ],
+      "base_nodes": [
+        "R4",
+        "R6"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KR3",
+      "speaker": "Tosafot",
+      "label": "Tosafot: why a special verse?",
+      "text": "Known despair already permits ordinary loss. A river verse confined to that case would add nothing.",
+      "sources": [
+        "to-compare"
+      ],
+      "base_nodes": [
+        "R1",
+        "R2"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KR4",
+      "speaker": "Tosafot",
+      "label": "Tosafot: what the exception adds",
+      "text": "The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair.",
+      "sources": [
+        "to-compare"
+      ],
+      "base_nodes": [
+        "R1",
+        "R2"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KR5",
+      "speaker": "Tosafot",
+      "label": "Tosafot: carry across the comparison",
+      "text": "The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission.",
+      "sources": [
+        "to-compare"
+      ],
+      "base_nodes": [
+        "R3",
+        "R4",
+        "R6"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KR6",
+      "speaker": "Editorial",
+      "label": "Supplied: make the extra premise visible",
+      "text": "Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient.",
+      "sources": [
+        "ra-compare",
+        "ra-timing",
+        "to-compare"
+      ],
+      "base_nodes": [
+        "R3",
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "kind": "argument",
+      "class": "R"
+    },
+    {
+      "id": "KR7",
+      "speaker": "Tosafot",
+      "label": "Tosafot: Rava knew the baraita",
+      "text": "Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof.",
+      "sources": [
+        "to-refutation"
+      ],
+      "base_nodes": [
+        "R7"
+      ],
+      "kind": "statement",
+      "class": "C",
+      "note": "Kept disconnected as an explanatory note, not another premise proving the conclusion."
+    },
+    {
+      "id": "KB1",
+      "speaker": "Rashba",
+      "label": "Rashba: scriptural ownerlessness",
+      "text": "True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair.",
+      "sources": [
+        "rb-exception"
+      ],
+      "base_nodes": [
+        "O3",
+        "R1"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KB2",
+      "speaker": "Rashba",
+      "label": "Rashba: recoverability matters",
+      "text": "Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone.",
+      "sources": [
+        "rb-boundary"
+      ],
+      "base_nodes": [
+        "O3",
+        "R1"
+      ],
+      "kind": "statement",
+      "class": "C"
+    },
+    {
+      "id": "KB3",
+      "speaker": "Editorial",
+      "label": "Supplied: keep the exceptional scope",
+      "text": "Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it.",
+      "sources": [
+        "rb-exception",
+        "rb-boundary"
+      ],
+      "base_nodes": [
+        "O3",
+        "R1",
+        "R2"
+      ],
+      "kind": "argument",
+      "class": "R"
+    },
+    {
+      "id": "KB4",
+      "speaker": "Editorial",
+      "label": "Supplied: do not replace the comparison",
+      "text": "This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map.",
+      "sources": [
+        "rb-exception",
+        "rb-boundary",
+        "ra-compare"
+      ],
+      "base_nodes": [
+        "R1",
+        "R3",
+        "R5"
+      ],
+      "kind": "statement",
+      "class": "R"
+    }
+  ],
+  "views": [
+    {
+      "id": "04-opening-commentary",
+      "name": "Opening · Rashi / Tosafot / Ritva",
+      "ref": "21b · selected opening comments",
+      "title": "Timing, expectation, possession.",
+      "intro": "Rashi defines the timing and explains Rava. Tosafot qualifies the marked-object case. Ritva, quoted in Shittah Mekubbetzet, explains why later despair cannot repair pickup for the owner.",
+      "note": "C = attributed commentary; R = our supplied synthesis. These are complementary explanations and qualifications, not an invented dispute. Base context: O1–O2, O4–O7.",
+      "nodes": [
+        "KO1",
+        "KO2",
+        "KO3",
+        "KO4",
+        "KO5",
+        "KO6",
+        "KO7"
+      ],
+      "edges": [
+        [
+          "KO1",
+          "+>",
+          "KO7"
+        ],
+        [
+          "KO2",
+          "+>",
+          "KO7"
+        ],
+        [
+          "KO3",
+          "+>",
+          "KO7"
+        ],
+        [
+          "KO4",
+          "+>",
+          "KO5"
+        ],
+        [
+          "KO5",
+          "+>",
+          "KO7"
+        ],
+        [
+          "KO6",
+          "+>",
+          "KO7"
+        ]
+      ],
+      "sources": [
+        "ra-definition",
+        "ra-now",
+        "to-mark",
+        "ri-possession"
+      ],
+      "pdf_size_mm": [
+        420,
+        297
+      ]
+    },
+    {
+      "id": "05-coins-commentary",
+      "name": "Coins · Rashi",
+      "ref": "21b:7 · selected Rashi comment",
+      "title": "Awareness before discovery.",
+      "intro": "Rashi supplies a precise temporal reading of the purse-checking reply. Our two supplied nodes locate its effect in the unchanged coins map.",
+      "note": "KC2–KC3 are our mapping explanation. The actual attack C6 → C2 remains in the base map; no second attack or undercut is introduced here.",
+      "nodes": [
+        "KC1",
+        "KC2",
+        "KC3"
+      ],
+      "edges": [
+        [
+          "KC1",
+          "+>",
+          "KC2"
+        ],
+        [
+          "KC2",
+          "+>",
+          "KC3"
+        ]
+      ],
+      "sources": [
+        "ra-coins"
+      ],
+      "pdf_size_mm": [
+        297,
+        420
+      ]
+    },
+    {
+      "id": "06-river-commentary",
+      "name": "River · Rashi / Tosafot",
+      "ref": "22b:5–7 · the final comparison",
+      "title": "Why does the comparison work?",
+      "intro": "Rashi states the same-verse warrant and awareness qualification. Tosafot supplies the redundancy argument that explains what the exceptional permission adds.",
+      "note": "KR6 is a supplied synthesis. KR7 explains what Rava missed, not a further proof. The final comparison on 22b is distinct from the earlier river exchange on 22a.",
+      "nodes": [
+        "KR1",
+        "KR2",
+        "KR3",
+        "KR4",
+        "KR5",
+        "KR6",
+        "KR7"
+      ],
+      "edges": [
+        [
+          "KR3",
+          "+>",
+          "KR4"
+        ],
+        [
+          "KR4",
+          "+>",
+          "KR5"
+        ],
+        [
+          "KR1",
+          "+>",
+          "KR6"
+        ],
+        [
+          "KR2",
+          "+>",
+          "KR6"
+        ],
+        [
+          "KR5",
+          "+>",
+          "KR6"
+        ]
+      ],
+      "sources": [
+        "ra-compare",
+        "ra-timing",
+        "to-compare",
+        "to-refutation"
+      ],
+      "pdf_size_mm": [
+        297,
+        420
+      ]
+    },
+    {
+      "id": "07-river-boundary",
+      "name": "River boundary · Rashba",
+      "ref": "21b · selected Rashba comment",
+      "title": "Loss to everyone is a real limit.",
+      "intro": "Rashba distinguishes scriptural ownerlessness from the owner’s psychological despair. His recoverability cases clarify the opening exception used in the final comparison.",
+      "note": "The Biran River and sand discussions are commentary context, not newly encoded Gemara episodes. This selected account does not survey all opinions on the exception.",
+      "nodes": [
+        "KB1",
+        "KB2",
+        "KB3",
+        "KB4"
+      ],
+      "edges": [
+        [
+          "KB1",
+          "+>",
+          "KB3"
+        ],
+        [
+          "KB2",
+          "+>",
+          "KB3"
+        ],
+        [
+          "KB3",
+          "+>",
+          "KB4"
+        ]
+      ],
+      "sources": [
+        "rb-exception",
+        "rb-boundary",
+        "ra-compare"
+      ],
+      "pdf_size_mm": [
+        420,
+        297
+      ]
+    }
+  ]
+}

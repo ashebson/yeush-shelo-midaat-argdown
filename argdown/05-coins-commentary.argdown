@@ -1,0 +1,15 @@
+# Awareness before discovery.
+
+/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+
+/* C | Rashi | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C5, C6 */
+[KC1 · Rashi: awareness precedes finding]: C · The owner learned that the coins fell and despaired before this finder discovered them. {"color": "#53659c"}
+  +> <KC2 · Supplied: locate the changed premise>
+
+/* R | Editorial | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C2, C5, C6 */
+<KC2 · Supplied: locate the changed premise>: R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. {"color": "#f3d5a5"}
+  +> [KC3 · Supplied: retain the original target]
+
+/* R | Editorial | Rashi on Bava Metzia 21b, s.v. עשוי למשמש | Base nodes: C1, C2, C6, C7 */
+[KC3 · Supplied: retain the original target]: R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. {"color": "#f3d5a5"}
+

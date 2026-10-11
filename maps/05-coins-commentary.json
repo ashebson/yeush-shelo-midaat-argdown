@@ -1,0 +1,238 @@
+{
+  "arguments": {
+    "KC2 · Supplied: locate the changed premise": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KC1 · Rashi: awareness precedes finding",
+          "fromType": "equivalence-class",
+          "to": "KC2 · Supplied: locate the changed premise",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KC2 · Supplied: locate the changed premise",
+          "fromType": "argument",
+          "to": "KC3 · Supplied: retain the original target",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 7,
+          "endLine": 7,
+          "startColumn": 6,
+          "endColumn": 49,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KC2 · Supplied: locate the changed premise",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. ",
+          "startLine": 10,
+          "endLine": 11,
+          "startColumn": 1,
+          "endColumn": 49,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "KC2 · Supplied: locate the changed premise",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "KC2 · Supplied: locate the changed premise",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "KC1 · Rashi: awareness precedes finding": {
+      "type": "equivalence-class",
+      "title": "KC1 · Rashi: awareness precedes finding",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KC1 · Rashi: awareness precedes finding",
+          "fromType": "equivalence-class",
+          "to": "KC2 · Supplied: locate the changed premise",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KC1 · Rashi: awareness precedes finding",
+          "text": "C · The owner learned that the coins fell and despaired before this finder discovered them. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 49,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KC3 · Supplied: retain the original target": {
+      "type": "equivalence-class",
+      "title": "KC3 · Supplied: retain the original target",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KC2 · Supplied: locate the changed premise",
+          "fromType": "argument",
+          "to": "KC3 · Supplied: retain the original target",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "KC3 · Supplied: retain the original target",
+          "isReference": true,
+          "startLine": 11,
+          "startColumn": 6,
+          "endLine": 11,
+          "endColumn": 49,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KC3 · Supplied: retain the original target",
+          "text": "R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. ",
+          "startLine": 14,
+          "startColumn": 1,
+          "endLine": 14,
+          "endColumn": 189,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KC1 · Rashi: awareness precedes finding",
+      "fromType": "equivalence-class",
+      "to": "KC2 · Supplied: locate the changed premise",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KC2 · Supplied: locate the changed premise",
+      "fromType": "argument",
+      "to": "KC3 · Supplied: retain the original target",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "KC1 · Rashi: awareness precedes finding",
+        "type": "statement-map-node",
+        "labelTitle": "KC1 · Rashi: awareness precedes finding",
+        "labelText": "C · The owner learned that the coins fell and despaired before this finder discovered them. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KC3 · Supplied: retain the original target",
+        "type": "statement-map-node",
+        "labelTitle": "KC3 · Supplied: retain the original target",
+        "labelText": "R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "KC2 · Supplied: locate the changed premise",
+        "type": "argument-map-node",
+        "labelTitle": "KC2 · Supplied: locate the changed premise",
+        "labelText": "R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n2",
+        "fromEquivalenceClass": "KC1 · Rashi: awareness precedes finding"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n1",
+        "toEquivalenceClass": "KC3 · Supplied: retain the original target"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "Awareness before discovery.",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 14,
+      "endColumn": 189,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

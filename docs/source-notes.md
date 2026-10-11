@@ -51,3 +51,7 @@ This final river proof is **22b:5–7**, not the earlier river-loss discussion o
 ## Deliberate omissions
 
 The optional figs/olives/carobs episode (21b:13–16) is omitted to keep 22 overview nodes. It would add another instructive premise dispute: appearance identifies the source tree, weakening the expectation of future despair; Rav Pappa distinguishes figs because they become disagreeable when they fall. Other omissions include scattered fruit, heavy/valuable objects, public-place coins, gleanings, the exchanges on 22a, dew/consent, and the post-ruling windfall dates discussion. No conclusions about these omitted arguments are inferred from their absence.
+
+## Separate commentary extension
+
+The original reconstruction and saved Gemara excerpts remain unchanged. [Commentary notes](commentary-notes.md) document four additional views, with Rashi, three selected Tosafot comments, Rashba and Ritva as quoted in Shittah Mekubbetzet. The [commentary ledger](../sources/commentary.json) retains exact Hebrew excerpts, attribution and hashes. C marks an attributed paraphrase; R marks our supplied synthesis. No commentary edges enter the base overview.

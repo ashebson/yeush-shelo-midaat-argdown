@@ -1,0 +1,529 @@
+{
+  "arguments": {
+    "KR6 · Supplied: make the extra premise visible": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR1 · Rashi: the same verse",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR2 · Rashi: the timing limit",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR5 · Tosafot: carry across the comparison",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 7,
+          "endLine": 7,
+          "startColumn": 6,
+          "endColumn": 53,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KR6 · Supplied: make the extra premise visible",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 6,
+          "endColumn": 53,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KR6 · Supplied: make the extra premise visible",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 23,
+          "endLine": 23,
+          "startColumn": 6,
+          "endColumn": 53,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KR6 · Supplied: make the extra premise visible",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. ",
+          "startLine": 26,
+          "endLine": 26,
+          "startColumn": 1,
+          "endColumn": 214,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "KR6 · Supplied: make the extra premise visible",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "KR6 · Supplied: make the extra premise visible",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "KR1 · Rashi: the same verse": {
+      "type": "equivalence-class",
+      "title": "KR1 · Rashi: the same verse",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR1 · Rashi: the same verse",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR1 · Rashi: the same verse",
+          "text": "C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 53,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR2 · Rashi: the timing limit": {
+      "type": "equivalence-class",
+      "title": "KR2 · Rashi: the timing limit",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR2 · Rashi: the timing limit",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR2 · Rashi: the timing limit",
+          "text": "C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. ",
+          "startLine": 10,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 53,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR3 · Tosafot: why a special verse?": {
+      "type": "equivalence-class",
+      "title": "KR3 · Tosafot: why a special verse?",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR3 · Tosafot: why a special verse?",
+          "fromType": "equivalence-class",
+          "to": "KR4 · Tosafot: what the exception adds",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR3 · Tosafot: why a special verse?",
+          "text": "C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. ",
+          "startLine": 14,
+          "startColumn": 1,
+          "endLine": 15,
+          "endColumn": 45,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR4 · Tosafot: what the exception adds": {
+      "type": "equivalence-class",
+      "title": "KR4 · Tosafot: what the exception adds",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR3 · Tosafot: why a special verse?",
+          "fromType": "equivalence-class",
+          "to": "KR4 · Tosafot: what the exception adds",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR4 · Tosafot: what the exception adds",
+          "fromType": "equivalence-class",
+          "to": "KR5 · Tosafot: carry across the comparison",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "KR4 · Tosafot: what the exception adds",
+          "isReference": true,
+          "startLine": 15,
+          "startColumn": 6,
+          "endLine": 15,
+          "endColumn": 45,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR4 · Tosafot: what the exception adds",
+          "text": "C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. ",
+          "startLine": 18,
+          "startColumn": 1,
+          "endLine": 19,
+          "endColumn": 49,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR5 · Tosafot: carry across the comparison": {
+      "type": "equivalence-class",
+      "title": "KR5 · Tosafot: carry across the comparison",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR4 · Tosafot: what the exception adds",
+          "fromType": "equivalence-class",
+          "to": "KR5 · Tosafot: carry across the comparison",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KR5 · Tosafot: carry across the comparison",
+          "fromType": "equivalence-class",
+          "to": "KR6 · Supplied: make the extra premise visible",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "KR5 · Tosafot: carry across the comparison",
+          "isReference": true,
+          "startLine": 19,
+          "startColumn": 6,
+          "endLine": 19,
+          "endColumn": 49,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR5 · Tosafot: carry across the comparison",
+          "text": "C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. ",
+          "startLine": 22,
+          "startColumn": 1,
+          "endLine": 23,
+          "endColumn": 53,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KR7 · Tosafot: Rava knew the baraita": {
+      "type": "equivalence-class",
+      "title": "KR7 · Tosafot: Rava knew the baraita",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KR7 · Tosafot: Rava knew the baraita",
+          "text": "C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. ",
+          "startLine": 29,
+          "startColumn": 1,
+          "endLine": 29,
+          "endColumn": 206,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KR1 · Rashi: the same verse",
+      "fromType": "equivalence-class",
+      "to": "KR6 · Supplied: make the extra premise visible",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KR2 · Rashi: the timing limit",
+      "fromType": "equivalence-class",
+      "to": "KR6 · Supplied: make the extra premise visible",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KR3 · Tosafot: why a special verse?",
+      "fromType": "equivalence-class",
+      "to": "KR4 · Tosafot: what the exception adds",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KR4 · Tosafot: what the exception adds",
+      "fromType": "equivalence-class",
+      "to": "KR5 · Tosafot: carry across the comparison",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KR5 · Tosafot: carry across the comparison",
+      "fromType": "equivalence-class",
+      "to": "KR6 · Supplied: make the extra premise visible",
+      "toType": "argument"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "KR1 · Rashi: the same verse",
+        "type": "statement-map-node",
+        "labelTitle": "KR1 · Rashi: the same verse",
+        "labelText": "C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KR2 · Rashi: the timing limit",
+        "type": "statement-map-node",
+        "labelTitle": "KR2 · Rashi: the timing limit",
+        "labelText": "C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "KR3 · Tosafot: why a special verse?",
+        "type": "statement-map-node",
+        "labelTitle": "KR3 · Tosafot: why a special verse?",
+        "labelText": "C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "KR4 · Tosafot: what the exception adds",
+        "type": "statement-map-node",
+        "labelTitle": "KR4 · Tosafot: what the exception adds",
+        "labelText": "C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "KR5 · Tosafot: carry across the comparison",
+        "type": "statement-map-node",
+        "labelTitle": "KR5 · Tosafot: carry across the comparison",
+        "labelText": "C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "KR7 · Tosafot: Rava knew the baraita",
+        "type": "statement-map-node",
+        "labelTitle": "KR7 · Tosafot: Rava knew the baraita",
+        "labelText": "C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "KR6 · Supplied: make the extra premise visible",
+        "type": "argument-map-node",
+        "labelTitle": "KR6 · Supplied: make the extra premise visible",
+        "labelText": "R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n6",
+        "fromEquivalenceClass": "KR1 · Rashi: the same verse"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n6",
+        "fromEquivalenceClass": "KR2 · Rashi: the timing limit"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n3",
+        "fromEquivalenceClass": "KR3 · Tosafot: why a special verse?",
+        "toEquivalenceClass": "KR4 · Tosafot: what the exception adds"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n4",
+        "fromEquivalenceClass": "KR4 · Tosafot: what the exception adds",
+        "toEquivalenceClass": "KR5 · Tosafot: carry across the comparison"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n4",
+        "to": "n6",
+        "fromEquivalenceClass": "KR5 · Tosafot: carry across the comparison"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "Why does the comparison work?",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 29,
+      "endColumn": 206,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

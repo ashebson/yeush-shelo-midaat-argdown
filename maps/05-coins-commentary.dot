@@ -1,0 +1,18 @@
+digraph "Argument Map" {
+
+rankdir = "TB";
+nodesep = "0.32";
+ranksep = "0.52";
+pad = "0.25";
+size = "";
+concentrate = "false";
+ratio = "auto";
+edge[arrowsize="0.8", penwidth="1.7"]graph [bgcolor = "#ffffff" ]  n0 [label=<<TABLE WIDTH="180" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="180" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000"><B>KC1&#x20;&#xB7;&#x20;Rashi&#x3A;&#x20;awareness&#x20;precedes<BR/>&#x20;finding</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="180" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000">C&#x20;&#xB7;&#x20;The&#x20;owner&#x20;learned&#x20;that&#x20;the<BR/>&#x20;coins&#x20;fell&#x20;and&#x20;despaired&#x20;before<BR/>&#x20;this&#x20;finder&#x20;discovered&#x20;them.&#x20;</FONT></TD></TR></TABLE>>, tooltip="C · The owner learned that the coins fell and despaired before this finder discovered them. ", shape="box",  margin="0.16,0.12", style="rounded,filled", color="#53659c", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n1 [label=<<TABLE WIDTH="180" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="180" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000"><B>KC3&#x20;&#xB7;&#x20;Supplied&#x3A;&#x20;retain&#x20;the<BR/>&#x20;original&#x20;target</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="180" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000">R&#x20;&#xB7;&#x20;This&#x20;explains&#x20;the&#x20;base<BR/>&#x20;relation&#x20;C6&#x20;attacking&#x20;C2.&#x20;It<BR/>&#x20;leaves&#x20;the&#x20;Mishnah&#x20;intact&#x20;and<BR/>&#x20;supplies&#x20;no&#x20;new&#x20;refutation&#x20;of<BR/>&#x20;Abaye.&#x20;</FONT></TD></TR></TABLE>>, tooltip="R · This explains the base relation C6 attacking C2. It leaves the Mishnah intact and supplies no new refutation of Abaye. ", shape="box",  margin="0.16,0.12", style="rounded,filled", color="#f3d5a5", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n2 [label=<<TABLE WIDTH="180" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="180" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000"><B>KC2&#x20;&#xB7;&#x20;Supplied&#x3A;&#x20;locate&#x20;the<BR/>&#x20;changed&#x20;premise</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="180" BALIGN="CENTER"><FONT FACE="Arial" POINT-SIZE="14" COLOR="#000000">R&#x20;&#xB7;&#x20;Read&#x20;habitual&#x20;checking<BR/>&#x20;through&#x20;Rashi&#8217;s&#x20;timing&#x3A;&#x20;the<BR/>&#x20;reply&#x20;replaces&#x20;the&#x20;challenge&#8217;s<BR/>&#x20;assumption&#x20;that&#x20;the&#x20;owner&#x20;was<BR/>&#x20;still&#x20;unaware.&#x20;</FONT></TD></TR></TABLE>>, tooltip="R · Read habitual checking through Rashi’s timing: the reply replaces the challenge’s assumption that the owner was still unaware. ", margin="0.16,0.12", shape="hexagon", style="filled", fillcolor="#f3d5a5", fontcolor="#000000",  type="argument-map-node"];
+
+
+  n0 -> n2 [type="support", color="#267565", tooltip="support"];
+  n2 -> n1 [type="support", color="#267565", tooltip="support"];
+
+}

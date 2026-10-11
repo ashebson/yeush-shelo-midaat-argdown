@@ -1,0 +1,112 @@
+{
+  "pdf_sha256": "470a227c322d144bb5487b5de9504b94966c91c545920c0d757d8da79fe7fb76",
+  "pymupdf": "1.26.6",
+  "pages": [
+    {
+      "page": 1,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 3
+    },
+    {
+      "page": 2,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 67
+    },
+    {
+      "page": 3,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 22
+    },
+    {
+      "page": 4,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 28
+    },
+    {
+      "page": 5,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 31
+    },
+    {
+      "page": 6,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 10,
+      "vector_paths": 37
+    },
+    {
+      "page": 7,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 8,
+      "vector_paths": 18
+    },
+    {
+      "page": 8,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 27
+    },
+    {
+      "page": 9,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 15
+    },
+    {
+      "page": 10,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 25
+    },
+    {
+      "page": 11,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 0,
+      "vector_paths": 18
+    },
+    {
+      "page": 12,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 8,
+      "vector_paths": 14
+    },
+    {
+      "page": 13,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 2,
+      "vector_paths": 5
+    },
+    {
+      "page": 14,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 8,
+      "vector_paths": 14
+    },
+    {
+      "page": 15,
+      "outside_text": [],
+      "raster_images": 0,
+      "links": 7,
+      "vector_paths": 12
+    }
+  ],
+  "status": "passed"
+}

@@ -1,26 +1,31 @@
 # PDF edition and export record
 
-[Open the seven-page PDF](yeush-shelo-midaat.pdf).
+[Open the 15-page PDF](yeush-shelo-midaat.pdf).
 
-This edition preserves the verified SVG maps as vectors, with selectable text, a repeated legend, episode introductions and reading notes, source references, Rashi/reconstruction attribution, and all eight saved Hebrew/Aramaic excerpts. The authored claims, relations and `.argdown` files are unchanged. It is a bounded reconstruction, not a formal proof or complete encoding of the sugya.
+The edition preserves the original four SVG maps and adds four separate commentary maps with Rashi, three Tosafot comments, Rashba, and Ritva through Shittah Mekubbetzet. Figures remain vectors with selectable text. Base reconstruction and commentary are clearly separated; source ledgers identify supplied bridges, exact authors and Hebrew excerpts. This is a bounded reconstruction, not a formal proof or complete encoding of the sugya.
 
 ## Page plan
 
 | Page | Content | Page size | Minimum map label size |
 | --- | --- | --- | ---: |
-| 1 | Reader’s guide and four-minute conversation | A4 portrait | — |
+| 1 | Reader’s guide | A4 portrait | — |
 | 2 | 22-node overview with cross-episode links | A2 landscape foldout | 11.03 pt |
-| 3 | Opening dispute and isolated scope notes | A3 landscape | 12.05 pt |
-| 4 | Scattered coins challenge and factual reply | A3 landscape | 11.71 pt |
-| 5 | Final river comparison, refutation and ruling | A3 portrait | 12.53 pt |
-| 6 | Node-to-source index and interpretive boundaries | A4 portrait | — |
-| 7 | Selected Hebrew/Aramaic source excerpts | A4 portrait | — |
+| 3 | Opening dispute and scope notes | A3 landscape | 12.05 pt |
+| 4 | Scattered coins | A3 landscape | 11.71 pt |
+| 5 | Final river comparison | A3 portrait | 12.53 pt |
+| 6 | Base provenance and boundaries | A4 portrait | — |
+| 7 | Eight Gemara excerpts | A4 portrait | — |
+| 8 | Opening commentary: Rashi, Tosafot, Ritva via Shittah | A3 landscape | 11.37 pt |
+| 9 | Coins commentary: Rashi and supplied mapping explanation | A3 portrait | 19.76 pt |
+| 10 | River commentary: Rashi and Tosafot | A3 portrait | 10.14 pt |
+| 11 | River boundary: Rashba and supplied qualification | A3 landscape | 10.05 pt |
+| 12–15 | Commentary Hebrew excerpts with exact attribution and context | A4 portrait | — |
 
-The larger map pages keep the original node wording readable without redesigning the argument. View each page independently in a PDF reader, or print at actual size on the indicated paper. Fitting the entire A2 overview onto A4 shrinks the labels; use the separate episode pages or zoom for close reading. The primary excerpts use 12.75 pt Hebrew text with explicit RTL direction.
+Large map pages preserve the complete claims. View pages individually, zoom, or print at actual size. Shrinking A2 to A4 makes labels small. Hebrew excerpts use 12.75 pt type with isolated RTL direction. There are eleven unique commentary excerpts; Rashi’s same-verse explanation is repeated on page 15 to document the source of the supplied KB4 qualification.
 
 ## Regenerate
 
-Requirements: existing Node build dependencies, Python 3, Chromium, and the pinned optional Python packages in [requirements-pdf.txt](../scripts/requirements-pdf.txt). The PDF export does not change the Node dependency tree.
+Requirements: Node build dependencies, Python 3, Chromium and the pinned optional packages in [requirements-pdf.txt](../scripts/requirements-pdf.txt). No Node dependencies were changed for this export.
 
 ```sh
 npm ci
@@ -31,25 +36,21 @@ python3 -m venv .venv-pdf
 npm test
 ```
 
-Supply the path of your installed Chromium/Chrome executable on other systems. If the Python packages are already available to `python3`, use `npm run pdf -- --browser /path/to/chromium` instead.
+Supply your Chromium/Chrome executable on other systems. If packages are available to `python3`, use `npm run pdf -- --browser /path/to/chromium`.
 
-The exporter reads the generated `index.html` for episode headings, introductions and notes, the four SVG maps, and the existing source ledgers. Chromium runs with networking disabled. It prints one intentionally sized page at a time; pypdf assembles them and adds navigation bookmarks. The final files are `docs/yeush-shelo-midaat.pdf` and [pdf-export-report.json](pdf-export-report.json). Intermediate HTML and per-page PDFs are kept in ignored `output/pdf/`.
+The exporter reads the generated HTML, eight SVGs and source ledgers. Chromium runs with networking disabled. Each intentionally sized page is printed separately, then pypdf assembles the document with bookmarks. Outputs are the PDF and [pdf-export-report.json](pdf-export-report.json); intermediate HTML/PDF files remain in ignored `output/pdf/`.
 
-The report records input and PDF SHA-256 hashes, exact page dimensions, minimum map font sizes and tool versions. `npm test` checks those hashes to catch stale PDF exports. PDF bytes can vary with browser/font versions and generated metadata; regeneration promises the same source-backed layout, not byte-identical files across environments.
+The report records input and PDF SHA-256 hashes, dimensions, minimum map font sizes and tool versions. `npm test` checks the hashes to reject stale exports. PDF metadata and fonts can differ by environment; byte-identical reproduction across machines is not promised.
 
-## Inspection completed · 11 October 2026
+## Inspection · 11 October 2026
 
-The final seven PDF pages were rendered to PNG with Poppler and opened for visual inspection, rather than relying only on the source HTML. For example:
+All 15 final pages were rendered with Poppler and opened for visual inspection. All eight figures were reviewed for label size, node boundaries, relation routing and legend consistency. The original Gemara sources, labels and relations remain unchanged. Commentary claims and arrows were checked separately; no edges were added to the base overview. Source appendices were inspected for Hebrew ordering, wrapping, author attribution, clipping and footers.
+
+The first commentary export made the new river map too small (7.98 pt). Its page was changed from A3 landscape to portrait; the final minimum is 10.14 pt. Compact A4 source pages retain the Hebrew at 12.75 pt. The final export passes the 10 pt map-text floor, contains exactly 15 pages, and retains all **22 base and 21 commentary labels and full claims** in extracted text. No page overflows or external requests occurred. The PDF-object review found no text outside page bounds and zero raster images. See [pdf-object-report.json](qa/pdf-object-report.json).
 
 ```sh
-pdftoppm -scale-to 1800 -png docs/yeush-shelo-midaat.pdf output/pdf/page
+pdftoppm -scale-to 1600 -png docs/yeush-shelo-midaat.pdf output/pdf/expanded
 pdfinfo docs/yeush-shelo-midaat.pdf
 ```
 
-The local review covered every embedded figure: the overview’s cross-episode paths, opening scope notes and Abaye/Rava direction, coins C6 → C2 attack, and the river chain through R7/R8. Each figure reuses the already verified SVG; the PDF pass checks final-size labels, shape/text separation, boundaries and legend consistency. All four figures passed this fresh local inspection. No agent delegation or new figure design was needed.
-
-All seven pages passed page-bound checks. PDF extraction retained all 22 exact node labels and complete claims. The PDF contains vector figures, with zero raster-image objects, and 18 clickable source links on the final two pages. No text spans fall outside page boundaries. The Hebrew title, inline Rashi anchors and all eight Hebrew excerpts were visually checked for right-to-left order, wrapping and missing glyphs.
-
-The first export pass revealed underlining inherited by SVG node labels from the link style and insufficient space below the primary-text page. Link styling was scoped to actual hyperlinks and page layout was adjusted. The final inspection found neither issue, no clipped labels or footers, and no overlapping nodes. Export checks also enforce at least 10 pt map text and exactly one printed page for each page design.
-
-Verified with Chromium 154.0.8037.57, Playwright 1.62.0 and pypdf 6.10.0. PyMuPDF 1.26.6 was used for additional text-bound and vector/link inspection. The PDF has bookmarks and selectable text; it is not certified as a tagged or PDF/UA-accessible document. No public hosting or visibility change was performed.
+Verified with Chromium 154.0.8037.57, Playwright 1.62.0, pypdf 6.10.0 and PyMuPDF 1.26.6. Bookmarks and selectable text are present; PDF/UA or tagged-accessibility certification is not claimed. No public hosting or visibility changes were performed.

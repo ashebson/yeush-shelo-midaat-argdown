@@ -1,0 +1,575 @@
+{
+  "arguments": {
+    "KO7 · Supplied: two distinct qualifications": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO1 · Rashi: the time of discovery",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO2 · Rashi: explaining Rava",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO3 · Tosafot: marked loss is different",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO6 · Ritva (via Shittah): not necessarily theft",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 7,
+          "endLine": 7,
+          "startColumn": 6,
+          "endColumn": 50,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 6,
+          "endColumn": 50,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 15,
+          "endLine": 15,
+          "startColumn": 6,
+          "endColumn": 50,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 23,
+          "endLine": 23,
+          "startColumn": 6,
+          "endColumn": 50,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 27,
+          "endLine": 27,
+          "startColumn": 6,
+          "endColumn": 50,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Keep anticipated despair separate from contingent later despair, and ask whether pickup already made the finder a holder for the owner. ",
+          "startLine": 30,
+          "endLine": 30,
+          "startColumn": 1,
+          "endColumn": 207,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "KO7 · Supplied: two distinct qualifications",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "KO7 · Supplied: two distinct qualifications",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "KO1 · Rashi: the time of discovery": {
+      "type": "equivalence-class",
+      "title": "KO1 · Rashi: the time of discovery",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO1 · Rashi: the time of discovery",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO1 · Rashi: the time of discovery",
+          "text": "C · At discovery the owner is unaware, although learning of the loss would normally bring despair. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 50,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KO2 · Rashi: explaining Rava": {
+      "type": "equivalence-class",
+      "title": "KO2 · Rashi: explaining Rava",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO2 · Rashi: explaining Rava",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO2 · Rashi: explaining Rava",
+          "text": "C · Rava counts the response now: once the owner learns, the lost object will no longer occupy the owner’s concern. ",
+          "startLine": 10,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 50,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KO3 · Tosafot: marked loss is different": {
+      "type": "equivalence-class",
+      "title": "KO3 · Tosafot: marked loss is different",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO3 · Tosafot: marked loss is different",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO3 · Tosafot: marked loss is different",
+          "text": "C · Later despair over a marked object is contingent; initially the owner was not standing ready to despair. ",
+          "startLine": 14,
+          "startColumn": 1,
+          "endLine": 15,
+          "endColumn": 50,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KO4 · Ritva (via Shittah): possession for the owner": {
+      "type": "equivalence-class",
+      "title": "KO4 · Ritva (via Shittah): possession for the owner",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO4 · Ritva (via Shittah): possession for the owner",
+          "fromType": "equivalence-class",
+          "to": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO4 · Ritva (via Shittah): possession for the owner",
+          "text": "C · Where unnoticed despair is ineffective, pickup leaves the finder’s hand like the owner’s hand, as a custodian. ",
+          "startLine": 18,
+          "startColumn": 1,
+          "endLine": 19,
+          "endColumn": 62,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KO5 · Ritva (via Shittah): later despair cannot cure it": {
+      "type": "equivalence-class",
+      "title": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO4 · Ritva (via Shittah): possession for the owner",
+          "fromType": "equivalence-class",
+          "to": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "isReference": true,
+          "startLine": 19,
+          "startColumn": 6,
+          "endLine": 19,
+          "endColumn": 62,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+          "text": "C · Because the finder did not acquire at pickup and holds for the owner, the owner’s later despair does not confer acquisition. ",
+          "startLine": 22,
+          "startColumn": 1,
+          "endLine": 23,
+          "endColumn": 50,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KO6 · Ritva (via Shittah): not necessarily theft": {
+      "type": "equivalence-class",
+      "title": "KO6 · Ritva (via Shittah): not necessarily theft",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KO6 · Ritva (via Shittah): not necessarily theft",
+          "fromType": "equivalence-class",
+          "to": "KO7 · Supplied: two distinct qualifications",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KO6 · Ritva (via Shittah): not necessarily theft",
+          "text": "C · Ba-issura here describes taking while the object remains in the owner’s domain; it need not mean an intention to steal. ",
+          "startLine": 26,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 50,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO1 · Rashi: the time of discovery",
+      "fromType": "equivalence-class",
+      "to": "KO7 · Supplied: two distinct qualifications",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO2 · Rashi: explaining Rava",
+      "fromType": "equivalence-class",
+      "to": "KO7 · Supplied: two distinct qualifications",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO3 · Tosafot: marked loss is different",
+      "fromType": "equivalence-class",
+      "to": "KO7 · Supplied: two distinct qualifications",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO4 · Ritva (via Shittah): possession for the owner",
+      "fromType": "equivalence-class",
+      "to": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+      "fromType": "equivalence-class",
+      "to": "KO7 · Supplied: two distinct qualifications",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KO6 · Ritva (via Shittah): not necessarily theft",
+      "fromType": "equivalence-class",
+      "to": "KO7 · Supplied: two distinct qualifications",
+      "toType": "argument"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "KO1 · Rashi: the time of discovery",
+        "type": "statement-map-node",
+        "labelTitle": "KO1 · Rashi: the time of discovery",
+        "labelText": "C · At discovery the owner is unaware, although learning of the loss would normally bring despair. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KO2 · Rashi: explaining Rava",
+        "type": "statement-map-node",
+        "labelTitle": "KO2 · Rashi: explaining Rava",
+        "labelText": "C · Rava counts the response now: once the owner learns, the lost object will no longer occupy the owner’s concern. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "KO3 · Tosafot: marked loss is different",
+        "type": "statement-map-node",
+        "labelTitle": "KO3 · Tosafot: marked loss is different",
+        "labelText": "C · Later despair over a marked object is contingent; initially the owner was not standing ready to despair. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "KO4 · Ritva (via Shittah): possession for the owner",
+        "type": "statement-map-node",
+        "labelTitle": "KO4 · Ritva (via Shittah): possession for the owner",
+        "labelText": "C · Where unnoticed despair is ineffective, pickup leaves the finder’s hand like the owner’s hand, as a custodian. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+        "type": "statement-map-node",
+        "labelTitle": "KO5 · Ritva (via Shittah): later despair cannot cure it",
+        "labelText": "C · Because the finder did not acquire at pickup and holds for the owner, the owner’s later despair does not confer acquisition. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "KO6 · Ritva (via Shittah): not necessarily theft",
+        "type": "statement-map-node",
+        "labelTitle": "KO6 · Ritva (via Shittah): not necessarily theft",
+        "labelText": "C · Ba-issura here describes taking while the object remains in the owner’s domain; it need not mean an intention to steal. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "KO7 · Supplied: two distinct qualifications",
+        "type": "argument-map-node",
+        "labelTitle": "KO7 · Supplied: two distinct qualifications",
+        "labelText": "R · Keep anticipated despair separate from contingent later despair, and ask whether pickup already made the finder a holder for the owner. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n6",
+        "fromEquivalenceClass": "KO1 · Rashi: the time of discovery"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n6",
+        "fromEquivalenceClass": "KO2 · Rashi: explaining Rava"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n6",
+        "fromEquivalenceClass": "KO3 · Tosafot: marked loss is different"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n4",
+        "fromEquivalenceClass": "KO4 · Ritva (via Shittah): possession for the owner",
+        "toEquivalenceClass": "KO5 · Ritva (via Shittah): later despair cannot cure it"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n4",
+        "to": "n6",
+        "fromEquivalenceClass": "KO5 · Ritva (via Shittah): later despair cannot cure it"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n5",
+        "to": "n6",
+        "fromEquivalenceClass": "KO6 · Ritva (via Shittah): not necessarily theft"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "Timing, expectation, possession.",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 30,
+      "endColumn": 207,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

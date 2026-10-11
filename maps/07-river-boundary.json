@@ -1,0 +1,322 @@
+{
+  "arguments": {
+    "KB3 · Supplied: keep the exceptional scope": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB1 · Rashba: scriptural ownerlessness",
+          "fromType": "equivalence-class",
+          "to": "KB3 · Supplied: keep the exceptional scope",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB2 · Rashba: recoverability matters",
+          "fromType": "equivalence-class",
+          "to": "KB3 · Supplied: keep the exceptional scope",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB3 · Supplied: keep the exceptional scope",
+          "fromType": "argument",
+          "to": "KB4 · Supplied: do not replace the comparison",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 7,
+          "endLine": 7,
+          "startColumn": 6,
+          "endColumn": 49,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KB3 · Supplied: keep the exceptional scope",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 6,
+          "endColumn": 49,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "KB3 · Supplied: keep the exceptional scope",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. ",
+          "startLine": 14,
+          "endLine": 15,
+          "startColumn": 1,
+          "endColumn": 52,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "KB3 · Supplied: keep the exceptional scope",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "KB3 · Supplied: keep the exceptional scope",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "KB1 · Rashba: scriptural ownerlessness": {
+      "type": "equivalence-class",
+      "title": "KB1 · Rashba: scriptural ownerlessness",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB1 · Rashba: scriptural ownerlessness",
+          "fromType": "equivalence-class",
+          "to": "KB3 · Supplied: keep the exceptional scope",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KB1 · Rashba: scriptural ownerlessness",
+          "text": "C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 49,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KB2 · Rashba: recoverability matters": {
+      "type": "equivalence-class",
+      "title": "KB2 · Rashba: recoverability matters",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB2 · Rashba: recoverability matters",
+          "fromType": "equivalence-class",
+          "to": "KB3 · Supplied: keep the exceptional scope",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KB2 · Rashba: recoverability matters",
+          "text": "C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. ",
+          "startLine": 10,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 49,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "KB4 · Supplied: do not replace the comparison": {
+      "type": "equivalence-class",
+      "title": "KB4 · Supplied: do not replace the comparison",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "KB3 · Supplied: keep the exceptional scope",
+          "fromType": "argument",
+          "to": "KB4 · Supplied: do not replace the comparison",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "KB4 · Supplied: do not replace the comparison",
+          "isReference": true,
+          "startLine": 15,
+          "startColumn": 6,
+          "endLine": 15,
+          "endColumn": 52,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "KB4 · Supplied: do not replace the comparison",
+          "text": "R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. ",
+          "startLine": 18,
+          "startColumn": 1,
+          "endLine": 18,
+          "endColumn": 227,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KB1 · Rashba: scriptural ownerlessness",
+      "fromType": "equivalence-class",
+      "to": "KB3 · Supplied: keep the exceptional scope",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KB2 · Rashba: recoverability matters",
+      "fromType": "equivalence-class",
+      "to": "KB3 · Supplied: keep the exceptional scope",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "KB3 · Supplied: keep the exceptional scope",
+      "fromType": "argument",
+      "to": "KB4 · Supplied: do not replace the comparison",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "KB1 · Rashba: scriptural ownerlessness",
+        "type": "statement-map-node",
+        "labelTitle": "KB1 · Rashba: scriptural ownerlessness",
+        "labelText": "C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "KB2 · Rashba: recoverability matters",
+        "type": "statement-map-node",
+        "labelTitle": "KB2 · Rashba: recoverability matters",
+        "labelText": "C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "KB4 · Supplied: do not replace the comparison",
+        "type": "statement-map-node",
+        "labelTitle": "KB4 · Supplied: do not replace the comparison",
+        "labelText": "R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "KB3 · Supplied: keep the exceptional scope",
+        "type": "argument-map-node",
+        "labelTitle": "KB3 · Supplied: keep the exceptional scope",
+        "labelText": "R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n3",
+        "fromEquivalenceClass": "KB1 · Rashba: scriptural ownerlessness"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n3",
+        "fromEquivalenceClass": "KB2 · Rashba: recoverability matters"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n2",
+        "toEquivalenceClass": "KB4 · Supplied: do not replace the comparison"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "Loss to everyone is a real limit.",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 18,
+      "endColumn": 227,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

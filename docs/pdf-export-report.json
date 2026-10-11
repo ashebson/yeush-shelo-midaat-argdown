@@ -1,5 +1,5 @@
 {
-  "page_count": 7,
+  "page_count": 15,
   "pages": [
     {
       "number": 1,
@@ -84,29 +84,130 @@
       "scrollOverflow": false,
       "minMapFontPt": null,
       "rtlBlocks": 8
+    },
+    {
+      "number": 8,
+      "name": "04-opening-commentary",
+      "size_mm": [
+        420,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 11.374076224662163,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 9,
+      "name": "05-coins-commentary",
+      "size_mm": [
+        297,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 19.761114130434784,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 10,
+      "name": "06-river-commentary",
+      "size_mm": [
+        297,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 10.136159604870777,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 11,
+      "name": "07-river-boundary",
+      "size_mm": [
+        420,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 10.049930037313432,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 12,
+      "name": "04-opening-commentary-sources",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 4
+    },
+    {
+      "number": 13,
+      "name": "05-coins-commentary-sources",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 1
+    },
+    {
+      "number": 14,
+      "name": "06-river-commentary-sources",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 4
+    },
+    {
+      "number": 15,
+      "name": "07-river-boundary-sources",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 3
     }
   ],
   "source_sha256": {
-    "index.html": "6f116c30bb56065ff1363599ae6f2814374635c08ce82d3c7546e4dca4927418",
+    "index.html": "13cd4380a9b1acf2435978ce1229199a87de54d10b4e446be25d5d49933a725d",
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
-    "scripts/export-pdf.py": "6c65f340ac67586b729eaaf2b94fa64dbd7d014b3cbecc023e50752ed516533b",
+    "scripts/export-pdf.py": "a771e72de0f77d4f344dad29785f1c8d1118bb03f1a1f136bd34a80917c3badd",
+    "sources/commentary.json": "716745c826049ac98fe21f9d5713967b20835ce2d87fa3e43285ba68cde2fac1",
     "maps/overview.svg": "40f93c9c4e63626a061c508e9ee9ca5eeee57ec996b6f98d8b8506e03e3e2833",
     "maps/01-opening.svg": "ac2f4e6d78d7796291d7d4f3037481306885b5e5c0b8089532d46df9ecbedae0",
     "maps/02-coins.svg": "1eae8b1f37861c139f38807e26d1fb082d6d49dfffebe2158bd6a446201212e5",
-    "maps/03-river.svg": "7533a3f17ca824ce1cee56f4931473207f7c4d609b32886eff1d997a4aab9139"
+    "maps/03-river.svg": "7533a3f17ca824ce1cee56f4931473207f7c4d609b32886eff1d997a4aab9139",
+    "maps/04-opening-commentary.svg": "76577575e7588d017c3a614871b04ce4a13aba0ef778f6490adf7a4c4b85d20a",
+    "maps/05-coins-commentary.svg": "bc77da764bd33326e50b86df3e8921dc79913fb409989be441bc99f23ed37498",
+    "maps/06-river-commentary.svg": "b8ca4094c90d23038d8147f07f23be0ed9cab31eaf29c9405411bc918b934b52",
+    "maps/07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d"
   },
   "network_requests": [],
-  "pdf_sha256": "7c643449a83fd9f087a70e8f30a3f5804a16ea9da66de5cc66d03f2805d13f1d",
-  "bytes": 289814,
+  "pdf_sha256": "470a227c322d144bb5487b5de9504b94966c91c545920c0d757d8da79fe7fb76",
+  "bytes": 626579,
   "chromium": "154.0.8037.57",
   "python_dependencies": {
     "playwright": "1.62.0",
     "pypdf": "6.10.0"
   },
   "checks": [
-    "Seven single-page exports merged with bookmarks",
-    "All 22 node labels and complete claims extract from PDF",
+    "15 single-page exports merged with bookmarks",
+    "All 22 base and 21 commentary node labels and complete claims extract from PDF",
     "No HTML page overflow; map text at least 10 pt",
     "No network requests or page errors"
   ],

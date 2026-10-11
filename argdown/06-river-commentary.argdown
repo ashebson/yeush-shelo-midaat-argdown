@@ -1,0 +1,30 @@
+# Why does the comparison work?
+
+/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+
+/* C | Rashi | Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא | Base nodes: R2, R3 */
+[KR1 · Rashi: the same verse]: C · Ordinary return and exceptional acquisition come from one verse, warranting their comparison. {"color": "#53659c"}
+  +> <KR6 · Supplied: make the extra premise visible>
+
+/* C | Rashi | Rashi on Bava Metzia 22b, s.v. אף איסורא | Base nodes: R4, R6 */
+[KR2 · Rashi: the timing limit]: C · Ordinary unmarked loss is prohibited here when the owner may not have learned of the loss before the finder took it. {"color": "#53659c"}
+  +> <KR6 · Supplied: make the extra premise visible>
+
+/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R1, R2 */
+[KR3 · Tosafot: why a special verse?]: C · Known despair already permits ordinary loss. A river verse confined to that case would add nothing. {"color": "#53659c"}
+  +> [KR4 · Tosafot: what the exception adds]
+
+/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R1, R2 */
+[KR4 · Tosafot: what the exception adds]: C · The river permission therefore reaches lack of awareness, even with a mark and even where learning would not produce despair. {"color": "#53659c"}
+  +> [KR5 · Tosafot: carry across the comparison]
+
+/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R3, R4, R6 */
+[KR5 · Tosafot: carry across the comparison]: C · The ordinary prohibition likewise covers absence of known despair, with or without a mark; prior despair before pickup remains the route to permission. {"color": "#53659c"}
+  +> <KR6 · Supplied: make the extra premise visible>
+
+/* R | Editorial | Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא; Rashi on Bava Metzia 22b, s.v. אף איסורא; Tosafot on Bava Metzia 22b, s.v. איסורא דומיא דהתירא | Base nodes: R3, R4, R5, R6 */
+<KR6 · Supplied: make the extra premise visible>: R · Join the same-verse comparison to Tosafot’s redundancy reasoning and preserve Rashi’s timing limit. River permission alone is insufficient. {"color": "#f3d5a5"}
+
+/* C | Tosafot | Tosafot on Bava Metzia 22b, s.v. תיובתא דרבא | Base nodes: R7 */
+[KR7 · Tosafot: Rava knew the baraita]: C · Rava knew the river source but had not drawn the prohibition–permission comparison. This explains the refutation, rather than adding a proof. {"color": "#53659c"}
+

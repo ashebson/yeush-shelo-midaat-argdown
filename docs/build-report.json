@@ -21,6 +21,34 @@
     "edges": 7
   },
   {
+    "file": "04-opening-commentary.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 7,
+    "edges": 6
+  },
+  {
+    "file": "05-coins-commentary.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 3,
+    "edges": 2
+  },
+  {
+    "file": "06-river-commentary.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 7,
+    "edges": 5
+  },
+  {
+    "file": "07-river-boundary.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 4,
+    "edges": 3
+  },
+  {
     "file": "overview.argdown",
     "parserErrors": 0,
     "lexerErrors": 0,

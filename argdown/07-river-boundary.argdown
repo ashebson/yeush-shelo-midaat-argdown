@@ -1,0 +1,19 @@
+# Loss to everyone is a real limit.
+
+/* Commentary layer only. C = attributed commentator claim; R = supplied editorial bridge or comparison. All arrows are editorial. The base Gemara maps remain separate. See sources/commentary.json. */
+
+/* C | Rashba | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה | Base nodes: O3, R1 */
+[KB1 · Rashba: scriptural ownerlessness]: C · True loss to everyone is complete ownerlessness by the Torah, even if the owner pursues it and expressly refuses to despair. {"color": "#53659c"}
+  +> <KB3 · Supplied: keep the exceptional scope>
+
+/* C | Rashba | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability) | Base nodes: O3, R1 */
+[KB2 · Rashba: recoverability matters]: C · Siftable sand can still yield the object. On hearing that its owner has not despaired, return is required; it is not fully like loss to everyone. {"color": "#53659c"}
+  +> <KB3 · Supplied: keep the exceptional scope>
+
+/* R | Editorial | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה; Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability) | Base nodes: O3, R1, R2 */
+<KB3 · Supplied: keep the exceptional scope>: R · Rashba sharpens the base scope note: psychological despair does not create this exceptional permission, and a river location alone does not establish it. {"color": "#f3d5a5"}
+  +> [KB4 · Supplied: do not replace the comparison]
+
+/* R | Editorial | Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה; Rashba on Bava Metzia 21b, s.v. זוטו של ים ושלוליתו של נהר … רחמנא אפקריה (recoverability); Rashi on Bava Metzia 22b, s.v. ואיסורא דומיא דהיתירא | Base nodes: R1, R3, R5 */
+[KB4 · Supplied: do not replace the comparison]: R · This account limits which losses enter the exceptional category. It does not by itself prove the ordinary unawareness prohibition in the final river map. {"color": "#f3d5a5"}
+
