@@ -135,5 +135,6 @@
   "index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
   "status": "passed",
   "verification_scope": "Local project-prefix server, not public-site browser verification",
-  "release_index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88"
+  "release_index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
+  "asset_release_commit": "e4d29d04daa7e7db179781a848005731ac42d245"
 }
