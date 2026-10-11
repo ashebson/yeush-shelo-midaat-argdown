@@ -1,0 +1,74 @@
+{
+  "model": {
+    "mode": "loose"
+  },
+  "selection": {
+    "excludeDisconnected": false
+  },
+  "map": {
+    "statementLabelMode": "hide-untitled",
+    "argumentLabelMode": "hide-untitled",
+    "addTags": false
+  },
+  "color": {
+    "tagColors": {
+      "source": "#e8f1ef",
+      "explanation": "#edf0f8",
+      "reconstruction": "#fff1dc"
+    },
+    "relationColors": {
+      "support": "#267565",
+      "attack": "#bd5143",
+      "undercut": "#7550a0"
+    }
+  },
+  "dot": {
+    "mapBgColor": "#ffffff",
+    "graphVizSettings": {
+      "rankdir": "TB",
+      "nodesep": "0.32",
+      "ranksep": "0.52",
+      "pad": "0.25",
+      "size": ""
+    },
+    "statement": {
+      "shape": "box",
+      "style": "rounded,filled",
+      "margin": "0.16,0.12",
+      "text": {
+        "font": "Arial",
+        "fontSize": 14,
+        "charactersInLine": 33
+      },
+      "title": {
+        "font": "Arial",
+        "fontSize": 14,
+        "bold": true,
+        "charactersInLine": 34
+      }
+    },
+    "argument": {
+      "shape": "hexagon",
+      "style": "filled",
+      "margin": "0.16,0.12",
+      "text": {
+        "font": "Arial",
+        "fontSize": 14,
+        "charactersInLine": 33
+      },
+      "title": {
+        "font": "Arial",
+        "fontSize": 14,
+        "bold": true,
+        "charactersInLine": 34
+      }
+    },
+    "edge": {
+      "penWidth": 1.7,
+      "arrowSize": 0.8
+    }
+  },
+  "group": {
+    "groupDepth": 0
+  }
+}

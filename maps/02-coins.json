@@ -1,0 +1,575 @@
+{
+  "arguments": {
+    "C4 · Coins challenge": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C1 · Scattered coins: permitted",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C2 · Objection: owner unaware",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C3 · Bridge: test Abaye",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 7,
+          "endLine": 7,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 11,
+          "endLine": 11,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 15,
+          "endLine": 15,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ",
+          "startLine": 18,
+          "endLine": 18,
+          "startColumn": 1,
+          "endColumn": 127,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "C4 · Coins challenge",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "C1 · Scattered coins: permitted": {
+      "type": "equivalence-class",
+      "title": "C1 · Scattered coins: permitted",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C1 · Scattered coins: permitted",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C1 · Scattered coins: permitted",
+          "text": "S · The cited Mishnah lets the finder keep scattered coins. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 27,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C2 · Objection: owner unaware": {
+      "type": "equivalence-class",
+      "title": "C2 · Objection: owner unaware",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C2 · Objection: owner unaware",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C2 · Objection: owner unaware",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C2 · Objection: owner unaware",
+          "text": "S · The objection assumes that the owner has not learned of this loss. ",
+          "startLine": 10,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 27,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C2 · Objection: owner unaware",
+          "isReference": true,
+          "startLine": 26,
+          "startColumn": 6,
+          "endLine": 26,
+          "endColumn": 37,
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsRelationStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C3 · Bridge: test Abaye": {
+      "type": "equivalence-class",
+      "title": "C3 · Bridge: test Abaye",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C3 · Bridge: test Abaye",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C3 · Bridge: test Abaye",
+          "text": "R · If permission holds while awareness is absent, this case conflicts with Abaye. ",
+          "startLine": 14,
+          "startColumn": 1,
+          "endLine": 15,
+          "endColumn": 27,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "C5 · Reply: purse checking": {
+      "type": "equivalence-class",
+      "title": "C5 · Reply: purse checking",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C5 · Reply: purse checking",
+          "fromType": "equivalence-class",
+          "to": "C6 · Owner already knew",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C5 · Reply: purse checking",
+          "text": "S · People habitually check their purses, says Rabbi Yitzhak. ",
+          "startLine": 21,
+          "startColumn": 1,
+          "endLine": 22,
+          "endColumn": 30,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C6 · Owner already knew": {
+      "type": "equivalence-class",
+      "title": "C6 · Owner already knew",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C5 · Reply: purse checking",
+          "fromType": "equivalence-class",
+          "to": "C6 · Owner already knew",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C2 · Objection: owner unaware",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C7 · Coins do not decide",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C6 · Owner already knew",
+          "isReference": true,
+          "startLine": 22,
+          "startColumn": 6,
+          "endLine": 22,
+          "endColumn": 30,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C6 · Owner already knew",
+          "text": "E · The reply treats the owner as aware and despairing before the finder picked up the coins. ",
+          "startLine": 25,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 31,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "C7 · Coins do not decide": {
+      "type": "equivalence-class",
+      "title": "C7 · Coins do not decide",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C7 · Coins do not decide",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C7 · Coins do not decide",
+          "isReference": true,
+          "startLine": 27,
+          "startColumn": 6,
+          "endLine": 27,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C7 · Coins do not decide",
+          "text": "R · With unawareness denied, the coins case does not establish Rava over Abaye. ",
+          "startLine": 30,
+          "startColumn": 1,
+          "endLine": 30,
+          "endColumn": 128,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C1 · Scattered coins: permitted",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C2 · Objection: owner unaware",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C3 · Bridge: test Abaye",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C5 · Reply: purse checking",
+      "fromType": "equivalence-class",
+      "to": "C6 · Owner already knew",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "C6 · Owner already knew",
+      "fromType": "equivalence-class",
+      "to": "C2 · Objection: owner unaware",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C6 · Owner already knew",
+      "fromType": "equivalence-class",
+      "to": "C7 · Coins do not decide",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "C1 · Scattered coins: permitted",
+        "type": "statement-map-node",
+        "labelTitle": "C1 · Scattered coins: permitted",
+        "labelText": "S · The cited Mishnah lets the finder keep scattered coins. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "C2 · Objection: owner unaware",
+        "type": "statement-map-node",
+        "labelTitle": "C2 · Objection: owner unaware",
+        "labelText": "S · The objection assumes that the owner has not learned of this loss. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "C3 · Bridge: test Abaye",
+        "type": "statement-map-node",
+        "labelTitle": "C3 · Bridge: test Abaye",
+        "labelText": "R · If permission holds while awareness is absent, this case conflicts with Abaye. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "C5 · Reply: purse checking",
+        "type": "statement-map-node",
+        "labelTitle": "C5 · Reply: purse checking",
+        "labelText": "S · People habitually check their purses, says Rabbi Yitzhak. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "C6 · Owner already knew",
+        "type": "statement-map-node",
+        "labelTitle": "C6 · Owner already knew",
+        "labelText": "E · The reply treats the owner as aware and despairing before the finder picked up the coins. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "C7 · Coins do not decide",
+        "type": "statement-map-node",
+        "labelTitle": "C7 · Coins do not decide",
+        "labelText": "R · With unawareness denied, the coins case does not establish Rava over Abaye. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "C4 · Coins challenge",
+        "type": "argument-map-node",
+        "labelTitle": "C4 · Coins challenge",
+        "labelText": "R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n0",
+        "to": "n6",
+        "fromEquivalenceClass": "C1 · Scattered coins: permitted"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n1",
+        "to": "n6",
+        "fromEquivalenceClass": "C2 · Objection: owner unaware"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n2",
+        "to": "n6",
+        "fromEquivalenceClass": "C3 · Bridge: test Abaye"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n4",
+        "fromEquivalenceClass": "C5 · Reply: purse checking",
+        "toEquivalenceClass": "C6 · Owner already knew"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n4",
+        "to": "n1",
+        "fromEquivalenceClass": "C6 · Owner already knew",
+        "toEquivalenceClass": "C2 · Objection: owner unaware"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n4",
+        "to": "n5",
+        "fromEquivalenceClass": "C6 · Owner already knew",
+        "toEquivalenceClass": "C7 · Coins do not decide"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "02 · A challenge to Abaye, then a factual reply",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 30,
+      "endColumn": 128,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

@@ -1,0 +1,88 @@
+# Selected episodes · Bava Metzia 21b–22b
+
+/* Selected episodes only. S = source paraphrase; E = attributed explanation; R = reconstruction. All relations are analytical, not a machine proof. See sources/model.json and docs/source-notes.md. */
+
+/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | כי פליגי בדבר שאין בו סימן */
+[O1 · Scope: no identifying mark]: S · The dispute concerns ordinary lost objects without an identifying mark. {"color": "#267565"}
+
+/* S | Bava Metzia 21b.2 | https://www.sefaria.org/Bava_Metzia.21b.2 | בדבר שיש בו סימן */
+[O2 · Marked objects: agreement]: S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. {"color": "#267565"}
+
+/* S | Bava Metzia 21b.3 | https://www.sefaria.org/Bava_Metzia.21b.3 | רחמנא שרייה */
+[O3 · Sea / river exception]: S · The Torah permits the exceptional sea or river loss, even with a mark. {"color": "#267565"}
+
+/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | דהא לא ידע דנפל מיניה */
+[O4 · Abaye: no awareness]: S · The owner has not yet learned of the loss. {"color": "#267565"}
+  +> [O5 · Abaye: ineffective]
+
+/* S | Bava Metzia 21b.1 | https://www.sefaria.org/Bava_Metzia.21b.1 | אביי אמר לא הוי יאוש */
+[O5 · Abaye: ineffective]: S · Unconscious yeush is not effective in the disputed case. {"color": "#267565"}
+  -> [O7 · Rava: effective now]
+
+/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | דלכי ידע דנפל מיניה מיאש */
+[O6 · Rava: future despair]: S · Once aware, the owner will despair because there is no identifying mark. {"color": "#267565"}
+  +> [O7 · Rava: effective now]
+
+/* S | Bava Metzia 21b.4 | https://www.sefaria.org/Bava_Metzia.21b.4 | מהשתא הוא דמיאש */
+[O7 · Rava: effective now]: S · In the disputed case, that anticipated despair counts now. {"color": "#267565"}
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | מעות מפוזרות הרי אלו שלו */
+[C1 · Scattered coins: permitted]: S · The cited Mishnah lets the finder keep scattered coins. {"color": "#267565"}
+  +> <C4 · Coins challenge>
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | הא לא ידע דנפל מיניה */
+[C2 · Objection: owner unaware]: S · The objection assumes that the owner has not learned of this loss. {"color": "#267565"}
+  +> <C4 · Coins challenge>
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C3 · Bridge: test Abaye]: R · If permission holds while awareness is absent, this case conflicts with Abaye. {"color": "#f3d5a5"}
+  +> <C4 · Coins challenge>
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | ת"ש */
+<C4 · Coins challenge>: R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. {"color": "#f3d5a5"}
+  -> [O5 · Abaye: ineffective]
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | אדם עשוי למשמש בכיסו */
+[C5 · Reply: purse checking]: S · People habitually check their purses, says Rabbi Yitzhak. {"color": "#267565"}
+  +> [C6 · Owner already knew]
+
+/* E | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C6 · Owner already knew]: E · The reply treats the owner as aware and despairing before the finder picked up the coins. {"color": "#53659c"}
+  -> [C2 · Objection: owner unaware]
+  +> [C7 · Coins do not decide]
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C7 · Coins do not decide]: R · With unawareness denied, the coins case does not establish Rava over Abaye. {"color": "#f3d5a5"}
+
+/* S | Bava Metzia 22b.5 | https://www.sefaria.org/Bava_Metzia.22b.5 | אשר תאבד ממנו ומצאתה */
+[R1 · Verse: loss from you]: S · Deuteronomy 22:3 is read as addressing loss from the owner that remains accessible to others. {"color": "#267565"}
+  +> [R2 · Inaccessible loss: permitted]
+
+/* S | Bava Metzia 22b.5 | https://www.sefaria.org/Bava_Metzia.22b.5 | שאבודה ממנו ואינה מצויה אצל כל אדם */
+[R2 · Inaccessible loss: permitted]: S · A river loss inaccessible to everyone is excluded from that obligation. {"color": "#267565"}
+  +> <R5 · River comparison>
+
+/* S | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | ואיסורא דומיא דהיתירא */
+[R3 · Compare both categories]: S · The Gemara compares prohibition and permission: each covers items with or without a mark. {"color": "#267565"}
+  +> <R5 · River comparison>
+
+/* E | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 |  */
+[R4 · Clarify: before awareness]: E · For the ordinary-loss prohibition, the owner has not learned of the loss before pickup. {"color": "#53659c"}
+  +> <R5 · River comparison>
+
+/* R | Bava Metzia 22b.5-6 | https://www.sefaria.org/Bava_Metzia.22b.5-6 |  */
+<R5 · River comparison>: R · Apply the comparison to ordinary unmarked loss before awareness: anticipated despair does not permit it. {"color": "#f3d5a5"}
+  +> [R6 · Ordinary loss: still prohibited]
+
+/* E | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | בין דלית בה סימן אסורה */
+[R6 · Ordinary loss: still prohibited]: E · In that unaware-before-pickup case, ordinary recoverable loss is prohibited even without a mark. {"color": "#53659c"}
+  -> [O7 · Rava: effective now]
+  +> [R7 · Rava: explicitly refuted]
+
+/* S | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | תיובתא דרבא תיובתא */
+[R7 · Rava: explicitly refuted]: S · The Gemara declares the refutation of Rava decisive. {"color": "#267565"}
+  +> [R8 · Ruling: follows Abaye]
+
+/* S | Bava Metzia 22b.7 | https://www.sefaria.org/Bava_Metzia.22b.7 | והלכתא כוותיה דאביי */
+[R8 · Ruling: follows Abaye]: S · The text rules for Abaye here, within the mnemonic YAAL KAGAM. {"color": "#267565"}
+

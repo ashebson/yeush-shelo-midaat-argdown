@@ -1,0 +1,31 @@
+# 02 · A challenge to Abaye, then a factual reply
+
+/* Selected episodes only. S = source paraphrase; E = attributed explanation; R = reconstruction. All relations are analytical, not a machine proof. See sources/model.json and docs/source-notes.md. */
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | מעות מפוזרות הרי אלו שלו */
+[C1 · Scattered coins: permitted]: S · The cited Mishnah lets the finder keep scattered coins. {"color": "#267565"}
+  +> <C4 · Coins challenge>
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | הא לא ידע דנפל מיניה */
+[C2 · Objection: owner unaware]: S · The objection assumes that the owner has not learned of this loss. {"color": "#267565"}
+  +> <C4 · Coins challenge>
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C3 · Bridge: test Abaye]: R · If permission holds while awareness is absent, this case conflicts with Abaye. {"color": "#f3d5a5"}
+  +> <C4 · Coins challenge>
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | ת"ש */
+<C4 · Coins challenge>: R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. {"color": "#f3d5a5"}
+
+/* S | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 | אדם עשוי למשמש בכיסו */
+[C5 · Reply: purse checking]: S · People habitually check their purses, says Rabbi Yitzhak. {"color": "#267565"}
+  +> [C6 · Owner already knew]
+
+/* E | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C6 · Owner already knew]: E · The reply treats the owner as aware and despairing before the finder picked up the coins. {"color": "#53659c"}
+  -> [C2 · Objection: owner unaware]
+  +> [C7 · Coins do not decide]
+
+/* R | Bava Metzia 21b.7 | https://www.sefaria.org/Bava_Metzia.21b.7 |  */
+[C7 · Coins do not decide]: R · With unawareness denied, the coins case does not establish Rava over Abaye. {"color": "#f3d5a5"}
+

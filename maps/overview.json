@@ -1,0 +1,1692 @@
+{
+  "arguments": {
+    "C4 · Coins challenge": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C1 · Scattered coins: permitted",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C2 · Objection: owner unaware",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C3 · Bridge: test Abaye",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C4 · Coins challenge",
+          "fromType": "argument",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 31,
+          "endLine": 31,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 35,
+          "endLine": 35,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 39,
+          "endLine": 39,
+          "startColumn": 6,
+          "endColumn": 27,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ",
+          "startLine": 42,
+          "endLine": 43,
+          "startColumn": 1,
+          "endColumn": 30,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "C4 · Coins challenge",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "C4 · Coins challenge",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "R5 · River comparison": {
+      "type": "argument",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R2 · Inaccessible loss: permitted",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R3 · Compare both categories",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R4 · Clarify: before awareness",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R5 · River comparison",
+          "fromType": "argument",
+          "to": "R6 · Ordinary loss: still prohibited",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 63,
+          "endLine": 63,
+          "startColumn": 6,
+          "endColumn": 28,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "R5 · River comparison",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 67,
+          "endLine": 67,
+          "startColumn": 6,
+          "endColumn": 28,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "R5 · River comparison",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "",
+          "startLine": 71,
+          "endLine": 71,
+          "startColumn": 6,
+          "endColumn": 28,
+          "isTopLevel": false,
+          "section": "s1",
+          "title": "R5 · River comparison",
+          "isReference": true
+        },
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Apply the comparison to ordinary unmarked loss before awareness: anticipated despair does not permit it. ",
+          "startLine": 74,
+          "endLine": 75,
+          "startColumn": 1,
+          "endColumn": 43,
+          "isTopLevel": true,
+          "section": "s1",
+          "title": "R5 · River comparison",
+          "data": {
+            "color": "#f3d5a5"
+          }
+        }
+      ],
+      "pcs": [],
+      "title": "R5 · River comparison",
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "O1 · Scope: no identifying mark": {
+      "type": "equivalence-class",
+      "title": "O1 · Scope: no identifying mark",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O1 · Scope: no identifying mark",
+          "text": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 6,
+          "endColumn": 131,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O2 · Marked objects: agreement": {
+      "type": "equivalence-class",
+      "title": "O2 · Marked objects: agreement",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O2 · Marked objects: agreement",
+          "text": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+          "startLine": 9,
+          "startColumn": 1,
+          "endLine": 9,
+          "endColumn": 154,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O3 · Sea / river exception": {
+      "type": "equivalence-class",
+      "title": "O3 · Sea / river exception",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O3 · Sea / river exception",
+          "text": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+          "startLine": 12,
+          "startColumn": 1,
+          "endLine": 12,
+          "endColumn": 125,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O4 · Abaye: no awareness": {
+      "type": "equivalence-class",
+      "title": "O4 · Abaye: no awareness",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O4 · Abaye: no awareness",
+          "fromType": "equivalence-class",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O4 · Abaye: no awareness",
+          "text": "S · The owner has not yet learned of the loss. ",
+          "startLine": 15,
+          "startColumn": 1,
+          "endLine": 16,
+          "endColumn": 30,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O5 · Abaye: ineffective": {
+      "type": "equivalence-class",
+      "title": "O5 · Abaye: ineffective",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O4 · Abaye: no awareness",
+          "fromType": "equivalence-class",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C4 · Coins challenge",
+          "fromType": "argument",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O5 · Abaye: ineffective",
+          "isReference": true,
+          "startLine": 16,
+          "startColumn": 6,
+          "endLine": 16,
+          "endColumn": 30,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O5 · Abaye: ineffective",
+          "text": "S · Unconscious yeush is not effective in the disputed case. ",
+          "startLine": 19,
+          "startColumn": 1,
+          "endLine": 20,
+          "endColumn": 31,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O5 · Abaye: ineffective",
+          "isReference": true,
+          "startLine": 43,
+          "startColumn": 6,
+          "endLine": 43,
+          "endColumn": 30,
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O7 · Rava: effective now": {
+      "type": "equivalence-class",
+      "title": "O7 · Rava: effective now",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O6 · Rava: future despair",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "R6 · Ordinary loss: still prohibited",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 20,
+          "startColumn": 6,
+          "endLine": 20,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 24,
+          "startColumn": 6,
+          "endLine": 24,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O7 · Rava: effective now",
+          "text": "S · In the disputed case, that anticipated despair counts now. ",
+          "startLine": 27,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 111,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 79,
+          "startColumn": 6,
+          "endLine": 79,
+          "endColumn": 32,
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O6 · Rava: future despair": {
+      "type": "equivalence-class",
+      "title": "O6 · Rava: future despair",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O6 · Rava: future despair",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O6 · Rava: future despair",
+          "text": "S · Once aware, the owner will despair because there is no identifying mark. ",
+          "startLine": 23,
+          "startColumn": 1,
+          "endLine": 24,
+          "endColumn": 31,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C1 · Scattered coins: permitted": {
+      "type": "equivalence-class",
+      "title": "C1 · Scattered coins: permitted",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C1 · Scattered coins: permitted",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C1 · Scattered coins: permitted",
+          "text": "S · The cited Mishnah lets the finder keep scattered coins. ",
+          "startLine": 30,
+          "startColumn": 1,
+          "endLine": 31,
+          "endColumn": 27,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C2 · Objection: owner unaware": {
+      "type": "equivalence-class",
+      "title": "C2 · Objection: owner unaware",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C2 · Objection: owner unaware",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C2 · Objection: owner unaware",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C2 · Objection: owner unaware",
+          "text": "S · The objection assumes that the owner has not learned of this loss. ",
+          "startLine": 34,
+          "startColumn": 1,
+          "endLine": 35,
+          "endColumn": 27,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C2 · Objection: owner unaware",
+          "isReference": true,
+          "startLine": 51,
+          "startColumn": 6,
+          "endLine": 51,
+          "endColumn": 37,
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsRelationStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C3 · Bridge: test Abaye": {
+      "type": "equivalence-class",
+      "title": "C3 · Bridge: test Abaye",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C3 · Bridge: test Abaye",
+          "fromType": "equivalence-class",
+          "to": "C4 · Coins challenge",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C3 · Bridge: test Abaye",
+          "text": "R · If permission holds while awareness is absent, this case conflicts with Abaye. ",
+          "startLine": 38,
+          "startColumn": 1,
+          "endLine": 39,
+          "endColumn": 27,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "C5 · Reply: purse checking": {
+      "type": "equivalence-class",
+      "title": "C5 · Reply: purse checking",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C5 · Reply: purse checking",
+          "fromType": "equivalence-class",
+          "to": "C6 · Owner already knew",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C5 · Reply: purse checking",
+          "text": "S · People habitually check their purses, says Rabbi Yitzhak. ",
+          "startLine": 46,
+          "startColumn": 1,
+          "endLine": 47,
+          "endColumn": 30,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "C6 · Owner already knew": {
+      "type": "equivalence-class",
+      "title": "C6 · Owner already knew",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C5 · Reply: purse checking",
+          "fromType": "equivalence-class",
+          "to": "C6 · Owner already knew",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C2 · Objection: owner unaware",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C7 · Coins do not decide",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C6 · Owner already knew",
+          "isReference": true,
+          "startLine": 47,
+          "startColumn": 6,
+          "endLine": 47,
+          "endColumn": 30,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C6 · Owner already knew",
+          "text": "E · The reply treats the owner as aware and despairing before the finder picked up the coins. ",
+          "startLine": 50,
+          "startColumn": 1,
+          "endLine": 52,
+          "endColumn": 31,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "C7 · Coins do not decide": {
+      "type": "equivalence-class",
+      "title": "C7 · Coins do not decide",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "C6 · Owner already knew",
+          "fromType": "equivalence-class",
+          "to": "C7 · Coins do not decide",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "C7 · Coins do not decide",
+          "isReference": true,
+          "startLine": 52,
+          "startColumn": 6,
+          "endLine": 52,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "C7 · Coins do not decide",
+          "text": "R · With unawareness denied, the coins case does not establish Rava over Abaye. ",
+          "startLine": 55,
+          "startColumn": 1,
+          "endLine": 55,
+          "endColumn": 128,
+          "data": {
+            "color": "#f3d5a5"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#f3d5a5"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "R1 · Verse: loss from you": {
+      "type": "equivalence-class",
+      "title": "R1 · Verse: loss from you",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R1 · Verse: loss from you",
+          "fromType": "equivalence-class",
+          "to": "R2 · Inaccessible loss: permitted",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R1 · Verse: loss from you",
+          "text": "S · Deuteronomy 22:3 is read as addressing loss from the owner that remains accessible to others. ",
+          "startLine": 58,
+          "startColumn": 1,
+          "endLine": 59,
+          "endColumn": 40,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "R2 · Inaccessible loss: permitted": {
+      "type": "equivalence-class",
+      "title": "R2 · Inaccessible loss: permitted",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R1 · Verse: loss from you",
+          "fromType": "equivalence-class",
+          "to": "R2 · Inaccessible loss: permitted",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R2 · Inaccessible loss: permitted",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "R2 · Inaccessible loss: permitted",
+          "isReference": true,
+          "startLine": 59,
+          "startColumn": 6,
+          "endLine": 59,
+          "endColumn": 40,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R2 · Inaccessible loss: permitted",
+          "text": "S · A river loss inaccessible to everyone is excluded from that obligation. ",
+          "startLine": 62,
+          "startColumn": 1,
+          "endLine": 63,
+          "endColumn": 28,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "R3 · Compare both categories": {
+      "type": "equivalence-class",
+      "title": "R3 · Compare both categories",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R3 · Compare both categories",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R3 · Compare both categories",
+          "text": "S · The Gemara compares prohibition and permission: each covers items with or without a mark. ",
+          "startLine": 66,
+          "startColumn": 1,
+          "endLine": 67,
+          "endColumn": 28,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "R4 · Clarify: before awareness": {
+      "type": "equivalence-class",
+      "title": "R4 · Clarify: before awareness",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R4 · Clarify: before awareness",
+          "fromType": "equivalence-class",
+          "to": "R5 · River comparison",
+          "toType": "argument"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R4 · Clarify: before awareness",
+          "text": "E · For the ordinary-loss prohibition, the owner has not learned of the loss before pickup. ",
+          "startLine": 70,
+          "startColumn": 1,
+          "endLine": 71,
+          "endColumn": 28,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "R6 · Ordinary loss: still prohibited": {
+      "type": "equivalence-class",
+      "title": "R6 · Ordinary loss: still prohibited",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R5 · River comparison",
+          "fromType": "argument",
+          "to": "R6 · Ordinary loss: still prohibited",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "R6 · Ordinary loss: still prohibited",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R6 · Ordinary loss: still prohibited",
+          "fromType": "equivalence-class",
+          "to": "R7 · Rava: explicitly refuted",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "R6 · Ordinary loss: still prohibited",
+          "isReference": true,
+          "startLine": 75,
+          "startColumn": 6,
+          "endLine": 75,
+          "endColumn": 43,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R6 · Ordinary loss: still prohibited",
+          "text": "E · In that unaware-before-pickup case, ordinary recoverable loss is prohibited even without a mark. ",
+          "startLine": 78,
+          "startColumn": 1,
+          "endLine": 80,
+          "endColumn": 36,
+          "data": {
+            "color": "#53659c"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#53659c"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#53659c"
+    },
+    "R7 · Rava: explicitly refuted": {
+      "type": "equivalence-class",
+      "title": "R7 · Rava: explicitly refuted",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R6 · Ordinary loss: still prohibited",
+          "fromType": "equivalence-class",
+          "to": "R7 · Rava: explicitly refuted",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R7 · Rava: explicitly refuted",
+          "fromType": "equivalence-class",
+          "to": "R8 · Ruling: follows Abaye",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "R7 · Rava: explicitly refuted",
+          "isReference": true,
+          "startLine": 80,
+          "startColumn": 6,
+          "endLine": 80,
+          "endColumn": 36,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R7 · Rava: explicitly refuted",
+          "text": "S · The Gemara declares the refutation of Rava decisive. ",
+          "startLine": 83,
+          "startColumn": 1,
+          "endLine": 84,
+          "endColumn": 33,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "R8 · Ruling: follows Abaye": {
+      "type": "equivalence-class",
+      "title": "R8 · Ruling: follows Abaye",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "R7 · Rava: explicitly refuted",
+          "fromType": "equivalence-class",
+          "to": "R8 · Ruling: follows Abaye",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "R8 · Ruling: follows Abaye",
+          "isReference": true,
+          "startLine": 84,
+          "startColumn": 6,
+          "endLine": 84,
+          "endColumn": 33,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "R8 · Ruling: follows Abaye",
+          "text": "S · The text rules for Abaye here, within the mnemonic YAAL KAGAM. ",
+          "startLine": 87,
+          "startColumn": 1,
+          "endLine": 87,
+          "endColumn": 117,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "O4 · Abaye: no awareness",
+      "fromType": "equivalence-class",
+      "to": "O5 · Abaye: ineffective",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "O5 · Abaye: ineffective",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "O6 · Rava: future despair",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C1 · Scattered coins: permitted",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C2 · Objection: owner unaware",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C3 · Bridge: test Abaye",
+      "fromType": "equivalence-class",
+      "to": "C4 · Coins challenge",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "C4 · Coins challenge",
+      "fromType": "argument",
+      "to": "O5 · Abaye: ineffective",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C5 · Reply: purse checking",
+      "fromType": "equivalence-class",
+      "to": "C6 · Owner already knew",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "C6 · Owner already knew",
+      "fromType": "equivalence-class",
+      "to": "C2 · Objection: owner unaware",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "C6 · Owner already knew",
+      "fromType": "equivalence-class",
+      "to": "C7 · Coins do not decide",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R1 · Verse: loss from you",
+      "fromType": "equivalence-class",
+      "to": "R2 · Inaccessible loss: permitted",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R2 · Inaccessible loss: permitted",
+      "fromType": "equivalence-class",
+      "to": "R5 · River comparison",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R3 · Compare both categories",
+      "fromType": "equivalence-class",
+      "to": "R5 · River comparison",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R4 · Clarify: before awareness",
+      "fromType": "equivalence-class",
+      "to": "R5 · River comparison",
+      "toType": "argument"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R5 · River comparison",
+      "fromType": "argument",
+      "to": "R6 · Ordinary loss: still prohibited",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "R6 · Ordinary loss: still prohibited",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R6 · Ordinary loss: still prohibited",
+      "fromType": "equivalence-class",
+      "to": "R7 · Rava: explicitly refuted",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "R7 · Rava: explicitly refuted",
+      "fromType": "equivalence-class",
+      "to": "R8 · Ruling: follows Abaye",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "O1 · Scope: no identifying mark",
+        "type": "statement-map-node",
+        "labelTitle": "O1 · Scope: no identifying mark",
+        "labelText": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "O2 · Marked objects: agreement",
+        "type": "statement-map-node",
+        "labelTitle": "O2 · Marked objects: agreement",
+        "labelText": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "O3 · Sea / river exception",
+        "type": "statement-map-node",
+        "labelTitle": "O3 · Sea / river exception",
+        "labelText": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "O4 · Abaye: no awareness",
+        "type": "statement-map-node",
+        "labelTitle": "O4 · Abaye: no awareness",
+        "labelText": "S · The owner has not yet learned of the loss. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "O5 · Abaye: ineffective",
+        "type": "statement-map-node",
+        "labelTitle": "O5 · Abaye: ineffective",
+        "labelText": "S · Unconscious yeush is not effective in the disputed case. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "O7 · Rava: effective now",
+        "type": "statement-map-node",
+        "labelTitle": "O7 · Rava: effective now",
+        "labelText": "S · In the disputed case, that anticipated despair counts now. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "O6 · Rava: future despair",
+        "type": "statement-map-node",
+        "labelTitle": "O6 · Rava: future despair",
+        "labelText": "S · Once aware, the owner will despair because there is no identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n7",
+        "title": "C1 · Scattered coins: permitted",
+        "type": "statement-map-node",
+        "labelTitle": "C1 · Scattered coins: permitted",
+        "labelText": "S · The cited Mishnah lets the finder keep scattered coins. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n8",
+        "title": "C2 · Objection: owner unaware",
+        "type": "statement-map-node",
+        "labelTitle": "C2 · Objection: owner unaware",
+        "labelText": "S · The objection assumes that the owner has not learned of this loss. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n9",
+        "title": "C3 · Bridge: test Abaye",
+        "type": "statement-map-node",
+        "labelTitle": "C3 · Bridge: test Abaye",
+        "labelText": "R · If permission holds while awareness is absent, this case conflicts with Abaye. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n10",
+        "title": "C5 · Reply: purse checking",
+        "type": "statement-map-node",
+        "labelTitle": "C5 · Reply: purse checking",
+        "labelText": "S · People habitually check their purses, says Rabbi Yitzhak. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n11",
+        "title": "C6 · Owner already knew",
+        "type": "statement-map-node",
+        "labelTitle": "C6 · Owner already knew",
+        "labelText": "E · The reply treats the owner as aware and despairing before the finder picked up the coins. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n12",
+        "title": "C7 · Coins do not decide",
+        "type": "statement-map-node",
+        "labelTitle": "C7 · Coins do not decide",
+        "labelText": "R · With unawareness denied, the coins case does not establish Rava over Abaye. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n13",
+        "title": "R1 · Verse: loss from you",
+        "type": "statement-map-node",
+        "labelTitle": "R1 · Verse: loss from you",
+        "labelText": "S · Deuteronomy 22:3 is read as addressing loss from the owner that remains accessible to others. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n14",
+        "title": "R2 · Inaccessible loss: permitted",
+        "type": "statement-map-node",
+        "labelTitle": "R2 · Inaccessible loss: permitted",
+        "labelText": "S · A river loss inaccessible to everyone is excluded from that obligation. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n15",
+        "title": "R3 · Compare both categories",
+        "type": "statement-map-node",
+        "labelTitle": "R3 · Compare both categories",
+        "labelText": "S · The Gemara compares prohibition and permission: each covers items with or without a mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n16",
+        "title": "R4 · Clarify: before awareness",
+        "type": "statement-map-node",
+        "labelTitle": "R4 · Clarify: before awareness",
+        "labelText": "E · For the ordinary-loss prohibition, the owner has not learned of the loss before pickup. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n17",
+        "title": "R6 · Ordinary loss: still prohibited",
+        "type": "statement-map-node",
+        "labelTitle": "R6 · Ordinary loss: still prohibited",
+        "labelText": "E · In that unaware-before-pickup case, ordinary recoverable loss is prohibited even without a mark. ",
+        "color": "#53659c",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n18",
+        "title": "R7 · Rava: explicitly refuted",
+        "type": "statement-map-node",
+        "labelTitle": "R7 · Rava: explicitly refuted",
+        "labelText": "S · The Gemara declares the refutation of Rava decisive. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n19",
+        "title": "R8 · Ruling: follows Abaye",
+        "type": "statement-map-node",
+        "labelTitle": "R8 · Ruling: follows Abaye",
+        "labelText": "S · The text rules for Abaye here, within the mnemonic YAAL KAGAM. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n20",
+        "title": "C4 · Coins challenge",
+        "type": "argument-map-node",
+        "labelTitle": "C4 · Coins challenge",
+        "labelText": "R · Permission plus assumed unawareness challenges Abaye, using the stated bridge. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n21",
+        "title": "R5 · River comparison",
+        "type": "argument-map-node",
+        "labelTitle": "R5 · River comparison",
+        "labelText": "R · Apply the comparison to ordinary unmarked loss before awareness: anticipated despair does not permit it. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n4",
+        "fromEquivalenceClass": "O4 · Abaye: no awareness",
+        "toEquivalenceClass": "O5 · Abaye: ineffective"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n4",
+        "to": "n5",
+        "fromEquivalenceClass": "O5 · Abaye: ineffective",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n6",
+        "to": "n5",
+        "fromEquivalenceClass": "O6 · Rava: future despair",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n7",
+        "to": "n20",
+        "fromEquivalenceClass": "C1 · Scattered coins: permitted"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n8",
+        "to": "n20",
+        "fromEquivalenceClass": "C2 · Objection: owner unaware"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n9",
+        "to": "n20",
+        "fromEquivalenceClass": "C3 · Bridge: test Abaye"
+      },
+      {
+        "id": "e7",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n20",
+        "to": "n4",
+        "toEquivalenceClass": "O5 · Abaye: ineffective"
+      },
+      {
+        "id": "e8",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n10",
+        "to": "n11",
+        "fromEquivalenceClass": "C5 · Reply: purse checking",
+        "toEquivalenceClass": "C6 · Owner already knew"
+      },
+      {
+        "id": "e9",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n11",
+        "to": "n8",
+        "fromEquivalenceClass": "C6 · Owner already knew",
+        "toEquivalenceClass": "C2 · Objection: owner unaware"
+      },
+      {
+        "id": "e10",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n11",
+        "to": "n12",
+        "fromEquivalenceClass": "C6 · Owner already knew",
+        "toEquivalenceClass": "C7 · Coins do not decide"
+      },
+      {
+        "id": "e11",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n13",
+        "to": "n14",
+        "fromEquivalenceClass": "R1 · Verse: loss from you",
+        "toEquivalenceClass": "R2 · Inaccessible loss: permitted"
+      },
+      {
+        "id": "e12",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n14",
+        "to": "n21",
+        "fromEquivalenceClass": "R2 · Inaccessible loss: permitted"
+      },
+      {
+        "id": "e13",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n15",
+        "to": "n21",
+        "fromEquivalenceClass": "R3 · Compare both categories"
+      },
+      {
+        "id": "e14",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n16",
+        "to": "n21",
+        "fromEquivalenceClass": "R4 · Clarify: before awareness"
+      },
+      {
+        "id": "e15",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n21",
+        "to": "n17",
+        "toEquivalenceClass": "R6 · Ordinary loss: still prohibited"
+      },
+      {
+        "id": "e16",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n17",
+        "to": "n5",
+        "fromEquivalenceClass": "R6 · Ordinary loss: still prohibited",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e17",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n17",
+        "to": "n18",
+        "fromEquivalenceClass": "R6 · Ordinary loss: still prohibited",
+        "toEquivalenceClass": "R7 · Rava: explicitly refuted"
+      },
+      {
+        "id": "e18",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n18",
+        "to": "n19",
+        "fromEquivalenceClass": "R7 · Rava: explicitly refuted",
+        "toEquivalenceClass": "R8 · Ruling: follows Abaye"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "Selected episodes · Bava Metzia 21b–22b",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "isGroup": false,
+      "endLine": 87,
+      "endColumn": 117,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

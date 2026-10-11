@@ -1,0 +1,435 @@
+{
+  "arguments": {},
+  "statements": {
+    "O1 · Scope: no identifying mark": {
+      "type": "equivalence-class",
+      "title": "O1 · Scope: no identifying mark",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O1 · Scope: no identifying mark",
+          "text": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+          "startLine": 6,
+          "startColumn": 1,
+          "endLine": 6,
+          "endColumn": 131,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O2 · Marked objects: agreement": {
+      "type": "equivalence-class",
+      "title": "O2 · Marked objects: agreement",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O2 · Marked objects: agreement",
+          "text": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+          "startLine": 9,
+          "startColumn": 1,
+          "endLine": 9,
+          "endColumn": 154,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O3 · Sea / river exception": {
+      "type": "equivalence-class",
+      "title": "O3 · Sea / river exception",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O3 · Sea / river exception",
+          "text": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+          "startLine": 12,
+          "startColumn": 1,
+          "endLine": 12,
+          "endColumn": 125,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O4 · Abaye: no awareness": {
+      "type": "equivalence-class",
+      "title": "O4 · Abaye: no awareness",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O4 · Abaye: no awareness",
+          "fromType": "equivalence-class",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O4 · Abaye: no awareness",
+          "text": "S · The owner has not yet learned of the loss. ",
+          "startLine": 15,
+          "startColumn": 1,
+          "endLine": 16,
+          "endColumn": 30,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O5 · Abaye: ineffective": {
+      "type": "equivalence-class",
+      "title": "O5 · Abaye: ineffective",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O4 · Abaye: no awareness",
+          "fromType": "equivalence-class",
+          "to": "O5 · Abaye: ineffective",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O5 · Abaye: ineffective",
+          "isReference": true,
+          "startLine": 16,
+          "startColumn": 6,
+          "endLine": 16,
+          "endColumn": 30,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O5 · Abaye: ineffective",
+          "text": "S · Unconscious yeush is not effective in the disputed case. ",
+          "startLine": 19,
+          "startColumn": 1,
+          "endLine": 20,
+          "endColumn": 31,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O7 · Rava: effective now": {
+      "type": "equivalence-class",
+      "title": "O7 · Rava: effective now",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        },
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O6 · Rava: future despair",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 20,
+          "startColumn": 6,
+          "endLine": 20,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 24,
+          "startColumn": 6,
+          "endLine": 24,
+          "endColumn": 31,
+          "section": "s1"
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O7 · Rava: effective now",
+          "text": "S · In the disputed case, that anticipated despair counts now. ",
+          "startLine": 27,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 111,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O6 · Rava: future despair": {
+      "type": "equivalence-class",
+      "title": "O6 · Rava: future despair",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "support",
+          "from": "O6 · Rava: future despair",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O6 · Rava: future despair",
+          "text": "S · Once aware, the owner will despair because there is no identifying mark. ",
+          "startLine": 23,
+          "startColumn": 1,
+          "endLine": 24,
+          "endColumn": 31,
+          "data": {
+            "color": "#267565"
+          },
+          "section": "s1"
+        }
+      ],
+      "data": {
+        "color": "#267565"
+      },
+      "section": "s1",
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "O4 · Abaye: no awareness",
+      "fromType": "equivalence-class",
+      "to": "O5 · Abaye: ineffective",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "O5 · Abaye: ineffective",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    },
+    {
+      "type": "relation",
+      "relationType": "support",
+      "from": "O6 · Rava: future despair",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "O1 · Scope: no identifying mark",
+        "type": "statement-map-node",
+        "labelTitle": "O1 · Scope: no identifying mark",
+        "labelText": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "O2 · Marked objects: agreement",
+        "type": "statement-map-node",
+        "labelTitle": "O2 · Marked objects: agreement",
+        "labelText": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "O3 · Sea / river exception",
+        "type": "statement-map-node",
+        "labelTitle": "O3 · Sea / river exception",
+        "labelText": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "O4 · Abaye: no awareness",
+        "type": "statement-map-node",
+        "labelTitle": "O4 · Abaye: no awareness",
+        "labelText": "S · The owner has not yet learned of the loss. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "O5 · Abaye: ineffective",
+        "type": "statement-map-node",
+        "labelTitle": "O5 · Abaye: ineffective",
+        "labelText": "S · Unconscious yeush is not effective in the disputed case. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "O7 · Rava: effective now",
+        "type": "statement-map-node",
+        "labelTitle": "O7 · Rava: effective now",
+        "labelText": "S · In the disputed case, that anticipated despair counts now. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "O6 · Rava: future despair",
+        "type": "statement-map-node",
+        "labelTitle": "O6 · Rava: future despair",
+        "labelText": "S · Once aware, the owner will despair because there is no identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n4",
+        "fromEquivalenceClass": "O4 · Abaye: no awareness",
+        "toEquivalenceClass": "O5 · Abaye: ineffective"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n4",
+        "to": "n5",
+        "fromEquivalenceClass": "O5 · Abaye: ineffective",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n6",
+        "to": "n5",
+        "fromEquivalenceClass": "O6 · Rava: future despair",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "id": "s1",
+      "level": 1,
+      "title": "01 · The question and its boundaries",
+      "children": [],
+      "ranges": [],
+      "startLine": 1,
+      "startColumn": 1,
+      "endLine": 27,
+      "endColumn": 111,
+      "isGroup": false,
+      "fontColor": "#000000",
+      "color": "#DADADA"
+    }
+  ],
+  "tags": {}
+}

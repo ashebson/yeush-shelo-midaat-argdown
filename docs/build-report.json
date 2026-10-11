@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01-opening.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 7,
+    "edges": 3
+  },
+  {
+    "file": "02-coins.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 7,
+    "edges": 6
+  },
+  {
+    "file": "03-river.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 8,
+    "edges": 7
+  },
+  {
+    "file": "overview.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 22,
+    "edges": 18
+  }
+]

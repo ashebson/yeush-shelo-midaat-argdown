@@ -1,0 +1,11 @@
+# License and attribution
+
+The scholarly reconstruction, original English paraphrases, generated maps and presentation are offered under [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). Attribute this project, **Before awareness / yeush-shelo-midaat-argdown (2026)**, and preserve the source attributions below. This statement does not claim ownership of the underlying ancient texts.
+
+Hebrew/Aramaic excerpts: **Talmud Bavli, Bava Metzia 21b and 22b**, Wikisource Talmud Bavli edition, served by Sefaria. Sefaria's edition metadata identifies CC-BY-SA; Hebrew Wikisource's footer specifies CC BY-SA 4.0. The underlying ancient text is public domain; we conservatively preserve attribution and share-alike for this digital transcription. Sources: https://he.wikisource.org/wiki/בבא_מציעא_כא_ב and https://he.wikisource.org/wiki/בבא_מציעא_כב_ב ; accessed 2026-10-11. Changes: short excerpts selected; HTML markup removed; own English analytical paraphrases added.
+
+Rashi is cited for explanatory interpretations; no modern translation of Rashi is copied. No William Davidson / Koren English translation or vocalized edition is redistributed.
+
+The small scripts and configuration authored for this repository are licensed under the MIT License: permission is granted, free of charge, to any person obtaining a copy, to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies, subject to including this notice. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
+
+Argdown and its dependencies retain their own licenses and are installed through npm; they are not relicensed by this file. See the pinned packages and their license files in `node_modules` after installation.

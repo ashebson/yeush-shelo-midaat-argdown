@@ -1,0 +1,35 @@
+# 03 · The river comparison and the ruling
+
+/* Selected episodes only. S = source paraphrase; E = attributed explanation; R = reconstruction. All relations are analytical, not a machine proof. See sources/model.json and docs/source-notes.md. */
+
+/* S | Bava Metzia 22b.5 | https://www.sefaria.org/Bava_Metzia.22b.5 | אשר תאבד ממנו ומצאתה */
+[R1 · Verse: loss from you]: S · Deuteronomy 22:3 is read as addressing loss from the owner that remains accessible to others. {"color": "#267565"}
+  +> [R2 · Inaccessible loss: permitted]
+
+/* S | Bava Metzia 22b.5 | https://www.sefaria.org/Bava_Metzia.22b.5 | שאבודה ממנו ואינה מצויה אצל כל אדם */
+[R2 · Inaccessible loss: permitted]: S · A river loss inaccessible to everyone is excluded from that obligation. {"color": "#267565"}
+  +> <R5 · River comparison>
+
+/* S | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | ואיסורא דומיא דהיתירא */
+[R3 · Compare both categories]: S · The Gemara compares prohibition and permission: each covers items with or without a mark. {"color": "#267565"}
+  +> <R5 · River comparison>
+
+/* E | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 |  */
+[R4 · Clarify: before awareness]: E · For the ordinary-loss prohibition, the owner has not learned of the loss before pickup. {"color": "#53659c"}
+  +> <R5 · River comparison>
+
+/* R | Bava Metzia 22b.5-6 | https://www.sefaria.org/Bava_Metzia.22b.5-6 |  */
+<R5 · River comparison>: R · Apply the comparison to ordinary unmarked loss before awareness: anticipated despair does not permit it. {"color": "#f3d5a5"}
+  +> [R6 · Ordinary loss: still prohibited]
+
+/* E | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | בין דלית בה סימן אסורה */
+[R6 · Ordinary loss: still prohibited]: E · In that unaware-before-pickup case, ordinary recoverable loss is prohibited even without a mark. {"color": "#53659c"}
+  +> [R7 · Rava: explicitly refuted]
+
+/* S | Bava Metzia 22b.6 | https://www.sefaria.org/Bava_Metzia.22b.6 | תיובתא דרבא תיובתא */
+[R7 · Rava: explicitly refuted]: S · The Gemara declares the refutation of Rava decisive. {"color": "#267565"}
+  +> [R8 · Ruling: follows Abaye]
+
+/* S | Bava Metzia 22b.7 | https://www.sefaria.org/Bava_Metzia.22b.7 | והלכתא כוותיה דאביי */
+[R8 · Ruling: follows Abaye]: S · The text rules for Abaye here, within the mnemonic YAAL KAGAM. {"color": "#267565"}
+

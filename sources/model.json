@@ -1,0 +1,300 @@
+{
+  "title": "Yeush shelo midaat",
+  "nodes": [
+    {
+      "id": "O1",
+      "kind": "statement",
+      "label": "Scope: no identifying mark",
+      "text": "The dispute concerns ordinary lost objects without an identifying mark.",
+      "class": "S",
+      "ref": "21b.4",
+      "hebrew": "כי פליגי בדבר שאין בו סימן"
+    },
+    {
+      "id": "O2",
+      "kind": "statement",
+      "label": "Marked objects: agreement",
+      "text": "Both reject unconscious yeush here; later despair does not repair an already prohibited pickup.",
+      "class": "S",
+      "ref": "21b.2",
+      "hebrew": "בדבר שיש בו סימן"
+    },
+    {
+      "id": "O3",
+      "kind": "statement",
+      "label": "Sea / river exception",
+      "text": "The Torah permits the exceptional sea or river loss, even with a mark.",
+      "class": "S",
+      "ref": "21b.3",
+      "hebrew": "רחמנא שרייה"
+    },
+    {
+      "id": "O4",
+      "kind": "statement",
+      "label": "Abaye: no awareness",
+      "text": "The owner has not yet learned of the loss.",
+      "class": "S",
+      "ref": "21b.4",
+      "hebrew": "דהא לא ידע דנפל מיניה"
+    },
+    {
+      "id": "O5",
+      "kind": "statement",
+      "label": "Abaye: ineffective",
+      "text": "Unconscious yeush is not effective in the disputed case.",
+      "class": "S",
+      "ref": "21b.1",
+      "hebrew": "אביי אמר לא הוי יאוש"
+    },
+    {
+      "id": "O6",
+      "kind": "statement",
+      "label": "Rava: future despair",
+      "text": "Once aware, the owner will despair because there is no identifying mark.",
+      "class": "S",
+      "ref": "21b.4",
+      "hebrew": "דלכי ידע דנפל מיניה מיאש"
+    },
+    {
+      "id": "O7",
+      "kind": "statement",
+      "label": "Rava: effective now",
+      "text": "In the disputed case, that anticipated despair counts now.",
+      "class": "S",
+      "ref": "21b.4",
+      "hebrew": "מהשתא הוא דמיאש"
+    },
+    {
+      "id": "C1",
+      "kind": "statement",
+      "label": "Scattered coins: permitted",
+      "text": "The cited Mishnah lets the finder keep scattered coins.",
+      "class": "S",
+      "ref": "21b.7",
+      "hebrew": "מעות מפוזרות הרי אלו שלו"
+    },
+    {
+      "id": "C2",
+      "kind": "statement",
+      "label": "Objection: owner unaware",
+      "text": "The objection assumes that the owner has not learned of this loss.",
+      "class": "S",
+      "ref": "21b.7",
+      "hebrew": "הא לא ידע דנפל מיניה"
+    },
+    {
+      "id": "C3",
+      "kind": "statement",
+      "label": "Bridge: test Abaye",
+      "text": "If permission holds while awareness is absent, this case conflicts with Abaye.",
+      "class": "R",
+      "ref": "21b.7",
+      "hebrew": ""
+    },
+    {
+      "id": "C4",
+      "kind": "argument",
+      "label": "Coins challenge",
+      "text": "Permission plus assumed unawareness challenges Abaye, using the stated bridge.",
+      "class": "R",
+      "ref": "21b.7",
+      "hebrew": "ת\"ש"
+    },
+    {
+      "id": "C5",
+      "kind": "statement",
+      "label": "Reply: purse checking",
+      "text": "People habitually check their purses, says Rabbi Yitzhak.",
+      "class": "S",
+      "ref": "21b.7",
+      "hebrew": "אדם עשוי למשמש בכיסו"
+    },
+    {
+      "id": "C6",
+      "kind": "statement",
+      "label": "Owner already knew",
+      "text": "The reply treats the owner as aware and despairing before the finder picked up the coins.",
+      "class": "E",
+      "ref": "21b.7",
+      "hebrew": ""
+    },
+    {
+      "id": "C7",
+      "kind": "statement",
+      "label": "Coins do not decide",
+      "text": "With unawareness denied, the coins case does not establish Rava over Abaye.",
+      "class": "R",
+      "ref": "21b.7",
+      "hebrew": ""
+    },
+    {
+      "id": "R1",
+      "kind": "statement",
+      "label": "Verse: loss from you",
+      "text": "Deuteronomy 22:3 is read as addressing loss from the owner that remains accessible to others.",
+      "class": "S",
+      "ref": "22b.5",
+      "hebrew": "אשר תאבד ממנו ומצאתה"
+    },
+    {
+      "id": "R2",
+      "kind": "statement",
+      "label": "Inaccessible loss: permitted",
+      "text": "A river loss inaccessible to everyone is excluded from that obligation.",
+      "class": "S",
+      "ref": "22b.5",
+      "hebrew": "שאבודה ממנו ואינה מצויה אצל כל אדם"
+    },
+    {
+      "id": "R3",
+      "kind": "statement",
+      "label": "Compare both categories",
+      "text": "The Gemara compares prohibition and permission: each covers items with or without a mark.",
+      "class": "S",
+      "ref": "22b.6",
+      "hebrew": "ואיסורא דומיא דהיתירא"
+    },
+    {
+      "id": "R4",
+      "kind": "statement",
+      "label": "Clarify: before awareness",
+      "text": "For the ordinary-loss prohibition, the owner has not learned of the loss before pickup.",
+      "class": "E",
+      "ref": "22b.6",
+      "hebrew": ""
+    },
+    {
+      "id": "R5",
+      "kind": "argument",
+      "label": "River comparison",
+      "text": "Apply the comparison to ordinary unmarked loss before awareness: anticipated despair does not permit it.",
+      "class": "R",
+      "ref": "22b.5-6",
+      "hebrew": ""
+    },
+    {
+      "id": "R6",
+      "kind": "statement",
+      "label": "Ordinary loss: still prohibited",
+      "text": "In that unaware-before-pickup case, ordinary recoverable loss is prohibited even without a mark.",
+      "class": "E",
+      "ref": "22b.6",
+      "hebrew": "בין דלית בה סימן אסורה"
+    },
+    {
+      "id": "R7",
+      "kind": "statement",
+      "label": "Rava: explicitly refuted",
+      "text": "The Gemara declares the refutation of Rava decisive.",
+      "class": "S",
+      "ref": "22b.6",
+      "hebrew": "תיובתא דרבא תיובתא"
+    },
+    {
+      "id": "R8",
+      "kind": "statement",
+      "label": "Ruling: follows Abaye",
+      "text": "The text rules for Abaye here, within the mnemonic YAAL KAGAM.",
+      "class": "S",
+      "ref": "22b.7",
+      "hebrew": "והלכתא כוותיה דאביי"
+    }
+  ],
+  "edges": [
+    [
+      "O4",
+      "+>",
+      "O5"
+    ],
+    [
+      "O6",
+      "+>",
+      "O7"
+    ],
+    [
+      "O5",
+      "->",
+      "O7"
+    ],
+    [
+      "C1",
+      "+>",
+      "C4"
+    ],
+    [
+      "C2",
+      "+>",
+      "C4"
+    ],
+    [
+      "C3",
+      "+>",
+      "C4"
+    ],
+    [
+      "C4",
+      "->",
+      "O5"
+    ],
+    [
+      "C5",
+      "+>",
+      "C6"
+    ],
+    [
+      "C6",
+      "->",
+      "C2"
+    ],
+    [
+      "C6",
+      "+>",
+      "C7"
+    ],
+    [
+      "R1",
+      "+>",
+      "R2"
+    ],
+    [
+      "R2",
+      "+>",
+      "R5"
+    ],
+    [
+      "R3",
+      "+>",
+      "R5"
+    ],
+    [
+      "R4",
+      "+>",
+      "R5"
+    ],
+    [
+      "R5",
+      "+>",
+      "R6"
+    ],
+    [
+      "R6",
+      "->",
+      "O7"
+    ],
+    [
+      "R6",
+      "+>",
+      "R7"
+    ],
+    [
+      "R7",
+      "+>",
+      "R8"
+    ]
+  ],
+  "classes": {
+    "S": "Explicit source claim, in our English paraphrase",
+    "E": "Explanatory expansion, with commentator attribution in notes",
+    "R": "Supplied reconstruction / analytical bridge"
+  }
+}
