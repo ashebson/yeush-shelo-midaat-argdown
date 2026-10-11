@@ -1,6 +1,6 @@
 {
   "title": "Selected classical commentary, separate from the Gemara reconstruction",
-  "pdf_page_count": 20,
+  "pdf_page_count": 25,
   "base_sha256": {
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115"

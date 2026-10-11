@@ -80,7 +80,27 @@
             ],
             "speaker": "Editorial",
             "provenanceClass": "R",
-            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-exception",
+                "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+                "startCodePoint": 0,
+                "endCodePoint": 101,
+                "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+                "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+              },
+              {
+                "sourceId": "rb-boundary",
+                "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+                "startCodePoint": 31,
+                "endCodePoint": 143,
+                "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+                "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O3",
@@ -91,7 +111,7 @@
               "rb-exception",
               "rb-boundary"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "argument sketch; no PCS",
             "color": "#f3d5a5"
           }
@@ -116,7 +136,27 @@
         ],
         "speaker": "Editorial",
         "provenanceClass": "R",
-        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-exception",
+            "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+            "startCodePoint": 0,
+            "endCodePoint": 101,
+            "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+          },
+          {
+            "sourceId": "rb-boundary",
+            "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+            "startCodePoint": 31,
+            "endCodePoint": 143,
+            "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+            "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O3",
@@ -127,7 +167,7 @@
           "rb-exception",
           "rb-boundary"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "argument sketch; no PCS",
         "color": "#f3d5a5"
       },
@@ -175,7 +215,19 @@
             ],
             "speaker": "Rashba",
             "provenanceClass": "C",
-            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-exception",
+                "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+                "startCodePoint": 0,
+                "endCodePoint": 101,
+                "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "complete loss to everyone even when the owner expressly refuses despair",
             "baseNodeIds": [
               "O3",
@@ -184,7 +236,7 @@
             "sourceIds": [
               "rb-exception"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -205,7 +257,19 @@
         ],
         "speaker": "Rashba",
         "provenanceClass": "C",
-        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-exception",
+            "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+            "startCodePoint": 0,
+            "endCodePoint": 101,
+            "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "complete loss to everyone even when the owner expressly refuses despair",
         "baseNodeIds": [
           "O3",
@@ -214,7 +278,7 @@
         "sourceIds": [
           "rb-exception"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -261,7 +325,19 @@
             ],
             "speaker": "Rashba",
             "provenanceClass": "C",
-            "hebrewAnchor": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אי",
+            "hebrewAnchor": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-boundary",
+                "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+                "startCodePoint": 31,
+                "endCodePoint": 143,
+                "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+                "purpose": "Recoverable sand and the return obligation without despair"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "recoverable loss where owner has not despaired",
             "baseNodeIds": [
               "O3",
@@ -270,7 +346,7 @@
             "sourceIds": [
               "rb-boundary"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -291,7 +367,19 @@
         ],
         "speaker": "Rashba",
         "provenanceClass": "C",
-        "hebrewAnchor": "אבל לאו כזוטו של ים הוא לגמרי, משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אי",
+        "hebrewAnchor": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-boundary",
+            "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+            "startCodePoint": 31,
+            "endCodePoint": 143,
+            "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+            "purpose": "Recoverable sand and the return obligation without despair"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "recoverable loss where owner has not despaired",
         "baseNodeIds": [
           "O3",
@@ -300,7 +388,7 @@
         "sourceIds": [
           "rb-boundary"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -346,7 +434,7 @@
           "startLine": 25,
           "startColumn": 1,
           "endLine": 25,
-          "endColumn": 1232,
+          "endColumn": 2504,
           "data": {
             "id": "KB4",
             "sourceRef": [
@@ -361,7 +449,35 @@
             ],
             "speaker": "Editorial",
             "provenanceClass": "R",
-            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+            "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "hebrewAnchors": [
+              {
+                "sourceId": "rb-exception",
+                "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+                "startCodePoint": 0,
+                "endCodePoint": 101,
+                "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+                "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+              },
+              {
+                "sourceId": "rb-boundary",
+                "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+                "startCodePoint": 31,
+                "endCodePoint": 143,
+                "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+                "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+              },
+              {
+                "sourceId": "ra-compare",
+                "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+                "startCodePoint": 0,
+                "endCodePoint": 109,
+                "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+                "purpose": "Context for distinguishing recoverability scope from the final comparison"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "R1",
@@ -373,7 +489,7 @@
               "rb-boundary",
               "ra-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "statement",
             "color": "#f3d5a5"
           }
@@ -399,7 +515,35 @@
         ],
         "speaker": "Editorial",
         "provenanceClass": "R",
-        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה",
+        "hebrewAnchor": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+        "hebrewAnchors": [
+          {
+            "sourceId": "rb-exception",
+            "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+            "startCodePoint": 0,
+            "endCodePoint": 101,
+            "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+            "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+          },
+          {
+            "sourceId": "rb-boundary",
+            "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+            "startCodePoint": 31,
+            "endCodePoint": 143,
+            "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+            "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+          },
+          {
+            "sourceId": "ra-compare",
+            "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+            "startCodePoint": 0,
+            "endCodePoint": 109,
+            "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "purpose": "Context for distinguishing recoverability scope from the final comparison"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "R1",
@@ -411,7 +555,7 @@
           "rb-boundary",
           "ra-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },

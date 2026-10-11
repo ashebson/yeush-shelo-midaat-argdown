@@ -1,0 +1,1679 @@
+{
+  "arguments": {
+    "OA · Abaye · supplied inference": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Reconstruct Abaye’s move from the stated reason to the legal conclusion using an explicit editorial bridge. ",
+          "startLine": 38,
+          "endLine": 38,
+          "startColumn": 1,
+          "endColumn": 1239,
+          "isTopLevel": true,
+          "title": "OA · Abaye · supplied inference",
+          "tags": [
+            "reconstruction",
+            "opening"
+          ],
+          "data": {
+            "id": "OA",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 27,
+                "endCodePoint": 69,
+                "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+                "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup",
+            "baseNodeIds": [
+              "O1",
+              "O4",
+              "O5"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "O4 · Abaye: no awareness",
+              "isReference": true,
+              "startLine": 40,
+              "startColumn": 5,
+              "endLine": 40,
+              "endColumn": 31,
+              "role": "premise",
+              "argumentTitle": "OA · Abaye · supplied inference"
+            },
+            {
+              "type": "statement",
+              "title": "O9 · Supplied bridge: awareness is necessary",
+              "isReference": true,
+              "startLine": 41,
+              "startColumn": 5,
+              "endLine": 41,
+              "endColumn": 51,
+              "role": "premise",
+              "argumentTitle": "OA · Abaye · supplied inference"
+            },
+            {
+              "type": "statement",
+              "title": "O5 · Abaye: ineffective",
+              "isReference": true,
+              "startLine": 46,
+              "startColumn": 5,
+              "endLine": 46,
+              "endColumn": 29,
+              "role": "main-conclusion",
+              "argumentTitle": "OA · Abaye · supplied inference",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Apply the reconstructed Abaye bridge within the disputed scope"
+                ],
+                "startLine": 42,
+                "startColumn": 1,
+                "endLine": 45,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1,
+                    2
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "gemara-21b.4"
+                  ],
+                  "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+                },
+                "conclusionIndex": 2,
+                "argumentTitle": "OA · Abaye · supplied inference"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "O4 · Abaye: no awareness",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 31,
+          "role": "premise",
+          "argumentTitle": "OA · Abaye · supplied inference"
+        },
+        {
+          "type": "statement",
+          "title": "O9 · Supplied bridge: awareness is necessary",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 51,
+          "role": "premise",
+          "argumentTitle": "OA · Abaye · supplied inference"
+        },
+        {
+          "type": "statement",
+          "title": "O5 · Abaye: ineffective",
+          "isReference": true,
+          "startLine": 46,
+          "startColumn": 5,
+          "endLine": 46,
+          "endColumn": 29,
+          "role": "main-conclusion",
+          "argumentTitle": "OA · Abaye · supplied inference",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply the reconstructed Abaye bridge within the disputed scope"
+            ],
+            "startLine": 42,
+            "startColumn": 1,
+            "endLine": 45,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.4"
+              ],
+              "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "OA · Abaye · supplied inference"
+          }
+        }
+      ],
+      "title": "OA · Abaye · supplied inference",
+      "tags": [
+        "reconstruction",
+        "opening"
+      ],
+      "data": {
+        "id": "OA",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 27,
+            "endCodePoint": 69,
+            "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+            "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup",
+        "baseNodeIds": [
+          "O1",
+          "O4",
+          "O5"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 40,
+      "startColumn": 1,
+      "endLine": 46,
+      "endColumn": 29,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "OB · Rava · supplied inference": {
+      "type": "argument",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "argument-description",
+          "text": "R · Reconstruct Rava’s move from the stated reason to the legal conclusion using an explicit editorial bridge. ",
+          "startLine": 48,
+          "endLine": 48,
+          "startColumn": 1,
+          "endColumn": 1323,
+          "isTopLevel": true,
+          "title": "OB · Rava · supplied inference",
+          "tags": [
+            "reconstruction",
+            "opening"
+          ],
+          "data": {
+            "id": "OB",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 70,
+                "endCodePoint": 155,
+                "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+                "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup",
+            "baseNodeIds": [
+              "O1",
+              "O6",
+              "O7"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "numbered PCS; editorial reconstruction",
+            "color": "#f3d5a5"
+          },
+          "pcs": [
+            {
+              "type": "statement",
+              "title": "O6 · Rava: future despair",
+              "isReference": true,
+              "startLine": 50,
+              "startColumn": 5,
+              "endLine": 50,
+              "endColumn": 32,
+              "role": "premise",
+              "argumentTitle": "OB · Rava · supplied inference"
+            },
+            {
+              "type": "statement",
+              "title": "O10 · Supplied bridge: anticipated despair counts now",
+              "isReference": true,
+              "startLine": 51,
+              "startColumn": 5,
+              "endLine": 51,
+              "endColumn": 60,
+              "role": "premise",
+              "argumentTitle": "OB · Rava · supplied inference"
+            },
+            {
+              "type": "statement",
+              "title": "O7 · Rava: effective now",
+              "isReference": true,
+              "startLine": 56,
+              "startColumn": 5,
+              "endLine": 56,
+              "endColumn": 30,
+              "role": "main-conclusion",
+              "argumentTitle": "OB · Rava · supplied inference",
+              "inference": {
+                "type": "inference",
+                "relations": [],
+                "inferenceRules": [
+                  "Apply the reconstructed Rava bridge within the disputed scope"
+                ],
+                "startLine": 52,
+                "startColumn": 1,
+                "endLine": 55,
+                "endColumn": 3,
+                "data": {
+                  "uses": [
+                    1,
+                    2
+                  ],
+                  "provenanceClass": "R",
+                  "sourceIds": [
+                    "gemara-21b.4"
+                  ],
+                  "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+                },
+                "conclusionIndex": 2,
+                "argumentTitle": "OB · Rava · supplied inference"
+              }
+            }
+          ]
+        }
+      ],
+      "pcs": [
+        {
+          "type": "statement",
+          "title": "O6 · Rava: future despair",
+          "isReference": true,
+          "startLine": 50,
+          "startColumn": 5,
+          "endLine": 50,
+          "endColumn": 32,
+          "role": "premise",
+          "argumentTitle": "OB · Rava · supplied inference"
+        },
+        {
+          "type": "statement",
+          "title": "O10 · Supplied bridge: anticipated despair counts now",
+          "isReference": true,
+          "startLine": 51,
+          "startColumn": 5,
+          "endLine": 51,
+          "endColumn": 60,
+          "role": "premise",
+          "argumentTitle": "OB · Rava · supplied inference"
+        },
+        {
+          "type": "statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 56,
+          "startColumn": 5,
+          "endLine": 56,
+          "endColumn": 30,
+          "role": "main-conclusion",
+          "argumentTitle": "OB · Rava · supplied inference",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply the reconstructed Rava bridge within the disputed scope"
+            ],
+            "startLine": 52,
+            "startColumn": 1,
+            "endLine": 55,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.4"
+              ],
+              "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "OB · Rava · supplied inference"
+          }
+        }
+      ],
+      "title": "OB · Rava · supplied inference",
+      "tags": [
+        "reconstruction",
+        "opening"
+      ],
+      "data": {
+        "id": "OB",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 70,
+            "endCodePoint": 155,
+            "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+            "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup",
+        "baseNodeIds": [
+          "O1",
+          "O6",
+          "O7"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "numbered PCS; editorial reconstruction",
+        "color": "#f3d5a5"
+      },
+      "startLine": 50,
+      "startColumn": 1,
+      "endLine": 56,
+      "endColumn": 30,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "statements": {
+    "O1 · Scope: no identifying mark": {
+      "type": "equivalence-class",
+      "title": "O1 · Scope: no identifying mark",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O1 · Scope: no identifying mark",
+          "text": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 23,
+          "startColumn": 1,
+          "endLine": 23,
+          "endColumn": 1122,
+          "data": {
+            "id": "O1",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "כי פליגי בדבר שאין בו סימן",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 0,
+                "endCodePoint": 26,
+                "quote": "כי פליגי בדבר שאין בו סימן",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "ordinary unmarked loss; owner unaware at pickup",
+            "baseNodeIds": [
+              "O1"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O1",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "כי פליגי בדבר שאין בו סימן",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 0,
+            "endCodePoint": 26,
+            "quote": "כי פליגי בדבר שאין בו סימן",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "ordinary unmarked loss; owner unaware at pickup",
+        "baseNodeIds": [
+          "O1"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O2 · Marked objects: agreement": {
+      "type": "equivalence-class",
+      "title": "O2 · Marked objects: agreement",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O2 · Marked objects: agreement",
+          "text": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 25,
+          "startColumn": 1,
+          "endLine": 25,
+          "endColumn": 1519,
+          "data": {
+            "id": "O2",
+            "sourceRef": [
+              "Bava Metzia 21b:2"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.2?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.2",
+                "sourceSha256": "fea8f51c6edc93980ab0f4e45e0c8dd0487fe9de26d2a9b80637b10e6326c082",
+                "startCodePoint": 0,
+                "endCodePoint": 207,
+                "quote": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "marked loss; later despair does not cure prohibited pickup",
+            "baseNodeIds": [
+              "O2"
+            ],
+            "sourceIds": [
+              "gemara-21b.2"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O2",
+        "sourceRef": [
+          "Bava Metzia 21b:2"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.2?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.2",
+            "sourceSha256": "fea8f51c6edc93980ab0f4e45e0c8dd0487fe9de26d2a9b80637b10e6326c082",
+            "startCodePoint": 0,
+            "endCodePoint": 207,
+            "quote": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "marked loss; later despair does not cure prohibited pickup",
+        "baseNodeIds": [
+          "O2"
+        ],
+        "sourceIds": [
+          "gemara-21b.2"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O3 · Sea / river exception": {
+      "type": "equivalence-class",
+      "title": "O3 · Sea / river exception",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O3 · Sea / river exception",
+          "text": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 27,
+          "startColumn": 1,
+          "endLine": 27,
+          "endColumn": 1239,
+          "data": {
+            "id": "O3",
+            "sourceRef": [
+              "Bava Metzia 21b:3"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.3?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Gemara / cited Mishnah or baraita",
+            "provenanceClass": "S",
+            "hebrewAnchor": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.3",
+                "sourceSha256": "f1e9efb46b8414bdccaef826028ba9b1a2bad57ac7908a940af6b82f9f5de994",
+                "startCodePoint": 0,
+                "endCodePoint": 78,
+                "quote": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "inaccessible loss; permission does not depend on prior awareness",
+            "baseNodeIds": [
+              "O3"
+            ],
+            "sourceIds": [
+              "gemara-21b.3"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O3",
+        "sourceRef": [
+          "Bava Metzia 21b:3"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.3?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Gemara / cited Mishnah or baraita",
+        "provenanceClass": "S",
+        "hebrewAnchor": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.3",
+            "sourceSha256": "f1e9efb46b8414bdccaef826028ba9b1a2bad57ac7908a940af6b82f9f5de994",
+            "startCodePoint": 0,
+            "endCodePoint": 78,
+            "quote": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "inaccessible loss; permission does not depend on prior awareness",
+        "baseNodeIds": [
+          "O3"
+        ],
+        "sourceIds": [
+          "gemara-21b.3"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O4 · Abaye: no awareness": {
+      "type": "equivalence-class",
+      "title": "O4 · Abaye: no awareness",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O4 · Abaye: no awareness",
+          "text": "S · The owner has not yet learned of the loss. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 29,
+          "startColumn": 1,
+          "endLine": 29,
+          "endColumn": 1027,
+          "data": {
+            "id": "O4",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Abaye",
+            "provenanceClass": "S",
+            "hebrewAnchor": "דהא לא ידע דנפל מיניה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 48,
+                "endCodePoint": 69,
+                "quote": "דהא לא ידע דנפל מיניה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "owner unaware of loss now",
+            "baseNodeIds": [
+              "O4"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O4 · Abaye: no awareness",
+          "isReference": true,
+          "startLine": 40,
+          "startColumn": 5,
+          "endLine": 40,
+          "endColumn": 31,
+          "role": "premise",
+          "argumentTitle": "OA · Abaye · supplied inference"
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O4",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Abaye",
+        "provenanceClass": "S",
+        "hebrewAnchor": "דהא לא ידע דנפל מיניה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 48,
+            "endCodePoint": 69,
+            "quote": "דהא לא ידע דנפל מיניה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "owner unaware of loss now",
+        "baseNodeIds": [
+          "O4"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O5 · Abaye: ineffective": {
+      "type": "equivalence-class",
+      "title": "O5 · Abaye: ineffective",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O5 · Abaye: ineffective",
+          "text": "S · Unconscious yeush is not effective in the disputed case. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 31,
+          "startColumn": 1,
+          "endLine": 32,
+          "endColumn": 31,
+          "data": {
+            "id": "O5",
+            "sourceRef": [
+              "Bava Metzia 21b:1"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.1?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Abaye",
+            "provenanceClass": "S",
+            "hebrewAnchor": "אביי אמר לא הוי יאוש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.1",
+                "sourceSha256": "649ab832958b9a03c0b3eb227303e8e7b17f426ea94b40e9dd8e53d2985860d5",
+                "startCodePoint": 14,
+                "endCodePoint": 34,
+                "quote": "אביי אמר לא הוי יאוש",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "ordinary unmarked loss before awareness",
+            "baseNodeIds": [
+              "O5"
+            ],
+            "sourceIds": [
+              "gemara-21b.1"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O5 · Abaye: ineffective",
+          "isReference": true,
+          "startLine": 46,
+          "startColumn": 5,
+          "endLine": 46,
+          "endColumn": 29,
+          "role": "main-conclusion",
+          "argumentTitle": "OA · Abaye · supplied inference",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply the reconstructed Abaye bridge within the disputed scope"
+            ],
+            "startLine": 42,
+            "startColumn": 1,
+            "endLine": 45,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.4"
+              ],
+              "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "OA · Abaye · supplied inference"
+          }
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O5",
+        "sourceRef": [
+          "Bava Metzia 21b:1"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.1?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Abaye",
+        "provenanceClass": "S",
+        "hebrewAnchor": "אביי אמר לא הוי יאוש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.1",
+            "sourceSha256": "649ab832958b9a03c0b3eb227303e8e7b17f426ea94b40e9dd8e53d2985860d5",
+            "startCodePoint": 14,
+            "endCodePoint": 34,
+            "quote": "אביי אמר לא הוי יאוש",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "ordinary unmarked loss before awareness",
+        "baseNodeIds": [
+          "O5"
+        ],
+        "sourceIds": [
+          "gemara-21b.1"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O7 · Rava: effective now": {
+      "type": "equivalence-class",
+      "title": "O7 · Rava: effective now",
+      "relations": [
+        {
+          "type": "relation",
+          "relationType": "attack",
+          "from": "O5 · Abaye: ineffective",
+          "fromType": "equivalence-class",
+          "to": "O7 · Rava: effective now",
+          "toType": "equivalence-class"
+        }
+      ],
+      "members": [
+        {
+          "type": "statement",
+          "role": "relation-statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 32,
+          "startColumn": 6,
+          "endLine": 32,
+          "endColumn": 31
+        },
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O7 · Rava: effective now",
+          "text": "S · In the disputed case, that anticipated despair counts now. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 36,
+          "startColumn": 1,
+          "endLine": 36,
+          "endColumn": 1068,
+          "data": {
+            "id": "O7",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Rava",
+            "provenanceClass": "S",
+            "hebrewAnchor": "מהשתא הוא דמיאש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 140,
+                "endCodePoint": 155,
+                "quote": "מהשתא הוא דמיאש",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "anticipated later despair counted at the present time by Rava",
+            "baseNodeIds": [
+              "O7"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O7 · Rava: effective now",
+          "isReference": true,
+          "startLine": 56,
+          "startColumn": 5,
+          "endLine": 56,
+          "endColumn": 30,
+          "role": "main-conclusion",
+          "argumentTitle": "OB · Rava · supplied inference",
+          "inference": {
+            "type": "inference",
+            "relations": [],
+            "inferenceRules": [
+              "Apply the reconstructed Rava bridge within the disputed scope"
+            ],
+            "startLine": 52,
+            "startColumn": 1,
+            "endLine": 55,
+            "endColumn": 3,
+            "data": {
+              "uses": [
+                1,
+                2
+              ],
+              "provenanceClass": "R",
+              "sourceIds": [
+                "gemara-21b.4"
+              ],
+              "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+            },
+            "conclusionIndex": 2,
+            "argumentTitle": "OB · Rava · supplied inference"
+          }
+        }
+      ],
+      "isUsedAsRelationStatement": true,
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O7",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Rava",
+        "provenanceClass": "S",
+        "hebrewAnchor": "מהשתא הוא דמיאש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 140,
+            "endCodePoint": 155,
+            "quote": "מהשתא הוא דמיאש",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "anticipated later despair counted at the present time by Rava",
+        "baseNodeIds": [
+          "O7"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsIntermediaryConclusion": false,
+      "isUsedAsMainConclusion": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O6 · Rava: future despair": {
+      "type": "equivalence-class",
+      "title": "O6 · Rava: future despair",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O6 · Rava: future despair",
+          "text": "S · Once aware, the owner will despair because there is no identifying mark. ",
+          "tags": [
+            "source",
+            "opening"
+          ],
+          "startLine": 34,
+          "startColumn": 1,
+          "endLine": 34,
+          "endColumn": 1138,
+          "data": {
+            "id": "O6",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Rava",
+            "provenanceClass": "S",
+            "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 87,
+                "endCodePoint": 139,
+                "quote": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "anticipated response after future awareness",
+            "baseNodeIds": [
+              "O6"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#267565"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O6 · Rava: future despair",
+          "isReference": true,
+          "startLine": 50,
+          "startColumn": 5,
+          "endLine": 50,
+          "endColumn": 32,
+          "role": "premise",
+          "argumentTitle": "OB · Rava · supplied inference"
+        }
+      ],
+      "tags": [
+        "source",
+        "opening"
+      ],
+      "data": {
+        "id": "O6",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Rava",
+        "provenanceClass": "S",
+        "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 87,
+            "endCodePoint": 139,
+            "quote": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "anticipated response after future awareness",
+        "baseNodeIds": [
+          "O6"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#267565"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "isUsedAsPremise": true,
+      "fontColor": "#000000",
+      "color": "#267565"
+    },
+    "O9 · Supplied bridge: awareness is necessary": {
+      "type": "equivalence-class",
+      "title": "O9 · Supplied bridge: awareness is necessary",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O9 · Supplied bridge: awareness is necessary",
+          "text": "R · For Abaye in the ordinary unmarked case, yeush cannot take effect before the owner becomes aware of the loss. ",
+          "tags": [
+            "reconstruction",
+            "opening"
+          ],
+          "startLine": 58,
+          "startColumn": 1,
+          "endLine": 58,
+          "endColumn": 1242,
+          "data": {
+            "id": "O9",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 27,
+                "endCodePoint": 69,
+                "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+                "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation",
+            "baseNodeIds": [
+              "O1",
+              "O4",
+              "O5"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O9 · Supplied bridge: awareness is necessary",
+          "isReference": true,
+          "startLine": 41,
+          "startColumn": 5,
+          "endLine": 41,
+          "endColumn": 51,
+          "role": "premise",
+          "argumentTitle": "OA · Abaye · supplied inference"
+        }
+      ],
+      "isUsedAsPremise": true,
+      "tags": [
+        "reconstruction",
+        "opening"
+      ],
+      "data": {
+        "id": "O9",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 27,
+            "endCodePoint": 69,
+            "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+            "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation",
+        "baseNodeIds": [
+          "O1",
+          "O4",
+          "O5"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    },
+    "O10 · Supplied bridge: anticipated despair counts now": {
+      "type": "equivalence-class",
+      "title": "O10 · Supplied bridge: anticipated despair counts now",
+      "relations": [],
+      "members": [
+        {
+          "type": "statement",
+          "role": "top-level-statement",
+          "isTopLevel": true,
+          "title": "O10 · Supplied bridge: anticipated despair counts now",
+          "text": "R · For Rava in the ordinary unmarked case, the despair expected upon awareness may count already, before awareness occurs. ",
+          "tags": [
+            "reconstruction",
+            "opening"
+          ],
+          "startLine": 60,
+          "startColumn": 1,
+          "endLine": 60,
+          "endColumn": 1349,
+          "data": {
+            "id": "O10",
+            "sourceRef": [
+              "Bava Metzia 21b:4"
+            ],
+            "sourceUrl": [
+              "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+            ],
+            "speaker": "Editorial",
+            "provenanceClass": "R",
+            "hebrewAnchor": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 70,
+                "endCodePoint": 155,
+                "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+                "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+            "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation",
+            "baseNodeIds": [
+              "O1",
+              "O6",
+              "O7"
+            ],
+            "sourceIds": [
+              "gemara-21b.4"
+            ],
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+            "reconstructionStatus": "statement",
+            "color": "#f3d5a5"
+          }
+        },
+        {
+          "type": "statement",
+          "title": "O10 · Supplied bridge: anticipated despair counts now",
+          "isReference": true,
+          "startLine": 51,
+          "startColumn": 5,
+          "endLine": 51,
+          "endColumn": 60,
+          "role": "premise",
+          "argumentTitle": "OB · Rava · supplied inference"
+        }
+      ],
+      "isUsedAsPremise": true,
+      "tags": [
+        "reconstruction",
+        "opening"
+      ],
+      "data": {
+        "id": "O10",
+        "sourceRef": [
+          "Bava Metzia 21b:4"
+        ],
+        "sourceUrl": [
+          "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
+        ],
+        "speaker": "Editorial",
+        "provenanceClass": "R",
+        "hebrewAnchor": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 70,
+            "endCodePoint": 155,
+            "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+            "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
+        "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation",
+        "baseNodeIds": [
+          "O1",
+          "O6",
+          "O7"
+        ],
+        "sourceIds": [
+          "gemara-21b.4"
+        ],
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+        "reconstructionStatus": "statement",
+        "color": "#f3d5a5"
+      },
+      "isUsedAsTopLevelStatement": true,
+      "fontColor": "#000000",
+      "color": "#f3d5a5"
+    }
+  },
+  "relations": [
+    {
+      "type": "relation",
+      "relationType": "attack",
+      "from": "O5 · Abaye: ineffective",
+      "fromType": "equivalence-class",
+      "to": "O7 · Rava: effective now",
+      "toType": "equivalence-class"
+    }
+  ],
+  "map": {
+    "nodes": [
+      {
+        "id": "n0",
+        "title": "O1 · Scope: no identifying mark",
+        "type": "statement-map-node",
+        "labelTitle": "O1 · Scope: no identifying mark",
+        "labelText": "S · The dispute concerns ordinary lost objects without an identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n1",
+        "title": "O2 · Marked objects: agreement",
+        "type": "statement-map-node",
+        "labelTitle": "O2 · Marked objects: agreement",
+        "labelText": "S · Both reject unconscious yeush here; later despair does not repair an already prohibited pickup. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n2",
+        "title": "O3 · Sea / river exception",
+        "type": "statement-map-node",
+        "labelTitle": "O3 · Sea / river exception",
+        "labelText": "S · The Torah permits the exceptional sea or river loss, even with a mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n3",
+        "title": "O4 · Abaye: no awareness",
+        "type": "statement-map-node",
+        "labelTitle": "O4 · Abaye: no awareness",
+        "labelText": "S · The owner has not yet learned of the loss. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n4",
+        "title": "O5 · Abaye: ineffective",
+        "type": "statement-map-node",
+        "labelTitle": "O5 · Abaye: ineffective",
+        "labelText": "S · Unconscious yeush is not effective in the disputed case. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n5",
+        "title": "O7 · Rava: effective now",
+        "type": "statement-map-node",
+        "labelTitle": "O7 · Rava: effective now",
+        "labelText": "S · In the disputed case, that anticipated despair counts now. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n6",
+        "title": "O6 · Rava: future despair",
+        "type": "statement-map-node",
+        "labelTitle": "O6 · Rava: future despair",
+        "labelText": "S · Once aware, the owner will despair because there is no identifying mark. ",
+        "color": "#267565",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n7",
+        "title": "O9 · Supplied bridge: awareness is necessary",
+        "type": "statement-map-node",
+        "labelTitle": "O9 · Supplied bridge: awareness is necessary",
+        "labelText": "R · For Abaye in the ordinary unmarked case, yeush cannot take effect before the owner becomes aware of the loss. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n8",
+        "title": "O10 · Supplied bridge: anticipated despair counts now",
+        "type": "statement-map-node",
+        "labelTitle": "O10 · Supplied bridge: anticipated despair counts now",
+        "labelText": "R · For Rava in the ordinary unmarked case, the despair expected upon awareness may count already, before awareness occurs. ",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n9",
+        "title": "OA · Abaye · supplied inference",
+        "type": "argument-map-node",
+        "labelTitle": "OA · Abaye · supplied inference",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      },
+      {
+        "id": "n10",
+        "title": "OB · Rava · supplied inference",
+        "type": "argument-map-node",
+        "labelTitle": "OB · Rava · supplied inference",
+        "color": "#f3d5a5",
+        "fontColor": "#000000"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "type": "map-edge",
+        "relationType": "attack",
+        "from": "n4",
+        "to": "n5",
+        "fromEquivalenceClass": "O5 · Abaye: ineffective",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e2",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n9",
+        "to": "n4",
+        "fromEquivalenceClass": "O5 · Abaye: ineffective",
+        "toEquivalenceClass": "O5 · Abaye: ineffective"
+      },
+      {
+        "id": "e3",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n10",
+        "to": "n5",
+        "fromEquivalenceClass": "O7 · Rava: effective now",
+        "toEquivalenceClass": "O7 · Rava: effective now"
+      },
+      {
+        "id": "e4",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n3",
+        "to": "n9",
+        "fromEquivalenceClass": "O4 · Abaye: no awareness",
+        "toEquivalenceClass": "O4 · Abaye: no awareness"
+      },
+      {
+        "id": "e5",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n6",
+        "to": "n10",
+        "fromEquivalenceClass": "O6 · Rava: future despair",
+        "toEquivalenceClass": "O6 · Rava: future despair"
+      },
+      {
+        "id": "e6",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n7",
+        "to": "n9",
+        "fromEquivalenceClass": "O9 · Supplied bridge: awareness is necessary",
+        "toEquivalenceClass": "O9 · Supplied bridge: awareness is necessary"
+      },
+      {
+        "id": "e7",
+        "type": "map-edge",
+        "relationType": "support",
+        "from": "n8",
+        "to": "n10",
+        "fromEquivalenceClass": "O10 · Supplied bridge: anticipated despair counts now",
+        "toEquivalenceClass": "O10 · Supplied bridge: anticipated despair counts now"
+      }
+    ]
+  },
+  "sections": [],
+  "tags": {
+    "source": {
+      "tag": "source",
+      "cssClass": "tag-source",
+      "occurrenceIndex": 0,
+      "color": "#e8f1ef"
+    },
+    "opening": {
+      "tag": "opening",
+      "cssClass": "tag-opening",
+      "occurrenceIndex": 1,
+      "color": "#7570b3"
+    },
+    "reconstruction": {
+      "tag": "reconstruction",
+      "cssClass": "tag-reconstruction",
+      "occurrenceIndex": 2,
+      "color": "#fff1dc"
+    }
+  }
+}

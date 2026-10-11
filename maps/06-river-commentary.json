@@ -11,7 +11,7 @@
           "startLine": 33,
           "endLine": 33,
           "startColumn": 1,
-          "endColumn": 1161,
+          "endColumn": 3078,
           "isTopLevel": true,
           "title": "KR6 · Supplied: make the extra premise visible",
           "tags": [
@@ -33,7 +33,51 @@
             ],
             "speaker": "Editorial",
             "provenanceClass": "R",
-            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-compare",
+                "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+                "startCodePoint": 0,
+                "endCodePoint": 109,
+                "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "ra-timing",
+                "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+                "startCodePoint": 102,
+                "endCodePoint": 170,
+                "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 0,
+                "endCodePoint": 100,
+                "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 101,
+                "endCodePoint": 195,
+                "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 196,
+                "endCodePoint": 340,
+                "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "R3",
@@ -46,7 +90,7 @@
               "ra-timing",
               "to-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "numbered PCS; editorial reconstruction",
             "color": "#f3d5a5"
           },
@@ -226,7 +270,51 @@
         ],
         "speaker": "Editorial",
         "provenanceClass": "R",
-        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-compare",
+            "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+            "startCodePoint": 0,
+            "endCodePoint": 109,
+            "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "ra-timing",
+            "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+            "startCodePoint": 102,
+            "endCodePoint": 170,
+            "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 0,
+            "endCodePoint": 100,
+            "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 101,
+            "endCodePoint": 195,
+            "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 196,
+            "endCodePoint": 340,
+            "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "R3",
@@ -239,7 +327,7 @@
           "ra-timing",
           "to-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "numbered PCS; editorial reconstruction",
         "color": "#f3d5a5"
       },
@@ -261,7 +349,7 @@
           "startLine": 33,
           "endLine": 33,
           "startColumn": 1,
-          "endColumn": 1161,
+          "endColumn": 3078,
           "isTopLevel": true,
           "title": "KR6 · Supplied: make the extra premise visible",
           "tags": [
@@ -283,7 +371,51 @@
             ],
             "speaker": "Editorial",
             "provenanceClass": "R",
-            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-compare",
+                "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+                "startCodePoint": 0,
+                "endCodePoint": 109,
+                "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "ra-timing",
+                "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+                "startCodePoint": 102,
+                "endCodePoint": 170,
+                "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 0,
+                "endCodePoint": 100,
+                "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 101,
+                "endCodePoint": 195,
+                "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              },
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 196,
+                "endCodePoint": 340,
+                "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+                "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "R3",
@@ -296,7 +428,7 @@
               "ra-timing",
               "to-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "numbered PCS; editorial reconstruction",
             "color": "#f3d5a5"
           },
@@ -525,7 +657,51 @@
         ],
         "speaker": "Editorial",
         "provenanceClass": "R",
-        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-compare",
+            "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+            "startCodePoint": 0,
+            "endCodePoint": 109,
+            "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "ra-timing",
+            "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+            "startCodePoint": 102,
+            "endCodePoint": 170,
+            "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 0,
+            "endCodePoint": 100,
+            "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 101,
+            "endCodePoint": 195,
+            "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          },
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 196,
+            "endCodePoint": 340,
+            "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+            "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "R3",
@@ -538,7 +714,7 @@
           "ra-timing",
           "to-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "numbered PCS; editorial reconstruction",
         "color": "#f3d5a5"
       },
@@ -570,7 +746,7 @@
           "startLine": 23,
           "startColumn": 1,
           "endLine": 23,
-          "endColumn": 806,
+          "endColumn": 1352,
           "data": {
             "id": "KR1",
             "sourceRef": [
@@ -581,7 +757,19 @@
             ],
             "speaker": "Rashi",
             "provenanceClass": "C",
-            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+            "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-compare",
+                "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+                "startCodePoint": 0,
+                "endCodePoint": 109,
+                "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "R2",
@@ -590,7 +778,7 @@
             "sourceIds": [
               "ra-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -622,7 +810,19 @@
         ],
         "speaker": "Rashi",
         "provenanceClass": "C",
-        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו",
+        "hebrewAnchor": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-compare",
+            "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+            "startCodePoint": 0,
+            "endCodePoint": 109,
+            "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "R2",
@@ -631,7 +831,7 @@
         "sourceIds": [
           "ra-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -659,7 +859,7 @@
           "startLine": 25,
           "startColumn": 1,
           "endLine": 25,
-          "endColumn": 818,
+          "endColumn": 1283,
           "data": {
             "id": "KR2",
             "sourceRef": [
@@ -670,7 +870,19 @@
             ],
             "speaker": "Rashi",
             "provenanceClass": "C",
-            "hebrewAnchor": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסיר",
+            "hebrewAnchor": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-timing",
+                "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+                "startCodePoint": 102,
+                "endCodePoint": 170,
+                "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "R4",
@@ -679,7 +891,7 @@
             "sourceIds": [
               "ra-timing"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -711,7 +923,19 @@
         ],
         "speaker": "Rashi",
         "provenanceClass": "C",
-        "hebrewAnchor": "דמצויה אצל כל אדם לא חילק בין אין סימן דכי ידע מיאש ליש סימן דלכי ידע לא מיאש וכי היכי דיש סימן אסיר",
+        "hebrewAnchor": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-timing",
+            "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+            "startCodePoint": 102,
+            "endCodePoint": 170,
+            "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "R4",
@@ -720,7 +944,7 @@
         "sourceIds": [
           "ra-timing"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -748,7 +972,7 @@
           "startLine": 27,
           "startColumn": 1,
           "endLine": 27,
-          "endColumn": 803,
+          "endColumn": 1347,
           "data": {
             "id": "KR3",
             "sourceRef": [
@@ -760,6 +984,18 @@
             "speaker": "Tosafot",
             "provenanceClass": "C",
             "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 0,
+                "endCodePoint": 100,
+                "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+                "purpose": "Redundancy if the exception concerned known despair alone"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "established despair before pickup already permits ordinary loss",
             "baseNodeIds": [
               "R1",
@@ -768,7 +1004,7 @@
             "sourceIds": [
               "to-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -801,6 +1037,18 @@
         "speaker": "Tosafot",
         "provenanceClass": "C",
         "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 0,
+            "endCodePoint": 100,
+            "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "purpose": "Redundancy if the exception concerned known despair alone"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "established despair before pickup already permits ordinary loss",
         "baseNodeIds": [
           "R1",
@@ -809,7 +1057,7 @@
         "sourceIds": [
           "to-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -837,7 +1085,7 @@
           "startLine": 29,
           "startColumn": 1,
           "endLine": 29,
-          "endColumn": 844,
+          "endColumn": 1405,
           "data": {
             "id": "KR4",
             "sourceRef": [
@@ -848,7 +1096,19 @@
             ],
             "speaker": "Tosafot",
             "provenanceClass": "C",
-            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "hebrewAnchor": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 101,
+                "endCodePoint": 195,
+                "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+                "purpose": "What the special permission adds: absent awareness, even without prospective despair"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "exception includes absent awareness even when later despair would not occur",
             "baseNodeIds": [
               "R1",
@@ -857,7 +1117,7 @@
             "sourceIds": [
               "to-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -946,7 +1206,19 @@
         ],
         "speaker": "Tosafot",
         "provenanceClass": "C",
-        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "hebrewAnchor": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 101,
+            "endCodePoint": 195,
+            "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+            "purpose": "What the special permission adds: absent awareness, even without prospective despair"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "exception includes absent awareness even when later despair would not occur",
         "baseNodeIds": [
           "R1",
@@ -955,7 +1227,7 @@
         "sourceIds": [
           "to-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -983,7 +1255,7 @@
           "startLine": 31,
           "startColumn": 1,
           "endLine": 31,
-          "endColumn": 897,
+          "endColumn": 1540,
           "data": {
             "id": "KR5",
             "sourceRef": [
@@ -994,7 +1266,19 @@
             ],
             "speaker": "Tosafot",
             "provenanceClass": "C",
-            "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+            "hebrewAnchor": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-compare",
+                "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+                "startCodePoint": 196,
+                "endCodePoint": 340,
+                "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+                "purpose": "Comparison and the prior-despair boundary of ordinary permission"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "ordinary loss without established prior despair; prior despair remains a route to permission",
             "baseNodeIds": [
               "R3",
@@ -1004,7 +1288,7 @@
             "sourceIds": [
               "to-compare"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -1063,7 +1347,19 @@
         ],
         "speaker": "Tosafot",
         "provenanceClass": "C",
-        "hebrewAnchor": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+        "hebrewAnchor": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-compare",
+            "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+            "startCodePoint": 196,
+            "endCodePoint": 340,
+            "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+            "purpose": "Comparison and the prior-despair boundary of ordinary permission"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "ordinary loss without established prior despair; prior despair remains a route to permission",
         "baseNodeIds": [
           "R3",
@@ -1073,7 +1369,7 @@
         "sourceIds": [
           "to-compare"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -1102,7 +1398,7 @@
           "startLine": 49,
           "startColumn": 1,
           "endLine": 49,
-          "endColumn": 826,
+          "endColumn": 1430,
           "data": {
             "id": "KR7",
             "sourceRef": [
@@ -1113,7 +1409,19 @@
             ],
             "speaker": "Tosafot",
             "provenanceClass": "C",
-            "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לק",
+            "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-refutation",
+                "sourceSha256": "d548d0f4ea915aa77fd8eadc5d9a98791269e15deaede2c1dafe3983b88c7305",
+                "startCodePoint": 0,
+                "endCodePoint": 136,
+                "quote": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "Rava knew the baraita before the comparison was drawn",
             "baseNodeIds": [
               "R7"
@@ -1121,7 +1429,7 @@
             "sourceIds": [
               "to-refutation"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -1142,7 +1450,19 @@
         ],
         "speaker": "Tosafot",
         "provenanceClass": "C",
-        "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לק",
+        "hebrewAnchor": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-refutation",
+            "sourceSha256": "d548d0f4ea915aa77fd8eadc5d9a98791269e15deaede2c1dafe3983b88c7305",
+            "startCodePoint": 0,
+            "endCodePoint": 136,
+            "quote": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "Rava knew the baraita before the comparison was drawn",
         "baseNodeIds": [
           "R7"
@@ -1150,7 +1470,7 @@
         "sourceIds": [
           "to-refutation"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },

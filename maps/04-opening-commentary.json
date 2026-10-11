@@ -112,7 +112,7 @@
           "startLine": 34,
           "endLine": 34,
           "startColumn": 1,
-          "endColumn": 1296,
+          "endColumn": 3600,
           "isTopLevel": true,
           "title": "KO7 · Supplied: two distinct qualifications",
           "tags": [
@@ -137,6 +137,66 @@
             "speaker": "Editorial",
             "provenanceClass": "R",
             "hebrewAnchor": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-definition",
+                "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+                "startCodePoint": 0,
+                "endCodePoint": 70,
+                "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "ra-now",
+                "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+                "startCodePoint": 0,
+                "endCodePoint": 35,
+                "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "to-mark",
+                "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+                "startCodePoint": 0,
+                "endCodePoint": 58,
+                "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 102,
+                "endCodePoint": 131,
+                "quote": "אף על גב דאייאש לבסוף לא מהני",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 200,
+                "endCodePoint": 274,
+                "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 321,
+                "endCodePoint": 358,
+                "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 392,
+                "endCodePoint": 469,
+                "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+                "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O1",
@@ -150,7 +210,7 @@
               "to-mark",
               "ri-possession"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "argument sketch; no PCS",
             "color": "#f3d5a5"
           }
@@ -180,6 +240,66 @@
         "speaker": "Editorial",
         "provenanceClass": "R",
         "hebrewAnchor": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-definition",
+            "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+            "startCodePoint": 0,
+            "endCodePoint": 70,
+            "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "ra-now",
+            "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+            "startCodePoint": 0,
+            "endCodePoint": 35,
+            "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "to-mark",
+            "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+            "startCodePoint": 0,
+            "endCodePoint": 58,
+            "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 102,
+            "endCodePoint": 131,
+            "quote": "אף על גב דאייאש לבסוף לא מהני",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 200,
+            "endCodePoint": 274,
+            "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 321,
+            "endCodePoint": 358,
+            "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 392,
+            "endCodePoint": 469,
+            "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+            "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O1",
@@ -193,7 +313,7 @@
           "to-mark",
           "ri-possession"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "argument sketch; no PCS",
         "color": "#f3d5a5"
       },
@@ -242,6 +362,18 @@
             "speaker": "Rashi",
             "provenanceClass": "C",
             "hebrewAnchor": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-definition",
+                "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+                "startCodePoint": 0,
+                "endCodePoint": 70,
+                "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O1",
@@ -250,7 +382,7 @@
             "sourceIds": [
               "ra-definition"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -272,6 +404,18 @@
         "speaker": "Rashi",
         "provenanceClass": "C",
         "hebrewAnchor": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-definition",
+            "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+            "startCodePoint": 0,
+            "endCodePoint": 70,
+            "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O1",
@@ -280,7 +424,7 @@
         "sourceIds": [
           "ra-definition"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -328,6 +472,18 @@
             "speaker": "Rashi",
             "provenanceClass": "C",
             "hebrewAnchor": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-now",
+                "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+                "startCodePoint": 0,
+                "endCodePoint": 35,
+                "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O6",
@@ -336,7 +492,7 @@
             "sourceIds": [
               "ra-now"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -358,6 +514,18 @@
         "speaker": "Rashi",
         "provenanceClass": "C",
         "hebrewAnchor": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-now",
+            "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+            "startCodePoint": 0,
+            "endCodePoint": 35,
+            "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O6",
@@ -366,7 +534,7 @@
         "sourceIds": [
           "ra-now"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -414,6 +582,18 @@
             "speaker": "Tosafot",
             "provenanceClass": "C",
             "hebrewAnchor": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "to-mark",
+                "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+                "startCodePoint": 0,
+                "endCodePoint": 58,
+                "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O2"
@@ -421,7 +601,7 @@
             "sourceIds": [
               "to-mark"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -443,6 +623,18 @@
         "speaker": "Tosafot",
         "provenanceClass": "C",
         "hebrewAnchor": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "to-mark",
+            "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+            "startCodePoint": 0,
+            "endCodePoint": 58,
+            "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O2"
@@ -450,7 +642,7 @@
         "sourceIds": [
           "to-mark"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -497,7 +689,27 @@
             ],
             "speaker": "Ritva (via Shittah Mekubbetzet)",
             "provenanceClass": "C",
-            "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+            "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 0,
+                "endCodePoint": 101,
+                "quote": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא",
+                "purpose": "Scope: cases where unconscious yeush is ineffective"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 200,
+                "endCodePoint": 255,
+                "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם",
+                "purpose": "Custodial possession for the owner at pickup"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O2",
@@ -506,7 +718,7 @@
             "sourceIds": [
               "ri-possession"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -527,7 +739,27 @@
         ],
         "speaker": "Ritva (via Shittah Mekubbetzet)",
         "provenanceClass": "C",
-        "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+        "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 0,
+            "endCodePoint": 101,
+            "quote": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא",
+            "purpose": "Scope: cases where unconscious yeush is ineffective"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 200,
+            "endCodePoint": 255,
+            "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם",
+            "purpose": "Custodial possession for the owner at pickup"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O2",
@@ -536,7 +768,7 @@
         "sourceIds": [
           "ri-possession"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -601,7 +833,27 @@
             ],
             "speaker": "Ritva (via Shittah Mekubbetzet)",
             "provenanceClass": "C",
-            "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+            "hebrewAnchor": "אף על גב דאייאש לבסוף לא מהני",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 102,
+                "endCodePoint": 131,
+                "quote": "אף על גב דאייאש לבסוף לא מהני",
+                "purpose": "Later despair does not help"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 200,
+                "endCodePoint": 274,
+                "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+                "purpose": "Explanation in terms of holding for the owner"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O2",
@@ -610,7 +862,7 @@
             "sourceIds": [
               "ri-possession"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -632,7 +884,27 @@
         ],
         "speaker": "Ritva (via Shittah Mekubbetzet)",
         "provenanceClass": "C",
-        "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+        "hebrewAnchor": "אף על גב דאייאש לבסוף לא מהני",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 102,
+            "endCodePoint": 131,
+            "quote": "אף על גב דאייאש לבסוף לא מהני",
+            "purpose": "Later despair does not help"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 200,
+            "endCodePoint": 274,
+            "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+            "purpose": "Explanation in terms of holding for the owner"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O2",
@@ -641,7 +913,7 @@
         "sourceIds": [
           "ri-possession"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -688,7 +960,27 @@
             ],
             "speaker": "Ritva (via Shittah Mekubbetzet)",
             "provenanceClass": "C",
-            "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+            "hebrewAnchor": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 321,
+                "endCodePoint": 358,
+                "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+                "purpose": "Not necessarily an intention to steal"
+              },
+              {
+                "sourceId": "ri-possession",
+                "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+                "startCodePoint": 392,
+                "endCodePoint": 469,
+                "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+                "purpose": "Status: object remains in the owner’s domain at pickup"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "O2"
@@ -696,7 +988,7 @@
             "sourceIds": [
               "ri-possession"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -717,7 +1009,27 @@
         ],
         "speaker": "Ritva (via Shittah Mekubbetzet)",
         "provenanceClass": "C",
-        "hebrewAnchor": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמ",
+        "hebrewAnchor": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 321,
+            "endCodePoint": 358,
+            "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+            "purpose": "Not necessarily an intention to steal"
+          },
+          {
+            "sourceId": "ri-possession",
+            "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+            "startCodePoint": 392,
+            "endCodePoint": 469,
+            "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+            "purpose": "Status: object remains in the owner’s domain at pickup"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "O2"
@@ -725,7 +1037,7 @@
         "sourceIds": [
           "ri-possession"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },

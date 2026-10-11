@@ -1,5 +1,5 @@
 {
-  "page_count": 20,
+  "page_count": 25,
   "pages": [
     {
       "number": 1,
@@ -207,6 +207,18 @@
     },
     {
       "number": 18,
+      "name": "10-opening-inference",
+      "size_mm": [
+        594,
+        420
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": 12.714511639676113,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 19,
       "name": "pcs-C4",
       "size_mm": [
         210,
@@ -218,7 +230,7 @@
       "rtlBlocks": 0
     },
     {
-      "number": 19,
+      "number": 20,
       "name": "pcs-R5",
       "size_mm": [
         210,
@@ -230,7 +242,7 @@
       "rtlBlocks": 0
     },
     {
-      "number": 20,
+      "number": 21,
       "name": "pcs-KR6",
       "size_mm": [
         210,
@@ -240,15 +252,64 @@
       "scrollOverflow": false,
       "minMapFontPt": null,
       "rtlBlocks": 0
+    },
+    {
+      "number": 22,
+      "name": "pcs-OA",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 23,
+      "name": "pcs-OB",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 0
+    },
+    {
+      "number": 24,
+      "name": "anchors-R4",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 4
+    },
+    {
+      "number": 25,
+      "name": "anchors-KO4",
+      "size_mm": [
+        210,
+        297
+      ],
+      "overflow": [],
+      "scrollOverflow": false,
+      "minMapFontPt": null,
+      "rtlBlocks": 6
     }
   ],
   "source_sha256": {
-    "index.html": "2c547559dc0e8864010cf8fac715eb148010ad95b8c3e113fadaa70fd642cb46",
+    "index.html": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
-    "scripts/export-pdf.py": "b9fbea9a7d874c4455a3ce9210cba0f088755ae48ef4d56d7cd097ead93153a6",
-    "sources/commentary.json": "d0bdf1732332ef78bcd0803e354bf1d218c475ae8ee70b34fca94df34cb26909",
-    "sources/reconstructions.json": "39c6205a73644798318dcedcb845156f21ee8bd42645b1771e7a79eb8f32650a",
+    "scripts/export-pdf.py": "5f4885e980b635a286464b5bd1a22165f295a8c5167e05830e5b55a072892751",
+    "sources/commentary.json": "af75a58260d32f621a0d0722e284eaa2fbff92445843f6f276ff844f87e68d8d",
+    "sources/reconstructions.json": "b66a9947b50434728c196b42e20d0d74471fa962c705c6f068432a41eb885a92",
+    "sources/anchors.json": "9bcf13e56fe966e1249de0e5b0d44e3ef6fddfc3e08743fef7240075acd4495e",
     "maps/overview.svg": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc",
     "maps/01-opening.svg": "ac2f4e6d78d7796291d7d4f3037481306885b5e5c0b8089532d46df9ecbedae0",
     "maps/02-coins.svg": "eecc813e4638975eaf182e90e6968eca96f7356e7ca37c78efab453cfe90a199",
@@ -258,18 +319,19 @@
     "maps/06-river-commentary.svg": "4e2edd1c87c9634df44e27d495439038355ef4014825312d9b24d7dcd6e41bfa",
     "maps/07-river-boundary.svg": "27ae87ff70ced1b8fa55e155f0e6b65ef83c65dc5bb29feff41f087344accb0d",
     "maps/08-coins-inference.svg": "934df9f03faee718908095ecf9f7db11ec0ba49eb84f6ef04dd2ebfdc6daa7fd",
-    "maps/09-river-inference.svg": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031"
+    "maps/09-river-inference.svg": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031",
+    "maps/10-opening-inference.svg": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f"
   },
   "network_requests": [],
-  "pdf_sha256": "31566238d20f77e84c9f4ad2bc8b314fd9ca38d1454eb14fec97f996f41adaf4",
-  "bytes": 833001,
+  "pdf_sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c",
+  "bytes": 1045600,
   "chromium": "154.0.8037.57",
   "python_dependencies": {
     "playwright": "1.62.0",
     "pypdf": "6.10.0"
   },
   "checks": [
-    "20 single-page exports merged with bookmarks",
+    "25 single-page exports merged with bookmarks",
     "All base, commentary and numbered-addition labels and complete claims extract from PDF",
     "No HTML page overflow; map text at least 10 pt",
     "No network requests or page errors"

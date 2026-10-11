@@ -44,4 +44,6 @@ Select the second navigation row after the base walkthrough. **Opening** contras
 
 After the coins exchange, open **Coins · joint premises**. C1, C2 and C3 enter one inference; C6 still attacks C2. Switch to **Code** to inspect the numbered statements and `uses: [1, 2, 3]`, then copy or download the actual source.
 
-For the final comparison, open **River · two inference steps** and then **River · Rashi / Tosafot**. Identify the intermediate conclusion and the timing premise. KR6 combines the commentators as our editorial synthesis; KR7 remains an isolated explanation. Pages 18–20 of the PDF show the numbered structures in readable prose. No step is a machine-verified proof.
+For the final comparison, open **River · two inference steps** and then **River · Rashi / Tosafot**. Identify the intermediate conclusion and the timing premise. KR6 combines the commentators as our editorial synthesis; KR7 remains an isolated explanation. Pages 19–23 of the PDF show the numbered structures in readable prose. No step is a machine-verified proof.
+
+For the opening, choose **Opening · Abaye / Rava premises**. Ask what must connect each stated reason to its legal conclusion. O9 and O10 make those supplied commitments visible; neither is an independent Hebrew quotation or a proof of either position. Compare the exact Hebrew cards below the map. PDF pages 24–25 separately locate the river comparison and Ritva’s three qualifications.

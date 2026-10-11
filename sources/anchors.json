@@ -1,0 +1,845 @@
+{
+  "offsetUnit": "Unicode code points",
+  "interval": "zero-based, start inclusive, end exclusive",
+  "normalization": "none; offsets address the exact saved source text before any HTML escaping",
+  "nodes": {
+    "O1": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 0,
+          "endCodePoint": 26,
+          "quote": "כי פליגי בדבר שאין בו סימן",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O2": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.2",
+          "sourceSha256": "fea8f51c6edc93980ab0f4e45e0c8dd0487fe9de26d2a9b80637b10e6326c082",
+          "startCodePoint": 0,
+          "endCodePoint": 207,
+          "quote": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O3": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.3",
+          "sourceSha256": "f1e9efb46b8414bdccaef826028ba9b1a2bad57ac7908a940af6b82f9f5de994",
+          "startCodePoint": 0,
+          "endCodePoint": 78,
+          "quote": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O4": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 48,
+          "endCodePoint": 69,
+          "quote": "דהא לא ידע דנפל מיניה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O5": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.1",
+          "sourceSha256": "649ab832958b9a03c0b3eb227303e8e7b17f426ea94b40e9dd8e53d2985860d5",
+          "startCodePoint": 14,
+          "endCodePoint": 34,
+          "quote": "אביי אמר לא הוי יאוש",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O6": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 87,
+          "endCodePoint": 139,
+          "quote": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "O7": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 140,
+          "endCodePoint": 155,
+          "quote": "מהשתא הוא דמיאש",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "C1": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 4,
+          "endCodePoint": 28,
+          "quote": "מעות מפוזרות הרי אלו שלו",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "C2": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 34,
+          "endCodePoint": 54,
+          "quote": "הא לא ידע דנפל מיניה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "C3": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 0,
+          "endCodePoint": 54,
+          "quote": "ת\"ש מעות מפוזרות הרי אלו שלו אמאי הא לא ידע דנפל מיניה",
+          "purpose": "Context for editorial challenge/bridge; not a quotation of it"
+        }
+      ]
+    },
+    "C4": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 0,
+          "endCodePoint": 54,
+          "quote": "ת\"ש מעות מפוזרות הרי אלו שלו אמאי הא לא ידע דנפל מיניה",
+          "purpose": "Context for editorial challenge/bridge; not a quotation of it"
+        }
+      ]
+    },
+    "C5": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 74,
+          "endCodePoint": 112,
+          "quote": "דאמר אדם עשוי למשמש בכיסו בכל שעה ושעה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "C6": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-coins",
+          "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+          "startCodePoint": 0,
+          "endCodePoint": 40,
+          "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "C7": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-coins",
+          "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+          "startCodePoint": 0,
+          "endCodePoint": 40,
+          "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+          "purpose": "Context for supplied assessment of the reply"
+        }
+      ]
+    },
+    "R1": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.5",
+          "sourceSha256": "13fbce013c102370c83f0532a19d22151ebcc99a696d4fd9051f38a33365a934",
+          "startCodePoint": 150,
+          "endCodePoint": 170,
+          "quote": "אשר תאבד ממנו ומצאתה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R2": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.5",
+          "sourceSha256": "13fbce013c102370c83f0532a19d22151ebcc99a696d4fd9051f38a33365a934",
+          "startCodePoint": 214,
+          "endCodePoint": 248,
+          "quote": "שאבודה ממנו ואינה מצויה אצל כל אדם",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R3": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.6",
+          "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+          "startCodePoint": 0,
+          "endCodePoint": 121,
+          "quote": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R4": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 124,
+          "endCodePoint": 170,
+          "quote": "היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R5": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.6",
+          "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+          "startCodePoint": 0,
+          "endCodePoint": 121,
+          "quote": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+          "purpose": "Context for the supplied comparison"
+        },
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 124,
+          "endCodePoint": 170,
+          "quote": "היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Temporal context; not a quotation of the supplied inference"
+        }
+      ]
+    },
+    "R6": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 102,
+          "endCodePoint": 170,
+          "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Claim-specific wording in the cited source"
+        },
+        {
+          "sourceId": "gemara-22b.6",
+          "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+          "startCodePoint": 71,
+          "endCodePoint": 121,
+          "quote": "אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R7": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.6",
+          "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+          "startCodePoint": 122,
+          "endCodePoint": 140,
+          "quote": "תיובתא דרבא תיובתא",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "R8": {
+      "relationship": "source-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.7",
+          "sourceSha256": "61b112847839a499f18d7c7f437a916669526776d62269f888e5dd3cac13db32",
+          "startCodePoint": 0,
+          "endCodePoint": 19,
+          "quote": "והלכתא כוותיה דאביי",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KO1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-definition",
+          "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+          "startCodePoint": 0,
+          "endCodePoint": 70,
+          "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KO2": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-now",
+          "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+          "startCodePoint": 0,
+          "endCodePoint": 35,
+          "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KO3": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "to-mark",
+          "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+          "startCodePoint": 0,
+          "endCodePoint": 58,
+          "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KO4": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 0,
+          "endCodePoint": 101,
+          "quote": "וכל היכא דאמרינן דיאוש שלא מדעת לא הוי יאוש או בדבר שאין בו סימן לאביי או בדבר שיש בו סימן לכולי עלמא",
+          "purpose": "Scope: cases where unconscious yeush is ineffective"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 200,
+          "endCodePoint": 255,
+          "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם",
+          "purpose": "Custodial possession for the owner at pickup"
+        }
+      ]
+    },
+    "KO5": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 102,
+          "endCodePoint": 131,
+          "quote": "אף על גב דאייאש לבסוף לא מהני",
+          "purpose": "Later despair does not help"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 200,
+          "endCodePoint": 274,
+          "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+          "purpose": "Explanation in terms of holding for the owner"
+        }
+      ]
+    },
+    "KO6": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 321,
+          "endCodePoint": 358,
+          "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+          "purpose": "Not necessarily an intention to steal"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 392,
+          "endCodePoint": 469,
+          "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+          "purpose": "Status: object remains in the owner’s domain at pickup"
+        }
+      ]
+    },
+    "KO7": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-definition",
+          "sourceSha256": "89bdec51f940aeeed880b8427b04803b01d12f66b3497e847817f7de916e6886",
+          "startCodePoint": 0,
+          "endCodePoint": 70,
+          "quote": "דבר שסתמו יאוש לכשידע שנפל ממנו וכשמצאו עדיין לא ידעו הבעלים שנפל מהן:",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "ra-now",
+          "sourceSha256": "bf8ea61d891f9f92741cca6f24bc341de99e92a536aa817fe4315dbf82e274ea",
+          "startCodePoint": 0,
+          "endCodePoint": 35,
+          "quote": "שהרי נפל וכשיודע שוב אין דעתו עליו:",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "to-mark",
+          "sourceSha256": "2dca0defb57d5cd158d59a69df48d1aa6d7ab6d68ed746e1a40b81b484dc0ba7",
+          "startCodePoint": 0,
+          "endCodePoint": 58,
+          "quote": "ואע\"ג דהשתא מיאש אקראי בעלמא הוא ומתחילה לא היה עומד ליאש:",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 102,
+          "endCodePoint": 131,
+          "quote": "אף על גב דאייאש לבסוף לא מהני",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 200,
+          "endCodePoint": 274,
+          "quote": "וכיון שבשעת נטילה לא זכה הרי ידו כיד הבעלים וכנפקד שלהם שאין יאוש מועיל בו",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 321,
+          "endCodePoint": 358,
+          "quote": "ולאו באיסורא ממש שהרי לא נתכוון לגזול",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        },
+        {
+          "sourceId": "ri-possession",
+          "sourceSha256": "45f5b8ba413468d13abc601d1395df290b7773be37974ded6ee50c6451b6905e",
+          "startCodePoint": 392,
+          "endCodePoint": 469,
+          "quote": "אלא בשעת איסורא קאמרינן כלומר דכי אתא לידיה ברשות בעלים קיימא וכנוטל מידם דמי",
+          "purpose": "Context for the editorial juxtaposition of distinct qualifications"
+        }
+      ]
+    },
+    "KC1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-coins",
+          "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+          "startCodePoint": 0,
+          "endCodePoint": 40,
+          "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KC2": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-coins",
+          "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+          "startCodePoint": 0,
+          "endCodePoint": 40,
+          "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+          "purpose": "Context for editorial identification of the changed premise"
+        }
+      ]
+    },
+    "KC3": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-coins",
+          "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+          "startCodePoint": 0,
+          "endCodePoint": 40,
+          "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+          "purpose": "Context for editorial identification of the changed premise"
+        }
+      ]
+    },
+    "KR1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-compare",
+          "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+          "startCodePoint": 0,
+          "endCodePoint": 109,
+          "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KR2": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 102,
+          "endCodePoint": 170,
+          "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KR3": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 0,
+          "endCodePoint": 100,
+          "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+          "purpose": "Redundancy if the exception concerned known despair alone"
+        }
+      ]
+    },
+    "KR4": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 101,
+          "endCodePoint": 195,
+          "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+          "purpose": "What the special permission adds: absent awareness, even without prospective despair"
+        }
+      ]
+    },
+    "KR5": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 196,
+          "endCodePoint": 340,
+          "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+          "purpose": "Comparison and the prior-despair boundary of ordinary permission"
+        }
+      ]
+    },
+    "KR6": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "ra-compare",
+          "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+          "startCodePoint": 0,
+          "endCodePoint": 109,
+          "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+          "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+        },
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 102,
+          "endCodePoint": 170,
+          "quote": "כי אין סימן נמי אסירא היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+        },
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 0,
+          "endCodePoint": 100,
+          "quote": "מה שמתיר אבודה ממנו ומכל אדם ע\"כ לא איצטריך קרא בידע ומתיאש דהא אפילו במצויין אצל כל אדם מותרת ביאוש",
+          "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+        },
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 101,
+          "endCodePoint": 195,
+          "quote": "אלא לא אצטריך אלא כי לא ידע ואע\"ג דלכי ידע לא מתיאש אפי' אם יש בו סימן כיון שהיא אבודה מכל אדם",
+          "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+        },
+        {
+          "sourceId": "to-compare",
+          "sourceSha256": "0f38ce7390bafd375ef0b090f682a7a997265ae6b013e99540e9b5952ea653c3",
+          "startCodePoint": 196,
+          "endCodePoint": 340,
+          "quote": "ה\"נ איסורא דהיינו מצוייה אצל כל אדם דאסור כה\"ג דלא ידעינן דמיאש בין יש בו סימן בין שאין בו סימן ואין להתיר אלא דמיאש קודם דאתא לידיה דשריא רחמנא",
+          "purpose": "Context for the explicitly editorial Rashi/Tosafot synthesis"
+        }
+      ]
+    },
+    "KR7": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "to-refutation",
+          "sourceSha256": "d548d0f4ea915aa77fd8eadc5d9a98791269e15deaede2c1dafe3983b88c7305",
+          "startCodePoint": 0,
+          "endCodePoint": 136,
+          "quote": "רבא ידע שפיר הך ברייתא כדמשמע קצת לעיל (דף כא:) דקאמר בזוטו של ים כ\"ע לא פליגי דשרי כדבעינן למימר לקמן אלא דלא דייק איסורא דומיא דהתירא:",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KB1": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-exception",
+          "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+          "startCodePoint": 0,
+          "endCodePoint": 101,
+          "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+          "purpose": "Claim-specific wording in the cited source"
+        }
+      ]
+    },
+    "KB2": {
+      "relationship": "attributed-paraphrase",
+      "note": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-boundary",
+          "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+          "startCodePoint": 31,
+          "endCodePoint": 143,
+          "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+          "purpose": "Recoverable sand and the return obligation without despair"
+        }
+      ]
+    },
+    "KB3": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-exception",
+          "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+          "startCodePoint": 0,
+          "endCodePoint": 101,
+          "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+          "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+        },
+        {
+          "sourceId": "rb-boundary",
+          "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+          "startCodePoint": 31,
+          "endCodePoint": 143,
+          "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+          "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+        }
+      ]
+    },
+    "KB4": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "rb-exception",
+          "sourceSha256": "7e7402dee0cb3f0f1a2383e3804fa3698e5b55911c9b59f41c06a7f2a69de1c0",
+          "startCodePoint": 0,
+          "endCodePoint": 101,
+          "quote": "מסתברא דהפקר גמור הוא, ואפילו מרדף אחריהם, ואפילו אמר בפירוש לא מיאשנא, אפילו הכי שריא דרחמנא אפקריה.",
+          "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+        },
+        {
+          "sourceId": "rb-boundary",
+          "sourceSha256": "be8f02087c6f401b144964c8684903f8871572e9cf438ffaf2642c599ce3e152",
+          "startCodePoint": 31,
+          "endCodePoint": 143,
+          "quote": "משום דהא אפשר לארבולי וזמנין דמשכח ליה, והילכך כל היכא דשמעינן דלא אייאש, לא הוה ליה כזוטו של ים, ומחייב לאהדורי",
+          "purpose": "Context for the supplied scope assessment; not a quotation of the assessment"
+        },
+        {
+          "sourceId": "ra-compare",
+          "sourceSha256": "351ff323b2eb3138cad9c31349a3d8d12e272893bef60dce20028604bd39bf8f",
+          "startCodePoint": 0,
+          "endCodePoint": 109,
+          "quote": "כיון דמחד קרא ילפינן מצויה אצל כל אדם שיחזור ושאינה מצויה יזכה בה איתקושי אתקוש להדדי זו לאיסורא וזו להיתירא:",
+          "purpose": "Context for distinguishing recoverability scope from the final comparison"
+        }
+      ]
+    },
+    "C8": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.7",
+          "sourceSha256": "976514758da11899ba6f5262b043eedfe6f00a46d98382f8dd74d2bfe159219d",
+          "startCodePoint": 0,
+          "endCodePoint": 54,
+          "quote": "ת\"ש מעות מפוזרות הרי אלו שלו אמאי הא לא ידע דנפל מיניה",
+          "purpose": "Context for editorial challenge/bridge; not a quotation of it"
+        }
+      ]
+    },
+    "R9": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-22b.6",
+          "sourceSha256": "f00376b57c8bca66ae2019e82a2f25ca64a96ce8ee825c294bdc99329354150c",
+          "startCodePoint": 0,
+          "endCodePoint": 121,
+          "quote": "ואיסורא דומיא דהיתירא מה היתירא בין דאית בה סימן ובין דלית בה סימן שרא אף איסורא בין דאית בה סימן ובין דלית בה סימן אסורה",
+          "purpose": "Context for the supplied comparison"
+        },
+        {
+          "sourceId": "ra-timing",
+          "sourceSha256": "af1edb1471f97b3671ef19aa6cb5a86f60d9821a9d5c7b84e0ab12ac8ccccd58",
+          "startCodePoint": 124,
+          "endCodePoint": 170,
+          "quote": "היכא דאיכא למימר לא ידע דנפלה קודם שבאת ליד זה",
+          "purpose": "Temporal context; not a quotation of the supplied inference"
+        }
+      ]
+    },
+    "OA": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 27,
+          "endCodePoint": 69,
+          "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+          "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+        }
+      ]
+    },
+    "O9": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 27,
+          "endCodePoint": 69,
+          "quote": "אביי אמר לא הוי יאוש דהא לא ידע דנפל מיניה",
+          "purpose": "Context for Abaye’s reconstructed normative bridge; the bridge is not quoted"
+        }
+      ]
+    },
+    "OB": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 70,
+          "endCodePoint": 155,
+          "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+          "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+        }
+      ]
+    },
+    "O10": {
+      "relationship": "editorial-context",
+      "note": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
+      "spans": [
+        {
+          "sourceId": "gemara-21b.4",
+          "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+          "startCodePoint": 70,
+          "endCodePoint": 155,
+          "quote": "רבא אמר הוי יאוש דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה מהשתא הוא דמיאש",
+          "purpose": "Context for Rava’s reconstructed normative bridge; the bridge is not quoted"
+        }
+      ]
+    }
+  }
+}

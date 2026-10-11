@@ -59,6 +59,18 @@
             "speaker": "Editorial",
             "provenanceClass": "R",
             "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-coins",
+                "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+                "startCodePoint": 0,
+                "endCodePoint": 40,
+                "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+                "purpose": "Context for editorial identification of the changed premise"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "C2",
@@ -68,7 +80,7 @@
             "sourceIds": [
               "ra-coins"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "argument sketch; no PCS",
             "color": "#f3d5a5"
           }
@@ -92,6 +104,18 @@
         "speaker": "Editorial",
         "provenanceClass": "R",
         "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-coins",
+            "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+            "startCodePoint": 0,
+            "endCodePoint": 40,
+            "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "purpose": "Context for editorial identification of the changed premise"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "C2",
@@ -101,7 +125,7 @@
         "sourceIds": [
           "ra-coins"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "argument sketch; no PCS",
         "color": "#f3d5a5"
       },
@@ -150,6 +174,18 @@
             "speaker": "Rashi",
             "provenanceClass": "C",
             "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-coins",
+                "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+                "startCodePoint": 0,
+                "endCodePoint": 40,
+                "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "attributed-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "C5",
@@ -158,7 +194,7 @@
             "sourceIds": [
               "ra-coins"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#53659c"
           }
@@ -180,6 +216,18 @@
         "speaker": "Rashi",
         "provenanceClass": "C",
         "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-coins",
+            "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+            "startCodePoint": 0,
+            "endCodePoint": 40,
+            "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "attributed-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "C5",
@@ -188,7 +236,7 @@
         "sourceIds": [
           "ra-coins"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#53659c"
       },
@@ -234,7 +282,7 @@
           "startLine": 22,
           "startColumn": 1,
           "endLine": 22,
-          "endColumn": 797,
+          "endColumn": 1249,
           "data": {
             "id": "KC3",
             "sourceRef": [
@@ -246,6 +294,18 @@
             "speaker": "Editorial",
             "provenanceClass": "R",
             "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "hebrewAnchors": [
+              {
+                "sourceId": "ra-coins",
+                "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+                "startCodePoint": 0,
+                "endCodePoint": 40,
+                "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+                "purpose": "Context for editorial identification of the changed premise"
+              }
+            ],
+            "anchorRelationship": "editorial-context",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
             "baseNodeIds": [
               "C1",
@@ -256,7 +316,7 @@
             "sourceIds": [
               "ra-coins"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
             "reconstructionStatus": "statement",
             "color": "#f3d5a5"
           }
@@ -279,6 +339,18 @@
         "speaker": "Editorial",
         "provenanceClass": "R",
         "hebrewAnchor": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+        "hebrewAnchors": [
+          {
+            "sourceId": "ra-coins",
+            "sourceSha256": "69081f2af66706516e5aadb0ae15b26acda96be608751491d139fbca34e4d2fe",
+            "startCodePoint": 0,
+            "endCodePoint": 40,
+            "quote": "וקודם שמצאו זה נודע לבעלים שנפלו ונואשו:",
+            "purpose": "Context for editorial identification of the changed premise"
+          }
+        ],
+        "anchorRelationship": "editorial-context",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "awareness, despair and possession relative to pickup; scope stated in attributed claim",
         "baseNodeIds": [
           "C1",
@@ -289,7 +361,7 @@
         "sourceIds": [
           "ra-coins"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Exact Hebrew spans supply context only; the editorial English claim or inference is not a quotation.",
         "reconstructionStatus": "statement",
         "color": "#f3d5a5"
       },

@@ -1,5 +1,5 @@
 """Render native Argdown from the preserved scholarly ledgers and PCS ledger."""
-import json
+import json, hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -8,6 +8,9 @@ base = load('sources/model.json')
 commentary = load('sources/commentary.json')
 native = load('sources/reconstructions.json')
 sources = {s['id']: s for s in commentary['sources']}
+for source in load('sources/hebrew-excerpts.json'):
+    sources['gemara-' + source['ref'].removeprefix('Bava Metzia ').replace(':', '.')] = source
+anchors = load('sources/anchors.json')['nodes']
 nodes = {n['id']: n for n in base['nodes'] + commentary['nodes'] + native['nodes']}
 pcs = {p['argument']: p for p in native['arguments']}
 
@@ -19,21 +22,24 @@ def token(id):
 
 def metadata(n):
     episode = 'opening' if n['id'].startswith(('O','KO')) else 'coins' if n['id'].startswith(('C','KC')) else 'river'
-    source_ids = n.get('sources') or {'C6':['ra-coins'],'R4':['ra-timing'],'R6':['ra-timing'],'R5':['ra-compare','ra-timing']}.get(n['id'], [])
-    refs = [sources[s]['ref'] for s in source_ids]
-    urls = [sources[s]['url'] for s in source_ids]
-    if 'ref' in n:
-        refs.insert(0, 'Bava Metzia ' + n['ref'])
-        urls.insert(0, 'https://www.sefaria.org/Bava_Metzia.' + n['ref'] + '?vhe=Wikisource_Talmud_Bavli')
+    evidence = anchors[n['id']]
+    for span in evidence['spans']:
+        source = sources[span['sourceId']]
+        assert hashlib.sha256(source['text'].encode()).hexdigest() == span['sourceSha256']
+        assert source['text'][span['startCodePoint']:span['endCodePoint']] == span['quote']
+    source_ids = list(dict.fromkeys(n.get('sources', []) + [span['sourceId'] for span in evidence['spans']]))
+    refs = [sources[id]['ref'] for id in source_ids]
+    urls = [sources[id]['url'] for id in source_ids]
     speaker = n.get('speaker') or ('Editorial' if n['class'] == 'R' else 'Rashi' if n['class'] == 'E' else 'Abaye' if n['id'] in ['O4','O5'] else 'Rava' if n['id'] in ['O6','O7'] else 'Rabbi Yitzhak' if n['id'] == 'C5' else 'Gemara / cited Mishnah or baraita')
-    anchor = n.get('hebrew') or (sources[source_ids[0]]['text'][:100] if source_ids else 'הא לא ידע דנפל מיניה' if episode=='coins' else 'ואיסורא דומיא דהיתירא')
     temporal = {'O1':'ordinary unmarked loss; owner unaware at pickup','O2':'marked loss; later despair does not cure prohibited pickup','O3':'inaccessible loss; permission does not depend on prior awareness','O4':'owner unaware of loss now','O5':'ordinary unmarked loss before awareness','O6':'anticipated response after future awareness','O7':'anticipated later despair counted at the present time by Rava','C1':'permission in cited Mishnah; timing tested by C2','C2':'assumed unawareness before discovery','C3':'conditional on permission before awareness','C4':'conditional challenge under assumed unawareness','C5':'habitual checking supports prior awareness in this reply','C6':'awareness and despair before the finder discovers the coins','C7':'challenge loses its assumption of prior unawareness','R1':'ordinary recoverability; verse category','R2':'inaccessible to everyone; exception independent of awareness','R3':'category comparison; temporal scope supplied in R4','R4':'owner unaware before pickup','R5':'ordinary unmarked loss before awareness','R6':'ordinary recoverable loss before awareness; not after established prior despair','R7':'refutation recorded after the final comparison','R8':'ruling recorded after the refutation','KR3':'established despair before pickup already permits ordinary loss','KR4':'exception includes absent awareness even when later despair would not occur','KR5':'ordinary loss without established prior despair; prior despair remains a route to permission','KR7':'Rava knew the baraita before the comparison was drawn','KB1':'complete loss to everyone even when the owner expressly refuses despair','KB2':'recoverable loss where owner has not despaired'}
     return dict(id=n['id'], sourceRef=refs, sourceUrl=urls, speaker=speaker,
-                provenanceClass=n['class'], hebrewAnchor=anchor,
+                provenanceClass=n['class'], hebrewAnchor=evidence['spans'][0]['quote'],
+                hebrewAnchors=evidence['spans'], anchorRelationship=evidence['relationship'],
+                anchorOffsetUnit='Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization',
                 temporalScope=n.get('temporalScope') or temporal.get(n['id'], 'awareness, despair and possession relative to pickup; scope stated in attributed claim'),
                 baseNodeIds=n.get('base_nodes', [n['id']] if n['id'] in {x['id'] for x in base['nodes']} else n.get('baseNodes', [])),
-                sourceIds=source_ids + (['gemara-' + n['ref']] if 'ref' in n else []),
-                anchorScope='Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction',
+                sourceIds=source_ids,
+                anchorScope=evidence['note'],
                 reconstructionStatus='numbered PCS; editorial reconstruction' if n['id'] in pcs else 'argument sketch; no PCS' if n['kind']=='argument' else 'statement',
                 color={'S':'#267565','E':'#53659c','C':'#53659c','R':'#f3d5a5'}[n['class']]), episode
 
@@ -41,7 +47,7 @@ def body(ids, edges, grouped=False):
     lines=['/* Selected episodes only; loose dialectical reconstruction, not a formal proof. Metadata and numbered bridges preserve provenance. */','']
     previous=None
     # PCS supplies its own support edges. Do not duplicate them as explicit arrows.
-    implicit={tuple(e) for p in native['arguments'] for e in p['replacesEdges']}
+    implicit={tuple(e) for p in native['arguments'] if p['argument'] in ids for e in p['replacesEdges']}
     for id in ids:
         n=nodes[id]; meta,episode=metadata(n)
         if grouped and episode!=previous:
@@ -67,7 +73,7 @@ def render(stem, ids, edges, detail=False, grouped=False):
         settings['model']['explodeArguments']=True
         settings['map']={'argumentLabelMode':'title'}
         # Native tag selection keeps this episode while retaining its isolated notes.
-        settings['selection'].update(selectedTags=['coins' if stem.startswith('08') else 'river'],selectElementsWithoutTag=False)
+        settings['selection'].update(selectedTags=[metadata(nodes[ids[0]])[1]],selectElementsWithoutTag=False)
     else:
         settings['selection']['excludeStatements']=[title(id) for id in extra]
     if grouped: settings['group']={'groupDepth':1}
@@ -87,4 +93,4 @@ for view in commentary['views']:
 for view in native['views']:
     ids=view['nodes']; edges=[e for e in base['edges'] if e[0] in ids and e[2] in ids]
     render(view['id'],ids,edges,detail=True)
-print('Authored 10 native Argdown views from preserved ledgers and 3 numbered arguments.')
+print(f'Authored {4+len(commentary["views"])+len(native["views"])} native views and {len(native["arguments"])} numbered arguments with exact Hebrew spans.')

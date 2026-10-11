@@ -20,11 +20,38 @@ async function validate() {
   const excerpts = json('sources/hebrew-excerpts.json');
   const commentary = json('sources/commentary.json');
   const native = json('sources/reconstructions.json');
+  const anchors = json('sources/anchors.json');
+  const sourceCatalog = new Map([...commentary.sources.map(s=>[s.id,s]),...excerpts.map(s=>['gemara-'+s.ref.replace('Bava Metzia ','').replace(':','.'),s])]);
   const allNodes = new Map([...ledger.nodes,...commentary.nodes,...native.nodes].map(n=>[n.id,n]));
   const flatten = nodes => nodes.flatMap(n=>n.children ? flatten(n.children) : [n]);
   const mapKey = title => id(title) + (/ - (\d+)$/.test(title) ? '.' + title.match(/ - (\d+)$/)[1] : '');
   const commentarySources = new Map(commentary.sources.map(source => [source.id, source]));
   const commentaryNodes = new Map(commentary.nodes.map(node => [node.id, node]));
+  equalSet(Object.keys(anchors.nodes), [...allNodes.keys()], 'Every claim and editorial addition has a reviewed anchor record');
+  assert.equal(anchors.offsetUnit,'Unicode code points');
+  let spanCount=0;
+  for(const [nodeId,evidence] of Object.entries(anchors.nodes)) {
+    const node=allNodes.get(nodeId);
+    assert.equal(evidence.relationship,node.class==='R'?'editorial-context':node.class==='S'?'source-paraphrase':'attributed-paraphrase');
+    assert(evidence.spans.length && evidence.note);
+    if(node.class==='R') assert(evidence.note.includes('not a quotation'),'Editorial source spans must remain context');
+    for(const span of evidence.spans) {
+      const source=sourceCatalog.get(span.sourceId);assert(source,`${nodeId}: exact source ID`);
+      const points=Array.from(source.text);
+      assert(Number.isInteger(span.startCodePoint)&&Number.isInteger(span.endCodePoint));
+      assert(span.startCodePoint>=0 && span.endCodePoint>span.startCodePoint && span.endCodePoint<=points.length);
+      assert.equal(points.slice(span.startCodePoint,span.endCodePoint).join(''),span.quote,`${nodeId}: exact unnormalized source interval`);
+      assert.equal(createHash('sha256').update(source.text).digest('hex'),span.sourceSha256,`${nodeId}: span binds to saved source hash`);
+      assert(span.purpose);spanCount++;
+    }
+  }
+  for(const [nodeId,words] of Object.entries({R4:['לא ידע דנפלה קודם שבאת ליד זה'],KR3:['לא איצטריך קרא בידע ומתיאש'],KR4:['אלא לא אצטריך אלא כי לא ידע'],KR5:['ואין להתיר אלא דמיאש קודם דאתא לידיה'],KO4:['הרי ידו כיד הבעלים וכנפקד שלהם'],KO5:['אף על גב דאייאש לבסוף לא מהני'],KO6:['לא נתכוון לגזול','ברשות בעלים קיימא']})) {
+    for(const word of words) assert(anchors.nodes[nodeId].spans.some(s=>s.quote.includes(word)),`${nodeId}: exact span captures the distinctive scholarly qualification`);
+  }
+  assert(anchors.nodes.KR3.spans[0].endCodePoint<=anchors.nodes.KR4.spans[0].startCodePoint);
+  assert(anchors.nodes.KR4.spans[0].endCodePoint<=anchors.nodes.KR5.spans[0].startCodePoint,'Tosafot steps use successive, distinct spans');
+  for(const bridge of ['O9','O10']) assert.equal(allNodes.get(bridge).class,'R','Opening normative bridges remain editorial');
+  console.log(`PASS ${Object.keys(anchors.nodes).length} claim anchor records / ${spanCount} exact source intervals and scholarly distinctions`);
   assert.equal(commentarySources.size, commentary.sources.length, 'Unique commentary sources');
   assert.equal(commentaryNodes.size, commentary.nodes.length, 'Unique commentary nodes');
   for (const [file, hash] of Object.entries(commentary.base_sha256)) {
@@ -94,7 +121,7 @@ async function validate() {
     ['03-river', 'R', 8, 7], ['overview', '', 22, 18]
   ];
   for(const view of commentary.views) specs.push([view.id,null,view.id==='06-river-commentary'?8:view.nodes.length,view.id==='06-river-commentary'?6:view.edges.length,view]);
-  for(const view of native.views) specs.push([view.id,null,view.id.startsWith('08')?8:10,view.id.startsWith('08')?7:9,view]);
+  for(const view of native.views) specs.push([view.id,null,view.id.startsWith('08')?8:view.id.startsWith('09')?10:11,view.id.startsWith('09')?9:7,view]);
   equalSet(fs.readdirSync(path.join(root, 'argdown')).filter(f => f.endsWith('.argdown')), specs.map(([stem]) => `${stem}.argdown`), 'Exact base and commentary map inventory');
   const report = [];
   for (const [stem, prefix, nodeCount, edgeCount, commentaryView] of specs) {
@@ -107,13 +134,14 @@ async function validate() {
     const expectedNodes = commentaryView ? commentaryView.nodes.map(id=>allNodes.get(id)) : ledger.nodes.filter(n => n.id.startsWith(prefix));
     const extra = native.nodes.filter(n=>expectedNodes.some(x=>x.id===n.argument));
     const exploded = ['06-river-commentary','09-river-inference'].includes(stem);
-    const visibleExtra = stem.startsWith('08') || stem.startsWith('09') ? extra : [];
+    const visibleExtra = native.views.some(view=>view.id===stem) ? extra : [];
     const nodeKeys = expectedNodes.flatMap(n=>exploded && ['KR6','R5'].includes(n.id) ? [n.id+'.1',n.id+'.2'] : [n.id]).concat(visibleExtra.map(n=>n.id));
     const expectedIds = new Set(expectedNodes.map(n => n.id));
     const originalEdges = (commentaryView?.edges || ledger.edges).filter(([from, , to]) => expectedIds.has(from) && expectedIds.has(to));
     let expectedEdges = originalEdges;
     if(stem==='08-coins-inference') expectedEdges=[...originalEdges,['C4','+>','C8']];
     if(stem==='09-river-inference') expectedEdges=[['R1','+>','R2'],['R2','+>','R5.1'],['R3','+>','R5.1'],['R5.1','+>','R9'],['R9','+>','R5.2'],['R4','+>','R5.2'],['R5.2','+>','R6'],['R6','+>','R7'],['R7','+>','R8']];
+    if(stem==='10-opening-inference') expectedEdges=[['O4','+>','OA'],['O9','+>','OA'],['OA','+>','O5'],['O6','+>','OB'],['O10','+>','OB'],['OB','+>','O7'],['O5','->','O7']];
     if(stem==='06-river-commentary') expectedEdges=[['KR3','+>','KR6.1'],['KR6.1','+>','KR4'],['KR4','+>','KR6.2'],['KR1','+>','KR6.2'],['KR2','+>','KR6.2'],['KR6.2','+>','KR5']];
     const relationNames = edges => edges.map(([a,r,b])=>[a,r==='+>'?'support':'attack',b]);
     const model = JSON.parse(result.json);
@@ -135,16 +163,26 @@ async function validate() {
         assert(data.sourceRef.length && data.sourceUrl.length && data.hebrewAnchor.length);
         assert(data.sourceUrl.every(url=>new URL(url).protocol==='https:'));
         assert(data.baseNodeIds.every(id=>byId.has(id)));
-        assert(data.sourceIds.every(id=>commentarySources.has(id)||/^gemara-(21b|22b)\.\d+(?:-\d+)?$/.test(id)));
+        assert(data.sourceIds.every(id=>sourceCatalog.has(id)));
+        assert.deepEqual(data.sourceRef,data.sourceIds.map(id=>sourceCatalog.get(id).ref));
+        assert.deepEqual(data.sourceUrl,data.sourceIds.map(id=>sourceCatalog.get(id).url));
+        assert.deepEqual(data.hebrewAnchors,anchors.nodes[node.id].spans,`${stem}: portable exact spans match reviewed ledger`);
+        assert.equal(data.hebrewAnchor,anchors.nodes[node.id].spans[0].quote);
+        assert.equal(data.anchorRelationship,anchors.nodes[node.id].relationship);
+        assert.equal(data.anchorScope,anchors.nodes[node.id].note);
+        assert(data.hebrewAnchors.every(span=>data.sourceIds.includes(span.sourceId)));
         assert(actual.tags.includes(node.class==='S'?'source':node.class==='R'?'reconstruction':'explanation'));
       }
     }
     const mapIds = new Map(mapNodes.map(n => [n.id, mapKey(n.title)]));
     equalSet(model.map.edges.map(e => [mapIds.get(e.from), e.relationType, mapIds.get(e.to)]), relationNames(expectedEdges), `${stem}: exact rendered edges including native PCS; no unintended propagation`);
-    const replaced = native.arguments.flatMap(p=>p.replacesEdges).map(e=>e.join(' '));
+    const replaced = native.arguments.filter(p=>expectedIds.has(p.argument)).flatMap(p=>p.replacesEdges).map(e=>e.join(' '));
     const explicit = originalEdges.filter(e=>!replaced.includes(e.join(' '))).map(([a,r,b])=>[a==='C4'?'C8':a,r,b]);
     equalSet(model.relations.map(e => [id(e.from), e.relationType, id(e.to)]), relationNames(explicit), `${stem}: explicit model relations; C4 conclusion transfer is intentional`);
     assert(!model.map.edges.some(e=>e.from===e.to),`${stem}: no self-relations`);
+    if(stem==='10-opening-inference') {
+      for(const scope of ['O1','O2','O3']) assert(!expectedEdges.some(([a,,b])=>a===scope||b===scope),'Opening detail scope notes are isolated');
+    }
     if(stem==='overview') {
       assert.equal(model.map.nodes.filter(n=>n.type==='group-map-node').length,3,'Three native episode groups');
       for(const scope of ['O1','O2','O3']) assert(!expectedEdges.some(([a,,b])=>a===scope||b===scope),'Scope notes remain visible and isolated');
@@ -197,13 +235,13 @@ async function validate() {
   }
 
   const html = read('index.html');
-  const htmlIds = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
+  const htmlIds = [...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(htmlIds).size, htmlIds.length, 'Unique document IDs, including embedded SVGs');
   assert.equal((html.match(/<svg\b/g) || []).length, specs.length);
-  assert.equal((html.match(/<details(?: |>|$)/g) || []).length, 30+commentary.nodes.length+commentary.sources.length, 'Base and commentary ledgers/excerpts');
+  assert.equal((html.match(/<details(?: |>|$)/g) || []).length, 30+commentary.nodes.length+commentary.sources.length+native.nodes.length, 'Base and commentary ledgers/excerpts');
   assert(!/<(?:script|img|iframe)\b[^>]*\bsrc\s*=|<link\b|@import\b|url\(\s*["']?https?:|\b(?:fetch|XMLHttpRequest|WebSocket)\s*\(/i.test(html), 'No external runtime resources or network calls');
   const hebrewBlocks = [...html.matchAll(/<blockquote\b([^>]*)>([\s\S]*?)<\/blockquote>/g)];
-  assert.equal(hebrewBlocks.length, ledger.nodes.filter(n => n.hebrew).length + excerpts.length + commentary.sources.length);
+  assert.equal(hebrewBlocks.length, spanCount + excerpts.length + commentary.sources.length);
   for (const [, attrs] of hebrewBlocks) assert(attrs.includes('dir="rtl"') && attrs.includes('lang="he"'), 'Hebrew is explicitly RTL');
   for (const node of ledger.nodes) {
     assert(html.includes(escape(node.text)), `HTML ledger text: ${node.id}`);

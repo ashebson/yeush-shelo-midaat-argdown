@@ -19,11 +19,11 @@
           "startLine": 16,
           "startColumn": 1,
           "endLine": 16,
-          "endColumn": 671,
+          "endColumn": 1122,
           "data": {
             "id": "O1",
             "sourceRef": [
-              "Bava Metzia 21b.4"
+              "Bava Metzia 21b:4"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -31,6 +31,18 @@
             "speaker": "Gemara / cited Mishnah or baraita",
             "provenanceClass": "S",
             "hebrewAnchor": "כי פליגי בדבר שאין בו סימן",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 0,
+                "endCodePoint": 26,
+                "quote": "כי פליגי בדבר שאין בו סימן",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "ordinary unmarked loss; owner unaware at pickup",
             "baseNodeIds": [
               "O1"
@@ -38,7 +50,7 @@
             "sourceIds": [
               "gemara-21b.4"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -51,7 +63,7 @@
       "data": {
         "id": "O1",
         "sourceRef": [
-          "Bava Metzia 21b.4"
+          "Bava Metzia 21b:4"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -59,6 +71,18 @@
         "speaker": "Gemara / cited Mishnah or baraita",
         "provenanceClass": "S",
         "hebrewAnchor": "כי פליגי בדבר שאין בו סימן",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 0,
+            "endCodePoint": 26,
+            "quote": "כי פליגי בדבר שאין בו סימן",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "ordinary unmarked loss; owner unaware at pickup",
         "baseNodeIds": [
           "O1"
@@ -66,7 +90,7 @@
         "sourceIds": [
           "gemara-21b.4"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -92,18 +116,30 @@
           "startLine": 18,
           "startColumn": 1,
           "endLine": 18,
-          "endColumn": 695,
+          "endColumn": 1519,
           "data": {
             "id": "O2",
             "sourceRef": [
-              "Bava Metzia 21b.2"
+              "Bava Metzia 21b:2"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.2?vhe=Wikisource_Talmud_Bavli"
             ],
             "speaker": "Gemara / cited Mishnah or baraita",
             "provenanceClass": "S",
-            "hebrewAnchor": "בדבר שיש בו סימן",
+            "hebrewAnchor": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.2",
+                "sourceSha256": "fea8f51c6edc93980ab0f4e45e0c8dd0487fe9de26d2a9b80637b10e6326c082",
+                "startCodePoint": 0,
+                "endCodePoint": 207,
+                "quote": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "marked loss; later despair does not cure prohibited pickup",
             "baseNodeIds": [
               "O2"
@@ -111,7 +147,7 @@
             "sourceIds": [
               "gemara-21b.2"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -124,14 +160,26 @@
       "data": {
         "id": "O2",
         "sourceRef": [
-          "Bava Metzia 21b.2"
+          "Bava Metzia 21b:2"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.2?vhe=Wikisource_Talmud_Bavli"
         ],
         "speaker": "Gemara / cited Mishnah or baraita",
         "provenanceClass": "S",
-        "hebrewAnchor": "בדבר שיש בו סימן",
+        "hebrewAnchor": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.2",
+            "sourceSha256": "fea8f51c6edc93980ab0f4e45e0c8dd0487fe9de26d2a9b80637b10e6326c082",
+            "startCodePoint": 0,
+            "endCodePoint": 207,
+            "quote": "בדבר שיש בו סימן כולי עלמא לא פליגי דלא הוי יאוש ואף על גב דשמעיניה דמיאש לסוף לא הוי יאוש דכי אתא לידיה באיסורא הוא דאתא לידיה דלכי ידע דנפל מיניה לא מיאש מימר אמר סימנא אית לי בגויה יהבנא סימנא ושקילנא ליה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "marked loss; later despair does not cure prohibited pickup",
         "baseNodeIds": [
           "O2"
@@ -139,7 +187,7 @@
         "sourceIds": [
           "gemara-21b.2"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -165,18 +213,30 @@
           "startLine": 20,
           "startColumn": 1,
           "endLine": 20,
-          "endColumn": 667,
+          "endColumn": 1239,
           "data": {
             "id": "O3",
             "sourceRef": [
-              "Bava Metzia 21b.3"
+              "Bava Metzia 21b:3"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.3?vhe=Wikisource_Talmud_Bavli"
             ],
             "speaker": "Gemara / cited Mishnah or baraita",
             "provenanceClass": "S",
-            "hebrewAnchor": "רחמנא שרייה",
+            "hebrewAnchor": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.3",
+                "sourceSha256": "f1e9efb46b8414bdccaef826028ba9b1a2bad57ac7908a940af6b82f9f5de994",
+                "startCodePoint": 0,
+                "endCodePoint": 78,
+                "quote": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "inaccessible loss; permission does not depend on prior awareness",
             "baseNodeIds": [
               "O3"
@@ -184,7 +244,7 @@
             "sourceIds": [
               "gemara-21b.3"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -197,14 +257,26 @@
       "data": {
         "id": "O3",
         "sourceRef": [
-          "Bava Metzia 21b.3"
+          "Bava Metzia 21b:3"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.3?vhe=Wikisource_Talmud_Bavli"
         ],
         "speaker": "Gemara / cited Mishnah or baraita",
         "provenanceClass": "S",
-        "hebrewAnchor": "רחמנא שרייה",
+        "hebrewAnchor": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.3",
+            "sourceSha256": "f1e9efb46b8414bdccaef826028ba9b1a2bad57ac7908a940af6b82f9f5de994",
+            "startCodePoint": 0,
+            "endCodePoint": 78,
+            "quote": "בזוטו של ים ובשלוליתו של נהר אע\"ג דאית ביה סימן רחמנא שרייה כדבעינן למימר לקמן",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "inaccessible loss; permission does not depend on prior awareness",
         "baseNodeIds": [
           "O3"
@@ -212,7 +284,7 @@
         "sourceIds": [
           "gemara-21b.3"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -251,7 +323,7 @@
           "data": {
             "id": "O4",
             "sourceRef": [
-              "Bava Metzia 21b.4"
+              "Bava Metzia 21b:4"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -259,6 +331,18 @@
             "speaker": "Abaye",
             "provenanceClass": "S",
             "hebrewAnchor": "דהא לא ידע דנפל מיניה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 48,
+                "endCodePoint": 69,
+                "quote": "דהא לא ידע דנפל מיניה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "owner unaware of loss now",
             "baseNodeIds": [
               "O4"
@@ -266,7 +350,7 @@
             "sourceIds": [
               "gemara-21b.4"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -279,7 +363,7 @@
       "data": {
         "id": "O4",
         "sourceRef": [
-          "Bava Metzia 21b.4"
+          "Bava Metzia 21b:4"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -287,6 +371,18 @@
         "speaker": "Abaye",
         "provenanceClass": "S",
         "hebrewAnchor": "דהא לא ידע דנפל מיניה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 48,
+            "endCodePoint": 69,
+            "quote": "דהא לא ידע דנפל מיניה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "owner unaware of loss now",
         "baseNodeIds": [
           "O4"
@@ -294,7 +390,7 @@
         "sourceIds": [
           "gemara-21b.4"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -351,7 +447,7 @@
           "data": {
             "id": "O5",
             "sourceRef": [
-              "Bava Metzia 21b.1"
+              "Bava Metzia 21b:1"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.1?vhe=Wikisource_Talmud_Bavli"
@@ -359,6 +455,18 @@
             "speaker": "Abaye",
             "provenanceClass": "S",
             "hebrewAnchor": "אביי אמר לא הוי יאוש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.1",
+                "sourceSha256": "649ab832958b9a03c0b3eb227303e8e7b17f426ea94b40e9dd8e53d2985860d5",
+                "startCodePoint": 14,
+                "endCodePoint": 34,
+                "quote": "אביי אמר לא הוי יאוש",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "ordinary unmarked loss before awareness",
             "baseNodeIds": [
               "O5"
@@ -366,7 +474,7 @@
             "sourceIds": [
               "gemara-21b.1"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -380,7 +488,7 @@
       "data": {
         "id": "O5",
         "sourceRef": [
-          "Bava Metzia 21b.1"
+          "Bava Metzia 21b:1"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.1?vhe=Wikisource_Talmud_Bavli"
@@ -388,6 +496,18 @@
         "speaker": "Abaye",
         "provenanceClass": "S",
         "hebrewAnchor": "אביי אמר לא הוי יאוש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.1",
+            "sourceSha256": "649ab832958b9a03c0b3eb227303e8e7b17f426ea94b40e9dd8e53d2985860d5",
+            "startCodePoint": 14,
+            "endCodePoint": 34,
+            "quote": "אביי אמר לא הוי יאוש",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "ordinary unmarked loss before awareness",
         "baseNodeIds": [
           "O5"
@@ -395,7 +515,7 @@
         "sourceIds": [
           "gemara-21b.1"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -458,11 +578,11 @@
           "startLine": 31,
           "startColumn": 1,
           "endLine": 31,
-          "endColumn": 626,
+          "endColumn": 1069,
           "data": {
             "id": "O7",
             "sourceRef": [
-              "Bava Metzia 21b.4"
+              "Bava Metzia 21b:4"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -470,6 +590,18 @@
             "speaker": "Rava",
             "provenanceClass": "S",
             "hebrewAnchor": "מהשתא הוא דמיאש",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 140,
+                "endCodePoint": 155,
+                "quote": "מהשתא הוא דמיאש",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "anticipated later despair counted at the present time by Rava",
             "baseNodeIds": [
               "O7"
@@ -477,7 +609,7 @@
             "sourceIds": [
               "gemara-21b.4"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -491,7 +623,7 @@
       "data": {
         "id": "O7",
         "sourceRef": [
-          "Bava Metzia 21b.4"
+          "Bava Metzia 21b:4"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
@@ -499,6 +631,18 @@
         "speaker": "Rava",
         "provenanceClass": "S",
         "hebrewAnchor": "מהשתא הוא דמיאש",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 140,
+            "endCodePoint": 155,
+            "quote": "מהשתא הוא דמיאש",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "anticipated later despair counted at the present time by Rava",
         "baseNodeIds": [
           "O7"
@@ -506,7 +650,7 @@
         "sourceIds": [
           "gemara-21b.4"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },
@@ -545,14 +689,26 @@
           "data": {
             "id": "O6",
             "sourceRef": [
-              "Bava Metzia 21b.4"
+              "Bava Metzia 21b:4"
             ],
             "sourceUrl": [
               "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
             ],
             "speaker": "Rava",
             "provenanceClass": "S",
-            "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש",
+            "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+            "hebrewAnchors": [
+              {
+                "sourceId": "gemara-21b.4",
+                "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+                "startCodePoint": 87,
+                "endCodePoint": 139,
+                "quote": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+                "purpose": "Claim-specific wording in the cited source"
+              }
+            ],
+            "anchorRelationship": "source-paraphrase",
+            "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
             "temporalScope": "anticipated response after future awareness",
             "baseNodeIds": [
               "O6"
@@ -560,7 +716,7 @@
             "sourceIds": [
               "gemara-21b.4"
             ],
-            "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+            "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
             "reconstructionStatus": "statement",
             "color": "#267565"
           }
@@ -573,14 +729,26 @@
       "data": {
         "id": "O6",
         "sourceRef": [
-          "Bava Metzia 21b.4"
+          "Bava Metzia 21b:4"
         ],
         "sourceUrl": [
           "https://www.sefaria.org/Bava_Metzia.21b.4?vhe=Wikisource_Talmud_Bavli"
         ],
         "speaker": "Rava",
         "provenanceClass": "S",
-        "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש",
+        "hebrewAnchor": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+        "hebrewAnchors": [
+          {
+            "sourceId": "gemara-21b.4",
+            "sourceSha256": "f08bc0ff2c4c10a6fbec0f778b78a62228ac66a844e439c8c281642345d82000",
+            "startCodePoint": 87,
+            "endCodePoint": 139,
+            "quote": "דלכי ידע דנפל מיניה מיאש מימר אמר סימנא לית לי בגויה",
+            "purpose": "Claim-specific wording in the cited source"
+          }
+        ],
+        "anchorRelationship": "source-paraphrase",
+        "anchorOffsetUnit": "Unicode code points; zero-based [startCodePoint,endCodePoint); no normalization",
         "temporalScope": "anticipated response after future awareness",
         "baseNodeIds": [
           "O6"
@@ -588,7 +756,7 @@
         "sourceIds": [
           "gemara-21b.4"
         ],
-        "anchorScope": "Hebrew source context; English claim is a paraphrase or explicitly editorial reconstruction",
+        "anchorScope": "Hebrew spans are verbatim from the saved edition; the English claim remains an attributed paraphrase, not a literal quotation.",
         "reconstructionStatus": "statement",
         "color": "#267565"
       },

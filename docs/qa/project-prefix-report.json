@@ -1,5 +1,5 @@
 {
-  "url": "http://127.0.0.1:39223/yeush-shelo-midaat-argdown/",
+  "url": "http://127.0.0.1:35469/yeush-shelo-midaat-argdown/",
   "viewports": [
     [
       1440,
@@ -61,6 +61,11 @@
       "sha256": "f338c4c8424d41cbd3f0ac57be9594e01c5279f501ffbc6ad43cd8d89a0d1031"
     },
     {
+      "path": "maps/10-opening-inference.svg",
+      "status": 200,
+      "sha256": "d7bb98cde2465cb3248a2438248f9fcba9132262a59a743284b1e60812f41e6f"
+    },
+    {
       "path": "maps/overview.svg",
       "status": 200,
       "sha256": "8d9e02c43e8d79d67a33a35781ee220bd54ef68afba6931f79f458156afa3fcc"
@@ -68,62 +73,67 @@
     {
       "path": "argdown/01-opening.argdown",
       "status": 200,
-      "sha256": "898085e3a29e57345d8028317da43a595c1c0844c0dc8db2f72b3f4165c17ee0"
+      "sha256": "457085e6b5d1f53dadf116f2925eab5f87ad92031a912bf9a2cb66ab9ccfd769"
     },
     {
       "path": "argdown/02-coins.argdown",
       "status": 200,
-      "sha256": "3f1cdc657669a3795deeea610835f937c5e276828a0f79aa960620bc379bb487"
+      "sha256": "0021561890a677e82246eeb119597f5e812915c8d91be84b573fcd60b8ee17f1"
     },
     {
       "path": "argdown/03-river.argdown",
       "status": 200,
-      "sha256": "c6fd55f28149770573c174f4dbeee5dfdae9f5ed852a58dd568f9f87e8bc1aed"
+      "sha256": "eb554d651e040abadfc914fe8c9ea9dc7c9709f0e2818b5f295f74bd02ba114d"
     },
     {
       "path": "argdown/04-opening-commentary.argdown",
       "status": 200,
-      "sha256": "7cde3c60cd99d91ff27f558d5c2db28ad0b1b11122e405f01e9e3a9e0ff3a9a0"
+      "sha256": "4122fee1d85a687147c6cb52f886f767bf205a8986ef1c6cf292351da85eceb3"
     },
     {
       "path": "argdown/05-coins-commentary.argdown",
       "status": 200,
-      "sha256": "b0898008b3b7a92a2d957a6da8e1534b05cd99091105a556b1b82469f7ae7dc1"
+      "sha256": "1df440d1f7b5572ac56479fe6266e47b0d51f06c089275abfa0bdd2118c48bb5"
     },
     {
       "path": "argdown/06-river-commentary.argdown",
       "status": 200,
-      "sha256": "00b1a65545dd33cb5ea39e3ff7b295da572694aae86b00905a023d0f62123668"
+      "sha256": "9fe025378595ed30d86bc1deee7406846d06a623b092257d92fe4fee0abb410d"
     },
     {
       "path": "argdown/07-river-boundary.argdown",
       "status": 200,
-      "sha256": "c2d3c326084a70fc3d40f947f05b4b31af3c6a5c273cacf7b602cff55a482d96"
+      "sha256": "3be51c43b30d02f8172be4603991d2f7057217ce0ae878eefa976a3a098925c7"
     },
     {
       "path": "argdown/08-coins-inference.argdown",
       "status": 200,
-      "sha256": "a504712c97e7534f6b4772896f4525d7c76babdcb5623598f2d58949e157439d"
+      "sha256": "5de4f35b79e6d15eff2fb60269bb6fdd05b9d1b9614bf698a7648bf515bdc6e4"
     },
     {
       "path": "argdown/09-river-inference.argdown",
       "status": 200,
-      "sha256": "8d3361e4f28d45e145d49f7c902eebd0e97063b9203ad1a517a581d6a8777a6e"
+      "sha256": "155f7e7ac005d37110d093538fa71a92483e1a6cf1482c5fd60a5923f2763d68"
+    },
+    {
+      "path": "argdown/10-opening-inference.argdown",
+      "status": 200,
+      "sha256": "c12a325a02dcf1d1e6a5fb32aa164cc4e6822fa46c6b98c4e6ab7c3c16e36879"
     },
     {
       "path": "argdown/overview.argdown",
       "status": 200,
-      "sha256": "536e6190ab235b9df96c5d27647f42c70e44b4becdd0d790bba8267c89f00dc6"
+      "sha256": "0c8b54316a46c84368ec32115f8d1ec8e9b0f5cd2ce4b3395f10e390f5e05c2c"
     },
     {
       "path": "docs/yeush-shelo-midaat.pdf",
       "status": 200,
-      "sha256": "31566238d20f77e84c9f4ad2bc8b314fd9ca38d1454eb14fec97f996f41adaf4"
+      "sha256": "2d47a6fc85bc65087dd21aa9a1b94e57ff82b7f18bc057144c823e93f2e8ab7c"
     }
   ],
   "errors": [],
-  "index_sha256": "2c547559dc0e8864010cf8fac715eb148010ad95b8c3e113fadaa70fd642cb46",
+  "index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88",
   "status": "passed",
   "verification_scope": "Local project-prefix server, not public-site browser verification",
-  "asset_release_commit": "71f3e0cb42397cd0e9ac7440515cba16f86c92bd"
+  "release_index_sha256": "a0680919662b2da3f25b4346a9b5a33280ef1ee6f989858bf16f85bb941cba88"
 }

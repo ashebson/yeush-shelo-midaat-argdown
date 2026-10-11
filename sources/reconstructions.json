@@ -32,6 +32,70 @@
         "R4"
       ],
       "temporalScope": "Temporal scope not yet specified here; R4 supplies the before-awareness qualification"
+    },
+    {
+      "id": "OA",
+      "kind": "argument",
+      "label": "Abaye · supplied inference",
+      "text": "Reconstruct Abaye’s move from the stated reason to the legal conclusion using an explicit editorial bridge.",
+      "class": "R",
+      "ref": "21b.4",
+      "hebrew": "",
+      "argument": null,
+      "baseNodes": [
+        "O1",
+        "O4",
+        "O5"
+      ],
+      "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup"
+    },
+    {
+      "id": "O9",
+      "kind": "statement",
+      "label": "Supplied bridge: awareness is necessary",
+      "text": "For Abaye in the ordinary unmarked case, yeush cannot take effect before the owner becomes aware of the loss.",
+      "class": "R",
+      "ref": "21b.4",
+      "hebrew": "",
+      "argument": "OA",
+      "baseNodes": [
+        "O1",
+        "O4",
+        "O5"
+      ],
+      "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation"
+    },
+    {
+      "id": "OB",
+      "kind": "argument",
+      "label": "Rava · supplied inference",
+      "text": "Reconstruct Rava’s move from the stated reason to the legal conclusion using an explicit editorial bridge.",
+      "class": "R",
+      "ref": "21b.4",
+      "hebrew": "",
+      "argument": null,
+      "baseNodes": [
+        "O1",
+        "O6",
+        "O7"
+      ],
+      "temporalScope": "Ordinary unmarked loss only; owner not yet aware before pickup"
+    },
+    {
+      "id": "O10",
+      "kind": "statement",
+      "label": "Supplied bridge: anticipated despair counts now",
+      "text": "For Rava in the ordinary unmarked case, the despair expected upon awareness may count already, before awareness occurs.",
+      "class": "R",
+      "ref": "21b.4",
+      "hebrew": "",
+      "argument": "OB",
+      "baseNodes": [
+        "O1",
+        "O6",
+        "O7"
+      ],
+      "temporalScope": "Ordinary unmarked loss only; a reconstructed normative premise, not a quotation"
     }
   ],
   "arguments": [
@@ -210,6 +274,68 @@
           "KR6"
         ]
       ]
+    },
+    {
+      "argument": "OA",
+      "editorialStatus": "Editorial reconstruction of Abaye’s stated rationale within the ordinary unmarked dispute. The normative bridge makes the interpretive commitment explicit; it is not independently proved or quoted.",
+      "steps": [
+        {
+          "statement": "O4"
+        },
+        {
+          "statement": "O9"
+        },
+        {
+          "statement": "O5",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Apply the reconstructed Abaye bridge within the disputed scope",
+          "sourceIds": [
+            "gemara-21b.4"
+          ],
+          "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+        }
+      ],
+      "replacesEdges": [
+        [
+          "O4",
+          "+>",
+          "O5"
+        ]
+      ]
+    },
+    {
+      "argument": "OB",
+      "editorialStatus": "Editorial reconstruction of Rava’s stated rationale within the ordinary unmarked dispute. The normative bridge makes the interpretive commitment explicit; it is not independently proved or quoted.",
+      "steps": [
+        {
+          "statement": "O6"
+        },
+        {
+          "statement": "O10"
+        },
+        {
+          "statement": "O7",
+          "uses": [
+            1,
+            2
+          ],
+          "rule": "Apply the reconstructed Rava bridge within the disputed scope",
+          "sourceIds": [
+            "gemara-21b.4"
+          ],
+          "interpretation": "The factual/anticipatory reason and supplied normative bridge work jointly. This reconstructs the stated position, not a proof that the position is correct."
+        }
+      ],
+      "replacesEdges": [
+        [
+          "O6",
+          "+>",
+          "O7"
+        ]
+      ]
     }
   ],
   "views": [
@@ -253,6 +379,29 @@
       ],
       "pdf_size_mm": [
         297,
+        420
+      ]
+    },
+    {
+      "id": "10-opening-inference",
+      "name": "Opening · Abaye / Rava premises",
+      "ref": "21b:1–4 · numbered OA / OB",
+      "title": "Where does each legal conclusion come from?",
+      "intro": "Abaye points to present unawareness; Rava points to despair expected upon awareness. The supplied bridges state how each reason is taken to bear on yeush now.",
+      "note": "O9 and O10 are editorial normative bridges, not Hebrew quotations or independently established premises. O1–O3 remain isolated scope notes: these inferences concern ordinary unmarked loss only. O5 → O7 records the opposed positions, not an undercut.",
+      "nodes": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "O7",
+        "OA",
+        "OB"
+      ],
+      "pdf_size_mm": [
+        594,
         420
       ]
     }

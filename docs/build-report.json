@@ -63,6 +63,13 @@
     "edges": 9
   },
   {
+    "file": "10-opening-inference.argdown",
+    "parserErrors": 0,
+    "lexerErrors": 0,
+    "nodes": 11,
+    "edges": 7
+  },
+  {
     "file": "overview.argdown",
     "parserErrors": 0,
     "lexerErrors": 0,
