@@ -183,7 +183,7 @@
     }
   ],
   "source_sha256": {
-    "index.html": "13cd4380a9b1acf2435978ce1229199a87de54d10b4e446be25d5d49933a725d",
+    "index.html": "94857012d95e730c66e632d49d6c8b6c0cf8791b16bb5fab7a010ee5b94a7a31",
     "sources/model.json": "eeea061c523e2cea2b22fc144929607cea90396c05f5f99920016ee5f09a4ec8",
     "sources/hebrew-excerpts.json": "518c762da6d38f565c356188482654f1fd2446c21664f69cd0de8414ac5dc115",
     "scripts/export-pdf.py": "a771e72de0f77d4f344dad29785f1c8d1118bb03f1a1f136bd34a80917c3badd",

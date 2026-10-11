@@ -2,7 +2,7 @@
 
 A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, based on **Bava Metzia 21b–22b**. The overview contains **22 nodes and 18 relations**. Three episode maps make the argument readable in a meeting. A separate commentary layer adds **Rashi, three Tosafot comments, Rashba, and Ritva through Shittah Mekubbetzet** in four further maps (21 nodes / 16 relations).
 
-**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed.
+**Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed. The [GitHub Pages deployment guide](docs/deployment.md) documents the prepared branch/root configuration and live-site checks.
 
 **PDF edition:** [Download the 15-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide, four commentary maps and Hebrew source appendices. [Export instructions and inspection record](docs/pdf-export.md).
 
