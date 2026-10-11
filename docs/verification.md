@@ -2,6 +2,8 @@
 
 The selected three-episode demo was completed in the saved Linux cloud environment, continuing checkpoint `f016978348aa8b6facf225dc15c072441cec5065`. No Mac access was used. These checks establish artifact integrity and presentation behavior, not a formal proof or a complete encoding of the sugya.
 
+The subsequently requested [seven-page PDF](yeush-shelo-midaat.pdf) is also complete. See the [PDF export and inspection record](pdf-export.md) for page sizes, legibility checks, Hebrew inspection and reproduction instructions.
+
 ## Reproduction and results
 
 Node **24.19.0**, npm **11.9.0**, Chromium **154.0.8037.57**. The pinned official Argdown packages remain unchanged: node 2.0.3, core 2.0.1, CLI 2.0.0.

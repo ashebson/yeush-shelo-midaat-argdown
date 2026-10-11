@@ -140,6 +140,15 @@ async function validate() {
     }
   }
   console.log(`PASS 8 source hashes and Hebrew anchors, provenance, offline page parity, unique IDs, and ${links} local links`);
+  const pdfReport = json('docs/pdf-export-report.json');
+  assert.equal(pdfReport.status, 'passed');
+  assert.equal(pdfReport.page_count, 7);
+  for (const [file, hash] of Object.entries(pdfReport.source_sha256)) {
+    assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex'), hash, `PDF source changed: ${file}; run npm run pdf`);
+  }
+  assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root, 'docs/yeush-shelo-midaat.pdf'))).digest('hex'), pdfReport.pdf_sha256, 'PDF bytes match verified export');
+  assert(pdfReport.pages.every(p => !p.overflow.length && !p.scrollOverflow && (p.minMapFontPt === null || p.minMapFontPt >= 10)), 'PDF layout passed export checks');
+  console.log('PASS seven-page PDF integrity, source freshness, and recorded layout checks');
   console.log('Artifact validation passed. This checks encoding and integrity, not scholarly truth or formal validity.');
 }
 

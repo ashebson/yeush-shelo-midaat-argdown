@@ -4,10 +4,13 @@ A polished, bounded Argdown demonstration for **Aryeh's meeting with Judd**, bas
 
 **Start here:** open [`index.html`](index.html) locally in a browser. It is self-contained, works offline, and includes episode switching, zoom, source notes, Hebrew excerpts, and a four-minute walkthrough. Use **Fit** to see the whole map and **Read** or **+** to enlarge labels, then scroll inside it. No public site is deployed.
 
+**PDF edition:** [Download the seven-page demo](docs/yeush-shelo-midaat.pdf) — overview foldout, separate episode maps, provenance guide and Hebrew excerpts. [Export instructions and inspection record](docs/pdf-export.md).
+
 ## Deliverables
 
 | File | Purpose |
 | --- | --- |
+| [`docs/yeush-shelo-midaat.pdf`](docs/yeush-shelo-midaat.pdf) | Seven-page vector PDF for reading and presentation |
 | [`index.html`](index.html) | Offline presentation; expandable evidence ledger |
 | [`argdown/overview.argdown`](argdown/overview.argdown) | Editable 22-node overview with cross-episode links |
 | [`argdown/01-opening.argdown`](argdown/01-opening.argdown) | Opening dispute and agreed scope restrictions |
